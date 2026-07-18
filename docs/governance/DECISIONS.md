@@ -12,9 +12,9 @@ The system must generate the best possible CV for each individual JD rather than
 
 CV quality sources of truth are:
 
-- `QUALITY_SPEC.md`
+- `docs/draft/requires-review/QUALITY_SPEC.md`
 - `PROJECT_RULES.md`
-- contracts under `docs/governance/contracts/`
+- draft contracts under `docs/draft/requires-review/contracts/`
 - source-grounded evidence
 
 No single CV document is a quality source of truth.

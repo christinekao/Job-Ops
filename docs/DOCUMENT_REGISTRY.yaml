@@ -1,0 +1,4789 @@
+schema_version: "1.0"
+
+entry_point:
+  file: "docs/INDEX.md"
+
+production_architecture:
+  file: "docs/architecture/CURRENT_ARCHITECTURE.md"
+  canonical_id: "ARCH-CURRENT"
+  status: "ACTIVE"
+  authority: "PRIMARY"
+
+documents:
+  - id: "DOC-002"
+    title: "CONFLICT_RESOLUTION_LOG.md"
+    file: "docs/CONFLICT_RESOLUTION_LOG.md"
+    document_type: "ENTRY_POINT"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Governance reference; does not independently authorize implementation."
+  - id: "DOC-003"
+    title: "DOCUMENT_RELATIONSHIPS.md"
+    file: "docs/DOCUMENT_RELATIONSHIPS.md"
+    document_type: "ENTRY_POINT"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Governance reference; does not independently authorize implementation."
+  - id: "DOC-004"
+    title: "FOLDER_STRUCTURE.md"
+    file: "docs/FOLDER_STRUCTURE.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-005"
+    title: "INDEX.md"
+    file: "docs/INDEX.md"
+    document_type: "ENTRY_POINT"
+    lifecycle: "ACTIVE"
+    authority: "PRIMARY"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Mandatory documentation entry point; routes to the canonical authority."
+  - id: "DOC-006"
+    title: "ADR_004_WAVE1_ACCEPTANCE.md"
+    file: "docs/acceptance/ADR_004_WAVE1_ACCEPTANCE.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-007"
+    title: "ADR_004_WAVE1_ACCEPTANCE_RUN.md"
+    file: "docs/acceptance/ADR_004_WAVE1_ACCEPTANCE_RUN.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-008"
+    title: "ADR_005_WAVE2_ACCEPTANCE_RUN.md"
+    file: "docs/acceptance/ADR_005_WAVE2_ACCEPTANCE_RUN.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-009"
+    title: "ADR_006_ACCEPTANCE_RUN.md"
+    file: "docs/acceptance/ADR_006_ACCEPTANCE_RUN.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-010"
+    title: "01_jd.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-a-good-fit/01_jd.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-011"
+    title: "02_analysis.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-a-good-fit/02_analysis.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-012"
+    title: "03_evidence_selection.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-a-good-fit/03_evidence_selection.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-013"
+    title: "04_cv_brief.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-a-good-fit/04_cv_brief.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-014"
+    title: "05_writer_context.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-a-good-fit/05_writer_context.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-015"
+    title: "06_generated_cv.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-a-good-fit/06_generated_cv.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-016"
+    title: "06_generated_cv.md"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-a-good-fit/06_generated_cv.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-017"
+    title: "07_review_snapshot.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-a-good-fit/07_review_snapshot.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-018"
+    title: "08_repair_result.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-a-good-fit/08_repair_result.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-019"
+    title: "09_export_decision.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-a-good-fit/09_export_decision.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-020"
+    title: "10_product_validation.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-a-good-fit/10_product_validation.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-021"
+    title: "01_jd.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-b-risky-fit/01_jd.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-022"
+    title: "02_analysis.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-b-risky-fit/02_analysis.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-023"
+    title: "03_evidence_selection.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-b-risky-fit/03_evidence_selection.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-024"
+    title: "04_cv_brief.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-b-risky-fit/04_cv_brief.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-025"
+    title: "05_writer_context.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-b-risky-fit/05_writer_context.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-026"
+    title: "06_generated_cv.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-b-risky-fit/06_generated_cv.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-027"
+    title: "06_generated_cv.md"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-b-risky-fit/06_generated_cv.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-028"
+    title: "07_review_snapshot.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-b-risky-fit/07_review_snapshot.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-029"
+    title: "08_repair_result.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-b-risky-fit/08_repair_result.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-030"
+    title: "09_export_decision.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-b-risky-fit/09_export_decision.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-031"
+    title: "10_product_validation.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-b-risky-fit/10_product_validation.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-032"
+    title: "01_jd.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-c-weak-fit-azure/01_jd.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-033"
+    title: "02_analysis.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-c-weak-fit-azure/02_analysis.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-034"
+    title: "03_evidence_selection.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-c-weak-fit-azure/03_evidence_selection.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-035"
+    title: "04_cv_brief.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-c-weak-fit-azure/04_cv_brief.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-036"
+    title: "05_writer_context.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-c-weak-fit-azure/05_writer_context.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-037"
+    title: "06_generated_cv.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-c-weak-fit-azure/06_generated_cv.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-038"
+    title: "06_generated_cv.md"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-c-weak-fit-azure/06_generated_cv.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-039"
+    title: "07_review_snapshot.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-c-weak-fit-azure/07_review_snapshot.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-040"
+    title: "08_repair_result.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-c-weak-fit-azure/08_repair_result.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-041"
+    title: "09_export_decision.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-c-weak-fit-azure/09_export_decision.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-042"
+    title: "10_product_validation.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-c-weak-fit-azure/10_product_validation.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-043"
+    title: "run_manifest.json"
+    file: "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/run_manifest.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-044"
+    title: "01-input.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-a-good-fit/01-input.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-045"
+    title: "02-screening-analysis.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-a-good-fit/02-screening-analysis.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-046"
+    title: "03-positioning-report.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-a-good-fit/03-positioning-report.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-047"
+    title: "04-generated-cv.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-a-good-fit/04-generated-cv.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-048"
+    title: "05-reviewer-raw-output.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-a-good-fit/05-reviewer-raw-output.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-049"
+    title: "06-structured-review-result.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-a-good-fit/06-structured-review-result.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-050"
+    title: "07-review-snapshot.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-a-good-fit/07-review-snapshot.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-051"
+    title: "08-repair-contract-projection.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-a-good-fit/08-repair-contract-projection.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-052"
+    title: "09-export-contract-projection.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-a-good-fit/09-export-contract-projection.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-053"
+    title: "10-case-assessment.md"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-a-good-fit/10-case-assessment.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-054"
+    title: "01-input.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-b-risky-fit/01-input.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-055"
+    title: "02-screening-analysis.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-b-risky-fit/02-screening-analysis.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-056"
+    title: "03-positioning-report.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-b-risky-fit/03-positioning-report.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-057"
+    title: "04-generated-cv.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-b-risky-fit/04-generated-cv.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-058"
+    title: "05-reviewer-raw-output.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-b-risky-fit/05-reviewer-raw-output.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-059"
+    title: "06-structured-review-result.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-b-risky-fit/06-structured-review-result.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-060"
+    title: "07-review-snapshot.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-b-risky-fit/07-review-snapshot.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-061"
+    title: "08-repair-contract-projection.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-b-risky-fit/08-repair-contract-projection.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-062"
+    title: "09-export-contract-projection.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-b-risky-fit/09-export-contract-projection.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-063"
+    title: "10-case-assessment.md"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-b-risky-fit/10-case-assessment.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-064"
+    title: "01-input.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-c-weak-fit-azure/01-input.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-065"
+    title: "02-screening-analysis.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-c-weak-fit-azure/02-screening-analysis.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-066"
+    title: "03-positioning-report.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-c-weak-fit-azure/03-positioning-report.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-067"
+    title: "04-generated-cv.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-c-weak-fit-azure/04-generated-cv.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-068"
+    title: "05-reviewer-raw-output.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-c-weak-fit-azure/05-reviewer-raw-output.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-069"
+    title: "06-structured-review-result.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-c-weak-fit-azure/06-structured-review-result.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-070"
+    title: "07-review-snapshot.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-c-weak-fit-azure/07-review-snapshot.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-071"
+    title: "08-repair-contract-projection.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-c-weak-fit-azure/08-repair-contract-projection.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-072"
+    title: "09-export-contract-projection.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-c-weak-fit-azure/09-export-contract-projection.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-073"
+    title: "10-case-assessment.md"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-c-weak-fit-azure/10-case-assessment.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-074"
+    title: "run_manifest.json"
+    file: "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/run_manifest.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-075"
+    title: "01-input.json"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/case-a-good-fit/01-input.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-076"
+    title: "02-reviewer-structured-repair-contract.json"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/case-a-good-fit/02-reviewer-structured-repair-contract.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-077"
+    title: "03-repair-orchestration.json"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/case-a-good-fit/03-repair-orchestration.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-078"
+    title: "04-case-assessment.json"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/case-a-good-fit/04-case-assessment.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-079"
+    title: "05-case-assessment.md"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/case-a-good-fit/05-case-assessment.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-080"
+    title: "01-input.json"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/case-b-risky-fit/01-input.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-081"
+    title: "02-reviewer-structured-repair-contract.json"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/case-b-risky-fit/02-reviewer-structured-repair-contract.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-082"
+    title: "03-repair-orchestration.json"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/case-b-risky-fit/03-repair-orchestration.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-083"
+    title: "04-case-assessment.json"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/case-b-risky-fit/04-case-assessment.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-084"
+    title: "05-case-assessment.md"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/case-b-risky-fit/05-case-assessment.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-085"
+    title: "01-input.json"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/case-c-weak-fit-azure/01-input.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-086"
+    title: "02-reviewer-structured-repair-contract.json"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/case-c-weak-fit-azure/02-reviewer-structured-repair-contract.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-087"
+    title: "03-repair-orchestration.json"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/case-c-weak-fit-azure/03-repair-orchestration.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-088"
+    title: "04-case-assessment.json"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/case-c-weak-fit-azure/04-case-assessment.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-089"
+    title: "05-case-assessment.md"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/case-c-weak-fit-azure/05-case-assessment.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-090"
+    title: "01-input.json"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/case-d-capability-gap-guard/01-input.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-091"
+    title: "02-reviewer-capability-gap-issue.json"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/case-d-capability-gap-guard/02-reviewer-capability-gap-issue.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-092"
+    title: "03-repair-orchestration.json"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/case-d-capability-gap-guard/03-repair-orchestration.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-093"
+    title: "04-case-assessment.json"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/case-d-capability-gap-guard/04-case-assessment.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-094"
+    title: "05-case-assessment.md"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/case-d-capability-gap-guard/05-case-assessment.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-095"
+    title: "run_manifest.json"
+    file: "docs/acceptance/artifacts/ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z/run_manifest.json"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-096"
+    title: "ADR-006_REPAIR_POLICY.md"
+    file: "docs/adr/ADR-006_REPAIR_POLICY.md"
+    document_type: "APPROVED_ADR"
+    lifecycle: "ACTIVE"
+    authority: "SECONDARY"
+    can_authorize_production_implementation: true
+    governs: ["documented approved decision scope"]
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "May amend production only within explicitly accepted scope."
+  - id: "DOC-097"
+    title: "ADR_INDEX.md"
+    file: "docs/adr/ADR_INDEX.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "ARCH-CURRENT"
+    title: "CURRENT_ARCHITECTURE.md"
+    file: "docs/architecture/CURRENT_ARCHITECTURE.md"
+    document_type: "CURRENT_ARCHITECTURE"
+    lifecycle: "ACTIVE"
+    authority: "PRIMARY"
+    can_authorize_production_implementation: true
+    governs: ["production architecture"]
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Canonical production architecture."
+  - id: "DOC-099"
+    title: "ADR_006_COMPLIANCE_REPORT.md"
+    file: "docs/compliance/ADR_006_COMPLIANCE_REPORT.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-101"
+    title: "ARCHITECTURE_COMPARISON_REPORT.md"
+    file: "docs/draft/analysis/ARCHITECTURE_COMPARISON_REPORT.md"
+    document_type: "ANALYSIS_DISCOVERY"
+    lifecycle: "DRAFT"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-102"
+    title: "ARCHITECTURE_DISCOVERY_REPORT.md"
+    file: "docs/draft/analysis/ARCHITECTURE_DISCOVERY_REPORT.md"
+    document_type: "ANALYSIS_DISCOVERY"
+    lifecycle: "DRAFT"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-103"
+    title: "DECISION_DEPENDENCY_GRAPH.md"
+    file: "docs/draft/analysis/DECISION_DEPENDENCY_GRAPH.md"
+    document_type: "ANALYSIS_DISCOVERY"
+    lifecycle: "DRAFT"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-104"
+    title: "DECISION_INVENTORY.md"
+    file: "docs/draft/analysis/DECISION_INVENTORY.md"
+    document_type: "ANALYSIS_DISCOVERY"
+    lifecycle: "DRAFT"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-105"
+    title: "ARCHITECTURE_DECISION_MAP.md"
+    file: "docs/draft/future/ARCHITECTURE_DECISION_MAP.md"
+    document_type: "FUTURE_ARCHITECTURE"
+    lifecycle: "DRAFT"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-106"
+    title: "ARCHITECTURE_EVOLUTION_ROADMAP.md"
+    file: "docs/draft/future/ARCHITECTURE_EVOLUTION_ROADMAP.md"
+    document_type: "FUTURE_ARCHITECTURE"
+    lifecycle: "DRAFT"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-107"
+    title: "CV_RUNTIME_BLUEPRINT.md"
+    file: "docs/draft/future/CV_RUNTIME_BLUEPRINT.md"
+    document_type: "FUTURE_ARCHITECTURE"
+    lifecycle: "DRAFT"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-108"
+    title: "DECISION_DOMAIN_MODEL.md"
+    file: "docs/draft/future/DECISION_DOMAIN_MODEL.md"
+    document_type: "FUTURE_ARCHITECTURE"
+    lifecycle: "DRAFT"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-109"
+    title: "DECISION_MODEL_SPECIFICATION.md"
+    file: "docs/draft/future/DECISION_MODEL_SPECIFICATION.md"
+    document_type: "FUTURE_ARCHITECTURE"
+    lifecycle: "DRAFT"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-110"
+    title: "REGRESSION_EVALUATION_PLAN.md"
+    file: "docs/draft/implementation-plans/REGRESSION_EVALUATION_PLAN.md"
+    document_type: "IMPLEMENTATION_PLAN"
+    lifecycle: "DRAFT"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-111"
+    title: "WRITER_REFACTORING_PLAN.md"
+    file: "docs/draft/implementation-plans/WRITER_REFACTORING_PLAN.md"
+    document_type: "IMPLEMENTATION_PLAN"
+    lifecycle: "DRAFT"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-112"
+    title: "CV_BUILDER_EVIDENCE_DRIVEN_SYSTEM.md"
+    file: "docs/draft/product-concepts/CV_BUILDER_EVIDENCE_DRIVEN_SYSTEM.md"
+    document_type: "PRODUCT_POLICY"
+    lifecycle: "DRAFT"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-113"
+    title: "CV_JOB_SEARCH_STRATEGY_NOTES.md"
+    file: "docs/draft/product-concepts/CV_JOB_SEARCH_STRATEGY_NOTES.md"
+    document_type: "PRODUCT_POLICY"
+    lifecycle: "DRAFT"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-114"
+    title: "CURRENT_STATE.draft.md"
+    file: "docs/draft/requires-review/CURRENT_STATE.draft.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-115"
+    title: "QUALITY_SPEC.md"
+    file: "docs/draft/requires-review/QUALITY_SPEC.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-116"
+    title: "UNRESOLVED_QUESTIONS.md"
+    file: "docs/draft/requires-review/UNRESOLVED_QUESTIONS.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-117"
+    title: "ADR-004_POSITIONING_POLICY.md"
+    file: "docs/draft/requires-review/adr/ADR-004_POSITIONING_POLICY.md"
+    document_type: "PROPOSED_ADR"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-118"
+    title: "ADR-005_REVIEWER_POLICY.md"
+    file: "docs/draft/requires-review/adr/ADR-005_REVIEWER_POLICY.md"
+    document_type: "PROPOSED_ADR"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-119"
+    title: "CV_BRIEF.md"
+    file: "docs/draft/requires-review/contracts/CV_BRIEF.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-120"
+    title: "EVIDENCE_SELECTION.md"
+    file: "docs/draft/requires-review/contracts/EVIDENCE_SELECTION.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-121"
+    title: "EXPORT.md"
+    file: "docs/draft/requires-review/contracts/EXPORT.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-122"
+    title: "JD_ANALYSIS.md"
+    file: "docs/draft/requires-review/contracts/JD_ANALYSIS.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-123"
+    title: "REPAIR.md"
+    file: "docs/draft/requires-review/contracts/REPAIR.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-124"
+    title: "REVIEW.md"
+    file: "docs/draft/requires-review/contracts/REVIEW.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-125"
+    title: "TERMS_AND_GAPS.md"
+    file: "docs/draft/requires-review/contracts/TERMS_AND_GAPS.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-126"
+    title: "WRITER_INPUT.md"
+    file: "docs/draft/requires-review/contracts/WRITER_INPUT.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-127"
+    title: "WRITER_OUTPUT.md"
+    file: "docs/draft/requires-review/contracts/WRITER_OUTPUT.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-128"
+    title: "GOLDEN_DATASET_SPEC.md"
+    file: "docs/draft/requires-review/product-evaluation/GOLDEN_DATASET_SPEC.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-129"
+    title: "PRODUCT_EVALUATION_FRAMEWORK.md"
+    file: "docs/draft/requires-review/product-evaluation/PRODUCT_EVALUATION_FRAMEWORK.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-130"
+    title: "GOLDEN_VALIDATION_DATASET.md"
+    file: "docs/draft/requires-review/product/GOLDEN_VALIDATION_DATASET.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-131"
+    title: "PRODUCT_RELEASE_CRITERIA.md"
+    file: "docs/draft/requires-review/product/PRODUCT_RELEASE_CRITERIA.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-132"
+    title: "PRODUCT_VALIDATION_FRAMEWORK.md"
+    file: "docs/draft/requires-review/product/PRODUCT_VALIDATION_FRAMEWORK.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-133"
+    title: "QUALITY_SCORECARD_V2.md"
+    file: "docs/draft/requires-review/product/QUALITY_SCORECARD_V2.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-134"
+    title: "ARCHITECTURE_BASELINE_V1.md"
+    file: "docs/draft/superseded-candidates/ARCHITECTURE_BASELINE_V1.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-135"
+    title: "MASTER_TASK_ROADMAP.md"
+    file: "docs/draft/superseded-candidates/MASTER_TASK_ROADMAP.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-136"
+    title: "RUNTIME_DOMAIN_MODEL.md"
+    file: "docs/draft/superseded-candidates/RUNTIME_DOMAIN_MODEL.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-137"
+    title: "RUNTIME_EXECUTION_FLOW.md"
+    file: "docs/draft/superseded-candidates/RUNTIME_EXECUTION_FLOW.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-139"
+    title: "ADR_004_WAVE1_SCOPE_CLOSURE_REVIEW.md"
+    file: "docs/governance/ADR_004_WAVE1_SCOPE_CLOSURE_REVIEW.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-140"
+    title: "ADR_005_WAVE2_SCOPE_CLOSURE_REVIEW.md"
+    file: "docs/governance/ADR_005_WAVE2_SCOPE_CLOSURE_REVIEW.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-141"
+    title: "ADR_006_SCOPE_CLOSURE_REVIEW.md"
+    file: "docs/governance/ADR_006_SCOPE_CLOSURE_REVIEW.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-142"
+    title: "ADR_MASTER_WORKFLOW_V2.md"
+    file: "docs/governance/ADR_MASTER_WORKFLOW_V2.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-143"
+    title: "AGENTS.md.draft"
+    file: "docs/governance/AGENTS.md.draft"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-144"
+    title: "AI_MODEL_ROUTING_GUIDE.md"
+    file: "docs/governance/AI_MODEL_ROUTING_GUIDE.md"
+    document_type: "PRODUCT_POLICY"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Operational model routing guidance; no production architecture authority."
+  - id: "DOC-145"
+    title: "COMPLETION_REPORT.md"
+    file: "docs/governance/COMPLETION_REPORT.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-146"
+    title: "CONTRACT_INDEX.md"
+    file: "docs/governance/CONTRACT_INDEX.md"
+    document_type: "RUNTIME_CONTRACT"
+    lifecycle: "ACTIVE"
+    authority: "NONE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Contract index/reference; no draft contract independently authorizes implementation."
+  - id: "DOC-147"
+    title: "CURRENT_STATE.md"
+    file: "docs/governance/CURRENT_STATE.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-148"
+    title: "CV_GAP_ANALYSIS.md"
+    file: "docs/governance/CV_GAP_ANALYSIS.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-149"
+    title: "CV_TRACEABILITY.md"
+    file: "docs/governance/CV_TRACEABILITY.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-150"
+    title: "DATA_FLOW.md"
+    file: "docs/governance/DATA_FLOW.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-151"
+    title: "DECISIONS.md"
+    file: "docs/governance/DECISIONS.md"
+    document_type: "APPROVED_ADR"
+    lifecycle: "ACTIVE"
+    authority: "SECONDARY"
+    can_authorize_production_implementation: true
+    governs: ["documented approved decision scope"]
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "May amend production only within explicitly accepted scope."
+  - id: "DOC-152"
+    title: "DEPENDENCY_GRAPH.md"
+    file: "docs/governance/DEPENDENCY_GRAPH.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-153"
+    title: "EPIC_ROADMAP.md"
+    file: "docs/governance/EPIC_ROADMAP.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-154"
+    title: "GOVERNANCE_BASELINE_V1.md"
+    file: "docs/governance/GOVERNANCE_BASELINE_V1.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-155"
+    title: "Governance_v1_Summary.md"
+    file: "docs/governance/Governance_v1_Summary.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-156"
+    title: "MASTER_TASK_ROADMAP.md"
+    file: "docs/governance/MASTER_TASK_ROADMAP.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-157"
+    title: "MODULE_GRAPH.md"
+    file: "docs/governance/MODULE_GRAPH.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-158"
+    title: "PRODUCT_MASTER_ROADMAP.md"
+    file: "docs/governance/PRODUCT_MASTER_ROADMAP.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-159"
+    title: "PRODUCT_PHASES.md"
+    file: "docs/governance/PRODUCT_PHASES.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-160"
+    title: "PRODUCT_PRINCIPLES.md"
+    file: "docs/governance/PRODUCT_PRINCIPLES.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-161"
+    title: "PRODUCT_SUCCESS_METRICS.md"
+    file: "docs/governance/PRODUCT_SUCCESS_METRICS.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-162"
+    title: "PROJECT_RULES.md"
+    file: "docs/governance/PROJECT_RULES.md"
+    document_type: "PRODUCT_POLICY"
+    lifecycle: "ACTIVE"
+    authority: "SECONDARY"
+    can_authorize_production_implementation: true
+    governs: ["product policy"]
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Applies only where consistent with higher authority."
+  - id: "DOC-163"
+    title: "PROMPT_FLOW.md"
+    file: "docs/governance/PROMPT_FLOW.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-164"
+    title: "Phase2_Epics.md"
+    file: "docs/governance/Phase2_Epics.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-165"
+    title: "STATE_FLOW.md"
+    file: "docs/governance/STATE_FLOW.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-166"
+    title: "SYSTEM_MAP.md"
+    file: "docs/governance/SYSTEM_MAP.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-167"
+    title: "UNRESOLVED_QUESTIONS.md"
+    file: "docs/governance/UNRESOLVED_QUESTIONS.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-168"
+    title: "WAVE_MASTER_PLAN.md"
+    file: "docs/governance/WAVE_MASTER_PLAN.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-169"
+    title: "ARCH_VERIFY_001_REPORT.md"
+    file: "docs/governance/architecture/ARCH_VERIFY_001_REPORT.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-171"
+    title: "TASK-001.md"
+    file: "docs/governance/archive/tasks/TASK-001.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ARCHIVED"
+    authority: "HISTORICAL"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical only; cannot authorize production implementation."
+  - id: "DOC-172"
+    title: "TASK-002.md"
+    file: "docs/governance/archive/tasks/TASK-002.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ARCHIVED"
+    authority: "HISTORICAL"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical only; cannot authorize production implementation."
+  - id: "DOC-173"
+    title: "TASK-003.md"
+    file: "docs/governance/archive/tasks/TASK-003.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ARCHIVED"
+    authority: "HISTORICAL"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical only; cannot authorize production implementation."
+  - id: "DOC-174"
+    title: "TASK-004.md"
+    file: "docs/governance/archive/tasks/TASK-004.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ARCHIVED"
+    authority: "HISTORICAL"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical only; cannot authorize production implementation."
+  - id: "DOC-175"
+    title: "TASK-005.md"
+    file: "docs/governance/archive/tasks/TASK-005.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ARCHIVED"
+    authority: "HISTORICAL"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical only; cannot authorize production implementation."
+  - id: "DOC-176"
+    title: "TASK-006.md"
+    file: "docs/governance/archive/tasks/TASK-006.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ARCHIVED"
+    authority: "HISTORICAL"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical only; cannot authorize production implementation."
+  - id: "DOC-177"
+    title: "TASK-007.md"
+    file: "docs/governance/archive/tasks/TASK-007.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ARCHIVED"
+    authority: "HISTORICAL"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical only; cannot authorize production implementation."
+  - id: "DOC-178"
+    title: "TASK-008.md"
+    file: "docs/governance/archive/tasks/TASK-008.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ARCHIVED"
+    authority: "HISTORICAL"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical only; cannot authorize production implementation."
+  - id: "DOC-179"
+    title: "TASK-009.md"
+    file: "docs/governance/archive/tasks/TASK-009.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ARCHIVED"
+    authority: "HISTORICAL"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical only; cannot authorize production implementation."
+  - id: "DOC-180"
+    title: "TASK-010.md"
+    file: "docs/governance/archive/tasks/TASK-010.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ARCHIVED"
+    authority: "HISTORICAL"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical only; cannot authorize production implementation."
+  - id: "DOC-181"
+    title: "TASK-011.md"
+    file: "docs/governance/archive/tasks/TASK-011.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ARCHIVED"
+    authority: "HISTORICAL"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical only; cannot authorize production implementation."
+  - id: "DOC-182"
+    title: "TASK-012.md"
+    file: "docs/governance/archive/tasks/TASK-012.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ARCHIVED"
+    authority: "HISTORICAL"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical only; cannot authorize production implementation."
+  - id: "DOC-183"
+    title: "CV_PIPELINE_AUDIT.md"
+    file: "docs/governance/phase2/CV_PIPELINE_AUDIT.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-184"
+    title: "GOLDEN_EVALUATION.md"
+    file: "docs/governance/phase2/GOLDEN_EVALUATION.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-185"
+    title: "IMPROVEMENT_BACKLOG.md"
+    file: "docs/governance/phase2/IMPROVEMENT_BACKLOG.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-186"
+    title: "Phase2_Epics.md"
+    file: "docs/governance/phase2/Phase2_Epics.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-187"
+    title: "QUALITY_GAP_ANALYSIS.md"
+    file: "docs/governance/phase2/QUALITY_GAP_ANALYSIS.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-188"
+    title: "QUALITY_METRICS.md"
+    file: "docs/governance/phase2/QUALITY_METRICS.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-189"
+    title: "QUALITY_REGRESSION_CHECKLIST.md"
+    file: "docs/governance/phase2/QUALITY_REGRESSION_CHECKLIST.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-190"
+    title: "QUALITY_SCORECARD.md"
+    file: "docs/governance/phase2/QUALITY_SCORECARD.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-191"
+    title: "ROOT_CAUSE_ANALYSIS.md"
+    file: "docs/governance/phase2/ROOT_CAUSE_ANALYSIS.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-192"
+    title: "WAVE_REVIEW_TEMPLATE.md"
+    file: "docs/governance/phase2/WAVE_REVIEW_TEMPLATE.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-193"
+    title: "Wave1_Completion_Report.md"
+    file: "docs/governance/phase2/Wave1_Completion_Report.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-194"
+    title: "Wave2_READY_PREPARATION_REPORT.md"
+    file: "docs/governance/phase2/Wave2_READY_PREPARATION_REPORT.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-195"
+    title: "ARCHITECTURE_DEPENDENCY_AUDIT.md"
+    file: "docs/governance/phase3/ARCHITECTURE_DEPENDENCY_AUDIT.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-196"
+    title: "ARCHITECTURE_REFACTORING_PLAN.md"
+    file: "docs/governance/phase3/ARCHITECTURE_REFACTORING_PLAN.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-197"
+    title: "ARCHITECTURE_REFACTORING_WAVE1_COMPLETION_REPORT.md"
+    file: "docs/governance/phase3/ARCHITECTURE_REFACTORING_WAVE1_COMPLETION_REPORT.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-198"
+    title: "ARCHITECTURE_REFACTORING_WAVE2_COMPLETION_REPORT.md"
+    file: "docs/governance/phase3/ARCHITECTURE_REFACTORING_WAVE2_COMPLETION_REPORT.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-199"
+    title: "ARCHITECTURE_REFACTORING_WAVE3_COMPLETION_REPORT.md"
+    file: "docs/governance/phase3/ARCHITECTURE_REFACTORING_WAVE3_COMPLETION_REPORT.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-200"
+    title: "AUTONOMOUS_WORKFLOW.md"
+    file: "docs/governance/phase3/AUTONOMOUS_WORKFLOW.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-201"
+    title: "AUTO_REPAIR_POLICY.md"
+    file: "docs/governance/phase3/AUTO_REPAIR_POLICY.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-202"
+    title: "COMPONENT_RESPONSIBILITY_MATRIX.md"
+    file: "docs/governance/phase3/COMPONENT_RESPONSIBILITY_MATRIX.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-203"
+    title: "CTA_DECISION_TREE.md"
+    file: "docs/governance/phase3/CTA_DECISION_TREE.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-204"
+    title: "CTA_GUIDELINES.md"
+    file: "docs/governance/phase3/CTA_GUIDELINES.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-205"
+    title: "HUMAN_AI_BOUNDARY.md"
+    file: "docs/governance/phase3/HUMAN_AI_BOUNDARY.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-206"
+    title: "PHASE3_DESIGN_COMPLETION_REPORT.md"
+    file: "docs/governance/phase3/PHASE3_DESIGN_COMPLETION_REPORT.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-207"
+    title: "PHASE3_WAVE1_COMPLETION_REPORT.md"
+    file: "docs/governance/phase3/PHASE3_WAVE1_COMPLETION_REPORT.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-208"
+    title: "REVIEW_REPAIR_EXPORT_FLOW.md"
+    file: "docs/governance/phase3/REVIEW_REPAIR_EXPORT_FLOW.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-209"
+    title: "REVIEW_REPAIR_EXPORT_ROADMAP.md"
+    file: "docs/governance/phase3/REVIEW_REPAIR_EXPORT_ROADMAP.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-210"
+    title: "SCREEN_LAYOUT_V2.md"
+    file: "docs/governance/phase3/SCREEN_LAYOUT_V2.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-211"
+    title: "STATE_MACHINE_V2.md"
+    file: "docs/governance/phase3/STATE_MACHINE_V2.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-212"
+    title: "UI_STATE_SIMPLIFICATION.md"
+    file: "docs/governance/phase3/UI_STATE_SIMPLIFICATION.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-213"
+    title: "UX_INFORMATION_ARCHITECTURE.md"
+    file: "docs/governance/phase3/UX_INFORMATION_ARCHITECTURE.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-214"
+    title: "AI_RESUME_COPILOT_TARGET_COMPLETION_REPORT.md"
+    file: "docs/governance/phase4/AI_RESUME_COPILOT_TARGET_COMPLETION_REPORT.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-215"
+    title: "AUTONOMOUS_REPAIR_ORCHESTRATOR_WAVE2_REPORT.md"
+    file: "docs/governance/phase4/AUTONOMOUS_REPAIR_ORCHESTRATOR_WAVE2_REPORT.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-216"
+    title: "AUTONOMOUS_REPAIR_WAVE1_REPORT.md"
+    file: "docs/governance/phase4/AUTONOMOUS_REPAIR_WAVE1_REPORT.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-217"
+    title: "P4_ALIGN_001_SUMMARY_PIPELINE_ALIGNMENT_REPORT.md"
+    file: "docs/governance/phase4/P4_ALIGN_001_SUMMARY_PIPELINE_ALIGNMENT_REPORT.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-218"
+    title: "P4_AR_007_PROPOSAL_UI_INTEGRATION_REPORT.md"
+    file: "docs/governance/phase4/P4_AR_007_PROPOSAL_UI_INTEGRATION_REPORT.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-219"
+    title: "P4_AR_008_PROPOSAL_GENERATION_STATE_REPORT.md"
+    file: "docs/governance/phase4/P4_AR_008_PROPOSAL_GENERATION_STATE_REPORT.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-220"
+    title: "P4_AR_009_REPAIR_ESCALATION_REPORT.md"
+    file: "docs/governance/phase4/P4_AR_009_REPAIR_ESCALATION_REPORT.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-221"
+    title: "P4_AR_010_TARGETED_REGENERATION_UI_REPORT.md"
+    file: "docs/governance/phase4/P4_AR_010_TARGETED_REGENERATION_UI_REPORT.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-222"
+    title: "P4_AR_011_TARGETED_REGENERATION_RUNTIME_REPORT.md"
+    file: "docs/governance/phase4/P4_AR_011_TARGETED_REGENERATION_RUNTIME_REPORT.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-223"
+    title: "P4_AR_012_REGENERATION_FEEDBACK_NO_DIFF_REPORT.md"
+    file: "docs/governance/phase4/P4_AR_012_REGENERATION_FEEDBACK_NO_DIFF_REPORT.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-224"
+    title: "P4_DIAG_001_VALIDATION_DIAGNOSTICS_REPORT.md"
+    file: "docs/governance/phase4/P4_DIAG_001_VALIDATION_DIAGNOSTICS_REPORT.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-225"
+    title: "P4_DIAG_FIX_001_SUMMARY_REVIEW_CLOSURE_REPORT.md"
+    file: "docs/governance/phase4/P4_DIAG_FIX_001_SUMMARY_REVIEW_CLOSURE_REPORT.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-226"
+    title: "P4_FINAL_001_REPAIR_WORKFLOW_CONSOLIDATION_REPORT.md"
+    file: "docs/governance/phase4/P4_FINAL_001_REPAIR_WORKFLOW_CONSOLIDATION_REPORT.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-227"
+    title: "P4_PROMPT_001_TARGETED_OUTPUT_CONTRACT_REPORT.md"
+    file: "docs/governance/phase4/P4_PROMPT_001_TARGETED_OUTPUT_CONTRACT_REPORT.md"
+    document_type: "RUNTIME_CONTRACT"
+    lifecycle: "ACTIVE"
+    authority: "NONE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Contract index/reference; no draft contract independently authorizes implementation."
+  - id: "DOC-228"
+    title: "P4_VAL_001_SCOPED_VALIDATION_REPORT.md"
+    file: "docs/governance/phase4/P4_VAL_001_SCOPED_VALIDATION_REPORT.md"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-229"
+    title: "PHASE4_UX_SIMPLIFICATION_COMPLETION_REPORT.md"
+    file: "docs/governance/phase4/PHASE4_UX_SIMPLIFICATION_COMPLETION_REPORT.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-230"
+    title: "PHASE4_WAVE1_COMPLETION_REPORT.md"
+    file: "docs/governance/phase4/PHASE4_WAVE1_COMPLETION_REPORT.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-231"
+    title: "PHASE4_WAVE2_COMPLETION_REPORT.md"
+    file: "docs/governance/phase4/PHASE4_WAVE2_COMPLETION_REPORT.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-232"
+    title: "PHASE4_WAVE3_COMPLETION_REPORT.md"
+    file: "docs/governance/phase4/PHASE4_WAVE3_COMPLETION_REPORT.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-233"
+    title: "PHASE4_WAVE4_COMPLETION_REPORT.md"
+    file: "docs/governance/phase4/PHASE4_WAVE4_COMPLETION_REPORT.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-234"
+    title: "BROWSER_PRODUCT_ACCEPTANCE_REPORT.md"
+    file: "docs/governance/product-qa/BROWSER_PRODUCT_ACCEPTANCE_REPORT.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-235"
+    title: "PRODUCT_ACCEPTANCE_TEST_REPORT.md"
+    file: "docs/governance/product-qa/PRODUCT_ACCEPTANCE_TEST_REPORT.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-236"
+    title: "DOC-GOV-001.md"
+    file: "docs/governance/tasks/DOC-GOV-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-237"
+    title: "P2-007.md"
+    file: "docs/governance/tasks/P2-007.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-238"
+    title: "P2-008.md"
+    file: "docs/governance/tasks/P2-008.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-239"
+    title: "P2-009.md"
+    file: "docs/governance/tasks/P2-009.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-240"
+    title: "P2-010.md"
+    file: "docs/governance/tasks/P2-010.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-241"
+    title: "P2-011.md"
+    file: "docs/governance/tasks/P2-011.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-242"
+    title: "P3-001.md"
+    file: "docs/governance/tasks/P3-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-243"
+    title: "P3-ARCH-001.md"
+    file: "docs/governance/tasks/P3-ARCH-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-244"
+    title: "P3-ARCH-002.md"
+    file: "docs/governance/tasks/P3-ARCH-002.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-245"
+    title: "P3-ARCH-003.md"
+    file: "docs/governance/tasks/P3-ARCH-003.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-246"
+    title: "P3-CONFIG-001.md"
+    file: "docs/governance/tasks/P3-CONFIG-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-247"
+    title: "P4-ALIGN-001.md"
+    file: "docs/governance/tasks/P4-ALIGN-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-248"
+    title: "P4-AR-001.md"
+    file: "docs/governance/tasks/P4-AR-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-249"
+    title: "P4-AR-002.md"
+    file: "docs/governance/tasks/P4-AR-002.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-250"
+    title: "P4-AR-003.md"
+    file: "docs/governance/tasks/P4-AR-003.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-251"
+    title: "P4-AR-004.md"
+    file: "docs/governance/tasks/P4-AR-004.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-252"
+    title: "P4-AR-005.md"
+    file: "docs/governance/tasks/P4-AR-005.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-253"
+    title: "P4-AR-006.md"
+    file: "docs/governance/tasks/P4-AR-006.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-254"
+    title: "P4-AR-007.md"
+    file: "docs/governance/tasks/P4-AR-007.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-255"
+    title: "P4-AR-008.md"
+    file: "docs/governance/tasks/P4-AR-008.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-256"
+    title: "P4-AR-009.md"
+    file: "docs/governance/tasks/P4-AR-009.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-257"
+    title: "P4-AR-010.md"
+    file: "docs/governance/tasks/P4-AR-010.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-258"
+    title: "P4-AR-011.md"
+    file: "docs/governance/tasks/P4-AR-011.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-259"
+    title: "P4-AR-012.md"
+    file: "docs/governance/tasks/P4-AR-012.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-260"
+    title: "P4-DIAG-001.md"
+    file: "docs/governance/tasks/P4-DIAG-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-261"
+    title: "P4-DIAG-FIX-001.md"
+    file: "docs/governance/tasks/P4-DIAG-FIX-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-262"
+    title: "P4-FINAL-001.md"
+    file: "docs/governance/tasks/P4-FINAL-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-263"
+    title: "P4-PROMPT-001.md"
+    file: "docs/governance/tasks/P4-PROMPT-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-264"
+    title: "P4-QA-001.md"
+    file: "docs/governance/tasks/P4-QA-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-265"
+    title: "P4-QA-002.md"
+    file: "docs/governance/tasks/P4-QA-002.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-266"
+    title: "P4-UX-001.md"
+    file: "docs/governance/tasks/P4-UX-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-267"
+    title: "P4-UX-002.md"
+    file: "docs/governance/tasks/P4-UX-002.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-268"
+    title: "P4-UX-003.md"
+    file: "docs/governance/tasks/P4-UX-003.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-269"
+    title: "P4-UX-004.md"
+    file: "docs/governance/tasks/P4-UX-004.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-270"
+    title: "P4-UX-005.md"
+    file: "docs/governance/tasks/P4-UX-005.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-271"
+    title: "P4-VAL-001.md"
+    file: "docs/governance/tasks/P4-VAL-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-272"
+    title: "ADR_004_WAVE1_IMPLEMENTATION.md"
+    file: "docs/implementation/ADR_004_WAVE1_IMPLEMENTATION.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-273"
+    title: "ADR_005_WAVE2_IMPLEMENTATION.md"
+    file: "docs/implementation/ADR_005_WAVE2_IMPLEMENTATION.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-274"
+    title: "ADR_006_IMPLEMENTATION.md"
+    file: "docs/implementation/ADR_006_IMPLEMENTATION.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-275"
+    title: "CURRENT_BLOCKER_REGISTER.md"
+    file: "docs/draft/requires-review/releases/CURRENT_BLOCKER_REGISTER.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-276"
+    title: "CURRENT_RELEASE_READINESS.md"
+    file: "docs/draft/requires-review/releases/CURRENT_RELEASE_READINESS.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-277"
+    title: "RELEASE_CRITERIA_V1.md"
+    file: "docs/draft/requires-review/releases/RELEASE_CRITERIA_V1.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-278"
+    title: "RELEASE_GOVERNANCE_V1.md"
+    file: "docs/draft/requires-review/releases/RELEASE_GOVERNANCE_V1.md"
+    document_type: "UNKNOWN"
+    lifecycle: "DRAFT_REQUIRES_REVIEW"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Draft/reference only; cannot authorize production implementation."
+  - id: "DOC-279"
+    title: "TASK-001.md"
+    file: "docs/tasks/TASK-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-280"
+    title: "TASK-002.md"
+    file: "docs/tasks/TASK-002.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-281"
+    title: "TASK-003.md"
+    file: "docs/tasks/TASK-003.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Task/state tracking; cannot authorize production implementation."
+  - id: "DOC-282"
+    title: "ADR_004_POLICY_SIMULATION.md"
+    file: "docs/validation/ADR_004_POLICY_SIMULATION.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-283"
+    title: "ADR_005_POLICY_SIMULATION.md"
+    file: "docs/validation/ADR_005_POLICY_SIMULATION.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-284"
+    title: "ADR_006_POLICY_SIMULATION.md"
+    file: "docs/validation/ADR_006_POLICY_SIMULATION.md"
+    document_type: "ACCEPTANCE_EVIDENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Acceptance/reference evidence; does not create architecture."
+  - id: "DOC-285"
+    title: "DOCUMENT_REGISTRY.yaml"
+    file: "docs/DOCUMENT_REGISTRY.yaml"
+    document_type: "HISTORICAL_RECORD"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on: []
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Historical or supporting reference; cannot independently authorize implementation."

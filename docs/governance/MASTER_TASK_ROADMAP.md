@@ -2,7 +2,15 @@
 
 Status: Governance v1 roadmap.
 
-Status: Governance v1 COMPLETE. TASK-001 through TASK-012 are DONE and archived under `archive/tasks/`. No Task is READY.
+Status: Governance v1 historical tasks are COMPLETE. `DOC-GOV-001` is DONE.
+
+## Documentation Governance Cleanup
+
+| Task | Objective | Status | Dependency |
+|---|---|---|---|
+| `docs/governance/tasks/DOC-GOV-001.md` | Inventory, classify, resolve, and index all `docs/` governance without production changes | DONE | Explicit user authorization |
+
+`DOC-GOV-001` was documentation-only. It did not authorize production code, runtime, prompt, test, or runtime-data changes. No follow-on task is READY.
 
 ## Task Order
 

@@ -1,3 +1,5 @@
+Canonical ID: ADR-PROD-006
+
 # ADR-006 - Repair Policy
 
 Status: APPROVED  

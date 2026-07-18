@@ -4,17 +4,18 @@ Status: Governance v1 rules, source-grounded.
 
 ## Source of Truth Priority
 
+For production changes, begin with `docs/INDEX.md`. Its authority order controls this document whenever the two differ.
+
 Use this priority order for all future work:
 
-1. Current explicit task instructions
-2. `CV_Manager_React/docs/SPEC.md`
-3. `CV_Manager_React/docs/FLOW.md`
-4. `CV_Manager_React/docs/ARCHITECTURE.md`
-5. Current agents, prompts, and code
-6. Actual CV outputs and source artifacts
-7. General best practices
+1. `docs/architecture/CURRENT_ARCHITECTURE.md`
+2. Relevant approved ADRs
+3. Relevant active runtime contracts
+4. This active product policy
+5. Acceptance evidence
+6. Current production implementation
 
-If sources conflict, record the conflict in `docs/governance/UNRESOLVED_QUESTIONS.md` or the active task completion report. Do not silently resolve it.
+If sources conflict, follow `docs/CONFLICT_RESOLUTION_LOG.md`; unresolved cases go to `docs/draft/requires-review/`. Do not silently resolve them.
 
 ## Non-Negotiable Product Rules
 
@@ -56,4 +57,3 @@ Use the smallest verification that matches the task:
 - Contract or domain edits: relevant smoke scripts plus `npm run build`.
 - Persistence/API edits: `npm run smoke:storage`, `npm run smoke:server`, and relevant HTTP/config smoke tests.
 - Full workflow risk: `npm run test:system`.
-

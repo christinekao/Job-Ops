@@ -2,6 +2,14 @@
 
 Status: Project Governance v1 current-state record.
 
+## Documentation Governance Cleanup
+
+`DOC-GOV-001` is DONE under explicit user authorization.
+
+- Completed: 281 docs files inventoried and registered after excluding `.DS_Store`; `ARCH-CURRENT` is the only Primary architecture; Index, ADR index, relationship map, conflict log, and draft controls are in place.
+- Boundary preserved: production code, runtime behavior, prompts, tests, and canonical runtime data were not modified.
+- Unresolved owner decisions remain in `docs/draft/requires-review/` for Proposed ADR-004/005 and release-governance authority.
+
 ## Phase 4.5 Alignment - Summary Generation, Review, and Repair
 
 P4-ALIGN-001 is BLOCKED_AFTER_IMPLEMENTATION.
