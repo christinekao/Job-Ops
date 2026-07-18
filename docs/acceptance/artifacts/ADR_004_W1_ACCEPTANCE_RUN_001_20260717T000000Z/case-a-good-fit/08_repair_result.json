@@ -1,0 +1,158 @@
+{
+  "cvVersionId": "cv-case-a-good-fit-20260717000000",
+  "cvContentHash": "h1t6mnkv",
+  "totalBlockers": 4,
+  "safeAuto": [],
+  "approvalRequired": [
+    {
+      "blockerId": "blocker-1-rewrite-3-work-log-bullet-s-into-external-resume-bul",
+      "route": "approval-required",
+      "reason": "This may preserve evidence but materially changes visible wording, so the user must review it first.",
+      "target": {
+        "blockerId": "blocker-1-rewrite-3-work-log-bullet-s-into-external-resume-bul",
+        "section": "workExperience",
+        "fieldId": "bullet",
+        "roleId": "trend-micro",
+        "bulletId": "0-1-1",
+        "focusKey": "guided-workExperience-bullet-trend-micro-0-1-1",
+        "highlightKey": "guided-workExperience-bullet-trend-micro-0-1-1"
+      },
+      "evidenceIds": [
+        "evi-tw-cv-auto-match-flow-fixes"
+      ],
+      "cvVersionId": "cv-case-a-good-fit-20260717000000",
+      "cvContentHash": "h1t6mnkv",
+      "risk": "medium",
+      "confidence": "medium",
+      "allowedMutationZones": [
+        "workExperience"
+      ],
+      "prohibitedMutationZones": [
+        "header.contact",
+        "header.targetRole",
+        "summary",
+        "sidebar.skills",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": true,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": true,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": false
+    },
+    {
+      "blockerId": "blocker-2-reviewer-external-wording-3-work-log-bullet-s",
+      "route": "approval-required",
+      "reason": "This may preserve evidence but materially changes visible wording, so the user must review it first.",
+      "target": {
+        "blockerId": "blocker-2-reviewer-external-wording-3-work-log-bullet-s",
+        "section": "workExperience",
+        "fieldId": "bullet",
+        "roleId": "trend-micro",
+        "bulletId": "0-1-1",
+        "focusKey": "guided-workExperience-bullet-trend-micro-0-1-1",
+        "highlightKey": "guided-workExperience-bullet-trend-micro-0-1-1"
+      },
+      "evidenceIds": [
+        "evi-tw-cv-auto-match-flow-fixes"
+      ],
+      "cvVersionId": "cv-case-a-good-fit-20260717000000",
+      "cvContentHash": "h1t6mnkv",
+      "risk": "medium",
+      "confidence": "medium",
+      "allowedMutationZones": [
+        "workExperience"
+      ],
+      "prohibitedMutationZones": [
+        "header.contact",
+        "header.targetRole",
+        "summary",
+        "sidebar.skills",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": true,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": true,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": false
+    }
+  ],
+  "targetedRegeneration": [],
+  "humanInput": [
+    {
+      "blockerId": "blocker-3-contact-extraction-missing-name-email-or-location",
+      "route": "human-input",
+      "reason": "Missing contact data must be entered by the user because no trusted value is available.",
+      "target": {
+        "blockerId": "blocker-3-contact-extraction-missing-name-email-or-location",
+        "section": "contact",
+        "fieldId": "email",
+        "focusKey": "guided-contact-email",
+        "highlightKey": "guided-contact-email"
+      },
+      "evidenceIds": [],
+      "cvVersionId": "cv-case-a-good-fit-20260717000000",
+      "cvContentHash": "h1t6mnkv",
+      "risk": "medium",
+      "confidence": "high",
+      "allowedMutationZones": [
+        "header.contact"
+      ],
+      "prohibitedMutationZones": [
+        "header.targetRole",
+        "summary",
+        "workExperience",
+        "sidebar.skills",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": false,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": false,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": true
+    },
+    {
+      "blockerId": "blocker-4-contact-email-missing-email",
+      "route": "human-input",
+      "reason": "Missing contact data must be entered by the user because no trusted value is available.",
+      "target": {
+        "blockerId": "blocker-4-contact-email-missing-email",
+        "section": "contact",
+        "fieldId": "email",
+        "focusKey": "guided-contact-email",
+        "highlightKey": "guided-contact-email"
+      },
+      "evidenceIds": [],
+      "cvVersionId": "cv-case-a-good-fit-20260717000000",
+      "cvContentHash": "h1t6mnkv",
+      "risk": "medium",
+      "confidence": "high",
+      "allowedMutationZones": [
+        "header.contact"
+      ],
+      "prohibitedMutationZones": [
+        "header.targetRole",
+        "summary",
+        "workExperience",
+        "sidebar.skills",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": false,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": false,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": true
+    }
+  ],
+  "humanDecision": [],
+  "unsupported": [],
+  "recommendedNextRoute": "review-ai-proposals"
+}

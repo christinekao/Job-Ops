@@ -1,0 +1,1104 @@
+{
+  "id": "cv-case-a-good-fit-20260717000000",
+  "jdId": "jd-mpy6kou0-ctiw9",
+  "name": "Case A — Good Fit Fresh CV",
+  "summary": "Power Platform and M365 automation practitioner who turns HR, legal, and operational workflows into governed low-code solutions, adoption dashboards, and supportable handoffs. Grounded experience spans Power Apps, Power Automate, SharePoint-backed routing, Power BI visibility, documentation, and production troubleshooting for business users.",
+  "content": "# Li Ting Kao / Christine Kao\n\nLi Ting Kao / Christine Kao\nTarget: Power Platform Developer\nTaipei\n\n## Summary\n\nPower Platform and M365 automation practitioner who turns HR, legal, and operational workflows into governed low-code solutions, adoption dashboards, and supportable handoffs. Grounded experience spans Power Apps, Power Automate, SharePoint-backed routing, Power BI visibility, documentation, and production troubleshooting for business users.\n\n## Skills\n\nPower Platform / M365: Power Apps, Power Automate, SharePoint Lists, Power BI, Microsoft 365 Copilot, Workflow automation, Governance documentation, Production troubleshooting, Stakeholder handoff\n\n## Work Experience\n\nBusiness Process Engineer / IS BA | Trend Micro | 2021 - 2026\nSection: Power Platform Workflow Delivery\n- Built a Power Apps and SharePoint-backed DPIA / AI impact assessment workflow with automated routing, reviewer controls, and governance-ready process visibility.\n- Created a self-service mentor booking workflow using form intake and SharePoint lists so HR program users could manage requests without manual spreadsheet tracking.\n- Supported production HR automation flows after handover, connecting Power Automate, Workday RaaS API, Dataverse, SharePoint, Jenkins, and Power BI operating signals.\nSection: Support, Documentation, and Adoption Analytics\n- Authored low-code automation and API engagement documentation covering roles, connection ownership, environment handoff, and maintainability expectations.\n- Stabilized recruiting sync flows by resolving data and flow defects across Power Automate, Workday RaaS API, and SharePoint handoff paths.\n- Built M365 Copilot usage and adoption dashboard views from audit, license, and distribution-list data to give stakeholders clearer adoption visibility.\n- Managed M365 Copilot trial conversion operations using usage reporting, vendor coordination, and license follow-up.\n\nData Engineer & Tableau Dashboard Development Sales Specialist | Advanced Communication Technology & Solutions Corporation | 2016 - 2020\nSection: Data and Dashboard Foundation\n- Delivered dashboard and data-support work that built the analytics foundation later reused in HR and workflow visibility projects.\n- Coordinated technical solution support and project documentation for client delivery teams, strengthening business-to-technology handoff habits.\n\n## Education\n\nAI/Big Data Analysis | TibaMe | 2020/02 - 2020/08\n\nMaster of Biomedical Sciences | Chang Gung University | 2009/07 - 2011/08\n\n## Languages\n\nChinese | Native\nEnglish | Professional",
+  "sections": {
+    "header": "Li Ting Kao / Christine Kao\nTarget: Power Platform Developer\nTaipei",
+    "summary": "Power Platform and M365 automation practitioner who turns HR, legal, and operational workflows into governed low-code solutions, adoption dashboards, and supportable handoffs. Grounded experience spans Power Apps, Power Automate, SharePoint-backed routing, Power BI visibility, documentation, and production troubleshooting for business users.",
+    "skills": "Power Platform / M365: Power Apps, Power Automate, SharePoint Lists, Power BI, Microsoft 365 Copilot, Workflow automation, Governance documentation, Production troubleshooting, Stakeholder handoff",
+    "workExperience": "Business Process Engineer / IS BA | Trend Micro | 2021 - 2026\nSection: Power Platform Workflow Delivery\n- Built a Power Apps and SharePoint-backed DPIA / AI impact assessment workflow with automated routing, reviewer controls, and governance-ready process visibility.\n- Created a self-service mentor booking workflow using form intake and SharePoint lists so HR program users could manage requests without manual spreadsheet tracking.\n- Supported production HR automation flows after handover, connecting Power Automate, Workday RaaS API, Dataverse, SharePoint, Jenkins, and Power BI operating signals.\nSection: Support, Documentation, and Adoption Analytics\n- Authored low-code automation and API engagement documentation covering roles, connection ownership, environment handoff, and maintainability expectations.\n- Stabilized recruiting sync flows by resolving data and flow defects across Power Automate, Workday RaaS API, and SharePoint handoff paths.\n- Built M365 Copilot usage and adoption dashboard views from audit, license, and distribution-list data to give stakeholders clearer adoption visibility.\n- Managed M365 Copilot trial conversion operations using usage reporting, vendor coordination, and license follow-up.\n\nData Engineer & Tableau Dashboard Development Sales Specialist | Advanced Communication Technology & Solutions Corporation | 2016 - 2020\nSection: Data and Dashboard Foundation\n- Delivered dashboard and data-support work that built the analytics foundation later reused in HR and workflow visibility projects.\n- Coordinated technical solution support and project documentation for client delivery teams, strengthening business-to-technology handoff habits.",
+    "projects": "",
+    "education": "AI/Big Data Analysis | TibaMe | 2020/02 - 2020/08\n\nMaster of Biomedical Sciences | Chang Gung University | 2009/07 - 2011/08",
+    "certifications": "",
+    "languages": "Chinese | Native\nEnglish | Professional"
+  },
+  "tailoredCv": {
+    "jdAnalysis": {
+      "targetRole": "Power Platform Developer",
+      "coreRequirements": [
+        "Power Apps",
+        "Power Automate",
+        "SharePoint",
+        "workflow automation",
+        "support documentation"
+      ],
+      "topKeywords": [
+        {
+          "keyword": "Power Apps",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        },
+        {
+          "keyword": "Power Automate",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        },
+        {
+          "keyword": "SharePoint",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        },
+        {
+          "keyword": "workflow automation",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        },
+        {
+          "keyword": "support documentation",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        }
+      ],
+      "gaps": [
+        "Independent Azure cloud architecture ownership"
+      ]
+    },
+    "header": {
+      "name": "Li Ting Kao / Christine Kao",
+      "targetRole": "Power Platform Developer",
+      "email": "",
+      "location": "Taipei"
+    },
+    "sidebar": {
+      "languages": [
+        {
+          "name": "Chinese",
+          "level": "Native",
+          "note": ""
+        },
+        {
+          "name": "English",
+          "level": "Professional",
+          "note": ""
+        }
+      ],
+      "skillGroups": [
+        {
+          "title": "Power Platform / M365",
+          "highlightedSkills": [
+            "Power Apps",
+            "Power Automate",
+            "SharePoint Lists",
+            "Power BI",
+            "Microsoft 365 Copilot"
+          ],
+          "otherSkills": [
+            "Workflow automation",
+            "Governance documentation",
+            "Production troubleshooting",
+            "Stakeholder handoff"
+          ]
+        }
+      ],
+      "certifications": [],
+      "education": [
+        {
+          "school": "TibaMe",
+          "degree": "AI/Big Data Analysis",
+          "period": "2020/02 - 2020/08"
+        },
+        {
+          "school": "Chang Gung University",
+          "degree": "Master of Biomedical Sciences",
+          "period": "2009/07 - 2011/08"
+        }
+      ]
+    },
+    "summary": "Power Platform and M365 automation practitioner who turns HR, legal, and operational workflows into governed low-code solutions, adoption dashboards, and supportable handoffs. Grounded experience spans Power Apps, Power Automate, SharePoint-backed routing, Power BI visibility, documentation, and production troubleshooting for business users.",
+    "workExperience": [
+      {
+        "experienceId": "trend-micro",
+        "company": "Trend Micro",
+        "role": "Business Process Engineer / IS BA",
+        "period": "2021 - 2026",
+        "location": "Taipei",
+        "subsections": [
+          {
+            "title": "Power Platform Workflow Delivery",
+            "bullets": [
+              {
+                "text": "Built a Power Apps and SharePoint-backed DPIA / AI impact assessment workflow with automated routing, reviewer controls, and governance-ready process visibility.",
+                "evidenceIds": [
+                  "evi-legal-dpia-app-build",
+                  "evi-legal-dpia-risk-classification"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              },
+              {
+                "text": "Created a self-service mentor booking workflow using form intake and SharePoint lists so HR program users could manage requests without manual spreadsheet tracking.",
+                "evidenceIds": [
+                  "evi-mentor-booking-system"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              },
+              {
+                "text": "Supported production HR automation flows after handover, connecting Power Automate, Workday RaaS API, Dataverse, SharePoint, Jenkins, and Power BI operating signals.",
+                "evidenceIds": [
+                  "evi-pa-ops-takeover"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              }
+            ]
+          },
+          {
+            "title": "Support, Documentation, and Adoption Analytics",
+            "bullets": [
+              {
+                "text": "Authored low-code automation and API engagement documentation covering roles, connection ownership, environment handoff, and maintainability expectations.",
+                "evidenceIds": [
+                  "evi-power-platform-governance-docs"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              },
+              {
+                "text": "Stabilized recruiting sync flows by resolving data and flow defects across Power Automate, Workday RaaS API, and SharePoint handoff paths.",
+                "evidenceIds": [
+                  "evi-tw-cv-auto-match-flow-fixes"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              },
+              {
+                "text": "Built M365 Copilot usage and adoption dashboard views from audit, license, and distribution-list data to give stakeholders clearer adoption visibility.",
+                "evidenceIds": [
+                  "evi-m365-copilot-dashboard"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              },
+              {
+                "text": "Managed M365 Copilot trial conversion operations using usage reporting, vendor coordination, and license follow-up.",
+                "evidenceIds": [
+                  "evi-m365-trial-license-conversion"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "experienceId": "acts",
+        "company": "Advanced Communication Technology & Solutions Corporation",
+        "role": "Data Engineer & Tableau Dashboard Development Sales Specialist",
+        "period": "2016 - 2020",
+        "location": "Taipei",
+        "subsections": [
+          {
+            "title": "Data and Dashboard Foundation",
+            "bullets": [
+              {
+                "text": "Delivered dashboard and data-support work that built the analytics foundation later reused in HR and workflow visibility projects.",
+                "evidenceIds": [
+                  "evi-project-execution-hw-sw-integration"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Scope"
+              },
+              {
+                "text": "Coordinated technical solution support and project documentation for client delivery teams, strengthening business-to-technology handoff habits.",
+                "evidenceIds": [
+                  "evi-project-execution-hw-sw-integration"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Scope"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "positioningReport": {
+      "overallFit": "Good",
+      "transferableStrengths": [
+        {
+          "strength": "Built and supported Power Platform workflows for legal, HR, and operations processes.",
+          "evidenceIds": [
+            "evi-legal-dpia-app-build",
+            "evi-mentor-booking-system",
+            "evi-pa-ops-takeover"
+          ],
+          "supportLevel": "Strong",
+          "cvTreatment": "state-directly"
+        },
+        {
+          "strength": "Used SharePoint-backed lists and workflow logic for approvals, booking, and recruiting sync.",
+          "evidenceIds": [
+            "evi-legal-dpia-app-build",
+            "evi-mentor-booking-system",
+            "evi-tw-cv-auto-match-flow-fixes"
+          ],
+          "supportLevel": "Strong",
+          "cvTreatment": "state-directly"
+        },
+        {
+          "strength": "Documented API/automation engagement patterns and supported knowledge transfer.",
+          "evidenceIds": [
+            "evi-power-platform-governance-docs",
+            "evi-workday-ph-kt-workshop",
+            "evi-pa-ops-takeover"
+          ],
+          "supportLevel": "Strong",
+          "cvTreatment": "state-directly"
+        }
+      ],
+      "truthfulCapabilityGaps": [
+        {
+          "requirement": "Azure cloud architecture ownership",
+          "reason": "Evidence does not support independent Azure cloud architecture ownership.",
+          "riskLevel": "Medium",
+          "mitigation": "Keep Azure references limited to tools touched inside supported automation contexts."
+        },
+        {
+          "requirement": "Independent Azure cloud architecture ownership",
+          "reason": "Not required for the selected Power Platform positioning; do not claim it.",
+          "riskLevel": "Low",
+          "mitigation": "Not required for the selected Power Platform positioning; do not claim it."
+        }
+      ],
+      "unsupportedClaimsPrevented": [
+        {
+          "claim": "from-scratch enterprise software engineer",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "from-scratch enterprise software engineer"
+          ]
+        },
+        {
+          "claim": "Azure cloud architect ownership",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Azure cloud architect ownership"
+          ]
+        },
+        {
+          "claim": "Azure cloud architecture ownership",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Azure cloud architecture ownership"
+          ]
+        },
+        {
+          "claim": "Keep Azure references limited to tools touched inside supported automation contexts.",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Keep Azure references limited to tools touched inside supported automation contexts."
+          ]
+        },
+        {
+          "claim": "Evidence does not support independent Azure cloud architecture ownership.",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Evidence does not support independent Azure cloud architecture ownership."
+          ]
+        }
+      ],
+      "recommendedPositioning": {
+        "headline": "Power Platform Developer | Power Apps, Power Automate, SharePoint Workflow Automation",
+        "summaryAngle": "Power Platform developer with grounded Power Apps, Power Automate, SharePoint, governance documentation, production troubleshooting, and M365 adoption analytics evidence.",
+        "targetRoleTreatment": "direct-fit",
+        "wordingGuidance": [
+          "Power Platform / M365 automation practitioner focused on workflow delivery, governance documentation, and production support.",
+          "Strengthen wording only when supported by selected evidence.",
+          "Preserve unsupported requirements as gaps or risks, not visible strengths."
+        ]
+      },
+      "remainingHiringRisks": [
+        {
+          "risk": "Azure cloud architecture ownership",
+          "impactOnInterviewProbability": "May reduce interview probability unless the CV keeps wording conservative.",
+          "mitigation": "Evidence does not support independent Azure cloud architecture ownership."
+        },
+        {
+          "risk": "How much code versus configuration did you personally own?",
+          "impactOnInterviewProbability": "May reduce interview probability if the recruiter or hiring manager requires direct proof.",
+          "mitigation": "Prepare truthful interview evidence or choose a more adjacent target angle."
+        }
+      ]
+    },
+    "keywordPlacementNotes": [
+      "Power Apps, Power Automate, SharePoint, workflow automation, and support documentation are placed in visible CV sections because Screening Analysis marks them as supported."
+    ],
+    "interviewNotes": [
+      {
+        "topic": "Cloud architecture boundary",
+        "details": "Do not claim independent Azure cloud architecture ownership; discuss only tools touched inside automation contexts.",
+        "evidenceIds": []
+      }
+    ],
+    "reviewNotes": [
+      "Generated fresh for ADR-004-W1 acceptance run; no historical CV reused."
+    ]
+  },
+  "generationContext": {
+    "jdContentHash": "hc1khmc",
+    "sourceDataHash": "hgllqur",
+    "screeningAnalysisHash": "h1c3udzj",
+    "cvBriefHash": "h1ghhqj6",
+    "promptVersion": "tailored-cv-v7-credible-evidence",
+    "generatedAt": "2026-07-17T00:00:00.000Z",
+    "selectedSkillIds": [
+      "skill-production-flow-takeover",
+      "skill-dpia-compliance-app-build",
+      "skill-tw-cv-dispatch-automation",
+      "skill-se-onboarding-email-automation",
+      "skill-mentor-booking-powerapp",
+      "skill-powerplatform-governance-doc",
+      "skill-azuread-secret-env-maintenance",
+      "skill-dpia-role-audit-access",
+      "skill-m365-license-conversion-ops",
+      "skill-m365-copilot-adoption-dashboard",
+      "skill-ai-project-registry-platform",
+      "skill-workday-hcm-ba"
+    ],
+    "selectedDomainKnowledgeIds": [
+      "domain-production-hr-automation-ops",
+      "domain-power-platform-enablement",
+      "domain-dpia-privacy-ai-governance",
+      "domain-tw-recruiting-dispatch",
+      "domain-m365-copilot-adoption",
+      "domain-workday-hcm-implementation"
+    ],
+    "selectedEvidenceIds": [
+      "evi-pa-ops-takeover",
+      "evi-legal-dpia-app-build",
+      "evi-tw-cv-auto-match-flow-fixes",
+      "evi-se-onboarding-email-automation",
+      "evi-mentor-booking-system",
+      "evi-power-platform-governance-docs",
+      "evi-m365-copilot-dashboard",
+      "evi-m365-trial-license-conversion",
+      "evi-legal-dpia-risk-classification",
+      "evi-workday-ph-kt-workshop",
+      "evi-business-workflow-structuring-non-engineering",
+      "evi-trender-buddy-gpt-eval-pipeline",
+      "evi-ta-dashboard-lifecycle",
+      "evi-trender-buddy-toi-secure-ops",
+      "evi-onboarding-automation-summary",
+      "evi-technical-capability-summary",
+      "evi-tb-hr-dashboard-ai-upgrade",
+      "evi-existing-python-sql-pipeline-debugging"
+    ],
+    "selectedStoryIds": [
+      "star-pa-ops-takeover",
+      "star-legal-dpia-digital-workflow",
+      "star-tw-cv-auto-match-stability",
+      "star-se-onboarding-email-automation",
+      "star-power-platform-governance",
+      "star-m365-copilot-adoption-dashboard"
+    ],
+    "evidencePriorityIds": [
+      "evi-legal-dpia-app-build",
+      "evi-mentor-booking-system",
+      "evi-pa-ops-takeover",
+      "evi-tw-cv-auto-match-flow-fixes",
+      "evi-power-platform-governance-docs",
+      "evi-workday-ph-kt-workshop",
+      "evi-se-onboarding-email-automation",
+      "evi-m365-copilot-dashboard",
+      "evi-m365-trial-license-conversion",
+      "evi-legal-dpia-risk-classification",
+      "evi-business-workflow-structuring-non-engineering",
+      "evi-trender-buddy-gpt-eval-pipeline",
+      "evi-ta-dashboard-lifecycle",
+      "evi-trender-buddy-toi-secure-ops",
+      "evi-onboarding-automation-summary",
+      "evi-technical-capability-summary",
+      "evi-tb-hr-dashboard-ai-upgrade",
+      "evi-existing-python-sql-pipeline-debugging"
+    ],
+    "invalidSelectionIds": {
+      "skillIds": [],
+      "domainKnowledgeIds": [],
+      "evidenceIds": [],
+      "storyIds": []
+    },
+    "writerContextHash": "h6lbt9d"
+  },
+  "status": "Ready for Review",
+  "updatedAt": "2026-07-17T00:00:00.000Z",
+  "reviewSnapshot": {
+    "snapshotId": "review-hgkeg3k",
+    "reviewRunId": "review-hgkeg3k",
+    "updatedAt": "2026-07-17T11:55:56.853Z",
+    "contentHash": "h1t6mnkv",
+    "reviewedCvVersionId": "cv-case-a-good-fit-20260717000000",
+    "reviewedCvContentHash": "h1t6mnkv",
+    "reviewedSummaryHash": "h31tn0k",
+    "freshnessStatus": "fresh",
+    "cvUpdatedAt": "2026-07-17T00:00:00.000Z",
+    "completedAt": "2026-07-17T11:55:56.853Z",
+    "gateIssueCount": 1,
+    "reviewerIssueCount": 3,
+    "ready": false,
+    "summaryQualityContract": {
+      "targetRole": "Power Platform Developer",
+      "positioningMode": "adjacent-fit",
+      "requiredCriteria": [
+        {
+          "id": "summary-role-identity",
+          "label": "Role identity",
+          "description": "States a credible role identity for this JD without pretending unsupported direct-fit experience.",
+          "category": "role-identity",
+          "importance": "required",
+          "supportStatus": "partial",
+          "supportingEvidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "position-as-transferable"
+        },
+        {
+          "id": "summary-relevant-capability",
+          "label": "Relevant capability",
+          "description": "Surfaces the strongest supported capabilities that overlap with the JD.",
+          "category": "relevant-capability",
+          "importance": "required",
+          "supportStatus": "supported",
+          "supportingEvidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "state-directly"
+        },
+        {
+          "id": "summary-business-value",
+          "label": "Business value",
+          "description": "Explains the business or stakeholder value of the candidate's supported work.",
+          "category": "business-value",
+          "importance": "important",
+          "supportStatus": "supported",
+          "supportingEvidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "state-directly"
+        },
+        {
+          "id": "summary-evidence-grounding",
+          "label": "Evidence grounding",
+          "description": "Avoids unsupported ownership, metrics, seniority, sales, architecture, or cloud-delivery claims.",
+          "category": "evidence-grounding",
+          "importance": "required",
+          "supportStatus": "partial",
+          "supportingEvidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "soften"
+        },
+        {
+          "id": "summary-customer-context",
+          "label": "Customer context",
+          "description": "Connects the Summary to customer, stakeholder, adoption, enablement, or operating context when supported.",
+          "category": "customer-context",
+          "importance": "important",
+          "supportStatus": "supported",
+          "supportingEvidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "state-directly"
+        },
+        {
+          "id": "summary-career-positioning",
+          "label": "Career positioning",
+          "description": "Separates supported transferable fit from unsupported core requirements.",
+          "category": "career-positioning",
+          "importance": "required",
+          "supportStatus": "partial",
+          "supportingEvidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "position-as-transferable"
+        },
+        {
+          "id": "summary-clarity",
+          "label": "Clarity",
+          "description": "Uses concise external recruiter language without generic filler or tool stuffing.",
+          "category": "clarity",
+          "importance": "required",
+          "supportStatus": "supported",
+          "supportingEvidenceIds": [],
+          "allowedTreatment": "state-directly"
+        }
+      ],
+      "supportedStrengths": [
+        {
+          "evidenceId": "evi-trender-buddy-gpt-eval-pipeline",
+          "label": "Trender Buddy",
+          "keywords": [
+            "Azure AI Studio",
+            "GPT-4-turbo",
+            "GPT-4.1",
+            "FastAPI",
+            "Power Automate",
+            "Power Apps",
+            "Power BI",
+            "SharePoint"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-trender-buddy-toi-secure-ops",
+          "label": "Trender Buddy",
+          "keywords": [
+            "Microsoft Copilot Studio",
+            "Azure Function",
+            "InfoSec Confluence API",
+            "SharePoint",
+            "TOI Documentation",
+            "Power Apps",
+            "Power BI",
+            "Microsoft 365"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-m365-copilot-dashboard",
+          "label": "M365 Copilot Trial Program & Usage Analytics",
+          "keywords": [
+            "Microsoft 365 Copilot",
+            "Power BI",
+            "M365 Audit Log",
+            "CopilotAuditLog",
+            "SharePoint",
+            "Microsoft 365",
+            "Dashboard reporting",
+            "Production support"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-m365-trial-license-conversion",
+          "label": "M365 Copilot Trial Program & Usage Analytics",
+          "keywords": [
+            "Microsoft 365 Copilot",
+            "License Management",
+            "Vendor Management",
+            "Usage Reporting",
+            "Power BI",
+            "SharePoint",
+            "Microsoft 365",
+            "Dashboard reporting"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-legal-dpia-app-build",
+          "label": "Legal DPIA App / AI Impact Assessment",
+          "keywords": [
+            "Power Apps",
+            "SharePoint List",
+            "Power Automate",
+            "GDPR",
+            "PLVRS Compliance",
+            "SharePoint",
+            "Workflow automation",
+            "Production support"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-legal-dpia-risk-classification",
+          "label": "Legal DPIA App / AI Impact Assessment",
+          "keywords": [
+            "Power Apps",
+            "SharePoint List",
+            "Risk Classification Logic",
+            "GDPR",
+            "PLVRS Compliance",
+            "Power Automate",
+            "SharePoint",
+            "Workflow automation"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-workday-ph-kt-workshop",
+          "label": "Workday HCM Implementation & Operations",
+          "keywords": [
+            "Workday HCM",
+            "SharePoint",
+            "Excel",
+            "Power BI",
+            "Workday",
+            "API integration",
+            "Dashboard reporting",
+            "Production support"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-tw-cv-auto-match-flow-fixes",
+          "label": "TW CV Auto-Match Recruiting Dispatch System",
+          "keywords": [
+            "Power Automate",
+            "Workday RaaS API",
+            "SharePoint",
+            "Power Apps",
+            "Power BI",
+            "Workday",
+            "API integration",
+            "Dashboard reporting"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-power-platform-governance-docs",
+          "label": "Power Platform Low-code Automation & API Documentation",
+          "keywords": [
+            "Power Automate",
+            "Power Apps",
+            "Connect One API Platform",
+            "SharePoint",
+            "API integration",
+            "Workflow automation",
+            "Production support",
+            "UAT / testing"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-pa-ops-takeover",
+          "label": "Power Automate Operations Handover",
+          "keywords": [
+            "Power Automate",
+            "Azure Blob Storage",
+            "Azure AD App Registration",
+            "Dataverse",
+            "Workday RaaS API",
+            "Power BI",
+            "SharePoint",
+            "Workday"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-ta-dashboard-lifecycle",
+          "label": "Talent Acquisition Dashboard",
+          "keywords": [
+            "Power BI",
+            "DAX",
+            "Workday API",
+            "Workday data reports",
+            "Workday",
+            "API integration",
+            "Dashboard reporting",
+            "UAT / testing"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-tb-hr-dashboard-ai-upgrade",
+          "label": "Trender Buddy HR Dashboard AI Enhanced Version",
+          "keywords": [
+            "Power BI",
+            "Prompt Engineering",
+            "SharePoint Lists",
+            "GPT classification",
+            "Power Apps",
+            "SharePoint",
+            "Microsoft 365",
+            "Dashboard reporting"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-se-onboarding-email-automation",
+          "label": "SE Onboarding Email Automations",
+          "keywords": [
+            "Power Automate",
+            "Microsoft Graph API",
+            "Workday RaaS API",
+            "TrendAI University (Docebo)",
+            "Azure Blob Storage",
+            "Workday",
+            "API integration",
+            "Dashboard reporting"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-mentor-booking-system",
+          "label": "Mentor Booking System",
+          "keywords": [
+            "Power Apps",
+            "MS Forms",
+            "SharePoint List",
+            "SharePoint",
+            "Workflow automation",
+            "AI chatbot operations",
+            "HR operations",
+            "Built a self-service Mentor Program booking system with mentor/session selection, SharePoint-backed booking records, full-capacity hiding, immediate confirmation display, and TOI documentation."
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-onboarding-automation-summary",
+          "label": "Onboarding Automation",
+          "keywords": [
+            "Power Automate",
+            "Workday API",
+            "SharePoint",
+            "Microsoft Graph API",
+            "Docebo",
+            "Workday",
+            "API integration",
+            "Workflow automation"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-technical-capability-summary",
+          "label": "Enterprise Automation, BI & AI Delivery Portfolio",
+          "keywords": [
+            "Power BI",
+            "Power Automate",
+            "Power Apps",
+            "Azure AI Studio",
+            "GPT evaluation",
+            "Workday",
+            "API integration",
+            "Dashboard reporting"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-existing-python-sql-pipeline-debugging",
+          "label": "Pipeline Debugging & Technical Operations",
+          "keywords": [
+            "Python",
+            "SQL",
+            "Jenkins",
+            "Azure Data Explorer",
+            "Docebo API",
+            "Workday",
+            "API integration",
+            "Python validation"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-business-workflow-structuring-non-engineering",
+          "label": "Business Workflow Structuring",
+          "keywords": [
+            "Power Automate",
+            "Power Apps",
+            "SharePoint Lists",
+            "Power BI",
+            "Workflow documentation",
+            "SharePoint",
+            "Dashboard reporting",
+            "Workflow automation"
+          ],
+          "evidenceStrength": "Strong"
+        }
+      ],
+      "unsupportedCoreRequirements": [
+        {
+          "id": "gap-azure-cloud-architecture-ownership",
+          "requirement": "Azure cloud architecture ownership",
+          "reason": "Evidence does not support independent Azure cloud architecture ownership."
+        }
+      ],
+      "prohibitedClaims": [
+        "from-scratch enterprise software engineer",
+        "Azure cloud architect ownership",
+        "Azure cloud architecture ownership",
+        "Keep Azure references limited to tools touched inside supported automation contexts.",
+        "Evidence does not support independent Azure cloud architecture ownership.",
+        "Owned model training or formal machine-learning research",
+        "Built production backend systems from scratch",
+        "Owned the entire function end to end"
+      ],
+      "wordingConstraints": [
+        "Use external recruiter language.",
+        "Do not claim unsupported direct Azure sales, presales, architecture, quota, migration, or deal ownership.",
+        "If the role is adjacent or transferable, position the candidate as adjacent or transferable instead of direct-fit.",
+        "Keep genuine fit gaps out of visible strengths."
+      ],
+      "maxLengthWords": 65
+    },
+    "summaryReviewResult": {
+      "reviewRunId": "review-hcqnaro",
+      "reviewedCvHash": "h1t6mnkv",
+      "positioningMode": "adjacent-fit",
+      "overallStatus": "pass",
+      "criteria": [
+        {
+          "criterionId": "summary-role-identity",
+          "status": "pass",
+          "reason": "The Summary must state a credible role identity for this JD.",
+          "evidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "summary-rewrite"
+        },
+        {
+          "criterionId": "summary-relevant-capability",
+          "status": "pass",
+          "reason": "Supported capability terms are visible: power, automate, apps, sharepoint.",
+          "evidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "summary-rewrite"
+        },
+        {
+          "criterionId": "summary-business-value",
+          "status": "pass",
+          "reason": "Business/stakeholder value is visible.",
+          "evidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "summary-rewrite"
+        },
+        {
+          "criterionId": "summary-evidence-grounding",
+          "status": "pass",
+          "reason": "No prohibited Summary claim detected.",
+          "evidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "summary-rewrite"
+        },
+        {
+          "criterionId": "summary-customer-context",
+          "status": "pass",
+          "reason": "Customer, stakeholder, or operating context is visible.",
+          "evidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "summary-rewrite"
+        },
+        {
+          "criterionId": "summary-career-positioning",
+          "status": "partial",
+          "reason": "Remaining unsupported core requirement(s): Azure cloud architecture ownership.",
+          "evidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "fit-risk-only"
+        },
+        {
+          "criterionId": "summary-clarity",
+          "status": "pass",
+          "reason": "Summary length and wording are concise.",
+          "evidenceIds": [],
+          "fixability": "summary-rewrite"
+        }
+      ],
+      "unsupportedCoreRequirements": [
+        "Azure cloud architecture ownership"
+      ],
+      "summaryRewriteNeeded": false,
+      "fitRiskOnly": true
+    }
+  }
+}

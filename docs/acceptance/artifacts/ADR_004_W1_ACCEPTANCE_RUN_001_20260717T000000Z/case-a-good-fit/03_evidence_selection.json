@@ -1,0 +1,2151 @@
+{
+  "selectionPatch": {
+    "selectedSkillIds": [
+      "skill-production-flow-takeover",
+      "skill-dpia-compliance-app-build",
+      "skill-tw-cv-dispatch-automation",
+      "skill-se-onboarding-email-automation",
+      "skill-mentor-booking-powerapp",
+      "skill-powerplatform-governance-doc",
+      "skill-azuread-secret-env-maintenance",
+      "skill-dpia-role-audit-access",
+      "skill-m365-license-conversion-ops",
+      "skill-m365-copilot-adoption-dashboard",
+      "skill-ai-project-registry-platform",
+      "skill-workday-hcm-ba"
+    ],
+    "selectedDomainKnowledgeIds": [
+      "domain-production-hr-automation-ops",
+      "domain-power-platform-enablement",
+      "domain-dpia-privacy-ai-governance",
+      "domain-tw-recruiting-dispatch",
+      "domain-m365-copilot-adoption",
+      "domain-workday-hcm-implementation"
+    ],
+    "selectedEvidenceIds": [
+      "evi-pa-ops-takeover",
+      "evi-legal-dpia-app-build",
+      "evi-tw-cv-auto-match-flow-fixes",
+      "evi-se-onboarding-email-automation",
+      "evi-mentor-booking-system",
+      "evi-power-platform-governance-docs",
+      "evi-m365-copilot-dashboard",
+      "evi-m365-trial-license-conversion",
+      "evi-legal-dpia-risk-classification",
+      "evi-workday-ph-kt-workshop",
+      "evi-business-workflow-structuring-non-engineering",
+      "evi-trender-buddy-gpt-eval-pipeline",
+      "evi-ta-dashboard-lifecycle",
+      "evi-trender-buddy-toi-secure-ops",
+      "evi-onboarding-automation-summary",
+      "evi-technical-capability-summary",
+      "evi-tb-hr-dashboard-ai-upgrade",
+      "evi-existing-python-sql-pipeline-debugging"
+    ],
+    "selectedStoryIds": [
+      "star-pa-ops-takeover",
+      "star-legal-dpia-digital-workflow",
+      "star-tw-cv-auto-match-stability",
+      "star-se-onboarding-email-automation",
+      "star-power-platform-governance",
+      "star-m365-copilot-adoption-dashboard"
+    ],
+    "recommendationsAppliedAt": "2026-07-17T11:55:56.774Z"
+  },
+  "diagnostics": {
+    "selectedSkillIds": [
+      "skill-production-flow-takeover",
+      "skill-dpia-compliance-app-build",
+      "skill-tw-cv-dispatch-automation",
+      "skill-se-onboarding-email-automation",
+      "skill-mentor-booking-powerapp",
+      "skill-powerplatform-governance-doc",
+      "skill-azuread-secret-env-maintenance",
+      "skill-dpia-role-audit-access",
+      "skill-m365-license-conversion-ops",
+      "skill-m365-copilot-adoption-dashboard",
+      "skill-ai-project-registry-platform",
+      "skill-workday-hcm-ba"
+    ],
+    "selectedDomainKnowledgeIds": [
+      "domain-production-hr-automation-ops",
+      "domain-power-platform-enablement",
+      "domain-dpia-privacy-ai-governance",
+      "domain-tw-recruiting-dispatch",
+      "domain-m365-copilot-adoption",
+      "domain-workday-hcm-implementation"
+    ],
+    "selectedEvidenceIds": [
+      "evi-pa-ops-takeover",
+      "evi-legal-dpia-app-build",
+      "evi-tw-cv-auto-match-flow-fixes",
+      "evi-se-onboarding-email-automation",
+      "evi-mentor-booking-system",
+      "evi-power-platform-governance-docs",
+      "evi-m365-copilot-dashboard",
+      "evi-m365-trial-license-conversion",
+      "evi-legal-dpia-risk-classification",
+      "evi-workday-ph-kt-workshop",
+      "evi-business-workflow-structuring-non-engineering",
+      "evi-trender-buddy-gpt-eval-pipeline",
+      "evi-ta-dashboard-lifecycle",
+      "evi-trender-buddy-toi-secure-ops",
+      "evi-onboarding-automation-summary",
+      "evi-technical-capability-summary",
+      "evi-tb-hr-dashboard-ai-upgrade",
+      "evi-existing-python-sql-pipeline-debugging"
+    ],
+    "selectedStoryIds": [
+      "star-pa-ops-takeover",
+      "star-legal-dpia-digital-workflow",
+      "star-tw-cv-auto-match-stability",
+      "star-se-onboarding-email-automation",
+      "star-power-platform-governance",
+      "star-m365-copilot-adoption-dashboard"
+    ],
+    "selectedSkills": [
+      {
+        "id": "skill-production-flow-takeover",
+        "group": "Power Platform",
+        "skill": "Production Power Automate operations takeover",
+        "strength": "Strong",
+        "usageContext": "maintained",
+        "evidenceSummary": "Took over production HR automation flows after TOI completion on 2026-06-18, covering AI Screening, COE PDF generation, Japan synchronization, Taiwan attendance import, monitoring, troubleshooting, and credential update responsibilities.",
+        "cvWording": "Take over and operate production Power Automate flows across HR automation, scheduled syncs, monitoring, and troubleshooting.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-power-automate-operations-takeover",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-dpia-compliance-app-build",
+        "group": "Power Platform",
+        "skill": "Compliance workflow application development",
+        "strength": "Strong",
+        "usageContext": "built",
+        "evidenceSummary": "Built Legal DPIA / AI Impact Assessment workflow using Power Apps, SharePoint List storage, and Power Automate notifications, replacing fragmented Excel-based assessment work with a structured digital process.",
+        "cvWording": "Build Power Platform compliance workflow applications that replace spreadsheet-based processes with structured forms, storage, routing, and review controls.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-legal-dpia-app",
+        "sourceIds": [
+          "source-20260614-ai-governance",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-tw-cv-dispatch-automation",
+        "group": "Power Platform",
+        "skill": "Recruiting dispatch automation",
+        "strength": "Strong",
+        "usageContext": "built",
+        "evidenceSummary": "Built TW CV Auto-Match recruiting dispatch system using Power Automate, Power Apps, Workday RaaS API, SharePoint, and Power BI POC validation to replace manual email dispatch.",
+        "cvWording": "Automate recruiting dispatch by synchronizing Workday candidate and requisition data into SharePoint-backed Power Apps workflows.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-tw-cv-auto-match",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-se-onboarding-email-automation",
+        "group": "Power Platform",
+        "skill": "Lifecycle onboarding email automation",
+        "strength": "Strong",
+        "usageContext": "built",
+        "evidenceSummary": "Designed and implemented six-trigger SE onboarding email automation using Power Automate, Microsoft Graph API, Workday RaaS API, Docebo progress, mentor fallback, manager fallback, and terminated employee handling; official rollout on 2026-04-23.",
+        "cvWording": "Build lifecycle onboarding email automations using learning progress, HR data, fallback logic, and Microsoft Graph email delivery.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-se-onboarding-email-automations",
+        "sourceIds": [
+          "source-20260614-2026-new-projects",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-mentor-booking-powerapp",
+        "group": "Power Platform",
+        "skill": "HR program booking system development",
+        "strength": "Strong",
+        "usageContext": "built",
+        "evidenceSummary": "Built Mentor Booking System with Power Apps, MS Forms, and SharePoint List, allowing mentees to select mentors, choose session times, submit sign-up details, view booked sessions immediately, and avoid overbooking through full-capacity hiding logic.",
+        "cvWording": "Build self-service HR booking workflows with mentor/session selection, SharePoint-backed records, availability controls, and maintainability documentation.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-mentor-booking-system",
+        "sourceIds": [
+          "source-20260614-operations-api-supplement",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-powerplatform-governance-doc",
+        "group": "Governance",
+        "skill": "Power Platform governance documentation",
+        "strength": "Moderate",
+        "usageContext": "built",
+        "evidenceSummary": "Created Power Automate and Power Apps business scenario evaluation documentation and established guidance around SharePoint site environments, Connection References, ownership transfer, premium connectors, and license needs.",
+        "cvWording": "Document Power Platform governance practices covering environment ownership, connection references, licensing, and production transferability.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-power-platform-enablement",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-azuread-secret-env-maintenance",
+        "group": "Governance",
+        "skill": "Azure AD secret and environment variable maintenance",
+        "strength": "Moderate",
+        "usageContext": "maintained",
+        "evidenceSummary": "Documented and maintained operational path for Azure AD client secret renewal, Power Automate Environment Variable updates, and mandatory solution publishing for changes to take effect.",
+        "cvWording": "Maintain production automation credentials and environment variables with documented renewal and publish procedures.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-power-automate-operations-takeover",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-dpia-role-audit-access",
+        "group": "Governance",
+        "skill": "Role-based compliance workflow controls",
+        "strength": "Strong",
+        "usageContext": "governed",
+        "evidenceSummary": "Implemented reviewer-only action buttons, submitter risk-light visibility restrictions, editable reviewer fields, comments, attachments, access management, and field-change logging for the DPIA workflow.",
+        "cvWording": "Design role-based visibility, reviewer controls, access permissions, and audit logs for sensitive compliance workflows.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-legal-dpia-app",
+        "sourceIds": [
+          "source-20260614-ai-governance"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-m365-license-conversion-ops",
+        "group": "Governance",
+        "skill": "AI license trial conversion operations",
+        "strength": "Strong",
+        "usageContext": "owned",
+        "evidenceSummary": "Led M365 Copilot Trial GO Plus Program operations for 1,000 trial licenses, including activation tracking, low-usage follow-up, conversion reminders, and tracking 357 full-license conversions.",
+        "cvWording": "Coordinate enterprise AI license trials and conversion tracking using adoption data and stakeholder follow-up.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-m365-copilot",
+        "sourceIds": [
+          "source-20260614-ai-governance",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-m365-copilot-adoption-dashboard",
+        "group": "BI & Analytics",
+        "skill": "M365 Copilot adoption dashboard development",
+        "strength": "Strong",
+        "usageContext": "built",
+        "evidenceSummary": "Built the company's first systematic M365 Copilot adoption dashboard in Power BI, integrating CopilotAuditLog, CopilotExportUsers, DL lists, SharePoint, M365 Admin export, and related usage data to track 24 Copilot applications with daily 8 AM refresh.",
+        "cvWording": "Build Power BI adoption dashboards for enterprise AI tools using audit logs, license data, user lists, and usage exports.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-m365-copilot",
+        "sourceIds": [
+          "source-20260614-ai-governance",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-ai-project-registry-platform",
+        "group": "Governance",
+        "skill": "AI project governance registry development",
+        "strength": "Strong",
+        "usageContext": "built",
+        "evidenceSummary": "Built a company-wide IS AI project registration Power App for six regions and supported consolidation of 70+ AI projects into a visible governance inventory.",
+        "cvWording": "Build cross-region AI governance registries that centralize project metadata, ownership, status, and risk review inputs.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-ai-project-registration",
+        "sourceIds": [
+          "source-20260614-ai-governance",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-workday-hcm-ba",
+        "group": "Domain",
+        "skill": "Workday HCM business analysis",
+        "strength": "Strong",
+        "usageContext": "owned",
+        "evidenceSummary": "Served as IS BA for Workday HCM implementation across Taiwan and Philippines operations, translating HR requirements into configurations, data specifications, reporting needs, and ongoing operations routines.",
+        "cvWording": "Translate HR operations requirements into Workday configuration, data migration, reporting, and operating specifications.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-workday-hcm",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      }
+    ],
+    "selectedDomainKnowledge": [
+      {
+        "id": "domain-production-hr-automation-ops",
+        "domain": "Business Process Automation",
+        "businessProcess": "Production HR automation takeover covering AI Screening, certificate-of-employment PDF generation, Japan data synchronization, Taiwan attendance import, monitoring, troubleshooting, credential renewal, and ownership-transfer follow-up.",
+        "stakeholders": [
+          "Alex Wu",
+          "Global IS HR",
+          "Alvin",
+          "Japan HR or JP SharePoint stakeholders",
+          "AI Screening users",
+          "COE request users",
+          "Power BI workspace owners"
+        ],
+        "systemsOrData": [
+          "AI Screening using 7 Workday RaaS CSV files",
+          "Workday writeback",
+          "AMEA COE PDF flow",
+          "US COE PDF flow",
+          "Seller API",
+          "Connect One",
+          "Azure Blob Storage",
+          "Jenkins outputs",
+          "JP SharePoint",
+          "Synapse",
+          "Dataverse",
+          "BPM and Leave System data through Jenkins",
+          "Power BI Taiwan attendance report"
+        ],
+        "riskOrCompliance": "US Workday App client secret expires every 90 days; AI Screening and US COE require solution publish after Environment Variable updates; production flows belong to service account while personal account has co-owner permission only; Taiwan attendance report cannot refresh online and requires manual server-side execution; Power BI workspace ownership transfer was pending.",
+        "metricsOrKpis": [
+          "TOI completed on 2026-06-18",
+          "US Workday App client secret expires every 90 days",
+          "TW door access import runs every Monday at 14:00",
+          "JP CSOP comparison runs every two weeks on Thursday",
+          "JP D365 comparison runs monthly on the 10th",
+          "JP Employee List runs daily",
+          "JP Delete removes files older than 30 days"
+        ],
+        "proof": "Took over Alex Wu's Power Automate flows and related systems after TOI completion, documenting monitoring, troubleshooting, and credential-renewal responsibilities.",
+        "cvWording": "Took over and maintained production HR automation flows spanning scheduled syncs, document generation, attendance imports, credential renewal, and troubleshooting.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-power-automate-operations-takeover",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "domain-power-platform-enablement",
+        "domain": "Business Process Automation",
+        "businessProcess": "Low-code business-use-case evaluation, internal API engagement documentation, communication-center field requirements, job requisition freeze-rule configuration, first-line troubleshooting, and Power Platform operating governance.",
+        "stakeholders": [
+          "Business stakeholders",
+          "IS engineers",
+          "Microsoft Support",
+          "HR Power Platform users",
+          "Project teams using chatbot knowledge base Sync",
+          "TB Review Form users",
+          "NTR Reminder users",
+          "Zero Base Alert users"
+        ],
+        "systemsOrData": [
+          "Connect One API Platform",
+          "Power Automate flows",
+          "Power Apps",
+          "SharePoint site environments",
+          "Connection References",
+          "HR Power Platform licenses"
+        ],
+        "riskOrCompliance": "Flows and apps should be created in clear SharePoint site environments rather than personal accounts; important flows should use Connection Reference for ownership transfer; HTTP premium connectors required license assessment; license needs required personnel-change tracking.",
+        "metricsOrKpis": [
+          "Connect One API Platform documentation authored in 2021",
+          "Zero Base freeze period configured for 2023-02-22 to 2023-03-10"
+        ],
+        "proof": "Authored Power Automate and Power Apps business scenario evaluation documentation, defined Connect One Provider/Consumer roles, and supported production-like low-code practices across environment ownership, connection references, licensing, and UAT.",
+        "cvWording": "Enabled low-code automation adoption by documenting business-use-case evaluation, API engagement models, and governance controls.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-power-platform-enablement",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "domain-dpia-privacy-ai-governance",
+        "domain": "Governance",
+        "businessProcess": "DPIA and AI Impact Assessment workflow automation for privacy/legal review, questionnaire intake, reviewer routing, risk classification, approval notifications, comments, attachments, logging, and access management.",
+        "stakeholders": [
+          "Legal team",
+          "Privacy team",
+          "IS project teams as submitters",
+          "IS Admin reviewers",
+          "Internal DPIA Assessment Team account",
+          "DPIA wiki owners or content sources"
+        ],
+        "systemsOrData": [
+          "Power App form UI",
+          "SharePoint List data storage",
+          "Power Automate approval notifications",
+          "AI Impact Assessment questionnaire",
+          "Reviewer page",
+          "Reviewer Comment field",
+          "Upload attachments",
+          "Risk Type field",
+          "Risk Level field",
+          "TrendIQ",
+          "DPIA wiki",
+          "Staging environment",
+          "Production deployment path"
+        ],
+        "riskOrCompliance": "GDPR-aligned PLVRS requirements, PII and AI dual compliance judgment, High/Medium/Low risk classification, Low-risk auto-approval, High/Medium full assessment, submitter risk-light hiding, reviewer-only action controls, reviewer access issues, and answer-source correctness in TrendIQ.",
+        "metricsOrKpis": [
+          "Three questionnaire layers: General, DPIA, AI",
+          "High risk threshold >=14 points",
+          "12 UI requirements confirmed Feb 11, 2026",
+          "14 reviewers granted staging access on Mar 4",
+          "TrendIQ source tracking Feb 26 to Mar 30"
+        ],
+        "proof": "Partnered with Legal and Privacy teams to replace fragmented Excel-based DPIA work with Power Apps, SharePoint List storage, Power Automate notifications, risk scoring, reviewer workflow, and role-based controls.",
+        "cvWording": "Translated privacy and AI governance review requirements into an automated DPIA workflow with risk scoring, reviewer routing, access controls, and auditability.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-legal-dpia-app",
+        "sourceIds": [
+          "source-20260614-ai-governance",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "domain-tw-recruiting-dispatch",
+        "domain": "HR Operations",
+        "businessProcess": "Taiwan recruiting candidate dispatch automation using Workday candidate and job requisition data, SharePoint-backed matching records, scheduled synchronization, and recruiter-to-hiring-manager matching workflow.",
+        "stakeholders": [
+          "TW Recruiting Team",
+          "Recruiters",
+          "IS engineers",
+          "Workday Admin",
+          "Hiring Managers"
+        ],
+        "systemsOrData": [
+          "Workday candidate data",
+          "Workday job requisition data",
+          "Workday RaaS reports",
+          "SharePoint lists",
+          "Power App dispatch UI",
+          "Power BI POC"
+        ],
+        "riskOrCompliance": "RaaS report permissions and data scope required Workday Admin support; flow failures required daily run-history checks for API timeout and abnormal data formats; backend data-structure changes required IS engineer coordination.",
+        "metricsOrKpis": [
+          "9 Power Automate flows",
+          "Flows scheduled daily at 6:00 and 18:00",
+          "Fixed Candidate_Skills truncation over 255 characters",
+          "Fixed Positions foreach limit over 5000 items",
+          "Fixed Worker Role Assignments non-stop loop issue",
+          "Fixed Current Worker records without Position ID issue"
+        ],
+        "proof": "Built recruiting dispatch automation that synchronized Workday candidate and job requisition data to SharePoint and enabled recruiters to match candidates with hiring managers through a Power App.",
+        "cvWording": "Automated recruiting dispatch workflows by connecting Workday recruiting data with SharePoint-backed matching and recruiter action processes.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-tw-cv-auto-match",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "domain-m365-copilot-adoption",
+        "domain": "BI Adoption",
+        "businessProcess": "Enterprise M365 Copilot adoption monitoring across trial rollout, license conversion, app usage, department and regional adoption gaps, training, and productivity KPI tracking.",
+        "stakeholders": [
+          "IS managers and leaders",
+          "Company-wide employees",
+          "Regional key contacts in EU, NA, JP, and AMEA",
+          "Microsoft",
+          "Systex",
+          "Finance",
+          "Department and regional managers"
+        ],
+        "systemsOrData": [
+          "Power BI dashboard",
+          "CopilotAuditLog",
+          "CopilotExportUsers",
+          "M365 Audit Log",
+          "M365 Admin export",
+          "SharePoint folder",
+          "Distribution lists for trial and full Copilot users",
+          "Usage Rate Dashboard",
+          "IS department active-rate KPI view"
+        ],
+        "riskOrCompliance": "License waste or shortage risk was managed through usage visibility; refresh failures required source-connection troubleshooting; inactive or low-usage groups required adoption intervention; procurement required IS request and Finance review.",
+        "metricsOrKpis": [
+          "4 data sources integrated",
+          "24 Copilot applications tracked",
+          "Daily auto-refresh at 8 AM",
+          "2025 IS department target of 80% active usage",
+          "1,000 trial licenses deployed",
+          "357 users converted to full production licenses",
+          "4 Copilot training sessions delivered"
+        ],
+        "proof": "Built the company's first systematic M365 Copilot adoption dashboard and supported trial-license conversion governance using usage, license, and distribution-list data.",
+        "cvWording": "Built enterprise AI adoption reporting that connected M365 Copilot usage, licensing, regional gaps, training impact, and productivity KPIs for rollout and license decisions.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-m365-copilot",
+        "sourceIds": [
+          "source-20260614-ai-governance",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "domain-workday-hcm-implementation",
+        "domain": "HR Operations",
+        "businessProcess": "Workday HCM implementation and HRIS business analysis across Taiwan and Philippines, including HR requirement translation, configuration/data specifications, migration, calculated fields, reporting-platform selection, knowledge transfer, and ongoing BA operations.",
+        "stakeholders": [
+          "Corp HR Taiwan",
+          "Corp HR Philippines",
+          "Workday system administrators",
+          "Ramco engineers",
+          "PECI engineers",
+          "Philippines BA Team",
+          "IS BA internal team",
+          "Corp project status stakeholders"
+        ],
+        "systemsOrData": [
+          "HERO legacy HR data",
+          "Workday HCM",
+          "EIB templates",
+          "WQL reports",
+          "Workday API to SharePoint to Power BI pipeline",
+          "Ramco payroll integration",
+          "PECI payroll integration",
+          "SharePoint payroll files",
+          "TrendIQ test input and output files"
+        ],
+        "riskOrCompliance": "Large-scale migration required sandbox validation and load result reporting; Live Parallel Run compared old and new outputs before cutover; field-level permissions and RBAC required Workday Admin handling; payroll files needed Ramco-readable structure.",
+        "metricsOrKpis": [
+          "HERO-to-Workday migration sprint 2023-11-13 to 2023-11-17",
+          "EIB HERO to TM3 result report completed 2024-01-05",
+          "Philippines on-site KT Workshop 2025-07-15 to 2025-07-17",
+          "Talent Acquisition source effectiveness references 51,865 applications",
+          "Weekly Workday dashboard enhancement cadence"
+        ],
+        "proof": "Served as IS BA for Workday HCM implementation, led migration activities using EIB and WQL, designed calculated fields, supported reporting decisions, and facilitated Philippines HR BA knowledge transfer.",
+        "cvWording": "Supported Workday HCM implementation by translating HR requirements into configuration, data, migration, reporting, and knowledge-transfer deliverables.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-workday-hcm",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      }
+    ],
+    "selectedEvidence": [
+      {
+        "id": "evi-pa-ops-takeover",
+        "title": "Took over production HR automation flows after TOI",
+        "category": "Production operations",
+        "sectionTitle": "Power Automate Operations Handover",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-power-automate-operations-takeover",
+        "tools": [
+          "Power Automate",
+          "Azure Blob Storage",
+          "Azure AD App Registration",
+          "Dataverse",
+          "Workday RaaS API",
+          "Jenkins",
+          "Synapse SQL",
+          "SharePoint",
+          "Power BI"
+        ],
+        "proof": "Source states Christine took over Alex Wu's Power Automate flows and related systems after TOI, covering AI Screening, COE PDFs, Japan synchronization, Taiwan attendance import, leave/travel/LOA flows, monitoring, troubleshooting, and credential renewal.",
+        "cvBullet": "Assumed operational ownership of production HR automation flows spanning Workday, Azure Blob, Dataverse, Jenkins, Synapse, SharePoint, and Power BI after TOI completion.",
+        "metrics": "TOI completed 2026-06-18; source lists daily, biweekly, monthly, and Monday scheduled jobs; US Workday App client secret expires every 90 days.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Power Automate Operations Handover / Alex TOI",
+        "datePeriod": "2026 Jun -",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Assumed operational ownership of production HR automation flows spanning Workday, Azure Blob, Dataverse, Jenkins, Synapse, SharePoint, and Power BI after TOI completion.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "Production HR automation takeover covering AI Screening, certificate-of-employment PDF generation, Japan data synchronization, Taiwan attendance import, monitoring, troubleshooting, credential renewal, and ownership-transfer follow-up.",
+        "problemContext": "Production HR automation takeover covering AI Screening, certificate-of-employment PDF generation, Japan data synchronization, Taiwan attendance import, monitoring, troubleshooting, credential renewal, and ownership-transfer...",
+        "actionTaken": "Assumed operational ownership of production HR automation flows spanning Workday, Azure Blob, Dataverse, Jenkins, Synapse, SharePoint, and Power BI after TOI completion.",
+        "stakeholders": [
+          "Alex Wu",
+          "Global IS HR",
+          "Alvin",
+          "Japan HR or JP SharePoint stakeholders",
+          "AI Screening users",
+          "COE request users",
+          "Power BI workspace owners"
+        ],
+        "quantifiedEvidence": "TOI completed 2026-06-18; source lists daily, biweekly, monthly, and Monday scheduled jobs; US Workday App client secret expires every 90 days.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Power Automate",
+          "Azure Blob Storage",
+          "Azure AD App Registration",
+          "Dataverse",
+          "Workday RaaS API",
+          "Power BI",
+          "SharePoint",
+          "Workday",
+          "API integration",
+          "SQL / data validation",
+          "Dashboard reporting",
+          "Workflow automation"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Low: safe for external CV use when written with the existing evidence scope.",
+        "cvAngle": "Power Automate Operations Handover",
+        "cvSafeBullet": "Assumed operational ownership of production HR automation flows spanning Workday, Azure Blob, Dataverse, Jenkins, Synapse, SharePoint, and Power BI after TOI completion.",
+        "interviewTalkingPoint": "Source states Christine took over Alex Wu's Power Automate flows and related systems after TOI, covering AI Screening, COE PDFs, Japan synchronization, Taiwan attendance import, leave/travel/LOA flows, monitoring, troubleshooting, and credential renewal.",
+        "riskIfUsedWrongly": "Do not expand this beyond the documented action, tools, stakeholders, and outcome.",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Assumed operational ownership of production HR automation flows spanning Workday, Azure Blob, Dataverse, Jenkins, Synapse, SharePoint, and Power BI after TOI completion."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned model training or formal machine-learning research",
+          "Built production backend systems from scratch"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-legal-dpia-app-build",
+        "title": "Digitized DPIA and AI Impact Assessment workflow with Power Platform",
+        "category": "Compliance automation",
+        "sectionTitle": "Legal DPIA App / AI Impact Assessment",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-legal-dpia-app",
+        "tools": [
+          "Power Apps",
+          "SharePoint List",
+          "Power Automate",
+          "GDPR",
+          "PLVRS Compliance",
+          "AI Governance"
+        ],
+        "proof": "Source states Christine partnered with Legal and Privacy teams to replace fragmented Excel-based DPIA with Power App, SharePoint List storage, Power Automate approval notifications, reviewer workflow, comments, attachments, logging, and access management.",
+        "cvBullet": "Digitized a Legal DPIA and AI Impact Assessment process with Power Apps, SharePoint storage, approval notifications, reviewer workflow, role controls, comments, attachments, and audit logging.",
+        "metrics": "12 UI requirements confirmed Feb 11, 2026; 14 reviewers granted staging access on Mar 4.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-ai-governance",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Legal DPIA App / AI Impact Assessment",
+        "datePeriod": "2025 - 2026; detailed source references Feb 2026 - Mar 2026 activities",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Digitized a Legal DPIA and AI Impact Assessment process with Power Apps, SharePoint storage, approval notifications, reviewer workflow, role controls, comments, attachments, and audit logging.",
+        "audience": "Legal, privacy, governance, and internal project teams",
+        "businessFunction": "DPIA and AI Impact Assessment workflow automation for privacy/legal review, questionnaire intake, reviewer routing, risk classification, approval notifications, comments, attachments, logging, and access management.",
+        "problemContext": "DPIA and AI Impact Assessment workflow automation for privacy/legal review, questionnaire intake, reviewer routing, risk classification, approval notifications, comments, attachments, logging, and access management.",
+        "actionTaken": "Digitized a Legal DPIA and AI Impact Assessment process with Power Apps, SharePoint storage, approval notifications, reviewer workflow, role controls, comments, attachments, and audit logging.",
+        "stakeholders": [
+          "Legal team",
+          "Privacy team",
+          "IS project teams as submitters",
+          "IS Admin reviewers",
+          "Internal DPIA Assessment Team account",
+          "DPIA wiki owners or content sources",
+          "TrendIQ users",
+          "DPIA wiki content owners",
+          "IS project teams"
+        ],
+        "quantifiedEvidence": "12 UI requirements confirmed Feb 11, 2026; 14 reviewers granted staging access on Mar 4.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Power Apps",
+          "SharePoint List",
+          "Power Automate",
+          "GDPR",
+          "PLVRS Compliance",
+          "SharePoint",
+          "Workflow automation",
+          "Production support",
+          "UAT / testing",
+          "AI chatbot operations",
+          "AI governance"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Medium: verify whether diagnostic numbers show business impact before using them as resume metrics.",
+        "cvAngle": "Legal DPIA App / AI Impact Assessment",
+        "cvSafeBullet": "Digitized a Legal DPIA and AI Impact Assessment process with Power Apps, SharePoint storage, approval notifications, reviewer workflow, role controls, comments, attachments, and audit logging.",
+        "interviewTalkingPoint": "Source states Christine partnered with Legal and Privacy teams to replace fragmented Excel-based DPIA with Power App, SharePoint List storage, Power Automate approval notifications, reviewer workflow, comments, attachments, logging, and access management.",
+        "riskIfUsedWrongly": "Do not expand this beyond the documented action, tools, stakeholders, and outcome.",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Digitized a Legal DPIA and AI Impact Assessment process with Power Apps, SharePoint storage, approval notifications, reviewer workflow, role controls, comments, attachments, and audit logging."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned model training or formal machine-learning research"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-tw-cv-auto-match-flow-fixes",
+        "title": "Stabilized recruiting sync flows by resolving data and flow defects",
+        "category": "Production troubleshooting",
+        "sectionTitle": "TW CV Auto-Match Recruiting Dispatch System",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-tw-cv-auto-match",
+        "tools": [
+          "Power Automate",
+          "Workday RaaS API",
+          "SharePoint"
+        ],
+        "proof": "Source lists fixes for Candidate_Skills string greater than 255 truncation, Extract_Positions foreach limit greater than 5000, non-stop loop issue in worker role assignments, missing Position ID issue, and additional candidate sync fields.",
+        "cvBullet": "Improved recruiting automation reliability by resolving truncation, pagination, loop, missing ID, and field synchronization defects in scheduled Workday-to-SharePoint flows.",
+        "metrics": "Fixed Candidate_Skills >255 truncation; foreach limit >5000; non-stop loop issue; missing Position ID issue.",
+        "evidenceTier": "Supporting",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "TW CV Auto-Match Recruiting Dispatch System",
+        "datePeriod": "2023",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Improved recruiting automation reliability by resolving truncation, pagination, loop, missing ID, and field synchronization defects in scheduled Workday-to-SharePoint flows.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "Taiwan recruiting candidate dispatch automation using Workday candidate and job requisition data, SharePoint-backed matching records, scheduled synchronization, and recruiter-to-hiring-manager matching workflow.",
+        "problemContext": "Taiwan recruiting candidate dispatch automation using Workday candidate and job requisition data, SharePoint-backed matching records, scheduled synchronization, and recruiter-to-hiring-manager matching workflow.",
+        "actionTaken": "Improved recruiting automation reliability by resolving truncation, pagination, loop, missing ID, and field synchronization defects in scheduled Workday-to-SharePoint flows.",
+        "stakeholders": [
+          "TW Recruiting Team",
+          "Recruiters",
+          "IS engineers",
+          "Workday Admin",
+          "Hiring Managers"
+        ],
+        "quantifiedEvidence": "Fixed Candidate_Skills >255 truncation; foreach limit >5000; non-stop loop issue; missing Position ID issue.",
+        "evidenceStrength": "Medium",
+        "relatedJdKeywords": [
+          "Power Automate",
+          "Workday RaaS API",
+          "SharePoint",
+          "Power Apps",
+          "Power BI",
+          "Workday",
+          "API integration",
+          "Dashboard reporting",
+          "Workflow automation",
+          "Production support",
+          "AI chatbot operations",
+          "HR operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Low: safe for external CV use when written with the existing evidence scope.",
+        "cvAngle": "TW CV Auto-Match Recruiting Dispatch System",
+        "cvSafeBullet": "Improved recruiting automation reliability by resolving truncation, pagination, loop, missing ID, and field synchronization defects in scheduled Workday-to-SharePoint flows.",
+        "interviewTalkingPoint": "Source lists fixes for Candidate_Skills string greater than 255 truncation, Extract_Positions foreach limit greater than 5000, non-stop loop issue in worker role assignments, missing Position ID issue, and additional candidate sync fields.",
+        "riskIfUsedWrongly": "Do not expand this beyond the documented action, tools, stakeholders, and outcome.",
+        "claimLevel": "Conservative Claim",
+        "allowedVisibleClaims": [
+          "Improved recruiting automation reliability by resolving truncation, pagination, loop, missing ID, and field synchronization defects in scheduled Workday-to-SharePoint flows."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned the entire function end to end",
+          "Built production backend systems from scratch"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-se-onboarding-email-automation",
+        "title": "Automated SE onboarding reminder lifecycle with Power Automate and Graph API",
+        "category": "Learning automation",
+        "sectionTitle": "SE Onboarding Email Automations",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-se-onboarding-email-automations",
+        "tools": [
+          "Power Automate",
+          "Microsoft Graph API",
+          "Workday RaaS API",
+          "TrendAI University (Docebo)",
+          "Azure Blob Storage",
+          "Jenkins"
+        ],
+        "proof": "Source states Christine designed and implemented automated reminder emails for TrendAI SE Onboarding based on Docebo learning progress, Workday employee data, mentor fallback, manager fallback, completion, and terminated employee handling.",
+        "cvBullet": "Designed and implemented lifecycle email automation for SE onboarding using Docebo learning progress, Workday data, Microsoft Graph email delivery, fallback logic, and monitoring routines.",
+        "metrics": "6-trigger email automation system; official rollout Apr 23, 2026; Email H checks every 30 minutes; approximately 70 SE records referenced in related source.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-2026-new-projects",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "SE Onboarding Email Automations",
+        "datePeriod": "2026 Apr -",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Designed and implemented lifecycle email automation for sales engineering onboarding using Docebo learning progress, Workday data, Microsoft Graph email delivery, fallback logic, and monitoring routines.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "Global SE onboarding email automation connecting Docebo learning progress, Workday worker/manager data, mentor observation, manager fallback, terminated employee handling, and Microsoft Graph email delivery.",
+        "problemContext": "Global sales engineering onboarding email automation connecting Docebo learning progress, Workday worker/manager data, mentor observation, manager fallback, terminated employee handling, and Microsoft Graph email delivery.",
+        "actionTaken": "Designed and implemented lifecycle email automation for sales engineering onboarding using Docebo learning progress, Workday data, Microsoft Graph email delivery, fallback logic, and monitoring routines.",
+        "stakeholders": [
+          "CHRO",
+          "Business HR",
+          "Docebo Admin Ivy",
+          "IS engineer Alex",
+          "Mentors",
+          "Managers",
+          "Global SE",
+          "IQ-AS",
+          "TrendAI SE Onboarding Program stakeholders"
+        ],
+        "quantifiedEvidence": "6-trigger email automation system; official rollout Apr 23, 2026; Email H checks every 30 minutes; approximately 70 SE records referenced in related source.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Power Automate",
+          "Microsoft Graph API",
+          "Workday RaaS API",
+          "TrendAI University (Docebo)",
+          "Azure Blob Storage",
+          "Workday",
+          "API integration",
+          "Dashboard reporting",
+          "Workflow automation",
+          "Stakeholder coordination",
+          "AI chatbot operations",
+          "HR operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Low: safe for external CV use when written with the existing evidence scope.",
+        "cvAngle": "SE Onboarding Email Automations",
+        "cvSafeBullet": "Designed and implemented lifecycle email automation for sales engineering onboarding using Docebo learning progress, Workday data, Microsoft Graph email delivery, fallback logic, and monitoring routines.",
+        "interviewTalkingPoint": "Source states Christine designed and implemented automated reminder emails for TrendAI sales engineering onboarding based on Docebo learning progress, Workday employee data, mentor fallback, manager fallback, completion, and terminated employee handling.",
+        "riskIfUsedWrongly": "Do not copy internal product, workflow, or system names into the CV; use the external-friendly description instead.",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Designed and implemented lifecycle email automation for sales engineering onboarding using Docebo learning progress, Workday data, Microsoft Graph email delivery, fallback logic, and monitoring routines."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned model training or formal machine-learning research",
+          "Built production backend systems from scratch"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-mentor-booking-system",
+        "title": "Built self-service Mentor Program booking workflow",
+        "category": "HR program automation",
+        "sectionTitle": "Mentor Booking System",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-mentor-booking-system",
+        "tools": [
+          "Power Apps",
+          "MS Forms",
+          "SharePoint List"
+        ],
+        "proof": "Source states Christine built a Mentor Program online booking system for TW HR with mentor selection, session selection, sign-up submission, immediate booking display, full-capacity hiding logic, and TOI documentation.",
+        "cvBullet": "Built a self-service Mentor Program booking system with mentor/session selection, SharePoint-backed booking records, full-capacity hiding, immediate confirmation display, and TOI documentation.",
+        "metrics": "Future 2 months of sessions used in full-capacity hiding logic.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-operations-api-supplement",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Mentor Booking System",
+        "datePeriod": "2024 - 2025",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Built a self-service Mentor Program booking system with mentor/session selection, SharePoint-backed booking records, full-capacity hiding, immediate confirmation display, and TOI documentation.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "HR mentor-program booking workflow with mentor selection, session selection, booking submission, immediate reservation visibility, full-booking hiding, seasonal cleanup, and maintainability documentation.",
+        "problemContext": "HR mentor-program booking workflow with mentor selection, session selection, booking submission, immediate reservation visibility, full-booking hiding, seasonal cleanup, and maintainability documentation.",
+        "actionTaken": "Built a self-service Mentor Program booking system with mentor/session selection, SharePoint-backed booking records, full-capacity hiding, immediate confirmation display, and TOI documentation.",
+        "stakeholders": [
+          "TW HR Mentor Program Coordinator",
+          "Mentors",
+          "Mentees"
+        ],
+        "quantifiedEvidence": "Future 2 months of sessions used in full-capacity hiding logic.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Power Apps",
+          "MS Forms",
+          "SharePoint List",
+          "SharePoint",
+          "Workflow automation",
+          "AI chatbot operations",
+          "HR operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Low: safe for external CV use when written with the existing evidence scope.",
+        "cvAngle": "Mentor Booking System",
+        "cvSafeBullet": "Built a self-service Mentor Program booking system with mentor/session selection, SharePoint-backed booking records, full-capacity hiding, immediate confirmation display, and TOI documentation.",
+        "interviewTalkingPoint": "Source states Christine built a Mentor Program online booking system for TW HR with mentor selection, session selection, sign-up submission, immediate booking display, full-capacity hiding logic, and TOI documentation.",
+        "riskIfUsedWrongly": "Do not expand this beyond the documented action, tools, stakeholders, and outcome.",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Built a self-service Mentor Program booking system with mentor/session selection, SharePoint-backed booking records, full-capacity hiding, immediate confirmation display, and TOI documentation."
+        ],
+        "forbiddenVisibleClaims": [],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-power-platform-governance-docs",
+        "title": "Authored low-code automation and API engagement documentation",
+        "category": "Governance documentation",
+        "sectionTitle": "Power Platform Low-code Automation & API Documentation",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-power-platform-enablement",
+        "tools": [
+          "Power Automate",
+          "Power Apps",
+          "Connect One API Platform",
+          "SharePoint"
+        ],
+        "proof": "Source states Christine authored How to Engage with Connect One defining Provider and Consumer roles, created Power Automate business application scenario evaluation report, and documented low-code development process and governance considerations.",
+        "cvBullet": "Authored low-code automation and API engagement documentation covering Power Platform use-case evaluation, API provider/consumer roles, ownership transfer, connection references, and licensing considerations.",
+        "metrics": "Connect One documentation authored in 2021; Zero Base JR freeze period configured for 2023-02-22 to 2023-03-10.",
+        "evidenceTier": "Supporting",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Power Platform Low-code Automation & API Documentation",
+        "datePeriod": "2021 - 2026",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Authored low-code automation and API engagement documentation covering Power Platform use-case evaluation, API provider/consumer roles, ownership transfer, connection references, and licensing considerations.",
+        "audience": "External customers / consumer support operations",
+        "businessFunction": "Low-code business-use-case evaluation, internal API engagement documentation, communication-center field requirements, job requisition freeze-rule configuration, first-line troubleshooting, and Power Platform operating governance.",
+        "problemContext": "Low-code business-use-case evaluation, internal API engagement documentation, communication-center field requirements, job requisition freeze-rule configuration, first-line troubleshooting, and Power Platform operating governance.",
+        "actionTaken": "Authored low-code automation and API engagement documentation covering Power Platform use-case evaluation, API provider/consumer roles, ownership transfer, connection references, and licensing considerations.",
+        "stakeholders": [
+          "Business stakeholders",
+          "IS engineers",
+          "Microsoft Support",
+          "HR Power Platform users",
+          "Project teams using chatbot knowledge base Sync",
+          "TB Review Form users",
+          "NTR Reminder users",
+          "Zero Base Alert users"
+        ],
+        "quantifiedEvidence": "Connect One documentation authored in 2021; Zero Base JR freeze period configured for 2023-02-22 to 2023-03-10.",
+        "evidenceStrength": "Medium",
+        "relatedJdKeywords": [
+          "Power Automate",
+          "Power Apps",
+          "Connect One API Platform",
+          "SharePoint",
+          "API integration",
+          "Workflow automation",
+          "Production support",
+          "UAT / testing",
+          "AI governance"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Low: safe for external CV use when written with the existing evidence scope.",
+        "cvAngle": "Power Platform Low-code Automation & API Documentation",
+        "cvSafeBullet": "Authored low-code automation and API engagement documentation covering Power Platform use-case evaluation, API provider/consumer roles, ownership transfer, connection references, and licensing considerations.",
+        "interviewTalkingPoint": "Source states Christine authored How to Engage with Connect One defining Provider and Consumer roles, created Power Automate business application scenario evaluation report, and documented low-code development process and governance considerations.",
+        "riskIfUsedWrongly": "Do not expand this beyond the documented action, tools, stakeholders, and outcome.",
+        "claimLevel": "Conservative Claim",
+        "allowedVisibleClaims": [
+          "Authored low-code automation and API engagement documentation covering Power Platform use-case evaluation, API provider/consumer roles, ownership transfer, connection references, and licensing considerations."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned the entire function end to end",
+          "Built production backend systems from scratch"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-m365-copilot-dashboard",
+        "title": "Built enterprise M365 Copilot usage and adoption dashboard",
+        "category": "AI adoption analytics",
+        "sectionTitle": "M365 Copilot Trial Program & Usage Analytics",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-m365-copilot",
+        "tools": [
+          "Microsoft 365 Copilot",
+          "Power BI",
+          "M365 Audit Log",
+          "CopilotAuditLog",
+          "SharePoint",
+          "M365 Admin",
+          "DL lists"
+        ],
+        "proof": "Source states Christine built the company's first systematic M365 Copilot adoption dashboard integrating CopilotAuditLog, CopilotExportUsers, DL lists, and usage data to track usage across 24 Copilot applications with daily refresh.",
+        "cvBullet": "Built an enterprise M365 Copilot adoption dashboard integrating audit logs, user exports, distribution lists, and license data to make AI usage and license value visible.",
+        "metrics": "4 data sources integrated; 24 Copilot applications tracked; daily auto-refresh at 8 AM; 2025 IS department target of 80% active usage.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-ai-governance",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "M365 Copilot",
+        "datePeriod": "2025 - 2026",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Built an enterprise M365 Copilot adoption dashboard integrating audit logs, user exports, distribution lists, and license data to make AI usage and license value visible.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "Enterprise M365 Copilot adoption monitoring across trial rollout, license conversion, app usage, department and regional adoption gaps, training, and productivity KPI tracking.",
+        "problemContext": "Enterprise M365 Copilot adoption monitoring across trial rollout, license conversion, app usage, department and regional adoption gaps, training, and productivity KPI tracking.",
+        "actionTaken": "Built an enterprise M365 Copilot adoption dashboard integrating audit logs, user exports, distribution lists, and license data to make AI usage and license value visible.",
+        "stakeholders": [
+          "IS managers and leaders",
+          "Company-wide employees",
+          "Regional key contacts in EU, NA, JP, and AMEA",
+          "Microsoft",
+          "Systex",
+          "Finance",
+          "Department and regional managers",
+          "Trial users",
+          "IS leaders",
+          "Regional managers"
+        ],
+        "quantifiedEvidence": "4 data sources integrated; 24 Copilot applications tracked; daily auto-refresh at 8 AM; 2025 IS department target of 80% active usage.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Microsoft 365 Copilot",
+          "Power BI",
+          "M365 Audit Log",
+          "CopilotAuditLog",
+          "SharePoint",
+          "Microsoft 365",
+          "Dashboard reporting",
+          "Production support",
+          "Stakeholder coordination",
+          "AI chatbot operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Medium: verify whether diagnostic numbers show business impact before using them as resume metrics.",
+        "cvAngle": "M365 Copilot Trial Program & Usage Analytics",
+        "cvSafeBullet": "Built an enterprise M365 Copilot adoption dashboard integrating audit logs, user exports, distribution lists, and license data to make AI usage and license value visible.",
+        "interviewTalkingPoint": "Source states Christine built the company's first systematic M365 Copilot adoption dashboard integrating CopilotAuditLog, CopilotExportUsers, DL lists, and usage data to track usage across 24 Copilot applications with daily refresh.",
+        "riskIfUsedWrongly": "Do not expand this beyond the documented action, tools, stakeholders, and outcome.",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Built an enterprise M365 Copilot adoption dashboard integrating audit logs, user exports, distribution lists, and license data to make AI usage and license value visible."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned model training or formal machine-learning research"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-m365-trial-license-conversion",
+        "title": "Managed M365 Copilot trial license conversion program",
+        "category": "License and adoption operations",
+        "sectionTitle": "M365 Copilot Trial Program & Usage Analytics",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-m365-copilot",
+        "tools": [
+          "Microsoft 365 Copilot",
+          "License Management",
+          "Vendor Management",
+          "Usage Reporting"
+        ],
+        "proof": "Source states Christine managed trial license allocation, activation tracking, conversion reminders, low-usage follow-up, vendor escalation, and training coordination for the Trial GO Plus Program.",
+        "cvBullet": "Managed an enterprise Copilot trial program by tracking activation, adoption, low-usage users, conversion reminders, vendor escalation, and full-license conversion decisions.",
+        "metrics": "1,000 trial licenses deployed; 357 users converted to full production licenses; trial period 2025-09-05 to 2025-12-05 with 30-day extension; 4 Copilot training sessions delivered.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-ai-governance",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "M365 Copilot",
+        "datePeriod": "2025 - 2026",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Managed an enterprise Copilot trial program by tracking activation, adoption, low-usage users, conversion reminders, vendor escalation, and full-license conversion decisions.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "Enterprise M365 Copilot adoption monitoring across trial rollout, license conversion, app usage, department and regional adoption gaps, training, and productivity KPI tracking.",
+        "problemContext": "Enterprise M365 Copilot adoption monitoring across trial rollout, license conversion, app usage, department and regional adoption gaps, training, and productivity KPI tracking.",
+        "actionTaken": "Managed an enterprise Copilot trial program by tracking activation, adoption, low-usage users, conversion reminders, vendor escalation, and full-license conversion decisions.",
+        "stakeholders": [
+          "IS managers and leaders",
+          "Company-wide employees",
+          "Regional key contacts in EU, NA, JP, and AMEA",
+          "Microsoft",
+          "Systex",
+          "Finance",
+          "Department and regional managers",
+          "Trial users",
+          "IS leaders",
+          "Regional managers"
+        ],
+        "quantifiedEvidence": "1,000 trial licenses deployed; 357 users converted to full production licenses; trial period 2025-09-05 to 2025-12-05 with 30-day extension; 4 Copilot training sessions delivered.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Microsoft 365 Copilot",
+          "License Management",
+          "Vendor Management",
+          "Usage Reporting",
+          "Power BI",
+          "SharePoint",
+          "Microsoft 365",
+          "Dashboard reporting",
+          "Production support",
+          "Stakeholder coordination",
+          "AI chatbot operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Medium: verify whether diagnostic numbers show business impact before using them as resume metrics.",
+        "cvAngle": "M365 Copilot Trial Program & Usage Analytics",
+        "cvSafeBullet": "Managed an enterprise Copilot trial program by tracking activation, adoption, low-usage users, conversion reminders, vendor escalation, and full-license conversion decisions.",
+        "interviewTalkingPoint": "Source states Christine managed trial license allocation, activation tracking, conversion reminders, low-usage follow-up, vendor escalation, and training coordination for the Trial GO Plus Program.",
+        "riskIfUsedWrongly": "Do not expand this beyond the documented action, tools, stakeholders, and outcome.",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Managed an enterprise Copilot trial program by tracking activation, adoption, low-usage users, conversion reminders, vendor escalation, and full-license conversion decisions."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned model training or formal machine-learning research"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-legal-dpia-risk-classification",
+        "title": "Implemented privacy and AI risk classification with automated routing",
+        "category": "Governance logic",
+        "sectionTitle": "Legal DPIA App / AI Impact Assessment",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-legal-dpia-app",
+        "tools": [
+          "Power Apps",
+          "SharePoint List",
+          "Risk Classification Logic",
+          "GDPR",
+          "PLVRS Compliance"
+        ],
+        "proof": "Source states Christine implemented General, DPIA, and AI question layers, High/Medium/Low risk classification, High threshold >=14, auto-approved route for Low risk, full assessment route for High/Medium risk, and submitter/reviewer visibility rules.",
+        "cvBullet": "Translated privacy and AI governance requirements into executable questionnaire layers, risk scoring, automatic routing, and role-based reviewer controls.",
+        "metrics": "Three questionnaire layers; GEN-01 to GEN-05; DPIA-01 to DPIA-07+; AI-01 to AI-06+; High risk threshold >=14 points.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-ai-governance",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Legal DPIA App / AI Impact Assessment",
+        "datePeriod": "2025 - 2026; detailed source references Feb 2026 - Mar 2026 activities",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Translated privacy and AI governance requirements into executable questionnaire layers, risk scoring, automatic routing, and role-based reviewer controls.",
+        "audience": "Legal, privacy, governance, and internal project teams",
+        "businessFunction": "DPIA and AI Impact Assessment workflow automation for privacy/legal review, questionnaire intake, reviewer routing, risk classification, approval notifications, comments, attachments, logging, and access management.",
+        "problemContext": "DPIA and AI Impact Assessment workflow automation for privacy/legal review, questionnaire intake, reviewer routing, risk classification, approval notifications, comments, attachments, logging, and access management.",
+        "actionTaken": "Translated privacy and AI governance requirements into executable questionnaire layers, risk scoring, automatic routing, and role-based reviewer controls.",
+        "stakeholders": [
+          "Legal team",
+          "Privacy team",
+          "IS project teams as submitters",
+          "IS Admin reviewers",
+          "Internal DPIA Assessment Team account",
+          "DPIA wiki owners or content sources",
+          "TrendIQ users",
+          "DPIA wiki content owners",
+          "IS project teams"
+        ],
+        "quantifiedEvidence": "Three questionnaire layers; GEN-01 to GEN-05; DPIA-01 to DPIA-07+; AI-01 to AI-06+; High risk threshold >=14 points.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Power Apps",
+          "SharePoint List",
+          "Risk Classification Logic",
+          "GDPR",
+          "PLVRS Compliance",
+          "Power Automate",
+          "SharePoint",
+          "Workflow automation",
+          "Production support",
+          "UAT / testing",
+          "AI chatbot operations",
+          "AI governance"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Medium: verify whether diagnostic numbers show business impact before using them as resume metrics.",
+        "cvAngle": "Legal DPIA App / AI Impact Assessment",
+        "cvSafeBullet": "Translated privacy and AI governance requirements into executable questionnaire layers, risk scoring, automatic routing, and role-based reviewer controls.",
+        "interviewTalkingPoint": "Source states Christine implemented General, DPIA, and AI question layers, High/Medium/Low risk classification, High threshold >=14, auto-approved route for Low risk, full assessment route for High/Medium risk, and submitter/reviewer visibility rules.",
+        "riskIfUsedWrongly": "Do not expand this beyond the documented action, tools, stakeholders, and outcome.",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Translated privacy and AI governance requirements into executable questionnaire layers, risk scoring, automatic routing, and role-based reviewer controls."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned model training or formal machine-learning research"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-workday-ph-kt-workshop",
+        "title": "Facilitated Philippines Workday knowledge transfer workshop",
+        "category": "Knowledge transfer",
+        "sectionTitle": "Workday HCM Implementation & Operations",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-workday-hcm",
+        "tools": [
+          "Workday HCM",
+          "SharePoint",
+          "Excel"
+        ],
+        "proof": "Source states Christine planned and facilitated a Philippines 3-day Workday KT workshop and provided follow-up support so PH BA team could operate Workday more independently.",
+        "cvBullet": "Facilitated a structured Workday knowledge transfer workshop for the Philippines BA team, supporting regional HRIS operating independence after implementation.",
+        "metrics": "Workshop held 2025-07-15 to 2025-07-17, 9:30 AM to 12:00 PM.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Workday HCM Implementation & Operations",
+        "datePeriod": "2022 - 2026",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Facilitated a structured Workday knowledge transfer workshop for the Philippines BA team, supporting regional HRIS operating independence after implementation.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "Workday HCM implementation and HRIS business analysis across Taiwan and Philippines, including HR requirement translation, configuration/data specifications, migration, calculated fields, reporting-platform selection, knowledge transfer, and ongoing BA operations.",
+        "problemContext": "Workday HCM implementation and HRIS business analysis across Taiwan and Philippines, including HR requirement translation, configuration/data specifications, migration, calculated fields, reporting-platform selection, knowledge transfer,...",
+        "actionTaken": "Facilitated a structured Workday knowledge transfer workshop for the Philippines BA team, supporting regional HRIS operating independence after implementation.",
+        "stakeholders": [
+          "Corp HR Taiwan",
+          "Corp HR Philippines",
+          "Workday system administrators",
+          "Ramco engineers",
+          "PECI engineers",
+          "Philippines BA Team",
+          "IS BA internal team",
+          "Corp project status stakeholders"
+        ],
+        "quantifiedEvidence": "Workshop held 2025-07-15 to 2025-07-17, 9:30 AM to 12:00 PM.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Workday HCM",
+          "SharePoint",
+          "Excel",
+          "Power BI",
+          "Workday",
+          "API integration",
+          "Dashboard reporting",
+          "Production support",
+          "AI chatbot operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Low: safe for external CV use when written with the existing evidence scope.",
+        "cvAngle": "Workday HCM Implementation & Operations",
+        "cvSafeBullet": "Facilitated a structured Workday knowledge transfer workshop for the Philippines BA team, supporting regional HRIS operating independence after implementation.",
+        "interviewTalkingPoint": "Source states Christine planned and facilitated a Philippines 3-day Workday KT workshop and provided follow-up support so PH BA team could operate Workday more independently.",
+        "riskIfUsedWrongly": "Do not expand this beyond the documented action, tools, stakeholders, and outcome.",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Facilitated a structured Workday knowledge transfer workshop for the Philippines BA team, supporting regional HRIS operating independence after implementation."
+        ],
+        "forbiddenVisibleClaims": [],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-business-workflow-structuring-non-engineering",
+        "title": "Structured business workflows with non-engineering stakeholders into automation-ready logic",
+        "category": "Business automation and AI operations",
+        "sectionTitle": "Business Workflow Structuring",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-power-platform-governance",
+        "tools": [
+          "Power Automate",
+          "Power Apps",
+          "SharePoint Lists",
+          "Power BI",
+          "Workflow documentation",
+          "Stakeholder interviews"
+        ],
+        "proof": "Multiple source-backed projects show Christine translating business, HR, Legal, Privacy, support, recruiting, and learning operations into Power Platform workflows, review forms, dashboards, notifications, routing logic, handoff documentation, and governance guidance.",
+        "cvBullet": "Structured operational workflows with non-engineering stakeholders and converted them into maintainable Power Platform automations, review processes, dashboards, and handoff documentation.",
+        "cvSafeBullet": "Converted frontline business process needs into automation-ready logic, acceptance rules, dashboards, and stakeholder handoff across HR, Legal, support, and learning operations.",
+        "interviewTalkingPoint": "Use this for business automation, AI operations, and deployment enablement roles where the real need is workflow discovery, process logic, tool adoption, and cross-functional rollout.",
+        "riskIfUsedWrongly": "Do not turn this into infrastructure architecture or full-stack system design unless the JD is explicitly low-code/SaaS workflow oriented.",
+        "visibilityUse": "CV Visible",
+        "bestRoleTypes": [
+          "Business Automation / AI Ops",
+          "Power Platform / M365 Automation",
+          "AI-assisted Technical Ops",
+          "Deployment Engineer / FDE stretch"
+        ],
+        "avoidRoleTypes": [
+          "Pure AI Engineer / ML Engineer"
+        ],
+        "blockedVisibleTerms": [],
+        "metrics": "Supported multiple source-backed workflows across chatbot operations, DPIA review, recruiting alerts, onboarding automation, Power Automate governance, and learning-data operations.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-2026-new-projects",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Structured business workflows with non-engineering stakeholders into automation-ready logic",
+        "datePeriod": "",
+        "candidateRole": "",
+        "externalFriendlyDescription": "Converted frontline business process needs into automation-ready logic, acceptance rules, dashboards, and stakeholder handoff across HR, Legal, support, and learning operations.",
+        "audience": "Legal, privacy, governance, and internal project teams",
+        "businessFunction": "Business automation and AI operations",
+        "problemContext": "Multiple source-backed projects show Christine translating business, HR, Legal, Privacy, support, recruiting, and learning operations into Power Platform workflows, review forms, dashboards, notifications, routing logic, handoff...",
+        "actionTaken": "Converted frontline business process needs into automation-ready logic, acceptance rules, dashboards, and stakeholder handoff across HR, Legal, support, and learning operations.",
+        "stakeholders": [],
+        "quantifiedEvidence": "Supported multiple source-backed workflows across chatbot operations, DPIA review, recruiting alerts, onboarding automation, Power Automate governance, and learning-data operations.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Power Automate",
+          "Power Apps",
+          "SharePoint Lists",
+          "Power BI",
+          "Workflow documentation",
+          "SharePoint",
+          "Dashboard reporting",
+          "Workflow automation",
+          "Production support",
+          "Stakeholder coordination",
+          "AI chatbot operations",
+          "AI governance"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Low: safe for external CV use when written with the existing evidence scope.",
+        "cvAngle": "Business Workflow Structuring",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Converted frontline business process needs into automation-ready logic, acceptance rules, dashboards, and stakeholder handoff across HR, Legal, support, and learning operations."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned model training or formal machine-learning research"
+        ],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-trender-buddy-gpt-eval-pipeline",
+        "title": "Built automated GPT evaluation pipeline for internal AI assistant quality",
+        "category": "AI quality assurance",
+        "sectionTitle": "Trender Buddy",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-trender-buddy",
+        "tools": [
+          "Azure AI Studio",
+          "GPT-4-turbo",
+          "GPT-4.1",
+          "FastAPI",
+          "Power Automate",
+          "Prompt Engineering"
+        ],
+        "proof": "Source states Christine built automated GPT-based prompt evaluation pipeline from scratch using Azure AI Studio and FastAPI with daily scheduled scoring and prompt versions from v2.6 through v3.19.",
+        "cvBullet": "Built an automated GPT evaluation pipeline for an internal employee AI assistant, replacing manual conversation review with scheduled scoring and versioned prompt quality rules.",
+        "cvSafeBullet": "Built an automated GPT-based quality evaluation workflow for an internal AI assistant, combining scheduled scoring, review categories, and human review follow-up to improve answer quality operations.",
+        "interviewTalkingPoint": "Position as AI quality operations and evaluation workflow ownership. Explain prompt versions and schedules only if asked; keep those details out of the visible resume.",
+        "riskIfUsedWrongly": "Do not present this as formal ML evaluation research, model training, reward modeling, or full MLOps ownership.",
+        "visibilityUse": "CV Visible",
+        "bestRoleTypes": [
+          "AI Product Ops / Evaluation Ops",
+          "AI-assisted Technical Ops",
+          "Deployment Engineer / FDE stretch"
+        ],
+        "avoidRoleTypes": [
+          "Power Platform / M365 Automation",
+          "Pure AI Engineer / ML Engineer"
+        ],
+        "blockedVisibleTerms": [
+          "internal employee AI assistant",
+          "prompt versions",
+          "v2.6",
+          "v3.19",
+          "daily scheduled",
+          "8:30"
+        ],
+        "metrics": "Daily scheduled GPT scoring run at 8:30 AM UTC+8; prompt versions v2.6 through v3.19; 8 primary problem categories.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-ai-chatbot",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Trender Buddy",
+        "datePeriod": "2024 - 2026",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Built an automated GPT-based quality evaluation workflow for an internal AI assistant, combining scheduled scoring, review categories, and human review follow-up to improve answer quality operations.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "Regional HR document request analytics and AI assistant quality reporting across SharePoint-based regional request lists, historical data, prompt classification, and review-result tracking.",
+        "problemContext": "Regional HR document request analytics and AI assistant quality reporting across SharePoint-based regional request lists, historical data, prompt classification, and review-result tracking.",
+        "actionTaken": "Built an automated GPT-based quality evaluation workflow for an internal AI assistant, combining scheduled scoring, review categories, and human review follow-up to improve answer quality operations.",
+        "stakeholders": [
+          "TW HR",
+          "PH HR",
+          "AMEA HR",
+          "AI development team",
+          "Human reviewers",
+          "Regional SharePoint list owners"
+        ],
+        "quantifiedEvidence": "Daily scheduled GPT scoring run at 8:30 AM UTC+8; prompt versions v2.6 through v3.19; 8 primary problem categories.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Azure AI Studio",
+          "GPT-4-turbo",
+          "GPT-4.1",
+          "FastAPI",
+          "Power Automate",
+          "Power Apps",
+          "Power BI",
+          "SharePoint",
+          "Microsoft 365",
+          "Dashboard reporting",
+          "Workflow automation",
+          "Production support"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Medium: replace internal product, workflow, or system names with external business language before visible CV use.",
+        "cvAngle": "Trender Buddy",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Built an automated GPT-based quality evaluation workflow for an internal AI assistant, combining scheduled scoring, review categories, and human review follow-up to improve answer quality operations."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned model training or formal machine-learning research",
+          "Built production backend systems from scratch"
+        ],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-ta-dashboard-lifecycle",
+        "title": "Delivered Talent Acquisition dashboard lifecycle from prototype to UAT resolution",
+        "category": "Recruiting analytics",
+        "sectionTitle": "Talent Acquisition Dashboard",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-recruiting-dashboard-ta",
+        "tools": [
+          "Power BI",
+          "DAX",
+          "Workday API",
+          "Workday data reports"
+        ],
+        "proof": "Source says Christine led prototype design and report development for all five Talent Acquisition sub-reports from Jul to Oct 2022 and resolved 47 UAT issues including Evergreen JR exclusion, offer acceptance formula, and DateTimezone bug.",
+        "cvBullet": "Delivered recruiting analytics dashboards from requirements and prototype through development, UAT fixes, and go-live for hiring progress, funnel, source, quality, and pay analysis.",
+        "metrics": "Five sub-reports; 47 UAT issues; daily refresh at 1:09 AM TW; source effectiveness referenced 51,865 applications.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Recruiting Dashboard / Talent Acquisition",
+        "datePeriod": "2022 - Present",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Delivered recruiting analytics dashboards from requirements and prototype through development, UAT fixes, and go-live for hiring progress, funnel, source, quality, and pay analysis.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "Talent acquisition analytics for hiring overview, performance, source effectiveness, new-hire quality, new-hire pay, job fulfillment, time to fill, offer acceptance, source hit rate, and recruiting bottleneck visibility.",
+        "problemContext": "Talent acquisition analytics for hiring overview, performance, source effectiveness, new-hire quality, new-hire pay, job fulfillment, time to fill, offer acceptance, source hit rate, and recruiting bottleneck visibility.",
+        "actionTaken": "Delivered recruiting analytics dashboards from requirements and prototype through development, UAT fixes, and go-live for hiring progress, funnel, source, quality, and pay analysis.",
+        "stakeholders": [
+          "HR management",
+          "Recruiters",
+          "Talent Acquisition teams",
+          "Hiring managers"
+        ],
+        "quantifiedEvidence": "Five sub-reports; 47 UAT issues; daily refresh at 1:09 AM TW; source effectiveness referenced 51,865 applications.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Power BI",
+          "DAX",
+          "Workday API",
+          "Workday data reports",
+          "Workday",
+          "API integration",
+          "Dashboard reporting",
+          "UAT / testing",
+          "HR operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Low: safe for external CV use when written with the existing evidence scope.",
+        "cvAngle": "Talent Acquisition Dashboard",
+        "cvSafeBullet": "Delivered recruiting analytics dashboards from requirements and prototype through development, UAT fixes, and go-live for hiring progress, funnel, source, quality, and pay analysis.",
+        "interviewTalkingPoint": "Source says Christine led prototype design and report development for all five Talent Acquisition sub-reports from Jul to Oct 2022 and resolved 47 UAT issues including Evergreen JR exclusion, offer acceptance formula, and DateTimezone bug.",
+        "riskIfUsedWrongly": "Do not expand this beyond the documented action, tools, stakeholders, and outcome.",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Delivered recruiting analytics dashboards from requirements and prototype through development, UAT fixes, and go-live for hiring progress, funnel, source, quality, and pay analysis."
+        ],
+        "forbiddenVisibleClaims": [
+          "Built production backend systems from scratch"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-trender-buddy-toi-secure-ops",
+        "title": "Documented Copilot Studio operations, permissions, and API ownership",
+        "category": "Operational documentation",
+        "sectionTitle": "Trender Buddy",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-trender-buddy",
+        "tools": [
+          "Microsoft Copilot Studio",
+          "Azure Function",
+          "InfoSec Confluence API",
+          "SharePoint",
+          "TOI Documentation"
+        ],
+        "proof": "Source states Christine authored TOI documentation for Copilot Studio DEV/PROD configuration, GPT-4.1 model settings, API secrets, permissions, Viva Connections Portal, Global Holidays, BYOD sync, and Sustain Case manuals.",
+        "cvBullet": "Authored operational documentation and permissions registry for Copilot Studio DEV/PROD sustainment, API ownership, model configuration, and support procedures.",
+        "metrics": "DEV environment Corp.IS-AO-DEV and PROD environment Corp.IS-TB-PROD documented; API secrets and permissions registry maintained.",
+        "evidenceTier": "Supporting",
+        "sourceIds": [
+          "source-20260614-ai-chatbot"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Trender Buddy",
+        "datePeriod": "2024 - 2026",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Authored operational documentation and permissions registry for Copilot Studio DEV/PROD sustainment, API ownership, model configuration, and support procedures.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "Regional HR document request analytics and AI assistant quality reporting across SharePoint-based regional request lists, historical data, prompt classification, and review-result tracking.",
+        "problemContext": "Regional HR document request analytics and AI assistant quality reporting across SharePoint-based regional request lists, historical data, prompt classification, and review-result tracking.",
+        "actionTaken": "Authored operational documentation and permissions registry for Copilot Studio DEV/PROD sustainment, API ownership, model configuration, and support procedures.",
+        "stakeholders": [
+          "TW HR",
+          "PH HR",
+          "AMEA HR",
+          "AI development team",
+          "Human reviewers",
+          "Regional SharePoint list owners"
+        ],
+        "quantifiedEvidence": "DEV environment Corp.IS-AO-DEV and PROD environment Corp.IS-TB-PROD documented; API secrets and permissions registry maintained.",
+        "evidenceStrength": "Medium",
+        "relatedJdKeywords": [
+          "Microsoft Copilot Studio",
+          "Azure Function",
+          "InfoSec Confluence API",
+          "SharePoint",
+          "TOI Documentation",
+          "Power Apps",
+          "Power BI",
+          "Microsoft 365",
+          "API integration",
+          "Dashboard reporting",
+          "Production support",
+          "UAT / testing"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Medium: replace internal product, workflow, or system names with external business language before visible CV use.",
+        "cvAngle": "Trender Buddy",
+        "cvSafeBullet": "Authored operational documentation and permissions registry for Copilot Studio DEV/PROD sustainment, API ownership, model configuration, and support procedures.",
+        "interviewTalkingPoint": "Source states Christine authored TOI documentation for Copilot Studio DEV/PROD configuration, GPT-4.1 model settings, API secrets, permissions, Viva Connections Portal, Global Holidays, BYOD sync, and Sustain Case manuals.",
+        "riskIfUsedWrongly": "Do not copy internal product, workflow, or system names into the CV; use the external-friendly description instead.",
+        "claimLevel": "Conservative Claim",
+        "allowedVisibleClaims": [
+          "Authored operational documentation and permissions registry for Copilot Studio DEV/PROD sustainment, API ownership, model configuration, and support procedures."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned the entire function end to end",
+          "Owned model training or formal machine-learning research",
+          "Built production backend systems from scratch"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [
+          "internal employee AI assistant"
+        ],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-onboarding-automation-summary",
+        "title": "Combined onboarding and requisition reminder automation across programs",
+        "category": "Automation summary",
+        "sectionTitle": "Onboarding Automation",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-onboarding-automation",
+        "tools": [
+          "Power Automate",
+          "Workday API",
+          "SharePoint",
+          "Microsoft Graph API",
+          "Docebo"
+        ],
+        "proof": "Original summary aggregates automation-related flows including Zero Base reminders, SE onboarding reminders, and NTR learning reminders, with evidence separately supported by more specific projects.",
+        "cvBullet": "Automated onboarding and recruiting follow-up workflows across Zero Base reminders, SE onboarding reminders, and NTR learning reminders.",
+        "metrics": "Zero Base freeze period 2023-02-22 to 2023-03-10; SE Onboarding automation rolled out globally on 2026-04-23.",
+        "evidenceTier": "Supporting",
+        "sourceIds": [
+          "source-20260614-2026-new-projects",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Onboarding Automation",
+        "datePeriod": "2023 - 2026",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Automated onboarding and recruiting follow-up workflows across Zero Base reminders, sales engineering onboarding reminders, and new employee onboarding learning reminders.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "Onboarding Workflow Automation",
+        "problemContext": "Original summary aggregates automation-related flows including Zero Base reminders, sales engineering onboarding reminders, and new employee onboarding learning reminders, with evidence separately supported by more specific projects.",
+        "actionTaken": "Automated onboarding and recruiting follow-up workflows across Zero Base reminders, sales engineering onboarding reminders, and new employee onboarding learning reminders.",
+        "stakeholders": [],
+        "quantifiedEvidence": "Zero Base freeze period 2023-02-22 to 2023-03-10; SE Onboarding automation rolled out globally on 2026-04-23.",
+        "evidenceStrength": "Medium",
+        "relatedJdKeywords": [
+          "Power Automate",
+          "Workday API",
+          "SharePoint",
+          "Microsoft Graph API",
+          "Docebo",
+          "Workday",
+          "API integration",
+          "Workflow automation",
+          "HR operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Low: safe for external CV use when written with the existing evidence scope.",
+        "cvAngle": "Onboarding Automation",
+        "cvSafeBullet": "Automated onboarding and recruiting follow-up workflows across Zero Base reminders, sales engineering onboarding reminders, and new employee onboarding learning reminders.",
+        "interviewTalkingPoint": "Original summary aggregates automation-related flows including Zero Base reminders, sales engineering onboarding reminders, and new employee onboarding learning reminders, with evidence separately supported by more specific projects.",
+        "riskIfUsedWrongly": "Do not copy internal product, workflow, or system names into the CV; use the external-friendly description instead.",
+        "claimLevel": "Conservative Claim",
+        "allowedVisibleClaims": [
+          "Automated onboarding and recruiting follow-up workflows across Zero Base reminders, sales engineering onboarding reminders, and new employee onboarding learning reminders."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned the entire function end to end",
+          "Built production backend systems from scratch"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-technical-capability-summary",
+        "title": "Aggregated enterprise technical capability across AI, BI, Power Platform, Workday, and integration milestones",
+        "category": "Capability Summary / Technical Stack / Milestones",
+        "sectionTitle": "Enterprise Automation, BI & AI Delivery Portfolio",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-technical-capability-summary",
+        "tools": [
+          "Power BI",
+          "Power Automate",
+          "Power Apps",
+          "Azure AI Studio",
+          "GPT evaluation",
+          "Workday",
+          "enterprise customer-service AI platform",
+          "Azure Data Explorer",
+          "MCP"
+        ],
+        "proof": "Aggregated capability summary across BI dashboards, chatbot operations, prompt evaluation, HR analytics, onboarding automation, ADX learning data, Workday MCP security testing, AI governance, Power Platform, and integration work.",
+        "cvBullet": "Delivered enterprise technology work across Power BI, Power Platform, Workday, chatbot operations, GPT evaluation, ADX learning data, and MCP testing, spanning automation, analytics, AI governance, and HR systems.",
+        "metrics": "14 Power BI dashboards; 193 customer-service AI chatbot change request and bug-fix versions; Trender Buddy prompt versions v2.6 to v3.19; 11-week AI-enhanced HR dashboard upgrade; 6 SE onboarding automation triggers; 7 Workday MCP tools tested.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-2026-new-projects",
+          "source-20260614-overview"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Technical Capability and Milestone Summary",
+        "datePeriod": "2021 - 2026",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Delivered enterprise technology work across Power BI, Power Platform, Workday, chatbot operations, GPT evaluation, Azure Data Explorer learning data, and MCP testing, spanning automation, analytics, AI governance, and HR systems.",
+        "audience": "External customers / consumer support operations",
+        "businessFunction": "Capability Summary / Technical Stack / Milestones",
+        "problemContext": "Aggregated capability summary across BI dashboards, chatbot operations, prompt evaluation, HR analytics, onboarding automation, Azure Data Explorer learning data, Workday MCP security testing, AI governance, Power Platform, and...",
+        "actionTaken": "Delivered enterprise technology work across Power BI, Power Platform, Workday, chatbot operations, GPT evaluation, Azure Data Explorer learning data, and MCP testing, spanning automation, analytics, AI governance, and HR systems.",
+        "stakeholders": [],
+        "quantifiedEvidence": "14 Power BI dashboards; 193 customer-service AI chatbot change request and bug-fix versions; Trender Buddy prompt versions v2.6 to v3.19; 11-week AI-enhanced HR dashboard upgrade; 6 SE onboarding automation triggers; 7 Workday MCP tools tested.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Power BI",
+          "Power Automate",
+          "Power Apps",
+          "Azure AI Studio",
+          "GPT evaluation",
+          "Workday",
+          "API integration",
+          "Dashboard reporting",
+          "Workflow automation",
+          "Production support",
+          "UAT / testing",
+          "AI chatbot operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Low: safe for external CV use when written with the existing evidence scope.",
+        "cvAngle": "Enterprise Automation, BI & AI Delivery Portfolio",
+        "cvSafeBullet": "Delivered enterprise technology work across Power BI, Power Platform, Workday, chatbot operations, GPT evaluation, Azure Data Explorer learning data, and MCP testing, spanning automation, analytics, AI governance, and HR systems.",
+        "interviewTalkingPoint": "Aggregated capability summary across BI dashboards, chatbot operations, prompt evaluation, HR analytics, onboarding automation, Azure Data Explorer learning data, Workday MCP security testing, AI governance, Power Platform, and integration work.",
+        "riskIfUsedWrongly": "Do not copy internal product, workflow, or system names into the CV; use the external-friendly description instead.",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Delivered enterprise technology work across Power BI, Power Platform, Workday, chatbot operations, GPT evaluation, Azure Data Explorer learning data, and MCP testing, spanning automation, analytics, AI governance, and HR systems."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned model training or formal machine-learning research"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-tb-hr-dashboard-ai-upgrade",
+        "title": "Upgraded Trender Buddy HR dashboard with AI classification and accuracy views",
+        "category": "AI-enhanced analytics",
+        "sectionTitle": "Trender Buddy HR Dashboard AI Enhanced Version",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-trender-buddy",
+        "tools": [
+          "Power BI",
+          "Prompt Engineering",
+          "SharePoint Lists",
+          "GPT classification"
+        ],
+        "proof": "Source states Christine owned the 2025 AI-enhanced upgrade adding problem category classification, accuracy review, scrubbing categories, action categories, and region-by-category accuracy matrices.",
+        "cvBullet": "Transformed HR chatbot reporting into AI quality governance by adding problem-category classification, accuracy review, root-cause views, action categories, and regional accuracy matrices.",
+        "metrics": "Initiated 2024-12-25; go-live 2025-03-14; delivered in 11 weeks; accuracy median improved from 2.7/5 to 4.0/5; covers 6 regions and 10+ problem categories.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Trender Buddy",
+        "datePeriod": "2024 - 2026",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Transformed HR chatbot reporting into AI quality governance by adding problem-category classification, accuracy review, root-cause views, action categories, and regional accuracy matrices.",
+        "audience": "External customers / consumer support operations",
+        "businessFunction": "Regional HR document request analytics and AI assistant quality reporting across SharePoint-based regional request lists, historical data, prompt classification, and review-result tracking.",
+        "problemContext": "Regional HR document request analytics and AI assistant quality reporting across SharePoint-based regional request lists, historical data, prompt classification, and review-result tracking.",
+        "actionTaken": "Transformed HR chatbot reporting into AI quality governance by adding problem-category classification, accuracy review, root-cause views, action categories, and regional accuracy matrices.",
+        "stakeholders": [
+          "TW HR",
+          "PH HR",
+          "AMEA HR",
+          "AI development team",
+          "Human reviewers",
+          "Regional SharePoint list owners"
+        ],
+        "quantifiedEvidence": "Initiated 2024-12-25; go-live 2025-03-14; delivered in 11 weeks; accuracy median improved from 2.7/5 to 4.0/5; covers 6 regions and 10+ problem categories.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Power BI",
+          "Prompt Engineering",
+          "SharePoint Lists",
+          "GPT classification",
+          "Power Apps",
+          "SharePoint",
+          "Microsoft 365",
+          "Dashboard reporting",
+          "UAT / testing",
+          "AI chatbot operations",
+          "AI governance",
+          "HR operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Medium: replace internal product, workflow, or system names with external business language before visible CV use.",
+        "cvAngle": "Trender Buddy HR Dashboard AI Enhanced Version",
+        "cvSafeBullet": "Transformed HR chatbot reporting into AI quality governance by adding problem-category classification, accuracy review, root-cause views, action categories, and regional accuracy matrices.",
+        "interviewTalkingPoint": "Source states Christine owned the 2025 AI-enhanced upgrade adding problem category classification, accuracy review, scrubbing categories, action categories, and region-by-category accuracy matrices.",
+        "riskIfUsedWrongly": "Do not copy internal product, workflow, or system names into the CV; use the external-friendly description instead.",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Transformed HR chatbot reporting into AI quality governance by adding problem-category classification, accuracy review, root-cause views, action categories, and regional accuracy matrices."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned model training or formal machine-learning research"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [
+          "internal employee AI assistant"
+        ],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-existing-python-sql-pipeline-debugging",
+        "title": "Reviewed and troubleshot existing automation pipeline logic instead of claiming from-scratch engineering",
+        "category": "AI-assisted technical operations",
+        "sectionTitle": "Pipeline Debugging & Technical Operations",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-se-adx-learning-data-pipeline",
+        "tools": [
+          "Python",
+          "SQL",
+          "Jenkins",
+          "Azure Data Explorer",
+          "Docebo API",
+          "Validation checklist"
+        ],
+        "proof": "Source evidence states Christine coordinated Docebo-to-ADX synchronization, integrated an existing report into an existing ADX refresh code path, validated calculated fields, checked Jenkins runs, API responses, report structure changes, row counts, and reran the sync job for a seller checklist update anomaly.",
+        "cvBullet": "Reviewed and troubleshot existing Python, API, and ADX data-pipeline logic by checking Jenkins runs, API responses, report changes, row counts, and refresh behavior before operational handoff.",
+        "cvSafeBullet": "Inspected and troubleshot existing Python/SQL-style automation logic, validating pipeline outputs and coordinating fixes without overstating from-scratch software engineering ownership.",
+        "interviewTalkingPoint": "Position this as technical operations and pipeline maintenance: able to read existing scripts, understand data flow, validate outputs, and coordinate/rerun fixes; do not claim backend or full application development from scratch.",
+        "riskIfUsedWrongly": "Do not present this as full Python application engineering, production backend ownership, or MLOps infrastructure ownership.",
+        "visibilityUse": "CV Visible",
+        "bestRoleTypes": [
+          "AI-assisted Technical Ops",
+          "Business Automation / AI Ops",
+          "Deployment Engineer / FDE stretch",
+          "GenAI Application Specialist"
+        ],
+        "avoidRoleTypes": [
+          "Pure AI Engineer / ML Engineer"
+        ],
+        "blockedVisibleTerms": [
+          "_tbl_Seller_Learning_Plan",
+          "SE_ADX_Data_Sync",
+          "May 27"
+        ],
+        "metrics": "Seller checklist table update anomaly identified and rerun; approximately 70 SE worker records checked in related ADX data work.",
+        "evidenceTier": "Supporting",
+        "sourceIds": [
+          "source-20260614-2026-new-projects",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "SE Onboarding Learning Data Pipeline (ADX)",
+        "datePeriod": "2026 Apr -",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Inspected and troubleshot existing Python/SQL-style automation logic, validating pipeline outputs and coordinating fixes without overstating from-scratch software engineering ownership.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "SE learning-plan data pipeline connecting Docebo learning records and Workday worker data into Azure Data Explorer as the queryable data layer for HR agentic systems and reporting.",
+        "problemContext": "SE learning-plan data pipeline connecting Docebo learning records and Workday worker data into Azure Data Explorer as the queryable data layer for HR agentic systems and reporting.",
+        "actionTaken": "Inspected and troubleshot existing Python/SQL-style automation logic, validating pipeline outputs and coordinating fixes without overstating from-scratch software engineering ownership.",
+        "stakeholders": [
+          "Alex Wu",
+          "Ivy Cheng",
+          "Jenkins Admin",
+          "SE workers",
+          "TrendIQ HR Agentic system stakeholders"
+        ],
+        "quantifiedEvidence": "Seller checklist table update anomaly identified and rerun; approximately 70 SE worker records checked in related ADX data work.",
+        "evidenceStrength": "Medium",
+        "relatedJdKeywords": [
+          "Python",
+          "SQL",
+          "Jenkins",
+          "Azure Data Explorer",
+          "Docebo API",
+          "Workday",
+          "API integration",
+          "Python validation",
+          "SQL / data validation",
+          "Dashboard reporting",
+          "Workflow automation",
+          "Production support"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Medium: replace internal product, workflow, or system names with external business language before visible CV use.",
+        "cvAngle": "Pipeline Debugging & Technical Operations",
+        "claimLevel": "Conservative Claim",
+        "allowedVisibleClaims": [
+          "Inspected and troubleshot existing Python/SQL-style automation logic, validating pipeline outputs and coordinating fixes without overstating from-scratch software engineering ownership."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned the entire function end to end",
+          "Owned model training or formal machine-learning research",
+          "Built production backend systems from scratch"
+        ],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      }
+    ],
+    "selectedStarStories": [
+      {
+        "id": "star-pa-ops-takeover",
+        "title": "Assumed ownership of production HR automation flows after handover",
+        "tags": [
+          "Production operations",
+          "Power Automate",
+          "Azure Blob",
+          "Dataverse",
+          "Workday"
+        ],
+        "sectionTitle": "Power Automate Operations Takeover",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-power-automate-operations-takeover",
+        "situation": "Multiple production HR automation flows and related systems risked unclear ownership after a handover from Alex Wu.",
+        "task": "Complete TOI and take over monitoring, troubleshooting, and operational requirements for scheduled HR automation flows.",
+        "action": "Took over flows covering AI Screening, COE PDFs, Japan synchronization, Taiwan attendance import, leave/travel/LOA data, and documented client secret renewal, service account ownership, publish-solution dependency, and manual refresh constraints.",
+        "result": "Preserved continuity of scheduled HR automation operations across Workday, Azure Blob, Dataverse, Jenkins, Synapse, SharePoint, and Power BI after TOI completion.",
+        "storyConfidence": "Strong",
+        "cvBullets": [
+          "Assumed operational ownership of production HR automation flows spanning Workday, Azure Blob, Dataverse, Jenkins, Synapse, SharePoint, and Power BI after TOI completion."
+        ],
+        "evidenceIds": [
+          "evi-pa-ops-takeover"
+        ]
+      },
+      {
+        "id": "star-legal-dpia-digital-workflow",
+        "title": "Digitized Legal DPIA workflow with privacy and AI assessment controls",
+        "tags": [
+          "Power Apps",
+          "Compliance automation",
+          "DPIA",
+          "AI governance",
+          "Privacy"
+        ],
+        "sectionTitle": "Legal DPIA App",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-legal-dpia-app",
+        "situation": "Legal's DPIA process was fragmented across Excel and needed stronger tracking, reviewer workflow, and compliance control.",
+        "task": "Design a systematic digital replacement for DPIA and AI impact assessment handling.",
+        "action": "Built a Power App with SharePoint List storage, Power Automate notifications, reviewer workflow, comments, attachments, logs, access management, and role-based controls.",
+        "result": "Upgraded DPIA assessment into a systematic digital workflow for privacy compliance and AI impact tracking, with 12 UI requirements confirmed and 14 staging reviewers enabled.",
+        "storyConfidence": "Strong",
+        "cvBullets": [
+          "Digitized a Legal DPIA and AI Impact Assessment process with Power Apps, SharePoint storage, approval notifications, reviewer workflow, role controls, comments, attachments, and audit logging."
+        ],
+        "evidenceIds": [
+          "evi-legal-dpia-app-build"
+        ]
+      },
+      {
+        "id": "star-tw-cv-auto-match-stability",
+        "title": "Resolved recruiting automation defects for reliable data synchronization",
+        "tags": [
+          "Power Automate",
+          "Flow troubleshooting",
+          "Recruiting data",
+          "Workday RaaS",
+          "Production support"
+        ],
+        "sectionTitle": "TW CV Auto-Match",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-tw-cv-auto-match",
+        "situation": "The recruiting synchronization workflow faced data and flow defects that could interrupt or corrupt scheduled updates.",
+        "task": "Stabilize flow behavior so candidate, position, and worker data could sync reliably.",
+        "action": "Fixed Candidate_Skills truncation over 255 characters, foreach limits over 5000 items, non-stop loop issues, missing Position ID cases, and added needed candidate fields.",
+        "result": "Improved reliability of scheduled recruiting data syncs and reduced defects in Workday-to-SharePoint automation.",
+        "storyConfidence": "Strong",
+        "cvBullets": [
+          "Improved recruiting automation reliability by resolving truncation, pagination, loop, missing ID, and field synchronization defects in scheduled Workday-to-SharePoint flows."
+        ],
+        "evidenceIds": [
+          "evi-tw-cv-auto-match-flow-fixes",
+          "evi-tw-cv-auto-match-build"
+        ]
+      },
+      {
+        "id": "star-se-onboarding-email-automation",
+        "title": "Automated SE onboarding learning reminder lifecycle",
+        "tags": [
+          "Power Automate",
+          "Microsoft Graph API",
+          "Docebo",
+          "Workday RaaS",
+          "Learning automation"
+        ],
+        "sectionTitle": "SE Onboarding Email Automations",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-se-onboarding-email-automations",
+        "situation": "SE onboarding learning reminders were manually tracked and sent across enrollment, phase progression, mentor observation, completion, and exception scenarios.",
+        "task": "Automate lifecycle email reminders using learning progress and employee data.",
+        "action": "Designed six trigger logics, integrated Docebo learning progress and Workday data, used Microsoft Graph API for email sending, added mentor and manager fallback handling, and monitored run history.",
+        "result": "The SE onboarding reminder automation officially rolled out on Apr 23, 2026 and supported reminder handling for approximately 70 SE records in related source evidence.",
+        "storyConfidence": "Strong",
+        "cvBullets": [
+          "Designed and implemented lifecycle email automation for SE onboarding using Docebo learning progress, Workday data, Microsoft Graph email delivery, fallback logic, and monitoring routines."
+        ],
+        "evidenceIds": [
+          "evi-se-onboarding-email-automation"
+        ]
+      },
+      {
+        "id": "star-power-platform-governance",
+        "title": "Created reusable low-code and API engagement documentation",
+        "tags": [
+          "Power Platform governance",
+          "API documentation",
+          "Low-code automation",
+          "Process standards",
+          "Documentation"
+        ],
+        "sectionTitle": "Power Platform Enablement",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-power-platform-enablement",
+        "situation": "Business teams needed clearer guidance for evaluating Power Platform use cases and engaging with internal API providers and consumers.",
+        "task": "Create reusable documentation that supported low-code automation adoption and API engagement.",
+        "action": "Authored Power Automate and Power Apps business scenario evaluation materials, wrote How to Engage with Connect One provider/consumer guidance, and documented ownership, connection reference, environment, and license considerations.",
+        "result": "Established a documentation foundation for repeatable low-code and API adoption across business and IS teams.",
+        "storyConfidence": "Usable",
+        "cvBullets": [
+          "Authored low-code automation and API engagement documentation covering Power Platform use-case evaluation, API provider/consumer roles, ownership transfer, connection references, and licensing considerations."
+        ],
+        "evidenceIds": [
+          "evi-power-platform-governance-docs"
+        ]
+      },
+      {
+        "id": "star-m365-copilot-adoption-dashboard",
+        "title": "Built enterprise Copilot adoption visibility for license decisions",
+        "tags": [
+          "M365 Copilot",
+          "Power BI",
+          "License management",
+          "Usage analytics",
+          "AI adoption"
+        ],
+        "sectionTitle": "M365 Copilot",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-m365-copilot",
+        "situation": "The company needed visibility into whether licensed users were actually using M365 Copilot and whether license expansion or reduction decisions were justified.",
+        "task": "Build a systematic adoption dashboard that combined usage, license, and user-group data into actionable views.",
+        "action": "Integrated Copilot audit logs, user exports, distribution lists, and license data into Power BI, tracked 24 Copilot applications, and set daily 8 AM refresh with department KPI views.",
+        "result": "Made enterprise AI adoption quantifiable and supported usage-based license, adoption, and training decisions against the IS department active-usage target.",
+        "storyConfidence": "Strong",
+        "cvBullets": [
+          "Built an enterprise M365 Copilot adoption dashboard integrating audit logs, user exports, distribution lists, and license data to make AI usage and license value visible."
+        ],
+        "evidenceIds": [
+          "evi-m365-copilot-dashboard"
+        ]
+      }
+    ],
+    "invalidSkillIds": [],
+    "invalidDomainKnowledgeIds": [],
+    "invalidEvidenceIds": [],
+    "invalidStoryIds": []
+  },
+  "qualityDiagnostics": {
+    "topRequirementMappings": [
+      {
+        "requirement": "Power Apps / Power Automate workflow delivery",
+        "supportLevel": "Strong",
+        "selectedMatchingEvidenceIds": [
+          "evi-legal-dpia-app-build",
+          "evi-mentor-booking-system",
+          "evi-pa-ops-takeover"
+        ],
+        "covered": true
+      },
+      {
+        "requirement": "SharePoint-backed data and approval processes",
+        "supportLevel": "Strong",
+        "selectedMatchingEvidenceIds": [
+          "evi-legal-dpia-app-build",
+          "evi-mentor-booking-system",
+          "evi-tw-cv-auto-match-flow-fixes"
+        ],
+        "covered": true
+      },
+      {
+        "requirement": "Documentation and support readiness",
+        "supportLevel": "Strong",
+        "selectedMatchingEvidenceIds": [
+          "evi-power-platform-governance-docs",
+          "evi-workday-ph-kt-workshop",
+          "evi-pa-ops-takeover"
+        ],
+        "covered": true
+      }
+    ],
+    "topRequirementCoverageCount": 3,
+    "evidenceWithBusinessImpact": [
+      "evi-pa-ops-takeover",
+      "evi-legal-dpia-app-build",
+      "evi-tw-cv-auto-match-flow-fixes",
+      "evi-se-onboarding-email-automation",
+      "evi-mentor-booking-system",
+      "evi-power-platform-governance-docs",
+      "evi-m365-copilot-dashboard",
+      "evi-m365-trial-license-conversion",
+      "evi-legal-dpia-risk-classification",
+      "evi-workday-ph-kt-workshop",
+      "evi-business-workflow-structuring-non-engineering",
+      "evi-trender-buddy-gpt-eval-pipeline",
+      "evi-ta-dashboard-lifecycle",
+      "evi-trender-buddy-toi-secure-ops",
+      "evi-onboarding-automation-summary",
+      "evi-technical-capability-summary",
+      "evi-tb-hr-dashboard-ai-upgrade",
+      "evi-existing-python-sql-pipeline-debugging"
+    ],
+    "evidenceWithTechnicalDepth": [
+      "evi-pa-ops-takeover",
+      "evi-legal-dpia-app-build",
+      "evi-tw-cv-auto-match-flow-fixes",
+      "evi-se-onboarding-email-automation",
+      "evi-mentor-booking-system",
+      "evi-power-platform-governance-docs",
+      "evi-m365-copilot-dashboard",
+      "evi-m365-trial-license-conversion",
+      "evi-legal-dpia-risk-classification",
+      "evi-workday-ph-kt-workshop",
+      "evi-business-workflow-structuring-non-engineering",
+      "evi-trender-buddy-gpt-eval-pipeline",
+      "evi-ta-dashboard-lifecycle",
+      "evi-trender-buddy-toi-secure-ops",
+      "evi-onboarding-automation-summary",
+      "evi-technical-capability-summary",
+      "evi-tb-hr-dashboard-ai-upgrade",
+      "evi-existing-python-sql-pipeline-debugging"
+    ],
+    "currentRoleEvidenceIds": [
+      "evi-pa-ops-takeover",
+      "evi-legal-dpia-app-build",
+      "evi-tw-cv-auto-match-flow-fixes",
+      "evi-se-onboarding-email-automation",
+      "evi-mentor-booking-system",
+      "evi-power-platform-governance-docs",
+      "evi-m365-copilot-dashboard",
+      "evi-m365-trial-license-conversion",
+      "evi-legal-dpia-risk-classification",
+      "evi-workday-ph-kt-workshop",
+      "evi-business-workflow-structuring-non-engineering",
+      "evi-trender-buddy-gpt-eval-pipeline",
+      "evi-ta-dashboard-lifecycle",
+      "evi-trender-buddy-toi-secure-ops",
+      "evi-onboarding-automation-summary",
+      "evi-technical-capability-summary",
+      "evi-tb-hr-dashboard-ai-upgrade",
+      "evi-existing-python-sql-pipeline-debugging"
+    ],
+    "priorRoleEvidenceIds": []
+  }
+}

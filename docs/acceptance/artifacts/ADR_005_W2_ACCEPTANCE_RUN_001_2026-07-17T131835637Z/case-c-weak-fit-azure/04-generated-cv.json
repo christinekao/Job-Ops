@@ -1,0 +1,653 @@
+{
+  "id": "cv-case-c-weak-fit-azure-20260717000000",
+  "jdId": "jd-mriv6lu5-9t2l0",
+  "name": "Case C — Weak Fit / Azure Solution Specialist Fresh CV",
+  "summary": "Microsoft ecosystem enablement practitioner who translates enterprise workflow needs into Copilot adoption analytics, Power Platform governance, SharePoint-backed process support, and stakeholder-ready operating visibility. Best positioned for transferable solution-enablement or cloud-adoption support work; visible claims intentionally avoid unsupported Azure sales, quota, deal, or architecture ownership.",
+  "content": "# Li Ting Kao / Christine Kao\n\nLi Ting Kao / Christine Kao\nTarget: Microsoft Ecosystem Solution Enablement Specialist\nTaipei\n\n## Summary\n\nMicrosoft ecosystem enablement practitioner who translates enterprise workflow needs into Copilot adoption analytics, Power Platform governance, SharePoint-backed process support, and stakeholder-ready operating visibility. Best positioned for transferable solution-enablement or cloud-adoption support work; visible claims intentionally avoid unsupported Azure sales, quota, deal, or architecture ownership.\n\n## Skills\n\nMicrosoft Ecosystem Enablement: Microsoft 365 Copilot adoption analytics, Power Platform governance, Power BI visibility, SharePoint workflow support, vendor coordination, business workflow translation, technical handoff, production support, stakeholder enablement, AI governance workflow\n\n## Work Experience\n\nBusiness Process Engineer / IS BA | Trend Micro | 2021 - 2026\nSection: Microsoft Ecosystem Adoption and Enablement\n- Built M365 Copilot adoption dashboard views from audit logs, license data, and distribution-list context so stakeholders could track usage and adoption signals.\n- Managed Copilot trial conversion operations through usage reporting, vendor coordination, license follow-up, and stakeholder reminders without presenting the work as sales ownership.\n- Authored Power Platform and API engagement documentation to clarify support boundaries, connection ownership, and maintainable handoff for internal automation users.\nSection: Governed Workflow Automation and Technical Handoff\n- Built a Power Apps and SharePoint-backed compliance workflow for DPIA / AI impact assessment requests with automated routing and reviewer visibility.\n- Supported production HR automation flows across Power Automate, Workday RaaS API, Dataverse, SharePoint, Jenkins, and Power BI operating context.\n- Coordinated technical solution support and documentation for client delivery teams, building transferable customer-facing handoff and vendor-liaison habits.\n\nData Engineer & Tableau Dashboard Development Sales Specialist | Advanced Communication Technology & Solutions Corporation | 2016 - 2020\nSection: Analytics and Project Support\n- Delivered analytics and project-support work that strengthened business requirement translation, documentation, and technical delivery coordination.\n- Converted stakeholder questions into dashboard and reporting support artifacts for operational decision-making.\n\n## Education\n\nAI/Big Data Analysis | TibaMe | 2020/02 - 2020/08\n\nMaster of Biomedical Sciences | Chang Gung University | 2009/07 - 2011/08\n\n## Languages\n\nChinese | Native\nEnglish | Professional",
+  "sections": {
+    "header": "Li Ting Kao / Christine Kao\nTarget: Microsoft Ecosystem Solution Enablement Specialist\nTaipei",
+    "summary": "Microsoft ecosystem enablement practitioner who translates enterprise workflow needs into Copilot adoption analytics, Power Platform governance, SharePoint-backed process support, and stakeholder-ready operating visibility. Best positioned for transferable solution-enablement or cloud-adoption support work; visible claims intentionally avoid unsupported Azure sales, quota, deal, or architecture ownership.",
+    "skills": "Microsoft Ecosystem Enablement: Microsoft 365 Copilot adoption analytics, Power Platform governance, Power BI visibility, SharePoint workflow support, vendor coordination, business workflow translation, technical handoff, production support, stakeholder enablement, AI governance workflow",
+    "workExperience": "Business Process Engineer / IS BA | Trend Micro | 2021 - 2026\nSection: Microsoft Ecosystem Adoption and Enablement\n- Built M365 Copilot adoption dashboard views from audit logs, license data, and distribution-list context so stakeholders could track usage and adoption signals.\n- Managed Copilot trial conversion operations through usage reporting, vendor coordination, license follow-up, and stakeholder reminders without presenting the work as sales ownership.\n- Authored Power Platform and API engagement documentation to clarify support boundaries, connection ownership, and maintainable handoff for internal automation users.\nSection: Governed Workflow Automation and Technical Handoff\n- Built a Power Apps and SharePoint-backed compliance workflow for DPIA / AI impact assessment requests with automated routing and reviewer visibility.\n- Supported production HR automation flows across Power Automate, Workday RaaS API, Dataverse, SharePoint, Jenkins, and Power BI operating context.\n- Coordinated technical solution support and documentation for client delivery teams, building transferable customer-facing handoff and vendor-liaison habits.\n\nData Engineer & Tableau Dashboard Development Sales Specialist | Advanced Communication Technology & Solutions Corporation | 2016 - 2020\nSection: Analytics and Project Support\n- Delivered analytics and project-support work that strengthened business requirement translation, documentation, and technical delivery coordination.\n- Converted stakeholder questions into dashboard and reporting support artifacts for operational decision-making.",
+    "projects": "",
+    "education": "AI/Big Data Analysis | TibaMe | 2020/02 - 2020/08\n\nMaster of Biomedical Sciences | Chang Gung University | 2009/07 - 2011/08",
+    "certifications": "",
+    "languages": "Chinese | Native\nEnglish | Professional"
+  },
+  "tailoredCv": {
+    "jdAnalysis": {
+      "targetRole": "Azure Solution Specialist",
+      "coreRequirements": [
+        "Azure",
+        "enterprise sales",
+        "solution sales",
+        "cloud consumption",
+        "pipeline management",
+        "forecasting",
+        "executive relationships",
+        "partner co-selling",
+        "cloud migration",
+        "application modernization",
+        "quota"
+      ],
+      "topKeywords": [
+        {
+          "keyword": "Azure",
+          "priority": "Must-have",
+          "placement": "Summary"
+        },
+        {
+          "keyword": "enterprise sales",
+          "priority": "Must-have",
+          "placement": "Summary"
+        },
+        {
+          "keyword": "solution sales",
+          "priority": "Must-have",
+          "placement": "Summary"
+        },
+        {
+          "keyword": "cloud consumption",
+          "priority": "Must-have",
+          "placement": "Summary"
+        },
+        {
+          "keyword": "pipeline management",
+          "priority": "Must-have",
+          "placement": "Summary"
+        },
+        {
+          "keyword": "forecasting",
+          "priority": "Must-have",
+          "placement": "Summary"
+        },
+        {
+          "keyword": "executive relationships",
+          "priority": "Must-have",
+          "placement": "Summary"
+        },
+        {
+          "keyword": "partner co-selling",
+          "priority": "Must-have",
+          "placement": "Summary"
+        },
+        {
+          "keyword": "cloud migration",
+          "priority": "Must-have",
+          "placement": "Summary"
+        },
+        {
+          "keyword": "application modernization",
+          "priority": "Must-have",
+          "placement": "Summary"
+        },
+        {
+          "keyword": "quota",
+          "priority": "Must-have",
+          "placement": "Summary"
+        }
+      ],
+      "gaps": [
+        "Quota-carrying enterprise technology sales and Azure consumption ownership",
+        "Large Azure cloud migration and application modernization engagements",
+        "Executive selling, negotiation, proposal ownership, and deal closure",
+        "Pipeline management, forecasting, and quota performance",
+        "Azure IaaS/PaaS and cloud economics"
+      ]
+    },
+    "header": {
+      "name": "Li Ting Kao / Christine Kao",
+      "targetRole": "Microsoft Ecosystem Solution Enablement Specialist",
+      "email": "",
+      "location": "Taipei"
+    },
+    "sidebar": {
+      "languages": [
+        {
+          "name": "Chinese",
+          "level": "Native",
+          "note": ""
+        },
+        {
+          "name": "English",
+          "level": "Professional",
+          "note": ""
+        }
+      ],
+      "skillGroups": [
+        {
+          "title": "Microsoft Ecosystem Enablement",
+          "highlightedSkills": [
+            "Microsoft 365 Copilot adoption analytics",
+            "Power Platform governance",
+            "Power BI visibility",
+            "SharePoint workflow support",
+            "vendor coordination"
+          ],
+          "otherSkills": [
+            "business workflow translation",
+            "technical handoff",
+            "production support",
+            "stakeholder enablement",
+            "AI governance workflow"
+          ]
+        }
+      ],
+      "certifications": [],
+      "education": [
+        {
+          "school": "TibaMe",
+          "degree": "AI/Big Data Analysis",
+          "period": "2020/02 - 2020/08"
+        },
+        {
+          "school": "Chang Gung University",
+          "degree": "Master of Biomedical Sciences",
+          "period": "2009/07 - 2011/08"
+        }
+      ]
+    },
+    "summary": "Microsoft ecosystem enablement practitioner who translates enterprise workflow needs into Copilot adoption analytics, Power Platform governance, SharePoint-backed process support, and stakeholder-ready operating visibility. Best positioned for transferable solution-enablement or cloud-adoption support work; visible claims intentionally avoid unsupported Azure sales, quota, deal, or architecture ownership.",
+    "workExperience": [
+      {
+        "experienceId": "trend-micro",
+        "company": "Trend Micro",
+        "role": "Business Process Engineer / IS BA",
+        "period": "2021 - 2026",
+        "location": "Taipei",
+        "subsections": [
+          {
+            "title": "Microsoft Ecosystem Adoption and Enablement",
+            "bullets": [
+              {
+                "text": "Built M365 Copilot adoption dashboard views from audit logs, license data, and distribution-list context so stakeholders could track usage and adoption signals.",
+                "evidenceIds": [
+                  "evi-m365-copilot-dashboard"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              },
+              {
+                "text": "Managed Copilot trial conversion operations through usage reporting, vendor coordination, license follow-up, and stakeholder reminders without presenting the work as sales ownership.",
+                "evidenceIds": [
+                  "evi-m365-trial-license-conversion"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              },
+              {
+                "text": "Authored Power Platform and API engagement documentation to clarify support boundaries, connection ownership, and maintainable handoff for internal automation users.",
+                "evidenceIds": [
+                  "evi-power-platform-governance-docs"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              }
+            ]
+          },
+          {
+            "title": "Governed Workflow Automation and Technical Handoff",
+            "bullets": [
+              {
+                "text": "Built a Power Apps and SharePoint-backed compliance workflow for DPIA / AI impact assessment requests with automated routing and reviewer visibility.",
+                "evidenceIds": [
+                  "evi-legal-dpia-app-build",
+                  "evi-legal-dpia-risk-classification"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              },
+              {
+                "text": "Supported production HR automation flows across Power Automate, Workday RaaS API, Dataverse, SharePoint, Jenkins, and Power BI operating context.",
+                "evidenceIds": [
+                  "evi-pa-ops-takeover"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              },
+              {
+                "text": "Coordinated technical solution support and documentation for client delivery teams, building transferable customer-facing handoff and vendor-liaison habits.",
+                "evidenceIds": [
+                  "evi-project-execution-hw-sw-integration"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "experienceId": "acts",
+        "company": "Advanced Communication Technology & Solutions Corporation",
+        "role": "Data Engineer & Tableau Dashboard Development Sales Specialist",
+        "period": "2016 - 2020",
+        "location": "Taipei",
+        "subsections": [
+          {
+            "title": "Analytics and Project Support",
+            "bullets": [
+              {
+                "text": "Delivered analytics and project-support work that strengthened business requirement translation, documentation, and technical delivery coordination.",
+                "evidenceIds": [
+                  "evi-project-execution-hw-sw-integration"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Scope"
+              },
+              {
+                "text": "Converted stakeholder questions into dashboard and reporting support artifacts for operational decision-making.",
+                "evidenceIds": [
+                  "evi-project-execution-hw-sw-integration"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Scope"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "positioningReport": {
+      "overallFit": "Weak",
+      "transferableStrengths": [
+        {
+          "strength": "Enterprise AI adoption, governance, automation, analytics, and license-value enablement",
+          "evidenceIds": [
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-technical-capability-summary"
+          ],
+          "supportLevel": "Partial",
+          "cvTreatment": "position-as-transferable"
+        },
+        {
+          "strength": "Production troubleshooting, operational handoff, issue resolution, and vendor coordination",
+          "evidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-project-execution-hw-sw-integration"
+          ],
+          "supportLevel": "Partial",
+          "cvTreatment": "position-as-transferable"
+        }
+      ],
+      "truthfulCapabilityGaps": [
+        {
+          "requirement": "7+ years technology sales or account management experience",
+          "reason": "Evidence shows project execution and a sales specialist title but not 7+ years of quota-carrying sales or account management.",
+          "riskLevel": "High",
+          "mitigation": "Client-facing technical project coordination and vendor alignment"
+        },
+        {
+          "requirement": "Leading large cloud engagements for enterprise customers",
+          "reason": "No evidence of leading Azure, infrastructure migration, application modernization, or large global cloud engagements.",
+          "riskLevel": "High",
+          "mitigation": "Technical implementation coordination and deployment participation"
+        },
+        {
+          "requirement": "Executive relationship building and customer buy-in",
+          "reason": "Stakeholder coordination is supported, but executive relationship ownership and commercial buy-in are not.",
+          "riskLevel": "Medium",
+          "mitigation": "Produced adoption and licensing evidence for managers, leaders, Finance, Microsoft, and regional stakeholders"
+        },
+        {
+          "requirement": "Partner and ISV co-selling",
+          "reason": "Vendor coordination is not equivalent to partner co-selling or ISV opportunity ownership.",
+          "riskLevel": "Medium",
+          "mitigation": "Vendor coordination and Microsoft-related program collaboration"
+        },
+        {
+          "requirement": "Business cases, proposals, negotiation, and deal closure",
+          "reason": "Source supports coordination around bidding and negotiation but not proposal ownership, revenue, contract closure, or competitive displacement.",
+          "riskLevel": "Medium",
+          "mitigation": "Supported client requirements, bidding, negotiation coordination, and delivery documentation"
+        },
+        {
+          "requirement": "Pipeline management, forecasting, and quota attainment",
+          "reason": "No evidence of sales pipeline, forecast, quota, or cloud-consumption ownership.",
+          "riskLevel": "High",
+          "mitigation": "Keep this as a gap or transferable angle; do not claim direct ownership."
+        },
+        {
+          "requirement": "Azure, IaaS, PaaS, migration, and modernization knowledge",
+          "reason": "Evidence does not establish Azure platform, IaaS/PaaS, cloud economics, migration, or modernization depth.",
+          "riskLevel": "Medium",
+          "mitigation": "Azure Data Explorer, Microsoft ecosystem, API integration, and deployment-support exposure"
+        },
+        {
+          "requirement": "Quota-carrying enterprise technology sales and Azure consumption ownership",
+          "reason": "Do not claim it; pursue cloud adoption, technical account, solution enablement, or partner technical specialist roles where delivery evidence is relevant.",
+          "riskLevel": "High",
+          "mitigation": "Do not claim it; pursue cloud adoption, technical account, solution enablement, or partner technical specialist roles where delivery evidence is relevant."
+        },
+        {
+          "requirement": "Large Azure cloud migration and application modernization engagements",
+          "reason": "Add only verified migration or modernization project evidence; otherwise position related Workday, Intune, API, and enterprise automation work as implementation support.",
+          "riskLevel": "High",
+          "mitigation": "Add only verified migration or modernization project evidence; otherwise position related Workday, Intune, API, and enterprise automation work as implementation support."
+        },
+        {
+          "requirement": "Executive selling, negotiation, proposal ownership, and deal closure",
+          "reason": "Use client-facing technical coordination evidence conservatively and prepare concrete examples of stakeholder influence, requirements discovery, and vendor negotiation.",
+          "riskLevel": "High",
+          "mitigation": "Use client-facing technical coordination evidence conservatively and prepare concrete examples of stakeholder influence, requirements discovery, and vendor negotiation."
+        },
+        {
+          "requirement": "Pipeline management, forecasting, and quota performance",
+          "reason": "Do not include sales metrics without source evidence; treat this JD as a stretch or avoid application.",
+          "riskLevel": "High",
+          "mitigation": "Do not include sales metrics without source evidence; treat this JD as a stretch or avoid application."
+        },
+        {
+          "requirement": "Azure IaaS/PaaS and cloud economics",
+          "reason": "Surface Azure Data Explorer and Microsoft ecosystem exposure only as supporting knowledge; obtain verified Azure training or project evidence if pursuing cloud roles.",
+          "riskLevel": "Medium",
+          "mitigation": "Surface Azure Data Explorer and Microsoft ecosystem exposure only as supporting knowledge; obtain verified Azure training or project evidence if pursuing cloud roles."
+        }
+      ],
+      "unsupportedClaimsPrevented": [
+        {
+          "claim": "Quota attainment",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Quota attainment"
+          ]
+        },
+        {
+          "claim": "Azure consumption growth ownership",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Azure consumption growth ownership"
+          ]
+        },
+        {
+          "claim": "Multi-million-dollar deals",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Multi-million-dollar deals"
+          ]
+        },
+        {
+          "claim": "7+ years enterprise technology sales",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "7+ years enterprise technology sales"
+          ]
+        },
+        {
+          "claim": "Executive relationship ownership",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Executive relationship ownership"
+          ]
+        },
+        {
+          "claim": "Partner or ISV co-selling",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Partner or ISV co-selling"
+          ]
+        },
+        {
+          "claim": "Cloud migration leadership",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Cloud migration leadership"
+          ]
+        },
+        {
+          "claim": "Application modernization leadership",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Application modernization leadership"
+          ]
+        },
+        {
+          "claim": "Competitive displacement",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Competitive displacement"
+          ]
+        },
+        {
+          "claim": "Forecast accuracy",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Forecast accuracy"
+          ]
+        },
+        {
+          "claim": "Deal closure ownership",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Deal closure ownership"
+          ]
+        },
+        {
+          "claim": "Azure architecture or production cloud infrastructure ownership",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Azure architecture or production cloud infrastructure ownership"
+          ]
+        },
+        {
+          "claim": "Azure Solution Specialist",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Azure Solution Specialist"
+          ]
+        },
+        {
+          "claim": "Azure enterprise solution sales",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Azure enterprise solution sales"
+          ]
+        },
+        {
+          "claim": "multi-million-dollar deal leadership",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "multi-million-dollar deal leadership"
+          ]
+        },
+        {
+          "claim": "cloud migration leadership",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "cloud migration leadership"
+          ]
+        },
+        {
+          "claim": "application modernization leadership",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "application modernization leadership"
+          ]
+        },
+        {
+          "claim": "quota attainment",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "quota attainment"
+          ]
+        }
+      ],
+      "recommendedPositioning": {
+        "headline": "Business-to-Technology Translator | Microsoft 365 Copilot Adoption, Power Platform Automation & Enterprise AI Enablement",
+        "summaryAngle": "This is an enterprise Azure sales role, and the candidate does not meet its core commercial screening thresholds. The safest truthful angle is Microsoft ecosystem adoption and solution enablement across Copilot, Power Platform, AI governance, analytics, and operational deployment support, but the application should be treated as Avoid unless additional verified enterprise sales evidence exists.",
+        "targetRoleTreatment": "not-recommended",
+        "wordingGuidance": [
+          "Do not position as a qualified Azure Solution Specialist. If applying, present as a business-to-technology translator with Microsoft ecosystem adoption and solution enablement experience seeking a customer-facing cloud adoption or solution specialist bridge role.",
+          "Generate a truthful transferable-positioning CV; do not pretend direct fit.",
+          "Strengthen wording only when supported by selected evidence.",
+          "Preserve unsupported requirements as gaps or risks, not visible strengths."
+        ]
+      },
+      "remainingHiringRisks": [
+        {
+          "risk": "7+ years technology sales or account management experience",
+          "impactOnInterviewProbability": "Materially reduces interview probability unless new evidence is added or the target angle changes.",
+          "mitigation": "Evidence shows project execution and a sales specialist title but not 7+ years of quota-carrying sales or account management."
+        },
+        {
+          "risk": "Leading large cloud engagements for enterprise customers",
+          "impactOnInterviewProbability": "Materially reduces interview probability unless new evidence is added or the target angle changes.",
+          "mitigation": "No evidence of leading Azure, infrastructure migration, application modernization, or large global cloud engagements."
+        },
+        {
+          "risk": "Executive relationship building and customer buy-in",
+          "impactOnInterviewProbability": "May reduce interview probability unless the CV keeps wording conservative.",
+          "mitigation": "Stakeholder coordination is supported, but executive relationship ownership and commercial buy-in are not."
+        },
+        {
+          "risk": "Partner and ISV co-selling",
+          "impactOnInterviewProbability": "May reduce interview probability unless the CV keeps wording conservative.",
+          "mitigation": "Vendor coordination is not equivalent to partner co-selling or ISV opportunity ownership."
+        },
+        {
+          "risk": "Business cases, proposals, negotiation, and deal closure",
+          "impactOnInterviewProbability": "May reduce interview probability unless the CV keeps wording conservative.",
+          "mitigation": "Source supports coordination around bidding and negotiation but not proposal ownership, revenue, contract closure, or competitive displacement."
+        },
+        {
+          "risk": "Pipeline management, forecasting, and quota attainment",
+          "impactOnInterviewProbability": "Materially reduces interview probability unless new evidence is added or the target angle changes.",
+          "mitigation": "No evidence of sales pipeline, forecast, quota, or cloud-consumption ownership."
+        },
+        {
+          "risk": "Azure, IaaS, PaaS, migration, and modernization knowledge",
+          "impactOnInterviewProbability": "May reduce interview probability unless the CV keeps wording conservative.",
+          "mitigation": "Evidence does not establish Azure platform, IaaS/PaaS, cloud economics, migration, or modernization depth."
+        },
+        {
+          "risk": "What sales quota did you carry and what percentage did you achieve?",
+          "impactOnInterviewProbability": "May reduce interview probability if the recruiter or hiring manager requires direct proof.",
+          "mitigation": "Prepare truthful interview evidence or choose a more adjacent target angle."
+        },
+        {
+          "risk": "Describe a multi-million-dollar Azure or cloud deal you closed.",
+          "impactOnInterviewProbability": "May reduce interview probability if the recruiter or hiring manager requires direct proof.",
+          "mitigation": "Prepare truthful interview evidence or choose a more adjacent target angle."
+        },
+        {
+          "risk": "How did you build and defend a customer business case?",
+          "impactOnInterviewProbability": "May reduce interview probability if the recruiter or hiring manager requires direct proof.",
+          "mitigation": "Prepare truthful interview evidence or choose a more adjacent target angle."
+        },
+        {
+          "risk": "Which executive stakeholders did you influence?",
+          "impactOnInterviewProbability": "May reduce interview probability if the recruiter or hiring manager requires direct proof.",
+          "mitigation": "Prepare truthful interview evidence or choose a more adjacent target angle."
+        },
+        {
+          "risk": "What Azure migration or application modernization engagements did you lead?",
+          "impactOnInterviewProbability": "May reduce interview probability if the recruiter or hiring manager requires direct proof.",
+          "mitigation": "Prepare truthful interview evidence or choose a more adjacent target angle."
+        }
+      ]
+    },
+    "keywordPlacementNotes": [
+      "Azure Solution Specialist wording is not used as the visible target role. Transferable Microsoft ecosystem enablement is emphasized because Screening Analysis marks direct sales ownership as unsupported."
+    ],
+    "interviewNotes": [
+      {
+        "topic": "Azure sales boundary",
+        "details": "Do not claim quota, Azure consumption growth, enterprise deal closure, executive selling, partner co-selling, or Azure architecture ownership.",
+        "evidenceIds": []
+      }
+    ],
+    "reviewNotes": [
+      "Generated fresh for ADR-004-W1 acceptance run; weak-fit transferable positioning used."
+    ]
+  },
+  "generationContext": {
+    "jdContentHash": "huau8t9",
+    "sourceDataHash": "h13eulnk",
+    "screeningAnalysisHash": "h2bgvq3",
+    "cvBriefHash": "h1g4tmwv",
+    "promptVersion": "tailored-cv-v7-credible-evidence",
+    "generatedAt": "2026-07-17T00:00:00.000Z",
+    "selectedSkillIds": [
+      "skill-m365-copilot-adoption-dashboard",
+      "skill-m365-ai-productivity-kpi",
+      "skill-powerplatform-governance-doc",
+      "skill-production-flow-takeover",
+      "skill-tw-cv-dispatch-automation",
+      "skill-connectone-api-engagement",
+      "skill-azuread-secret-env-maintenance",
+      "skill-genai-training-program-coordination",
+      "skill-workday-hcm-ba",
+      "skill-payroll-lpr-validation",
+      "skill-genai-dify-nl-sql-risk-eval",
+      "skill-hrbi-ta-dashboard"
+    ],
+    "selectedDomainKnowledgeIds": [
+      "domain-m365-copilot-adoption",
+      "domain-m365-license-governance",
+      "domain-power-platform-enablement",
+      "domain-production-hr-automation-ops",
+      "domain-hr-powerbi-analytics-portfolio",
+      "domain-genai-capability-building"
+    ],
+    "selectedEvidenceIds": [
+      "evi-m365-copilot-dashboard",
+      "evi-m365-trial-license-conversion",
+      "evi-project-execution-hw-sw-integration",
+      "evi-power-platform-governance-docs",
+      "evi-fin-ai-prod-ops-global-jp",
+      "evi-existing-python-sql-pipeline-debugging",
+      "evi-business-workflow-structuring-non-engineering",
+      "evi-trender-buddy-gpt-eval-pipeline",
+      "evi-technical-capability-summary",
+      "evi-genai-dify-eval",
+      "evi-ta-dashboard-lifecycle",
+      "evi-workday-calc-field-audit",
+      "evi-workday-hcm-migration",
+      "evi-workday-ph-kt-workshop",
+      "evi-genai-hub-milestone-tracking",
+      "evi-tomo-eval-framework",
+      "evi-hr-powerbi-portfolio",
+      "evi-ph-time-block"
+    ],
+    "selectedStoryIds": [
+      "star-m365-copilot-adoption-dashboard",
+      "star-pa-ops-takeover",
+      "star-ta-dashboard-lifecycle",
+      "star-fin-ai-kb-sync-automation",
+      "star-fin-ai-prod-ops-change-issue",
+      "star-tomo-platform-evaluation"
+    ],
+    "evidencePriorityIds": [
+      "evi-m365-copilot-dashboard",
+      "evi-m365-trial-license-conversion",
+      "evi-technical-capability-summary",
+      "evi-fin-ai-prod-ops-global-jp",
+      "evi-existing-python-sql-pipeline-debugging",
+      "evi-project-execution-hw-sw-integration",
+      "evi-power-platform-governance-docs",
+      "evi-business-workflow-structuring-non-engineering",
+      "evi-trender-buddy-gpt-eval-pipeline",
+      "evi-genai-dify-eval",
+      "evi-ta-dashboard-lifecycle",
+      "evi-workday-calc-field-audit",
+      "evi-workday-hcm-migration",
+      "evi-workday-ph-kt-workshop",
+      "evi-genai-hub-milestone-tracking",
+      "evi-tomo-eval-framework",
+      "evi-hr-powerbi-portfolio",
+      "evi-ph-time-block"
+    ],
+    "invalidSelectionIds": {
+      "skillIds": [],
+      "domainKnowledgeIds": [],
+      "evidenceIds": [],
+      "storyIds": []
+    },
+    "writerContextHash": "h1czkiyp"
+  },
+  "status": "Ready for Review",
+  "updatedAt": "2026-07-17T13:18:35.637Z"
+}

@@ -1,0 +1,846 @@
+{
+  "runId": "ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z",
+  "actualTimestamp": "2026-07-17T13:18:35.637Z",
+  "implementationCommitIdentifier": "unavailable",
+  "gitRepositoryStatus": "git repository status unavailable",
+  "environmentLimitations": [
+    "Git metadata unavailable in this workspace path; not treated as acceptance failure.",
+    "Real AI execution was not required; acceptance uses existing generated CV artifacts and fresh post-Wave-2 Reviewer execution."
+  ],
+  "caseIdentifiers": [
+    "case-a-good-fit",
+    "case-b-risky-fit",
+    "case-c-weak-fit-azure"
+  ],
+  "sourceFixtureLocations": {
+    "case-a-good-fit": "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-a-good-fit",
+    "case-b-risky-fit": "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-b-risky-fit",
+    "case-c-weak-fit-azure": "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-c-weak-fit-azure"
+  },
+  "generatedArtifactLocations": {
+    "case-a-good-fit": "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-a-good-fit",
+    "case-b-risky-fit": "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-b-risky-fit",
+    "case-c-weak-fit-azure": "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-c-weak-fit-azure"
+  },
+  "freshness": {
+    "case-a-good-fit": {
+      "reviewerOutputFresh": true,
+      "structuredReviewResultInSnapshot": true,
+      "runTimestamp": "2026-07-17T13:18:35.637Z"
+    },
+    "case-b-risky-fit": {
+      "reviewerOutputFresh": true,
+      "structuredReviewResultInSnapshot": true,
+      "runTimestamp": "2026-07-17T13:18:35.637Z"
+    },
+    "case-c-weak-fit-azure": {
+      "reviewerOutputFresh": true,
+      "structuredReviewResultInSnapshot": true,
+      "runTimestamp": "2026-07-17T13:18:35.637Z"
+    }
+  },
+  "commandsExecuted": [
+    "node /private/tmp/adr005_w2_acceptance_run.mjs",
+    "npm run smoke:reviewer-policy",
+    "npm run smoke:reviewer",
+    "npm run smoke:writer-input",
+    "npm run smoke:writer-output",
+    "npm run smoke:summary-generator-review-alignment",
+    "npm run smoke:review-freshness",
+    "npm run build"
+  ],
+  "validationResults": [
+    {
+      "command": "npm run smoke:reviewer-policy",
+      "result": "PASS",
+      "failureReason": "",
+      "wave2Scope": true
+    },
+    {
+      "command": "npm run smoke:reviewer",
+      "result": "PASS",
+      "failureReason": "",
+      "wave2Scope": true
+    },
+    {
+      "command": "npm run smoke:writer-input",
+      "result": "PASS",
+      "failureReason": "",
+      "wave2Scope": false
+    },
+    {
+      "command": "npm run smoke:writer-output",
+      "result": "PASS",
+      "failureReason": "",
+      "wave2Scope": false
+    },
+    {
+      "command": "npm run smoke:summary-generator-review-alignment",
+      "result": "PASS",
+      "failureReason": "",
+      "wave2Scope": false
+    },
+    {
+      "command": "npm run smoke:review-freshness",
+      "result": "PASS",
+      "failureReason": "",
+      "wave2Scope": true
+    },
+    {
+      "command": "npm run build",
+      "result": "PASS",
+      "failureReason": "",
+      "wave2Scope": true
+    }
+  ],
+  "cases": [
+    {
+      "key": "case-a-good-fit",
+      "label": "Case A — Good Fit",
+      "sourceFixture": "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-a-good-fit",
+      "artifactDir": "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-a-good-fit",
+      "freshReviewerOutput": true,
+      "structuredReviewResultInSnapshot": true,
+      "fitTier": "Good",
+      "generatedTargetRole": "Power Platform Developer",
+      "reviewStatus": "WARNING",
+      "truthfulnessStatus": "truthful",
+      "categoryCounts": {
+        "Unsupported Claim": 0,
+        "Evidence Missing": 0,
+        "Capability Gap": 1,
+        "External Wording": 1,
+        "Keyword Coverage": 0,
+        "Formatting": 0,
+        "Profile Completeness": 1,
+        "Policy Violation": 0
+      },
+      "issueCount": 3,
+      "legacyReady": false,
+      "legacyBlockerCount": 1,
+      "exportDecisionReady": false,
+      "caseAssessment": {
+        "inputAuthority": {
+          "fitTierFromScreeningAnalysis": "Good",
+          "positioningGuidance": {
+            "headline": "Power Platform Developer | Power Apps, Power Automate, SharePoint Workflow Automation",
+            "summaryAngle": "Power Platform developer with grounded Power Apps, Power Automate, SharePoint, governance documentation, production troubleshooting, and M365 adoption analytics evidence.",
+            "targetRoleTreatment": "direct-fit",
+            "wordingGuidance": [
+              "Power Platform / M365 automation practitioner focused on workflow delivery, governance documentation, and production support.",
+              "Strengthen wording only when supported by selected evidence.",
+              "Preserve unsupported requirements as gaps or risks, not visible strengths."
+            ]
+          },
+          "upstreamCapabilityGaps": [
+            {
+              "requirement": "Azure cloud architecture ownership",
+              "reason": "Evidence does not support independent Azure cloud architecture ownership.",
+              "riskLevel": "Medium",
+              "mitigation": "Keep Azure references limited to tools touched inside supported automation contexts."
+            },
+            {
+              "requirement": "Independent Azure cloud architecture ownership",
+              "reason": "Not required for the selected Power Platform positioning; do not claim it.",
+              "riskLevel": "Low",
+              "mitigation": "Not required for the selected Power Platform positioning; do not claim it."
+            }
+          ],
+          "reviewerUsesInputsAsReadOnlyAuthorities": true
+        },
+        "issueCategoryCounts": {
+          "Unsupported Claim": 0,
+          "Evidence Missing": 0,
+          "Capability Gap": 1,
+          "External Wording": 1,
+          "Keyword Coverage": 0,
+          "Formatting": 0,
+          "Profile Completeness": 1,
+          "Policy Violation": 0
+        },
+        "issueAssessments": [
+          {
+            "issueId": "review-1-capability-gap-truthful-capability-gap",
+            "categoryAccuracy": "PASS",
+            "severityAccuracy": "PASS",
+            "evidenceSufficient": "PASS",
+            "truthfulGapIncorrectlyUnsupported": "PASS",
+            "unsupportedClaimSoftenedToGap": "PASS",
+            "duplicateCategory": "PASS"
+          },
+          {
+            "issueId": "review-2-external-wording-internal-or-work-log-wording-remains",
+            "categoryAccuracy": "PASS",
+            "severityAccuracy": "PASS",
+            "evidenceSufficient": "PASS",
+            "truthfulGapIncorrectlyUnsupported": "PASS",
+            "unsupportedClaimSoftenedToGap": "PASS",
+            "duplicateCategory": "PASS"
+          },
+          {
+            "issueId": "review-3-profile-completeness-trusted-profile-contact-data-is-incom",
+            "categoryAccuracy": "PASS",
+            "severityAccuracy": "PASS",
+            "evidenceSufficient": "PASS",
+            "truthfulGapIncorrectlyUnsupported": "PASS",
+            "unsupportedClaimSoftenedToGap": "PASS",
+            "duplicateCategory": "PASS"
+          }
+        ],
+        "positioningBoundary": {
+          "noFitTierRecomputation": true,
+          "noPositioningRecomputation": true,
+          "noCapabilityGapRecomputation": true,
+          "noWriterRepairExportBehavior": true
+        },
+        "repairContract": {
+          "canRepairConsumeStructuredOnly": true,
+          "repairableIssues": [
+            {
+              "category": "External Wording",
+              "severity": "Medium",
+              "title": "Internal or work-log wording remains",
+              "description": "3 work-log bullet(s) detected.",
+              "visibleLocation": {
+                "section": "workExperience"
+              },
+              "evidence": {
+                "evidenceIds": [],
+                "reason": "Visible wording should be external recruiter language."
+              },
+              "repairability": "targeted-repair",
+              "suggestedRepairIntent": "Translate internal/work-log wording into external resume language without changing meaning.",
+              "expectedRepairBoundary": [
+                "summary",
+                "workExperience"
+              ],
+              "exportSignal": "warn",
+              "id": "review-2-external-wording-internal-or-work-log-wording-remains"
+            },
+            {
+              "category": "Profile Completeness",
+              "severity": "High",
+              "title": "Trusted profile contact data is incomplete",
+              "description": "Missing trusted profile field(s): email.",
+              "visibleLocation": {
+                "section": "header"
+              },
+              "evidence": {
+                "evidenceIds": [],
+                "reason": "Profile/contact data must come from trusted user/profile input and must not be invented by Reviewer or Writer."
+              },
+              "repairability": "human-input",
+              "suggestedRepairIntent": "Collect trusted contact data from the user or profile source.",
+              "expectedRepairBoundary": [
+                "header.contact"
+              ],
+              "exportSignal": "block",
+              "id": "review-3-profile-completeness-trusted-profile-contact-data-is-incom"
+            }
+          ]
+        },
+        "exportContract": {
+          "canExportConsumeStructuredOnly": true,
+          "exportRecommendationInput": {
+            "reviewStatus": "WARNING",
+            "exportBlockingIssues": [
+              {
+                "issueId": "review-3-profile-completeness-trusted-profile-contact-data-is-incom",
+                "category": "Profile Completeness",
+                "severity": "High",
+                "reason": "Missing trusted profile field(s): email."
+              }
+            ],
+            "exportWarnings": [
+              {
+                "issueId": "review-1-capability-gap-truthful-capability-gap",
+                "category": "Capability Gap",
+                "severity": "Informational",
+                "reason": "2 capability gap(s) are tracked as fit/readiness risk, not unsupported visible claims."
+              },
+              {
+                "issueId": "review-2-external-wording-internal-or-work-log-wording-remains",
+                "category": "External Wording",
+                "severity": "Medium",
+                "reason": "3 work-log bullet(s) detected."
+              }
+            ],
+            "truthfulness": {
+              "unsupportedClaimCount": 0,
+              "policyViolationCount": 0,
+              "capabilityGapCount": 1
+            },
+            "documentReadiness": {
+              "formattingIssueCount": 0,
+              "profileCompletenessIssueCount": 1,
+              "externalWordingIssueCount": 1
+            }
+          }
+        },
+        "legacyCompatibility": {
+          "readyAvailable": true,
+          "blockersAvailable": true,
+          "checksAvailable": true,
+          "structuredResultAdditive": true,
+          "structuredReviewResultInSnapshot": true
+        },
+        "productOutcome": {
+          "evaluatedTruthfully": true,
+          "capabilityGapsNotFabrication": true,
+          "unsupportedClaimsDetectedWherePresent": true,
+          "understandableWithoutHiddenReasoning": true,
+          "defensibleHumanReview": "see case narrative"
+        }
+      }
+    },
+    {
+      "key": "case-b-risky-fit",
+      "label": "Case B — Risky Fit",
+      "sourceFixture": "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-b-risky-fit",
+      "artifactDir": "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-b-risky-fit",
+      "freshReviewerOutput": true,
+      "structuredReviewResultInSnapshot": true,
+      "fitTier": "Stretch",
+      "generatedTargetRole": "AI Evaluation Operations Specialist",
+      "reviewStatus": "WARNING",
+      "truthfulnessStatus": "truthful",
+      "categoryCounts": {
+        "Unsupported Claim": 0,
+        "Evidence Missing": 0,
+        "Capability Gap": 1,
+        "External Wording": 1,
+        "Keyword Coverage": 1,
+        "Formatting": 0,
+        "Profile Completeness": 1,
+        "Policy Violation": 0
+      },
+      "issueCount": 4,
+      "legacyReady": false,
+      "legacyBlockerCount": 3,
+      "exportDecisionReady": false,
+      "caseAssessment": {
+        "inputAuthority": {
+          "fitTierFromScreeningAnalysis": "Stretch",
+          "positioningGuidance": {
+            "headline": "AI Quality Operations / Conversational AI Evaluation Specialist with enterprise chatbot evaluation, GPT scoring, A/B testing, and governance automation experience.",
+            "summaryAngle": "Stretch application. The CV should not try to look like a pure AI Evaluation Scientist. The strongest safe angle is enterprise AI quality operations: chatbot evaluation framework, GPT scoring workflow, A/B attribution metrics, production AI chatbot operations, and AI governance controls. Major ML/statistics/framework gaps must remain visible internally so the CV generator does not overclaim.",
+            "targetRoleTreatment": "adjacent-fit",
+            "wordingGuidance": [
+              "Enterprise AI quality operations specialist with chatbot evaluation, GPT scoring workflow, A/B testing design, human-review QA loop, and governance automation experience.",
+              "Use adjacent-fit wording and explain weak evidence as risk.",
+              "Strengthen wording only when supported by selected evidence.",
+              "Preserve unsupported requirements as gaps or risks, not visible strengths."
+            ]
+          },
+          "upstreamCapabilityGaps": [
+            {
+              "requirement": "Deep knowledge of benchmark design, LLM-as-Judge, quantitative quality measurement, and hallucination detection",
+              "reason": "No direct evidence of LLM-as-Judge calibration, hallucination detection methodology, construct validity, or contamination detection.",
+              "riskLevel": "Medium",
+              "mitigation": "Structured benchmark-style chatbot evaluation and GPT-based scoring workflow."
+            },
+            {
+              "requirement": "Statistics and experimental design including hypothesis testing, A/B testing, confidence intervals, and effect sizes",
+              "reason": "Evidence does not prove hypothesis testing, confidence intervals, effect sizes, or statistical significance analysis.",
+              "riskLevel": "Medium",
+              "mitigation": "Designed live A/B routing and reporting logic for chatbot comparison."
+            },
+            {
+              "requirement": "Practical experience with PyTorch, JAX, or TensorFlow",
+              "reason": "No supported evidence for PyTorch, JAX, or TensorFlow.",
+              "riskLevel": "High",
+              "mitigation": "Keep this as a gap or transferable angle; do not claim direct ownership."
+            },
+            {
+              "requirement": "Multi-turn, tool-use, long-context, or AI-agent evaluation harnesses",
+              "reason": "No direct evidence of multi-agent, long-context, or tool-use evaluation harness implementation.",
+              "riskLevel": "Medium",
+              "mitigation": "AI assistant and chatbot quality evaluation workflow experience."
+            },
+            {
+              "requirement": "CI/CD quality gates and scalable automated evaluation infrastructure",
+              "reason": "No direct evidence of CI/CD quality gate ownership or scalable ML evaluation infrastructure.",
+              "riskLevel": "Medium",
+              "mitigation": "Automated quality workflow and production data-pipeline validation support."
+            },
+            {
+              "requirement": "No supported PyTorch, JAX, or TensorFlow experience",
+              "reason": "Do not list these tools. If applying, complete and document a small LLM evaluation notebook using one framework or state no direct framework experience in interview.",
+              "riskLevel": "High",
+              "mitigation": "Do not list these tools. If applying, complete and document a small LLM evaluation notebook using one framework or state no direct framework experience in interview."
+            },
+            {
+              "requirement": "Limited proof of advanced statistics: hypothesis testing, confidence intervals, effect sizes, significance testing",
+              "reason": "CV should only claim A/B routing and metric definition. Prepare an interview explanation of what was measured and avoid claiming statistical inference unless documented.",
+              "riskLevel": "High",
+              "mitigation": "CV should only claim A/B routing and metric definition. Prepare an interview explanation of what was measured and avoid claiming statistical inference unless documented."
+            },
+            {
+              "requirement": "No direct reward modeling, RLHF, DPO, proper scoring rules, IRT, construct validity, or contamination detection evidence",
+              "reason": "Do not include these as skills. Treat them as learning gaps and ask whether the role can accept AI quality operations background.",
+              "riskLevel": "High",
+              "mitigation": "Do not include these as skills. Treat them as learning gaps and ask whether the role can accept AI quality operations background."
+            },
+            {
+              "requirement": "Python evaluation pipeline ownership is only partially supported",
+              "reason": "Frame Python as existing pipeline inspection, validation, and troubleshooting unless source confirms from-scratch pipeline code ownership.",
+              "riskLevel": "Medium",
+              "mitigation": "Frame Python as existing pipeline inspection, validation, and troubleshooting unless source confirms from-scratch pipeline code ownership."
+            },
+            {
+              "requirement": "No CI/CD evaluation quality gate ownership",
+              "reason": "Use production monitoring and automated GPT evaluation workflow language, not CI/CD gate ownership.",
+              "riskLevel": "Medium",
+              "mitigation": "Use production monitoring and automated GPT evaluation workflow language, not CI/CD gate ownership."
+            },
+            {
+              "requirement": "Language requirement is not fully evidenced",
+              "reason": "State only verified business communication languages and avoid claiming fluent Japanese.",
+              "riskLevel": "Medium",
+              "mitigation": "State only verified business communication languages and avoid claiming fluent Japanese."
+            }
+          ],
+          "reviewerUsesInputsAsReadOnlyAuthorities": true
+        },
+        "issueCategoryCounts": {
+          "Unsupported Claim": 0,
+          "Evidence Missing": 0,
+          "Capability Gap": 1,
+          "External Wording": 1,
+          "Keyword Coverage": 1,
+          "Formatting": 0,
+          "Profile Completeness": 1,
+          "Policy Violation": 0
+        },
+        "issueAssessments": [
+          {
+            "issueId": "review-1-keyword-coverage-evidence-supported-keywords-are-under-pla",
+            "categoryAccuracy": "PASS",
+            "severityAccuracy": "PASS",
+            "evidenceSufficient": "PASS",
+            "truthfulGapIncorrectlyUnsupported": "PASS",
+            "unsupportedClaimSoftenedToGap": "PASS",
+            "duplicateCategory": "PASS"
+          },
+          {
+            "issueId": "review-2-capability-gap-truthful-capability-gap",
+            "categoryAccuracy": "PASS",
+            "severityAccuracy": "PASS",
+            "evidenceSufficient": "PASS",
+            "truthfulGapIncorrectlyUnsupported": "PASS",
+            "unsupportedClaimSoftenedToGap": "PASS",
+            "duplicateCategory": "PASS"
+          },
+          {
+            "issueId": "review-3-external-wording-internal-or-work-log-wording-remains",
+            "categoryAccuracy": "PASS",
+            "severityAccuracy": "PASS",
+            "evidenceSufficient": "PASS",
+            "truthfulGapIncorrectlyUnsupported": "PASS",
+            "unsupportedClaimSoftenedToGap": "PASS",
+            "duplicateCategory": "PASS"
+          },
+          {
+            "issueId": "review-4-profile-completeness-trusted-profile-contact-data-is-incom",
+            "categoryAccuracy": "PASS",
+            "severityAccuracy": "PASS",
+            "evidenceSufficient": "PASS",
+            "truthfulGapIncorrectlyUnsupported": "PASS",
+            "unsupportedClaimSoftenedToGap": "PASS",
+            "duplicateCategory": "PASS"
+          }
+        ],
+        "positioningBoundary": {
+          "noFitTierRecomputation": true,
+          "noPositioningRecomputation": true,
+          "noCapabilityGapRecomputation": true,
+          "noWriterRepairExportBehavior": true
+        },
+        "repairContract": {
+          "canRepairConsumeStructuredOnly": true,
+          "repairableIssues": [
+            {
+              "category": "Keyword Coverage",
+              "severity": "Medium",
+              "title": "Evidence-supported keywords are under-placed",
+              "description": "Supported keyword gap(s): AI quality evaluation, benchmark questions, quality metrics, AI governance, prompt regression testing, Python validation.",
+              "evidence": {
+                "evidenceIds": [],
+                "screeningAnalysisPath": "screeningAnalysis.mustHaveKeywords",
+                "cvBriefPath": "cvBrief.skillsToForeground|bulletPlan",
+                "reason": "These keywords are evidence-supported and may be placed without exceeding ADR-004 boundaries."
+              },
+              "repairability": "targeted-repair",
+              "suggestedRepairIntent": "Add only evidence-supported keywords to summary, skills, or relevant bullets.",
+              "expectedRepairBoundary": [
+                "summary",
+                "sidebar.skills",
+                "workExperience"
+              ],
+              "exportSignal": "warn",
+              "id": "review-1-keyword-coverage-evidence-supported-keywords-are-under-pla"
+            },
+            {
+              "category": "External Wording",
+              "severity": "Medium",
+              "title": "Internal or work-log wording remains",
+              "description": "2 work-log bullet(s) detected.",
+              "visibleLocation": {
+                "section": "workExperience"
+              },
+              "evidence": {
+                "evidenceIds": [],
+                "reason": "Visible wording should be external recruiter language."
+              },
+              "repairability": "targeted-repair",
+              "suggestedRepairIntent": "Translate internal/work-log wording into external resume language without changing meaning.",
+              "expectedRepairBoundary": [
+                "summary",
+                "workExperience"
+              ],
+              "exportSignal": "warn",
+              "id": "review-3-external-wording-internal-or-work-log-wording-remains"
+            },
+            {
+              "category": "Profile Completeness",
+              "severity": "High",
+              "title": "Trusted profile contact data is incomplete",
+              "description": "Missing trusted profile field(s): email.",
+              "visibleLocation": {
+                "section": "header"
+              },
+              "evidence": {
+                "evidenceIds": [],
+                "reason": "Profile/contact data must come from trusted user/profile input and must not be invented by Reviewer or Writer."
+              },
+              "repairability": "human-input",
+              "suggestedRepairIntent": "Collect trusted contact data from the user or profile source.",
+              "expectedRepairBoundary": [
+                "header.contact"
+              ],
+              "exportSignal": "block",
+              "id": "review-4-profile-completeness-trusted-profile-contact-data-is-incom"
+            }
+          ]
+        },
+        "exportContract": {
+          "canExportConsumeStructuredOnly": true,
+          "exportRecommendationInput": {
+            "reviewStatus": "WARNING",
+            "exportBlockingIssues": [
+              {
+                "issueId": "review-4-profile-completeness-trusted-profile-contact-data-is-incom",
+                "category": "Profile Completeness",
+                "severity": "High",
+                "reason": "Missing trusted profile field(s): email."
+              }
+            ],
+            "exportWarnings": [
+              {
+                "issueId": "review-1-keyword-coverage-evidence-supported-keywords-are-under-pla",
+                "category": "Keyword Coverage",
+                "severity": "Medium",
+                "reason": "Supported keyword gap(s): AI quality evaluation, benchmark questions, quality metrics, AI governance, prompt regression testing, Python validation."
+              },
+              {
+                "issueId": "review-2-capability-gap-truthful-capability-gap",
+                "category": "Capability Gap",
+                "severity": "Medium",
+                "reason": "11 capability gap(s) are tracked as fit/readiness risk, not unsupported visible claims."
+              },
+              {
+                "issueId": "review-3-external-wording-internal-or-work-log-wording-remains",
+                "category": "External Wording",
+                "severity": "Medium",
+                "reason": "2 work-log bullet(s) detected."
+              }
+            ],
+            "truthfulness": {
+              "unsupportedClaimCount": 0,
+              "policyViolationCount": 0,
+              "capabilityGapCount": 1
+            },
+            "documentReadiness": {
+              "formattingIssueCount": 0,
+              "profileCompletenessIssueCount": 1,
+              "externalWordingIssueCount": 1
+            }
+          }
+        },
+        "legacyCompatibility": {
+          "readyAvailable": true,
+          "blockersAvailable": true,
+          "checksAvailable": true,
+          "structuredResultAdditive": true,
+          "structuredReviewResultInSnapshot": true
+        },
+        "productOutcome": {
+          "evaluatedTruthfully": true,
+          "capabilityGapsNotFabrication": true,
+          "unsupportedClaimsDetectedWherePresent": true,
+          "understandableWithoutHiddenReasoning": true,
+          "defensibleHumanReview": "see case narrative"
+        }
+      }
+    },
+    {
+      "key": "case-c-weak-fit-azure",
+      "label": "Case C — Azure Weak Fit",
+      "sourceFixture": "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-c-weak-fit-azure",
+      "artifactDir": "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z/case-c-weak-fit-azure",
+      "freshReviewerOutput": true,
+      "structuredReviewResultInSnapshot": true,
+      "fitTier": "Avoid",
+      "generatedTargetRole": "Microsoft Ecosystem Solution Enablement Specialist",
+      "reviewStatus": "WARNING",
+      "truthfulnessStatus": "truthful",
+      "categoryCounts": {
+        "Unsupported Claim": 0,
+        "Evidence Missing": 0,
+        "Capability Gap": 1,
+        "External Wording": 1,
+        "Keyword Coverage": 0,
+        "Formatting": 0,
+        "Profile Completeness": 1,
+        "Policy Violation": 0
+      },
+      "issueCount": 3,
+      "legacyReady": false,
+      "legacyBlockerCount": 2,
+      "exportDecisionReady": false,
+      "caseAssessment": {
+        "inputAuthority": {
+          "fitTierFromScreeningAnalysis": "Avoid",
+          "positioningGuidance": {
+            "headline": "Business-to-Technology Translator | Microsoft 365 Copilot Adoption, Power Platform Automation & Enterprise AI Enablement",
+            "summaryAngle": "This is an enterprise Azure sales role, and the candidate does not meet its core commercial screening thresholds. The safest truthful angle is Microsoft ecosystem adoption and solution enablement across Copilot, Power Platform, AI governance, analytics, and operational deployment support, but the application should be treated as Avoid unless additional verified enterprise sales evidence exists.",
+            "targetRoleTreatment": "not-recommended",
+            "wordingGuidance": [
+              "Do not position as a qualified Azure Solution Specialist. If applying, present as a business-to-technology translator with Microsoft ecosystem adoption and solution enablement experience seeking a customer-facing cloud adoption or solution specialist bridge role.",
+              "Generate a truthful transferable-positioning CV; do not pretend direct fit.",
+              "Strengthen wording only when supported by selected evidence.",
+              "Preserve unsupported requirements as gaps or risks, not visible strengths."
+            ]
+          },
+          "upstreamCapabilityGaps": [
+            {
+              "requirement": "7+ years technology sales or account management experience",
+              "reason": "Evidence shows project execution and a sales specialist title but not 7+ years of quota-carrying sales or account management.",
+              "riskLevel": "High",
+              "mitigation": "Client-facing technical project coordination and vendor alignment"
+            },
+            {
+              "requirement": "Leading large cloud engagements for enterprise customers",
+              "reason": "No evidence of leading Azure, infrastructure migration, application modernization, or large global cloud engagements.",
+              "riskLevel": "High",
+              "mitigation": "Technical implementation coordination and deployment participation"
+            },
+            {
+              "requirement": "Executive relationship building and customer buy-in",
+              "reason": "Stakeholder coordination is supported, but executive relationship ownership and commercial buy-in are not.",
+              "riskLevel": "Medium",
+              "mitigation": "Produced adoption and licensing evidence for managers, leaders, Finance, Microsoft, and regional stakeholders"
+            },
+            {
+              "requirement": "Partner and ISV co-selling",
+              "reason": "Vendor coordination is not equivalent to partner co-selling or ISV opportunity ownership.",
+              "riskLevel": "Medium",
+              "mitigation": "Vendor coordination and Microsoft-related program collaboration"
+            },
+            {
+              "requirement": "Business cases, proposals, negotiation, and deal closure",
+              "reason": "Source supports coordination around bidding and negotiation but not proposal ownership, revenue, contract closure, or competitive displacement.",
+              "riskLevel": "Medium",
+              "mitigation": "Supported client requirements, bidding, negotiation coordination, and delivery documentation"
+            },
+            {
+              "requirement": "Pipeline management, forecasting, and quota attainment",
+              "reason": "No evidence of sales pipeline, forecast, quota, or cloud-consumption ownership.",
+              "riskLevel": "High",
+              "mitigation": "Keep this as a gap or transferable angle; do not claim direct ownership."
+            },
+            {
+              "requirement": "Azure, IaaS, PaaS, migration, and modernization knowledge",
+              "reason": "Evidence does not establish Azure platform, IaaS/PaaS, cloud economics, migration, or modernization depth.",
+              "riskLevel": "Medium",
+              "mitigation": "Azure Data Explorer, Microsoft ecosystem, API integration, and deployment-support exposure"
+            },
+            {
+              "requirement": "Quota-carrying enterprise technology sales and Azure consumption ownership",
+              "reason": "Do not claim it; pursue cloud adoption, technical account, solution enablement, or partner technical specialist roles where delivery evidence is relevant.",
+              "riskLevel": "High",
+              "mitigation": "Do not claim it; pursue cloud adoption, technical account, solution enablement, or partner technical specialist roles where delivery evidence is relevant."
+            },
+            {
+              "requirement": "Large Azure cloud migration and application modernization engagements",
+              "reason": "Add only verified migration or modernization project evidence; otherwise position related Workday, Intune, API, and enterprise automation work as implementation support.",
+              "riskLevel": "High",
+              "mitigation": "Add only verified migration or modernization project evidence; otherwise position related Workday, Intune, API, and enterprise automation work as implementation support."
+            },
+            {
+              "requirement": "Executive selling, negotiation, proposal ownership, and deal closure",
+              "reason": "Use client-facing technical coordination evidence conservatively and prepare concrete examples of stakeholder influence, requirements discovery, and vendor negotiation.",
+              "riskLevel": "High",
+              "mitigation": "Use client-facing technical coordination evidence conservatively and prepare concrete examples of stakeholder influence, requirements discovery, and vendor negotiation."
+            },
+            {
+              "requirement": "Pipeline management, forecasting, and quota performance",
+              "reason": "Do not include sales metrics without source evidence; treat this JD as a stretch or avoid application.",
+              "riskLevel": "High",
+              "mitigation": "Do not include sales metrics without source evidence; treat this JD as a stretch or avoid application."
+            },
+            {
+              "requirement": "Azure IaaS/PaaS and cloud economics",
+              "reason": "Surface Azure Data Explorer and Microsoft ecosystem exposure only as supporting knowledge; obtain verified Azure training or project evidence if pursuing cloud roles.",
+              "riskLevel": "Medium",
+              "mitigation": "Surface Azure Data Explorer and Microsoft ecosystem exposure only as supporting knowledge; obtain verified Azure training or project evidence if pursuing cloud roles."
+            }
+          ],
+          "reviewerUsesInputsAsReadOnlyAuthorities": true
+        },
+        "issueCategoryCounts": {
+          "Unsupported Claim": 0,
+          "Evidence Missing": 0,
+          "Capability Gap": 1,
+          "External Wording": 1,
+          "Keyword Coverage": 0,
+          "Formatting": 0,
+          "Profile Completeness": 1,
+          "Policy Violation": 0
+        },
+        "issueAssessments": [
+          {
+            "issueId": "review-1-capability-gap-truthful-capability-gap",
+            "categoryAccuracy": "PASS",
+            "severityAccuracy": "PASS",
+            "evidenceSufficient": "PASS",
+            "truthfulGapIncorrectlyUnsupported": "PASS",
+            "unsupportedClaimSoftenedToGap": "PASS",
+            "duplicateCategory": "PASS"
+          },
+          {
+            "issueId": "review-2-external-wording-action-outcome-bullet-strength-is-low",
+            "categoryAccuracy": "PASS",
+            "severityAccuracy": "PASS",
+            "evidenceSufficient": "PASS",
+            "truthfulGapIncorrectlyUnsupported": "PASS",
+            "unsupportedClaimSoftenedToGap": "PASS",
+            "duplicateCategory": "PASS"
+          },
+          {
+            "issueId": "review-3-profile-completeness-trusted-profile-contact-data-is-incom",
+            "categoryAccuracy": "PASS",
+            "severityAccuracy": "PASS",
+            "evidenceSufficient": "PASS",
+            "truthfulGapIncorrectlyUnsupported": "PASS",
+            "unsupportedClaimSoftenedToGap": "PASS",
+            "duplicateCategory": "PASS"
+          }
+        ],
+        "positioningBoundary": {
+          "noFitTierRecomputation": true,
+          "noPositioningRecomputation": true,
+          "noCapabilityGapRecomputation": true,
+          "noWriterRepairExportBehavior": true
+        },
+        "repairContract": {
+          "canRepairConsumeStructuredOnly": true,
+          "repairableIssues": [
+            {
+              "category": "External Wording",
+              "severity": "Medium",
+              "title": "Action/outcome bullet strength is low",
+              "description": "5/8 visible bullet(s) are action-oriented.",
+              "visibleLocation": {
+                "section": "workExperience"
+              },
+              "evidence": {
+                "evidenceIds": [],
+                "reason": "Bullets can be made more recruiter-readable without changing claim strength."
+              },
+              "repairability": "targeted-repair",
+              "suggestedRepairIntent": "Rewrite bullets into action + scope + business outcome while preserving evidence IDs.",
+              "expectedRepairBoundary": [
+                "workExperience"
+              ],
+              "exportSignal": "warn",
+              "id": "review-2-external-wording-action-outcome-bullet-strength-is-low"
+            },
+            {
+              "category": "Profile Completeness",
+              "severity": "High",
+              "title": "Trusted profile contact data is incomplete",
+              "description": "Missing trusted profile field(s): email.",
+              "visibleLocation": {
+                "section": "header"
+              },
+              "evidence": {
+                "evidenceIds": [],
+                "reason": "Profile/contact data must come from trusted user/profile input and must not be invented by Reviewer or Writer."
+              },
+              "repairability": "human-input",
+              "suggestedRepairIntent": "Collect trusted contact data from the user or profile source.",
+              "expectedRepairBoundary": [
+                "header.contact"
+              ],
+              "exportSignal": "block",
+              "id": "review-3-profile-completeness-trusted-profile-contact-data-is-incom"
+            }
+          ]
+        },
+        "exportContract": {
+          "canExportConsumeStructuredOnly": true,
+          "exportRecommendationInput": {
+            "reviewStatus": "WARNING",
+            "exportBlockingIssues": [
+              {
+                "issueId": "review-3-profile-completeness-trusted-profile-contact-data-is-incom",
+                "category": "Profile Completeness",
+                "severity": "High",
+                "reason": "Missing trusted profile field(s): email."
+              }
+            ],
+            "exportWarnings": [
+              {
+                "issueId": "review-1-capability-gap-truthful-capability-gap",
+                "category": "Capability Gap",
+                "severity": "Medium",
+                "reason": "12 capability gap(s) are tracked as fit/readiness risk, not unsupported visible claims."
+              },
+              {
+                "issueId": "review-2-external-wording-action-outcome-bullet-strength-is-low",
+                "category": "External Wording",
+                "severity": "Medium",
+                "reason": "5/8 visible bullet(s) are action-oriented."
+              }
+            ],
+            "truthfulness": {
+              "unsupportedClaimCount": 0,
+              "policyViolationCount": 0,
+              "capabilityGapCount": 1
+            },
+            "documentReadiness": {
+              "formattingIssueCount": 0,
+              "profileCompletenessIssueCount": 1,
+              "externalWordingIssueCount": 1
+            }
+          }
+        },
+        "legacyCompatibility": {
+          "readyAvailable": true,
+          "blockersAvailable": true,
+          "checksAvailable": true,
+          "structuredResultAdditive": true,
+          "structuredReviewResultInSnapshot": true
+        },
+        "productOutcome": {
+          "evaluatedTruthfully": true,
+          "capabilityGapsNotFabrication": true,
+          "unsupportedClaimsDetectedWherePresent": true,
+          "understandableWithoutHiddenReasoning": true,
+          "defensibleHumanReview": "see case narrative"
+        }
+      }
+    }
+  ]
+}

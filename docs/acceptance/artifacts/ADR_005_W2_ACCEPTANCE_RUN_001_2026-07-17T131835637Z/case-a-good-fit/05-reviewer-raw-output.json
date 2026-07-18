@@ -1,0 +1,1144 @@
+{
+  "gate": {
+    "coveredKeywords": [
+      "Power Apps",
+      "Power Automate",
+      "SharePoint",
+      "workflow automation"
+    ],
+    "missingKeywords": [
+      "support documentation"
+    ],
+    "supportedMissingKeywords": [],
+    "unsupportedMissingKeywords": [
+      "support documentation"
+    ],
+    "keywordPlacements": [
+      {
+        "keyword": "Power Apps",
+        "placements": [
+          "Summary",
+          "Skills",
+          "Work Experience"
+        ],
+        "covered": true,
+        "supportLevel": "Strong",
+        "evidenceBacked": true
+      },
+      {
+        "keyword": "Power Automate",
+        "placements": [
+          "Summary",
+          "Skills",
+          "Work Experience"
+        ],
+        "covered": true,
+        "supportLevel": "Strong",
+        "evidenceBacked": true
+      },
+      {
+        "keyword": "SharePoint",
+        "placements": [
+          "Summary",
+          "Skills",
+          "Work Experience"
+        ],
+        "covered": true,
+        "supportLevel": "Strong",
+        "evidenceBacked": true
+      },
+      {
+        "keyword": "workflow automation",
+        "placements": [
+          "Skills"
+        ],
+        "covered": true,
+        "supportLevel": "Unknown",
+        "evidenceBacked": true
+      },
+      {
+        "keyword": "support documentation",
+        "placements": [],
+        "covered": false,
+        "supportLevel": "Unknown",
+        "evidenceBacked": false
+      }
+    ],
+    "unresolvedRiskyClaims": [],
+    "evidenceCoverageCount": 8,
+    "evidencePriorityIds": [
+      "evi-legal-dpia-app-build",
+      "evi-mentor-booking-system",
+      "evi-pa-ops-takeover",
+      "evi-tw-cv-auto-match-flow-fixes",
+      "evi-power-platform-governance-docs",
+      "evi-workday-ph-kt-workshop",
+      "evi-se-onboarding-email-automation",
+      "evi-m365-copilot-dashboard",
+      "evi-m365-trial-license-conversion",
+      "evi-legal-dpia-risk-classification",
+      "evi-business-workflow-structuring-non-engineering",
+      "evi-trender-buddy-gpt-eval-pipeline",
+      "evi-ta-dashboard-lifecycle",
+      "evi-trender-buddy-toi-secure-ops",
+      "evi-onboarding-automation-summary",
+      "evi-technical-capability-summary",
+      "evi-tb-hr-dashboard-ai-upgrade",
+      "evi-existing-python-sql-pipeline-debugging"
+    ],
+    "fixNext": [
+      "Rewrite 3 work-log bullet(s) into external resume bullets. Remove long proof parentheses, score dumps, version numbers, and internal dates."
+    ],
+    "checks": [
+      {
+        "label": "Title alignment",
+        "ok": true,
+        "value": "Power Platform Developer"
+      },
+      {
+        "label": "Must-have keywords",
+        "ok": true,
+        "value": "4/5 covered · 1 unsupported keyword(s) intentionally not forced"
+      },
+      {
+        "label": "Evidence coverage",
+        "ok": true,
+        "value": "8/18 priority evidence IDs show up in visible bullets"
+      },
+      {
+        "label": "ATS readability",
+        "ok": true,
+        "value": "Summary + work sections present"
+      },
+      {
+        "label": "JD positioning",
+        "ok": true,
+        "value": "CV emphasis matches JD positioning"
+      },
+      {
+        "label": "Manager scan",
+        "ok": true,
+        "value": "2 subsection(s), 7 current-role bullet(s)"
+      },
+      {
+        "label": "Resume readability",
+        "ok": false,
+        "value": "3 work-log bullet(s) need rewrite"
+      },
+      {
+        "label": "Internal terminology cleanup",
+        "ok": true,
+        "value": "Internal terms translated or absent"
+      },
+      {
+        "label": "Evidence mapping claims",
+        "ok": true,
+        "value": "Visible claims match evidence support"
+      },
+      {
+        "label": "Overclaim risk",
+        "ok": true,
+        "value": "No flagged risky claims remain visible"
+      }
+    ]
+  },
+  "managerReview": {
+    "wouldInterview": "No",
+    "interviewConfidence": "Low",
+    "positives": [
+      "Visible target title is \"Power Platform Developer\".",
+      "Power Platform / M365 signals are visible: power automate, power apps, sharepoint, m365, troubleshoot, support.",
+      "9 work bullets give enough screening substance."
+    ],
+    "risks": [
+      "Screening Gate still has 1 blocking issue(s), so this CV is not manager-ready.",
+      "1 JD requirement(s) are only weakly supported; avoid making them headline claims.",
+      "Summary quality is acceptable, but remaining direct-fit concerns are application-fit risk.",
+      "3 bullet(s) still read like internal project logs or test notes."
+    ],
+    "rewriteRequired": [
+      "Fix blocking Screening Gate issues before treating Manager Review as complete.",
+      "Rewrite weakly supported requirements as conservative operational support, not expert ownership.",
+      "Rewrite flagged bullets into external business language."
+    ],
+    "checks": [
+      {
+        "label": "Gate readiness",
+        "ok": false,
+        "value": "1 blocking Screening Gate issue(s) remain"
+      },
+      {
+        "label": "Evidence support",
+        "ok": true,
+        "value": "0 unsupported, 1 weak mapping(s)"
+      },
+      {
+        "label": "Manager intent",
+        "ok": true,
+        "value": "Run Screening Analysis again to populate manager intent."
+      },
+      {
+        "label": "Summary quality contract",
+        "ok": true,
+        "value": "Summary quality passed; remaining concern is fit risk"
+      },
+      {
+        "label": "Role emphasis",
+        "ok": true,
+        "value": "9/9 Power Platform / M365 signals visible"
+      },
+      {
+        "label": "30-second scan",
+        "ok": true,
+        "value": "2 subsection(s), 7 current-role bullet(s); first subsection: Power Platform Workflow Delivery"
+      },
+      {
+        "label": "External language",
+        "ok": false,
+        "value": "Internal wording remains"
+      },
+      {
+        "label": "Interview substance",
+        "ok": true,
+        "value": "3 positive signal(s), 9 work bullet(s)"
+      }
+    ],
+    "summaryQualityContract": {
+      "targetRole": "Power Platform Developer",
+      "positioningMode": "adjacent-fit",
+      "requiredCriteria": [
+        {
+          "id": "summary-role-identity",
+          "label": "Role identity",
+          "description": "States a credible role identity for this JD without pretending unsupported direct-fit experience.",
+          "category": "role-identity",
+          "importance": "required",
+          "supportStatus": "partial",
+          "supportingEvidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "position-as-transferable"
+        },
+        {
+          "id": "summary-relevant-capability",
+          "label": "Relevant capability",
+          "description": "Surfaces the strongest supported capabilities that overlap with the JD.",
+          "category": "relevant-capability",
+          "importance": "required",
+          "supportStatus": "supported",
+          "supportingEvidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "state-directly"
+        },
+        {
+          "id": "summary-business-value",
+          "label": "Business value",
+          "description": "Explains the business or stakeholder value of the candidate's supported work.",
+          "category": "business-value",
+          "importance": "important",
+          "supportStatus": "supported",
+          "supportingEvidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "state-directly"
+        },
+        {
+          "id": "summary-evidence-grounding",
+          "label": "Evidence grounding",
+          "description": "Avoids unsupported ownership, metrics, seniority, sales, architecture, or cloud-delivery claims.",
+          "category": "evidence-grounding",
+          "importance": "required",
+          "supportStatus": "partial",
+          "supportingEvidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "soften"
+        },
+        {
+          "id": "summary-customer-context",
+          "label": "Customer context",
+          "description": "Connects the Summary to customer, stakeholder, adoption, enablement, or operating context when supported.",
+          "category": "customer-context",
+          "importance": "important",
+          "supportStatus": "supported",
+          "supportingEvidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "state-directly"
+        },
+        {
+          "id": "summary-career-positioning",
+          "label": "Career positioning",
+          "description": "Separates supported transferable fit from unsupported core requirements.",
+          "category": "career-positioning",
+          "importance": "required",
+          "supportStatus": "partial",
+          "supportingEvidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "position-as-transferable"
+        },
+        {
+          "id": "summary-clarity",
+          "label": "Clarity",
+          "description": "Uses concise external recruiter language without generic filler or tool stuffing.",
+          "category": "clarity",
+          "importance": "required",
+          "supportStatus": "supported",
+          "supportingEvidenceIds": [],
+          "allowedTreatment": "state-directly"
+        }
+      ],
+      "supportedStrengths": [
+        {
+          "evidenceId": "evi-trender-buddy-gpt-eval-pipeline",
+          "label": "Trender Buddy",
+          "keywords": [
+            "Azure AI Studio",
+            "GPT-4-turbo",
+            "GPT-4.1",
+            "FastAPI",
+            "Power Automate",
+            "Power Apps",
+            "Power BI",
+            "SharePoint"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-trender-buddy-toi-secure-ops",
+          "label": "Trender Buddy",
+          "keywords": [
+            "Microsoft Copilot Studio",
+            "Azure Function",
+            "InfoSec Confluence API",
+            "SharePoint",
+            "TOI Documentation",
+            "Power Apps",
+            "Power BI",
+            "Microsoft 365"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-m365-copilot-dashboard",
+          "label": "M365 Copilot Trial Program & Usage Analytics",
+          "keywords": [
+            "Microsoft 365 Copilot",
+            "Power BI",
+            "M365 Audit Log",
+            "CopilotAuditLog",
+            "SharePoint",
+            "Microsoft 365",
+            "Dashboard reporting",
+            "Production support"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-m365-trial-license-conversion",
+          "label": "M365 Copilot Trial Program & Usage Analytics",
+          "keywords": [
+            "Microsoft 365 Copilot",
+            "License Management",
+            "Vendor Management",
+            "Usage Reporting",
+            "Power BI",
+            "SharePoint",
+            "Microsoft 365",
+            "Dashboard reporting"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-legal-dpia-app-build",
+          "label": "Legal DPIA App / AI Impact Assessment",
+          "keywords": [
+            "Power Apps",
+            "SharePoint List",
+            "Power Automate",
+            "GDPR",
+            "PLVRS Compliance",
+            "SharePoint",
+            "Workflow automation",
+            "Production support"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-legal-dpia-risk-classification",
+          "label": "Legal DPIA App / AI Impact Assessment",
+          "keywords": [
+            "Power Apps",
+            "SharePoint List",
+            "Risk Classification Logic",
+            "GDPR",
+            "PLVRS Compliance",
+            "Power Automate",
+            "SharePoint",
+            "Workflow automation"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-workday-ph-kt-workshop",
+          "label": "Workday HCM Implementation & Operations",
+          "keywords": [
+            "Workday HCM",
+            "SharePoint",
+            "Excel",
+            "Power BI",
+            "Workday",
+            "API integration",
+            "Dashboard reporting",
+            "Production support"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-tw-cv-auto-match-flow-fixes",
+          "label": "TW CV Auto-Match Recruiting Dispatch System",
+          "keywords": [
+            "Power Automate",
+            "Workday RaaS API",
+            "SharePoint",
+            "Power Apps",
+            "Power BI",
+            "Workday",
+            "API integration",
+            "Dashboard reporting"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-power-platform-governance-docs",
+          "label": "Power Platform Low-code Automation & API Documentation",
+          "keywords": [
+            "Power Automate",
+            "Power Apps",
+            "Connect One API Platform",
+            "SharePoint",
+            "API integration",
+            "Workflow automation",
+            "Production support",
+            "UAT / testing"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-pa-ops-takeover",
+          "label": "Power Automate Operations Handover",
+          "keywords": [
+            "Power Automate",
+            "Azure Blob Storage",
+            "Azure AD App Registration",
+            "Dataverse",
+            "Workday RaaS API",
+            "Power BI",
+            "SharePoint",
+            "Workday"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-ta-dashboard-lifecycle",
+          "label": "Talent Acquisition Dashboard",
+          "keywords": [
+            "Power BI",
+            "DAX",
+            "Workday API",
+            "Workday data reports",
+            "Workday",
+            "API integration",
+            "Dashboard reporting",
+            "UAT / testing"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-tb-hr-dashboard-ai-upgrade",
+          "label": "Trender Buddy HR Dashboard AI Enhanced Version",
+          "keywords": [
+            "Power BI",
+            "Prompt Engineering",
+            "SharePoint Lists",
+            "GPT classification",
+            "Power Apps",
+            "SharePoint",
+            "Microsoft 365",
+            "Dashboard reporting"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-se-onboarding-email-automation",
+          "label": "SE Onboarding Email Automations",
+          "keywords": [
+            "Power Automate",
+            "Microsoft Graph API",
+            "Workday RaaS API",
+            "TrendAI University (Docebo)",
+            "Azure Blob Storage",
+            "Workday",
+            "API integration",
+            "Dashboard reporting"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-mentor-booking-system",
+          "label": "Mentor Booking System",
+          "keywords": [
+            "Power Apps",
+            "MS Forms",
+            "SharePoint List",
+            "SharePoint",
+            "Workflow automation",
+            "AI chatbot operations",
+            "HR operations",
+            "Built a self-service Mentor Program booking system with mentor/session selection, SharePoint-backed booking records, full-capacity hiding, immediate confirmation display, and TOI documentation."
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-onboarding-automation-summary",
+          "label": "Onboarding Automation",
+          "keywords": [
+            "Power Automate",
+            "Workday API",
+            "SharePoint",
+            "Microsoft Graph API",
+            "Docebo",
+            "Workday",
+            "API integration",
+            "Workflow automation"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-technical-capability-summary",
+          "label": "Enterprise Automation, BI & AI Delivery Portfolio",
+          "keywords": [
+            "Power BI",
+            "Power Automate",
+            "Power Apps",
+            "Azure AI Studio",
+            "GPT evaluation",
+            "Workday",
+            "API integration",
+            "Dashboard reporting"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-existing-python-sql-pipeline-debugging",
+          "label": "Pipeline Debugging & Technical Operations",
+          "keywords": [
+            "Python",
+            "SQL",
+            "Jenkins",
+            "Azure Data Explorer",
+            "Docebo API",
+            "Workday",
+            "API integration",
+            "Python validation"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-business-workflow-structuring-non-engineering",
+          "label": "Business Workflow Structuring",
+          "keywords": [
+            "Power Automate",
+            "Power Apps",
+            "SharePoint Lists",
+            "Power BI",
+            "Workflow documentation",
+            "SharePoint",
+            "Dashboard reporting",
+            "Workflow automation"
+          ],
+          "evidenceStrength": "Strong"
+        }
+      ],
+      "unsupportedCoreRequirements": [
+        {
+          "id": "gap-azure-cloud-architecture-ownership",
+          "requirement": "Azure cloud architecture ownership",
+          "reason": "Evidence does not support independent Azure cloud architecture ownership."
+        }
+      ],
+      "prohibitedClaims": [
+        "from-scratch enterprise software engineer",
+        "Azure cloud architect ownership",
+        "Azure cloud architecture ownership",
+        "Keep Azure references limited to tools touched inside supported automation contexts.",
+        "Evidence does not support independent Azure cloud architecture ownership.",
+        "Owned model training or formal machine-learning research",
+        "Built production backend systems from scratch",
+        "Owned the entire function end to end"
+      ],
+      "wordingConstraints": [
+        "Use external recruiter language.",
+        "Do not claim unsupported direct Azure sales, presales, architecture, quota, migration, or deal ownership.",
+        "If the role is adjacent or transferable, position the candidate as adjacent or transferable instead of direct-fit.",
+        "Keep genuine fit gaps out of visible strengths."
+      ],
+      "maxLengthWords": 65
+    },
+    "summaryReview": {
+      "reviewRunId": "review-hcqnaro",
+      "reviewedCvHash": "h1t6mnkv",
+      "positioningMode": "adjacent-fit",
+      "overallStatus": "pass",
+      "criteria": [
+        {
+          "criterionId": "summary-role-identity",
+          "status": "pass",
+          "reason": "The Summary must state a credible role identity for this JD.",
+          "evidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "summary-rewrite"
+        },
+        {
+          "criterionId": "summary-relevant-capability",
+          "status": "pass",
+          "reason": "Supported capability terms are visible: power, automate, apps, sharepoint.",
+          "evidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "summary-rewrite"
+        },
+        {
+          "criterionId": "summary-business-value",
+          "status": "pass",
+          "reason": "Business/stakeholder value is visible.",
+          "evidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "summary-rewrite"
+        },
+        {
+          "criterionId": "summary-evidence-grounding",
+          "status": "pass",
+          "reason": "No prohibited Summary claim detected.",
+          "evidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "summary-rewrite"
+        },
+        {
+          "criterionId": "summary-customer-context",
+          "status": "pass",
+          "reason": "Customer, stakeholder, or operating context is visible.",
+          "evidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "summary-rewrite"
+        },
+        {
+          "criterionId": "summary-career-positioning",
+          "status": "partial",
+          "reason": "Remaining unsupported core requirement(s): Azure cloud architecture ownership.",
+          "evidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-trender-buddy-toi-secure-ops",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-ph-kt-workshop",
+            "evi-tw-cv-auto-match-flow-fixes",
+            "evi-power-platform-governance-docs",
+            "evi-pa-ops-takeover",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-se-onboarding-email-automation",
+            "evi-mentor-booking-system",
+            "evi-onboarding-automation-summary",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "fit-risk-only"
+        },
+        {
+          "criterionId": "summary-clarity",
+          "status": "pass",
+          "reason": "Summary length and wording are concise.",
+          "evidenceIds": [],
+          "fixability": "summary-rewrite"
+        }
+      ],
+      "unsupportedCoreRequirements": [
+        "Azure cloud architecture ownership"
+      ],
+      "summaryRewriteNeeded": false,
+      "fitRiskOnly": true
+    }
+  },
+  "reviewerOutput": {
+    "ready": false,
+    "blockers": [
+      "Reviewer: external wording: 3 work-log bullet(s)"
+    ],
+    "checks": [
+      {
+        "label": "Reviewer: HR scan",
+        "ok": true,
+        "value": "4 covered keyword(s), 0 supported keyword gap(s)"
+      },
+      {
+        "label": "Reviewer: hiring manager relevance",
+        "ok": true,
+        "value": "Summary quality passed; remaining concern is application-fit risk"
+      },
+      {
+        "label": "Reviewer: evidence traceability",
+        "ok": true,
+        "value": "9/9 visible bullet(s) cite valid evidence card IDs"
+      },
+      {
+        "label": "Reviewer: unsupported claims",
+        "ok": true,
+        "value": "No unsupported JD gaps claimed visibly"
+      },
+      {
+        "label": "Reviewer: application fit risk",
+        "ok": true,
+        "value": "0 unsupported mapping(s), 0 high-risk gap(s) tracked as fit risk"
+      },
+      {
+        "label": "Reviewer: weak claims controlled",
+        "ok": true,
+        "value": "1 weak mapping(s)"
+      },
+      {
+        "label": "Reviewer: action/outcome bullets",
+        "ok": true,
+        "value": "6/9 action-oriented bullet(s)"
+      },
+      {
+        "label": "Reviewer: external wording",
+        "ok": false,
+        "value": "3 work-log bullet(s)"
+      }
+    ],
+    "structuredResult": {
+      "status": "WARNING",
+      "truthfulnessStatus": "truthful",
+      "reviewedCvVersionId": "cv-case-a-good-fit-20260717000000",
+      "reviewedCvContentHash": "h1t6mnkv",
+      "reviewedAt": "2026-07-17T13:18:35.847Z",
+      "positioningAuthority": "ScreeningAnalysis",
+      "positioningReportMode": "read-only-derived-view",
+      "issues": [
+        {
+          "category": "Capability Gap",
+          "severity": "Informational",
+          "title": "Truthful capability gap",
+          "description": "2 capability gap(s) are tracked as fit/readiness risk, not unsupported visible claims.",
+          "evidence": {
+            "evidenceIds": [],
+            "screeningAnalysisPath": "screeningAnalysis.jdEvidenceMapping|remainingGaps",
+            "positioningReportPath": "positioningReport.truthfulCapabilityGaps",
+            "reason": "Capability gaps come from upstream Analysis / Positioning Report and are not recomputed by Reviewer."
+          },
+          "repairability": "not-repairable",
+          "suggestedRepairIntent": "Do not rewrite as a solved strength. Add new evidence or change target positioning upstream if needed.",
+          "expectedRepairBoundary": [],
+          "exportSignal": "warn",
+          "id": "review-1-capability-gap-truthful-capability-gap"
+        },
+        {
+          "category": "External Wording",
+          "severity": "Medium",
+          "title": "Internal or work-log wording remains",
+          "description": "3 work-log bullet(s) detected.",
+          "visibleLocation": {
+            "section": "workExperience"
+          },
+          "evidence": {
+            "evidenceIds": [],
+            "reason": "Visible wording should be external recruiter language."
+          },
+          "repairability": "targeted-repair",
+          "suggestedRepairIntent": "Translate internal/work-log wording into external resume language without changing meaning.",
+          "expectedRepairBoundary": [
+            "summary",
+            "workExperience"
+          ],
+          "exportSignal": "warn",
+          "id": "review-2-external-wording-internal-or-work-log-wording-remains"
+        },
+        {
+          "category": "Profile Completeness",
+          "severity": "High",
+          "title": "Trusted profile contact data is incomplete",
+          "description": "Missing trusted profile field(s): email.",
+          "visibleLocation": {
+            "section": "header"
+          },
+          "evidence": {
+            "evidenceIds": [],
+            "reason": "Profile/contact data must come from trusted user/profile input and must not be invented by Reviewer or Writer."
+          },
+          "repairability": "human-input",
+          "suggestedRepairIntent": "Collect trusted contact data from the user or profile source.",
+          "expectedRepairBoundary": [
+            "header.contact"
+          ],
+          "exportSignal": "block",
+          "id": "review-3-profile-completeness-trusted-profile-contact-data-is-incom"
+        }
+      ],
+      "summary": {
+        "unsupportedClaimCount": 0,
+        "capabilityGapCount": 1,
+        "evidenceMissingCount": 0,
+        "repairableIssueCount": 2,
+        "exportBlockingIssueCount": 1
+      },
+      "repairContract": {
+        "issues": [
+          {
+            "category": "External Wording",
+            "severity": "Medium",
+            "title": "Internal or work-log wording remains",
+            "description": "3 work-log bullet(s) detected.",
+            "visibleLocation": {
+              "section": "workExperience"
+            },
+            "evidence": {
+              "evidenceIds": [],
+              "reason": "Visible wording should be external recruiter language."
+            },
+            "repairability": "targeted-repair",
+            "suggestedRepairIntent": "Translate internal/work-log wording into external resume language without changing meaning.",
+            "expectedRepairBoundary": [
+              "summary",
+              "workExperience"
+            ],
+            "exportSignal": "warn",
+            "id": "review-2-external-wording-internal-or-work-log-wording-remains"
+          },
+          {
+            "category": "Profile Completeness",
+            "severity": "High",
+            "title": "Trusted profile contact data is incomplete",
+            "description": "Missing trusted profile field(s): email.",
+            "visibleLocation": {
+              "section": "header"
+            },
+            "evidence": {
+              "evidenceIds": [],
+              "reason": "Profile/contact data must come from trusted user/profile input and must not be invented by Reviewer or Writer."
+            },
+            "repairability": "human-input",
+            "suggestedRepairIntent": "Collect trusted contact data from the user or profile source.",
+            "expectedRepairBoundary": [
+              "header.contact"
+            ],
+            "exportSignal": "block",
+            "id": "review-3-profile-completeness-trusted-profile-contact-data-is-incom"
+          }
+        ]
+      },
+      "exportRecommendationInput": {
+        "reviewStatus": "WARNING",
+        "exportBlockingIssues": [
+          {
+            "issueId": "review-3-profile-completeness-trusted-profile-contact-data-is-incom",
+            "category": "Profile Completeness",
+            "severity": "High",
+            "reason": "Missing trusted profile field(s): email."
+          }
+        ],
+        "exportWarnings": [
+          {
+            "issueId": "review-1-capability-gap-truthful-capability-gap",
+            "category": "Capability Gap",
+            "severity": "Informational",
+            "reason": "2 capability gap(s) are tracked as fit/readiness risk, not unsupported visible claims."
+          },
+          {
+            "issueId": "review-2-external-wording-internal-or-work-log-wording-remains",
+            "category": "External Wording",
+            "severity": "Medium",
+            "reason": "3 work-log bullet(s) detected."
+          }
+        ],
+        "truthfulness": {
+          "unsupportedClaimCount": 0,
+          "policyViolationCount": 0,
+          "capabilityGapCount": 1
+        },
+        "documentReadiness": {
+          "formattingIssueCount": 0,
+          "profileCompletenessIssueCount": 1,
+          "externalWordingIssueCount": 1
+        }
+      }
+    },
+    "recommendation": "Patch the current CV before export. Do not create another broad draft unless the positioning is wrong."
+  },
+  "exportCheck": {
+    "ready": false,
+    "blockers": [
+      "Contact extraction: Missing name, email, or location",
+      "Contact email: Missing email"
+    ],
+    "checks": [
+      {
+        "label": "ATS text layer",
+        "ok": true,
+        "value": "2,460 extracted character(s)"
+      },
+      {
+        "label": "Contact extraction",
+        "ok": false,
+        "value": "Missing name, email, or location"
+      },
+      {
+        "label": "Contact email",
+        "ok": false,
+        "value": "Missing email"
+      },
+      {
+        "label": "Section order",
+        "ok": true,
+        "value": "Header, summary, skills, and work history are in readable order"
+      },
+      {
+        "label": "ATS keyword support",
+        "ok": true,
+        "value": "4 covered; 0 supported gap(s)"
+      },
+      {
+        "label": "Visible work depth",
+        "ok": true,
+        "value": "2 role block(s), 9 work bullet(s)"
+      },
+      {
+        "label": "PDF export readiness",
+        "ok": true,
+        "value": "CV version has composed export content"
+      }
+    ],
+    "recommendation": "Fix text extraction or missing content before exporting. ATS verification is not clean yet."
+  },
+  "exportDecisionResult": {
+    "status": "blocked",
+    "ready": false,
+    "decisionContextReady": true,
+    "contentHash": "h1t6mnkv",
+    "blockers": [
+      "Reviewer: external wording: 3 work-log bullet(s)",
+      "Contact extraction: Missing name, email, or location",
+      "Contact email: Missing email"
+    ],
+    "warnings": [
+      "Reviewer: application fit risk: 0 unsupported mapping(s), 0 high-risk gap(s) tracked as fit risk"
+    ],
+    "reviewFreshness": {
+      "currentCvVersionId": "cv-case-a-good-fit-20260717000000",
+      "currentCvContentHash": "h1t6mnkv",
+      "currentSummaryHash": "h31tn0k",
+      "reviewedCvVersionId": "cv-case-a-good-fit-20260717000000",
+      "reviewedCvContentHash": "h1t6mnkv",
+      "reviewedSummaryHash": "h31tn0k",
+      "reviewRunId": "review-hrwvu69",
+      "reviewedAt": "2026-07-17T13:18:35.883Z",
+      "status": "fresh"
+    }
+  }
+}

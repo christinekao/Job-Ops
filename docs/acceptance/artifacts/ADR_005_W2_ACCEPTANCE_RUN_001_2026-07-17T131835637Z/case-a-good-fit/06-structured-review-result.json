@@ -1,0 +1,156 @@
+{
+  "status": "WARNING",
+  "truthfulnessStatus": "truthful",
+  "reviewedCvVersionId": "cv-case-a-good-fit-20260717000000",
+  "reviewedCvContentHash": "h1t6mnkv",
+  "reviewedAt": "2026-07-17T13:18:35.847Z",
+  "positioningAuthority": "ScreeningAnalysis",
+  "positioningReportMode": "read-only-derived-view",
+  "issues": [
+    {
+      "category": "Capability Gap",
+      "severity": "Informational",
+      "title": "Truthful capability gap",
+      "description": "2 capability gap(s) are tracked as fit/readiness risk, not unsupported visible claims.",
+      "evidence": {
+        "evidenceIds": [],
+        "screeningAnalysisPath": "screeningAnalysis.jdEvidenceMapping|remainingGaps",
+        "positioningReportPath": "positioningReport.truthfulCapabilityGaps",
+        "reason": "Capability gaps come from upstream Analysis / Positioning Report and are not recomputed by Reviewer."
+      },
+      "repairability": "not-repairable",
+      "suggestedRepairIntent": "Do not rewrite as a solved strength. Add new evidence or change target positioning upstream if needed.",
+      "expectedRepairBoundary": [],
+      "exportSignal": "warn",
+      "id": "review-1-capability-gap-truthful-capability-gap"
+    },
+    {
+      "category": "External Wording",
+      "severity": "Medium",
+      "title": "Internal or work-log wording remains",
+      "description": "3 work-log bullet(s) detected.",
+      "visibleLocation": {
+        "section": "workExperience"
+      },
+      "evidence": {
+        "evidenceIds": [],
+        "reason": "Visible wording should be external recruiter language."
+      },
+      "repairability": "targeted-repair",
+      "suggestedRepairIntent": "Translate internal/work-log wording into external resume language without changing meaning.",
+      "expectedRepairBoundary": [
+        "summary",
+        "workExperience"
+      ],
+      "exportSignal": "warn",
+      "id": "review-2-external-wording-internal-or-work-log-wording-remains"
+    },
+    {
+      "category": "Profile Completeness",
+      "severity": "High",
+      "title": "Trusted profile contact data is incomplete",
+      "description": "Missing trusted profile field(s): email.",
+      "visibleLocation": {
+        "section": "header"
+      },
+      "evidence": {
+        "evidenceIds": [],
+        "reason": "Profile/contact data must come from trusted user/profile input and must not be invented by Reviewer or Writer."
+      },
+      "repairability": "human-input",
+      "suggestedRepairIntent": "Collect trusted contact data from the user or profile source.",
+      "expectedRepairBoundary": [
+        "header.contact"
+      ],
+      "exportSignal": "block",
+      "id": "review-3-profile-completeness-trusted-profile-contact-data-is-incom"
+    }
+  ],
+  "summary": {
+    "unsupportedClaimCount": 0,
+    "capabilityGapCount": 1,
+    "evidenceMissingCount": 0,
+    "repairableIssueCount": 2,
+    "exportBlockingIssueCount": 1
+  },
+  "repairContract": {
+    "issues": [
+      {
+        "category": "External Wording",
+        "severity": "Medium",
+        "title": "Internal or work-log wording remains",
+        "description": "3 work-log bullet(s) detected.",
+        "visibleLocation": {
+          "section": "workExperience"
+        },
+        "evidence": {
+          "evidenceIds": [],
+          "reason": "Visible wording should be external recruiter language."
+        },
+        "repairability": "targeted-repair",
+        "suggestedRepairIntent": "Translate internal/work-log wording into external resume language without changing meaning.",
+        "expectedRepairBoundary": [
+          "summary",
+          "workExperience"
+        ],
+        "exportSignal": "warn",
+        "id": "review-2-external-wording-internal-or-work-log-wording-remains"
+      },
+      {
+        "category": "Profile Completeness",
+        "severity": "High",
+        "title": "Trusted profile contact data is incomplete",
+        "description": "Missing trusted profile field(s): email.",
+        "visibleLocation": {
+          "section": "header"
+        },
+        "evidence": {
+          "evidenceIds": [],
+          "reason": "Profile/contact data must come from trusted user/profile input and must not be invented by Reviewer or Writer."
+        },
+        "repairability": "human-input",
+        "suggestedRepairIntent": "Collect trusted contact data from the user or profile source.",
+        "expectedRepairBoundary": [
+          "header.contact"
+        ],
+        "exportSignal": "block",
+        "id": "review-3-profile-completeness-trusted-profile-contact-data-is-incom"
+      }
+    ]
+  },
+  "exportRecommendationInput": {
+    "reviewStatus": "WARNING",
+    "exportBlockingIssues": [
+      {
+        "issueId": "review-3-profile-completeness-trusted-profile-contact-data-is-incom",
+        "category": "Profile Completeness",
+        "severity": "High",
+        "reason": "Missing trusted profile field(s): email."
+      }
+    ],
+    "exportWarnings": [
+      {
+        "issueId": "review-1-capability-gap-truthful-capability-gap",
+        "category": "Capability Gap",
+        "severity": "Informational",
+        "reason": "2 capability gap(s) are tracked as fit/readiness risk, not unsupported visible claims."
+      },
+      {
+        "issueId": "review-2-external-wording-internal-or-work-log-wording-remains",
+        "category": "External Wording",
+        "severity": "Medium",
+        "reason": "3 work-log bullet(s) detected."
+      }
+    ],
+    "truthfulness": {
+      "unsupportedClaimCount": 0,
+      "policyViolationCount": 0,
+      "capabilityGapCount": 1
+    },
+    "documentReadiness": {
+      "formattingIssueCount": 0,
+      "profileCompletenessIssueCount": 1,
+      "externalWordingIssueCount": 1
+    }
+  }
+}

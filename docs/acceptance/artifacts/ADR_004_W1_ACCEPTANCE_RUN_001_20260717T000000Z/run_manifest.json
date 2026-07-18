@@ -1,0 +1,111 @@
+{
+  "runId": "ADR_004_W1_ACCEPTANCE_RUN_001",
+  "generatedAt": "2026-07-17T00:00:00.000Z",
+  "productionImplementationUsed": true,
+  "canonicalPersistenceModified": false,
+  "productionCodeModified": false,
+  "promptsModified": false,
+  "reviewerRepairExportModified": false,
+  "cases": [
+    {
+      "key": "case-a-good-fit",
+      "label": "Case A — Good Fit",
+      "jobId": "jd-mpy6kou0-ctiw9",
+      "sourceRole": "Power Platform Developer",
+      "generatedTargetRole": "Power Platform Developer",
+      "overallFit": "Good",
+      "applyTier": "Good",
+      "artifactDir": "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-a-good-fit",
+      "generatedCv": "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-a-good-fit/06_generated_cv.md",
+      "unsupportedClaimCount": 0,
+      "capabilityGapCount": 2,
+      "reviewerReady": false,
+      "gateIssueCount": 1,
+      "exportReady": false,
+      "exportStatus": "blocked",
+      "exportBlockers": [
+        "Reviewer: external wording: 3 work-log bullet(s)",
+        "Contact extraction: Missing name, email, or location",
+        "Contact email: Missing email"
+      ],
+      "repairRecommendedNextRoute": "review-ai-proposals",
+      "validation": {
+        "writerFollowsAnalysisPositioning": true,
+        "unsupportedClaimsPresent": false,
+        "unsupportedClaims": [],
+        "truthfulCapabilityGapsClearlyCommunicated": true,
+        "positioningReportMatchesGeneratedCv": true,
+        "defensibleInRealInterview": true,
+        "explanation": "Visible claims are tied to selected grounded evidence and unsupported direct-fit claims are omitted or softened."
+      }
+    },
+    {
+      "key": "case-b-risky-fit",
+      "label": "Case B — Risky Fit",
+      "jobId": "jd-mq3ozq5b-mhtmy",
+      "sourceRole": "AI Evaluation Scientist",
+      "generatedTargetRole": "AI Evaluation Operations Specialist",
+      "overallFit": "Risky",
+      "applyTier": "Stretch",
+      "artifactDir": "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-b-risky-fit",
+      "generatedCv": "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-b-risky-fit/06_generated_cv.md",
+      "unsupportedClaimCount": 0,
+      "capabilityGapCount": 11,
+      "reviewerReady": false,
+      "gateIssueCount": 2,
+      "exportReady": false,
+      "exportStatus": "blocked",
+      "exportBlockers": [
+        "Reviewer: HR scan: 6 covered keyword(s), 6 supported keyword gap(s)",
+        "Reviewer: weak claims controlled: 4 weak mapping(s)",
+        "Reviewer: external wording: 2 work-log bullet(s)",
+        "Contact extraction: Missing name, email, or location",
+        "Contact email: Missing email",
+        "ATS keyword support: 6 covered; 6 supported gap(s)"
+      ],
+      "repairRecommendedNextRoute": "review-ai-proposals",
+      "validation": {
+        "writerFollowsAnalysisPositioning": true,
+        "unsupportedClaimsPresent": false,
+        "unsupportedClaims": [],
+        "truthfulCapabilityGapsClearlyCommunicated": true,
+        "positioningReportMatchesGeneratedCv": true,
+        "defensibleInRealInterview": true,
+        "explanation": "Visible claims are tied to selected grounded evidence and unsupported direct-fit claims are omitted or softened."
+      }
+    },
+    {
+      "key": "case-c-weak-fit-azure",
+      "label": "Case C — Weak Fit / Azure Solution Specialist",
+      "jobId": "jd-mriv6lu5-9t2l0",
+      "sourceRole": "Azure Solution Specialist",
+      "generatedTargetRole": "Microsoft Ecosystem Solution Enablement Specialist",
+      "overallFit": "Weak",
+      "applyTier": "Avoid",
+      "artifactDir": "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-c-weak-fit-azure",
+      "generatedCv": "docs/acceptance/artifacts/ADR_004_W1_ACCEPTANCE_RUN_001_20260717T000000Z/case-c-weak-fit-azure/06_generated_cv.md",
+      "unsupportedClaimCount": 0,
+      "capabilityGapCount": 12,
+      "reviewerReady": false,
+      "gateIssueCount": 1,
+      "exportReady": false,
+      "exportStatus": "blocked",
+      "exportBlockers": [
+        "Reviewer: weak claims controlled: 4 weak mapping(s)",
+        "Reviewer: action/outcome bullets: 5/8 action-oriented bullet(s)",
+        "Contact extraction: Missing name, email, or location",
+        "Contact email: Missing email"
+      ],
+      "repairRecommendedNextRoute": "review-ai-proposals",
+      "validation": {
+        "writerFollowsAnalysisPositioning": true,
+        "unsupportedClaimsPresent": false,
+        "unsupportedClaims": [],
+        "truthfulCapabilityGapsClearlyCommunicated": true,
+        "positioningReportMatchesGeneratedCv": true,
+        "defensibleInRealInterview": false,
+        "explanation": "Visible CV is defensible for transferable Microsoft ecosystem enablement, but not as direct Azure Solution Specialist sales ownership because Screening Analysis records material capability gaps."
+      }
+    }
+  ]
+}

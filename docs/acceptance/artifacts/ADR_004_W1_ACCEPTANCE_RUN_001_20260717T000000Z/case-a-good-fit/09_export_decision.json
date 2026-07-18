@@ -1,0 +1,25 @@
+{
+  "status": "blocked",
+  "ready": false,
+  "decisionContextReady": true,
+  "contentHash": "h1t6mnkv",
+  "blockers": [
+    "Reviewer: external wording: 3 work-log bullet(s)",
+    "Contact extraction: Missing name, email, or location",
+    "Contact email: Missing email"
+  ],
+  "warnings": [
+    "Reviewer: application fit risk: 0 unsupported mapping(s), 0 high-risk gap(s) tracked as fit risk"
+  ],
+  "reviewFreshness": {
+    "currentCvVersionId": "cv-case-a-good-fit-20260717000000",
+    "currentCvContentHash": "h1t6mnkv",
+    "currentSummaryHash": "h31tn0k",
+    "reviewedCvVersionId": "cv-case-a-good-fit-20260717000000",
+    "reviewedCvContentHash": "h1t6mnkv",
+    "reviewedSummaryHash": "h31tn0k",
+    "reviewRunId": "review-hgkeg3k",
+    "reviewedAt": "2026-07-17T11:55:56.853Z",
+    "status": "fresh"
+  }
+}

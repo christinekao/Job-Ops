@@ -1,0 +1,19 @@
+{
+  "caseKey": "case-b-risky-fit",
+  "label": "Case B — Risky Fit",
+  "structuredIssueCount": 3,
+  "totalClassifications": 3,
+  "allStructured": true,
+  "capabilityGapMutated": false,
+  "profileRoutesHumanInput": true,
+  "preservesReviewerClassification": true,
+  "recommendedNextRoute": "review-ai-proposals",
+  "routeCounts": {
+    "safeAuto": 0,
+    "approvalRequired": 2,
+    "targetedRegeneration": 0,
+    "humanInput": 1,
+    "humanDecision": 0,
+    "unsupported": 0
+  }
+}

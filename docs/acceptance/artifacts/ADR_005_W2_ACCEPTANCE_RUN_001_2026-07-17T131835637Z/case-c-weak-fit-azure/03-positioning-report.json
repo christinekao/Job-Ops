@@ -1,0 +1,301 @@
+{
+  "overallFit": "Weak",
+  "transferableStrengths": [
+    {
+      "strength": "Enterprise AI adoption, governance, automation, analytics, and license-value enablement",
+      "evidenceIds": [
+        "evi-m365-copilot-dashboard",
+        "evi-m365-trial-license-conversion",
+        "evi-legal-dpia-app-build",
+        "evi-technical-capability-summary"
+      ],
+      "supportLevel": "Partial",
+      "cvTreatment": "position-as-transferable"
+    },
+    {
+      "strength": "Production troubleshooting, operational handoff, issue resolution, and vendor coordination",
+      "evidenceIds": [
+        "evi-fin-ai-prod-ops-global-jp",
+        "evi-existing-python-sql-pipeline-debugging",
+        "evi-project-execution-hw-sw-integration"
+      ],
+      "supportLevel": "Partial",
+      "cvTreatment": "position-as-transferable"
+    }
+  ],
+  "truthfulCapabilityGaps": [
+    {
+      "requirement": "7+ years technology sales or account management experience",
+      "reason": "Evidence shows project execution and a sales specialist title but not 7+ years of quota-carrying sales or account management.",
+      "riskLevel": "High",
+      "mitigation": "Client-facing technical project coordination and vendor alignment"
+    },
+    {
+      "requirement": "Leading large cloud engagements for enterprise customers",
+      "reason": "No evidence of leading Azure, infrastructure migration, application modernization, or large global cloud engagements.",
+      "riskLevel": "High",
+      "mitigation": "Technical implementation coordination and deployment participation"
+    },
+    {
+      "requirement": "Executive relationship building and customer buy-in",
+      "reason": "Stakeholder coordination is supported, but executive relationship ownership and commercial buy-in are not.",
+      "riskLevel": "Medium",
+      "mitigation": "Produced adoption and licensing evidence for managers, leaders, Finance, Microsoft, and regional stakeholders"
+    },
+    {
+      "requirement": "Partner and ISV co-selling",
+      "reason": "Vendor coordination is not equivalent to partner co-selling or ISV opportunity ownership.",
+      "riskLevel": "Medium",
+      "mitigation": "Vendor coordination and Microsoft-related program collaboration"
+    },
+    {
+      "requirement": "Business cases, proposals, negotiation, and deal closure",
+      "reason": "Source supports coordination around bidding and negotiation but not proposal ownership, revenue, contract closure, or competitive displacement.",
+      "riskLevel": "Medium",
+      "mitigation": "Supported client requirements, bidding, negotiation coordination, and delivery documentation"
+    },
+    {
+      "requirement": "Pipeline management, forecasting, and quota attainment",
+      "reason": "No evidence of sales pipeline, forecast, quota, or cloud-consumption ownership.",
+      "riskLevel": "High",
+      "mitigation": "Keep this as a gap or transferable angle; do not claim direct ownership."
+    },
+    {
+      "requirement": "Azure, IaaS, PaaS, migration, and modernization knowledge",
+      "reason": "Evidence does not establish Azure platform, IaaS/PaaS, cloud economics, migration, or modernization depth.",
+      "riskLevel": "Medium",
+      "mitigation": "Azure Data Explorer, Microsoft ecosystem, API integration, and deployment-support exposure"
+    },
+    {
+      "requirement": "Quota-carrying enterprise technology sales and Azure consumption ownership",
+      "reason": "Do not claim it; pursue cloud adoption, technical account, solution enablement, or partner technical specialist roles where delivery evidence is relevant.",
+      "riskLevel": "High",
+      "mitigation": "Do not claim it; pursue cloud adoption, technical account, solution enablement, or partner technical specialist roles where delivery evidence is relevant."
+    },
+    {
+      "requirement": "Large Azure cloud migration and application modernization engagements",
+      "reason": "Add only verified migration or modernization project evidence; otherwise position related Workday, Intune, API, and enterprise automation work as implementation support.",
+      "riskLevel": "High",
+      "mitigation": "Add only verified migration or modernization project evidence; otherwise position related Workday, Intune, API, and enterprise automation work as implementation support."
+    },
+    {
+      "requirement": "Executive selling, negotiation, proposal ownership, and deal closure",
+      "reason": "Use client-facing technical coordination evidence conservatively and prepare concrete examples of stakeholder influence, requirements discovery, and vendor negotiation.",
+      "riskLevel": "High",
+      "mitigation": "Use client-facing technical coordination evidence conservatively and prepare concrete examples of stakeholder influence, requirements discovery, and vendor negotiation."
+    },
+    {
+      "requirement": "Pipeline management, forecasting, and quota performance",
+      "reason": "Do not include sales metrics without source evidence; treat this JD as a stretch or avoid application.",
+      "riskLevel": "High",
+      "mitigation": "Do not include sales metrics without source evidence; treat this JD as a stretch or avoid application."
+    },
+    {
+      "requirement": "Azure IaaS/PaaS and cloud economics",
+      "reason": "Surface Azure Data Explorer and Microsoft ecosystem exposure only as supporting knowledge; obtain verified Azure training or project evidence if pursuing cloud roles.",
+      "riskLevel": "Medium",
+      "mitigation": "Surface Azure Data Explorer and Microsoft ecosystem exposure only as supporting knowledge; obtain verified Azure training or project evidence if pursuing cloud roles."
+    }
+  ],
+  "unsupportedClaimsPrevented": [
+    {
+      "claim": "Quota attainment",
+      "reason": "This claim is not sufficiently supported for visible CV positioning.",
+      "mustNotClaim": [
+        "Quota attainment"
+      ]
+    },
+    {
+      "claim": "Azure consumption growth ownership",
+      "reason": "This claim is not sufficiently supported for visible CV positioning.",
+      "mustNotClaim": [
+        "Azure consumption growth ownership"
+      ]
+    },
+    {
+      "claim": "Multi-million-dollar deals",
+      "reason": "This claim is not sufficiently supported for visible CV positioning.",
+      "mustNotClaim": [
+        "Multi-million-dollar deals"
+      ]
+    },
+    {
+      "claim": "7+ years enterprise technology sales",
+      "reason": "This claim is not sufficiently supported for visible CV positioning.",
+      "mustNotClaim": [
+        "7+ years enterprise technology sales"
+      ]
+    },
+    {
+      "claim": "Executive relationship ownership",
+      "reason": "This claim is not sufficiently supported for visible CV positioning.",
+      "mustNotClaim": [
+        "Executive relationship ownership"
+      ]
+    },
+    {
+      "claim": "Partner or ISV co-selling",
+      "reason": "This claim is not sufficiently supported for visible CV positioning.",
+      "mustNotClaim": [
+        "Partner or ISV co-selling"
+      ]
+    },
+    {
+      "claim": "Cloud migration leadership",
+      "reason": "This claim is not sufficiently supported for visible CV positioning.",
+      "mustNotClaim": [
+        "Cloud migration leadership"
+      ]
+    },
+    {
+      "claim": "Application modernization leadership",
+      "reason": "This claim is not sufficiently supported for visible CV positioning.",
+      "mustNotClaim": [
+        "Application modernization leadership"
+      ]
+    },
+    {
+      "claim": "Competitive displacement",
+      "reason": "This claim is not sufficiently supported for visible CV positioning.",
+      "mustNotClaim": [
+        "Competitive displacement"
+      ]
+    },
+    {
+      "claim": "Forecast accuracy",
+      "reason": "This claim is not sufficiently supported for visible CV positioning.",
+      "mustNotClaim": [
+        "Forecast accuracy"
+      ]
+    },
+    {
+      "claim": "Deal closure ownership",
+      "reason": "This claim is not sufficiently supported for visible CV positioning.",
+      "mustNotClaim": [
+        "Deal closure ownership"
+      ]
+    },
+    {
+      "claim": "Azure architecture or production cloud infrastructure ownership",
+      "reason": "This claim is not sufficiently supported for visible CV positioning.",
+      "mustNotClaim": [
+        "Azure architecture or production cloud infrastructure ownership"
+      ]
+    },
+    {
+      "claim": "Azure Solution Specialist",
+      "reason": "This claim is not sufficiently supported for visible CV positioning.",
+      "mustNotClaim": [
+        "Azure Solution Specialist"
+      ]
+    },
+    {
+      "claim": "Azure enterprise solution sales",
+      "reason": "This claim is not sufficiently supported for visible CV positioning.",
+      "mustNotClaim": [
+        "Azure enterprise solution sales"
+      ]
+    },
+    {
+      "claim": "multi-million-dollar deal leadership",
+      "reason": "This claim is not sufficiently supported for visible CV positioning.",
+      "mustNotClaim": [
+        "multi-million-dollar deal leadership"
+      ]
+    },
+    {
+      "claim": "cloud migration leadership",
+      "reason": "This claim is not sufficiently supported for visible CV positioning.",
+      "mustNotClaim": [
+        "cloud migration leadership"
+      ]
+    },
+    {
+      "claim": "application modernization leadership",
+      "reason": "This claim is not sufficiently supported for visible CV positioning.",
+      "mustNotClaim": [
+        "application modernization leadership"
+      ]
+    },
+    {
+      "claim": "quota attainment",
+      "reason": "This claim is not sufficiently supported for visible CV positioning.",
+      "mustNotClaim": [
+        "quota attainment"
+      ]
+    }
+  ],
+  "recommendedPositioning": {
+    "headline": "Business-to-Technology Translator | Microsoft 365 Copilot Adoption, Power Platform Automation & Enterprise AI Enablement",
+    "summaryAngle": "This is an enterprise Azure sales role, and the candidate does not meet its core commercial screening thresholds. The safest truthful angle is Microsoft ecosystem adoption and solution enablement across Copilot, Power Platform, AI governance, analytics, and operational deployment support, but the application should be treated as Avoid unless additional verified enterprise sales evidence exists.",
+    "targetRoleTreatment": "not-recommended",
+    "wordingGuidance": [
+      "Do not position as a qualified Azure Solution Specialist. If applying, present as a business-to-technology translator with Microsoft ecosystem adoption and solution enablement experience seeking a customer-facing cloud adoption or solution specialist bridge role.",
+      "Generate a truthful transferable-positioning CV; do not pretend direct fit.",
+      "Strengthen wording only when supported by selected evidence.",
+      "Preserve unsupported requirements as gaps or risks, not visible strengths."
+    ]
+  },
+  "remainingHiringRisks": [
+    {
+      "risk": "7+ years technology sales or account management experience",
+      "impactOnInterviewProbability": "Materially reduces interview probability unless new evidence is added or the target angle changes.",
+      "mitigation": "Evidence shows project execution and a sales specialist title but not 7+ years of quota-carrying sales or account management."
+    },
+    {
+      "risk": "Leading large cloud engagements for enterprise customers",
+      "impactOnInterviewProbability": "Materially reduces interview probability unless new evidence is added or the target angle changes.",
+      "mitigation": "No evidence of leading Azure, infrastructure migration, application modernization, or large global cloud engagements."
+    },
+    {
+      "risk": "Executive relationship building and customer buy-in",
+      "impactOnInterviewProbability": "May reduce interview probability unless the CV keeps wording conservative.",
+      "mitigation": "Stakeholder coordination is supported, but executive relationship ownership and commercial buy-in are not."
+    },
+    {
+      "risk": "Partner and ISV co-selling",
+      "impactOnInterviewProbability": "May reduce interview probability unless the CV keeps wording conservative.",
+      "mitigation": "Vendor coordination is not equivalent to partner co-selling or ISV opportunity ownership."
+    },
+    {
+      "risk": "Business cases, proposals, negotiation, and deal closure",
+      "impactOnInterviewProbability": "May reduce interview probability unless the CV keeps wording conservative.",
+      "mitigation": "Source supports coordination around bidding and negotiation but not proposal ownership, revenue, contract closure, or competitive displacement."
+    },
+    {
+      "risk": "Pipeline management, forecasting, and quota attainment",
+      "impactOnInterviewProbability": "Materially reduces interview probability unless new evidence is added or the target angle changes.",
+      "mitigation": "No evidence of sales pipeline, forecast, quota, or cloud-consumption ownership."
+    },
+    {
+      "risk": "Azure, IaaS, PaaS, migration, and modernization knowledge",
+      "impactOnInterviewProbability": "May reduce interview probability unless the CV keeps wording conservative.",
+      "mitigation": "Evidence does not establish Azure platform, IaaS/PaaS, cloud economics, migration, or modernization depth."
+    },
+    {
+      "risk": "What sales quota did you carry and what percentage did you achieve?",
+      "impactOnInterviewProbability": "May reduce interview probability if the recruiter or hiring manager requires direct proof.",
+      "mitigation": "Prepare truthful interview evidence or choose a more adjacent target angle."
+    },
+    {
+      "risk": "Describe a multi-million-dollar Azure or cloud deal you closed.",
+      "impactOnInterviewProbability": "May reduce interview probability if the recruiter or hiring manager requires direct proof.",
+      "mitigation": "Prepare truthful interview evidence or choose a more adjacent target angle."
+    },
+    {
+      "risk": "How did you build and defend a customer business case?",
+      "impactOnInterviewProbability": "May reduce interview probability if the recruiter or hiring manager requires direct proof.",
+      "mitigation": "Prepare truthful interview evidence or choose a more adjacent target angle."
+    },
+    {
+      "risk": "Which executive stakeholders did you influence?",
+      "impactOnInterviewProbability": "May reduce interview probability if the recruiter or hiring manager requires direct proof.",
+      "mitigation": "Prepare truthful interview evidence or choose a more adjacent target angle."
+    },
+    {
+      "risk": "What Azure migration or application modernization engagements did you lead?",
+      "impactOnInterviewProbability": "May reduce interview probability if the recruiter or hiring manager requires direct proof.",
+      "mitigation": "Prepare truthful interview evidence or choose a more adjacent target angle."
+    }
+  ]
+}

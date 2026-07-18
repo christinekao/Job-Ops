@@ -1,0 +1,175 @@
+{
+  "cvVersionId": "cv-case-c-weak-fit-azure-20260717000000",
+  "cvContentHash": "huuwxfd",
+  "totalBlockers": 5,
+  "safeAuto": [],
+  "approvalRequired": [
+    {
+      "blockerId": "blocker-2-reviewer-weak-claims-controlled-4-weak-mapping-s",
+      "route": "approval-required",
+      "reason": "This may preserve evidence but materially changes visible wording, so the user must review it first.",
+      "target": {
+        "blockerId": "blocker-2-reviewer-weak-claims-controlled-4-weak-mapping-s",
+        "section": "workExperience",
+        "fieldId": "bullet",
+        "roleId": "trend-micro",
+        "bulletId": "0-0-0",
+        "focusKey": "guided-workExperience-bullet-trend-micro-0-0-0",
+        "highlightKey": "guided-workExperience-bullet-trend-micro-0-0-0"
+      },
+      "evidenceIds": [
+        "evi-m365-copilot-dashboard"
+      ],
+      "cvVersionId": "cv-case-c-weak-fit-azure-20260717000000",
+      "cvContentHash": "huuwxfd",
+      "risk": "medium",
+      "confidence": "medium",
+      "allowedMutationZones": [
+        "workExperience"
+      ],
+      "prohibitedMutationZones": [
+        "header.contact",
+        "header.targetRole",
+        "summary",
+        "sidebar.skills",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": true,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": true,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": false
+    }
+  ],
+  "targetedRegeneration": [],
+  "humanInput": [
+    {
+      "blockerId": "blocker-4-contact-extraction-missing-name-email-or-location",
+      "route": "human-input",
+      "reason": "Missing contact data must be entered by the user because no trusted value is available.",
+      "target": {
+        "blockerId": "blocker-4-contact-extraction-missing-name-email-or-location",
+        "section": "contact",
+        "fieldId": "email",
+        "focusKey": "guided-contact-email",
+        "highlightKey": "guided-contact-email"
+      },
+      "evidenceIds": [],
+      "cvVersionId": "cv-case-c-weak-fit-azure-20260717000000",
+      "cvContentHash": "huuwxfd",
+      "risk": "medium",
+      "confidence": "high",
+      "allowedMutationZones": [
+        "header.contact"
+      ],
+      "prohibitedMutationZones": [
+        "header.targetRole",
+        "summary",
+        "workExperience",
+        "sidebar.skills",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": false,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": false,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": true
+    },
+    {
+      "blockerId": "blocker-5-contact-email-missing-email",
+      "route": "human-input",
+      "reason": "Missing contact data must be entered by the user because no trusted value is available.",
+      "target": {
+        "blockerId": "blocker-5-contact-email-missing-email",
+        "section": "contact",
+        "fieldId": "email",
+        "focusKey": "guided-contact-email",
+        "highlightKey": "guided-contact-email"
+      },
+      "evidenceIds": [],
+      "cvVersionId": "cv-case-c-weak-fit-azure-20260717000000",
+      "cvContentHash": "huuwxfd",
+      "risk": "medium",
+      "confidence": "high",
+      "allowedMutationZones": [
+        "header.contact"
+      ],
+      "prohibitedMutationZones": [
+        "header.targetRole",
+        "summary",
+        "workExperience",
+        "sidebar.skills",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": false,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": false,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": true
+    }
+  ],
+  "humanDecision": [],
+  "unsupported": [
+    {
+      "blockerId": "blocker-1-change-the-visible-target-title-to-match-azure-solut",
+      "route": "unsupported",
+      "reason": "No reliable edit target is available.",
+      "evidenceIds": [],
+      "cvVersionId": "cv-case-c-weak-fit-azure-20260717000000",
+      "cvContentHash": "huuwxfd",
+      "risk": "high",
+      "confidence": "not-available",
+      "allowedMutationZones": [],
+      "prohibitedMutationZones": [
+        "header.contact",
+        "header.targetRole",
+        "summary",
+        "workExperience",
+        "sidebar.skills",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": false,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": false,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": false,
+      "unsupportedReason": "The blocker cannot be mapped to a safe CV field."
+    },
+    {
+      "blockerId": "blocker-3-reviewer-action-outcome-bullets-5-8-action-oriented-",
+      "route": "unsupported",
+      "reason": "No reliable edit target is available.",
+      "evidenceIds": [],
+      "cvVersionId": "cv-case-c-weak-fit-azure-20260717000000",
+      "cvContentHash": "huuwxfd",
+      "risk": "high",
+      "confidence": "not-available",
+      "allowedMutationZones": [],
+      "prohibitedMutationZones": [
+        "header.contact",
+        "header.targetRole",
+        "summary",
+        "workExperience",
+        "sidebar.skills",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": false,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": false,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": false,
+      "unsupportedReason": "The blocker cannot be mapped to a safe CV field."
+    }
+  ],
+  "recommendedNextRoute": "review-ai-proposals"
+}

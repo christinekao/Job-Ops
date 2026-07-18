@@ -1,0 +1,154 @@
+{
+  "status": "WARNING",
+  "truthfulnessStatus": "truthful",
+  "reviewedCvVersionId": "cv-case-c-weak-fit-azure-20260717000000",
+  "reviewedCvContentHash": "huuwxfd",
+  "reviewedAt": "2026-07-17T13:18:35.945Z",
+  "positioningAuthority": "ScreeningAnalysis",
+  "positioningReportMode": "read-only-derived-view",
+  "issues": [
+    {
+      "category": "Capability Gap",
+      "severity": "Medium",
+      "title": "Truthful capability gap",
+      "description": "12 capability gap(s) are tracked as fit/readiness risk, not unsupported visible claims.",
+      "evidence": {
+        "evidenceIds": [],
+        "screeningAnalysisPath": "screeningAnalysis.jdEvidenceMapping|remainingGaps",
+        "positioningReportPath": "positioningReport.truthfulCapabilityGaps",
+        "reason": "Capability gaps come from upstream Analysis / Positioning Report and are not recomputed by Reviewer."
+      },
+      "repairability": "not-repairable",
+      "suggestedRepairIntent": "Do not rewrite as a solved strength. Add new evidence or change target positioning upstream if needed.",
+      "expectedRepairBoundary": [],
+      "exportSignal": "warn",
+      "id": "review-1-capability-gap-truthful-capability-gap"
+    },
+    {
+      "category": "External Wording",
+      "severity": "Medium",
+      "title": "Action/outcome bullet strength is low",
+      "description": "5/8 visible bullet(s) are action-oriented.",
+      "visibleLocation": {
+        "section": "workExperience"
+      },
+      "evidence": {
+        "evidenceIds": [],
+        "reason": "Bullets can be made more recruiter-readable without changing claim strength."
+      },
+      "repairability": "targeted-repair",
+      "suggestedRepairIntent": "Rewrite bullets into action + scope + business outcome while preserving evidence IDs.",
+      "expectedRepairBoundary": [
+        "workExperience"
+      ],
+      "exportSignal": "warn",
+      "id": "review-2-external-wording-action-outcome-bullet-strength-is-low"
+    },
+    {
+      "category": "Profile Completeness",
+      "severity": "High",
+      "title": "Trusted profile contact data is incomplete",
+      "description": "Missing trusted profile field(s): email.",
+      "visibleLocation": {
+        "section": "header"
+      },
+      "evidence": {
+        "evidenceIds": [],
+        "reason": "Profile/contact data must come from trusted user/profile input and must not be invented by Reviewer or Writer."
+      },
+      "repairability": "human-input",
+      "suggestedRepairIntent": "Collect trusted contact data from the user or profile source.",
+      "expectedRepairBoundary": [
+        "header.contact"
+      ],
+      "exportSignal": "block",
+      "id": "review-3-profile-completeness-trusted-profile-contact-data-is-incom"
+    }
+  ],
+  "summary": {
+    "unsupportedClaimCount": 0,
+    "capabilityGapCount": 1,
+    "evidenceMissingCount": 0,
+    "repairableIssueCount": 2,
+    "exportBlockingIssueCount": 1
+  },
+  "repairContract": {
+    "issues": [
+      {
+        "category": "External Wording",
+        "severity": "Medium",
+        "title": "Action/outcome bullet strength is low",
+        "description": "5/8 visible bullet(s) are action-oriented.",
+        "visibleLocation": {
+          "section": "workExperience"
+        },
+        "evidence": {
+          "evidenceIds": [],
+          "reason": "Bullets can be made more recruiter-readable without changing claim strength."
+        },
+        "repairability": "targeted-repair",
+        "suggestedRepairIntent": "Rewrite bullets into action + scope + business outcome while preserving evidence IDs.",
+        "expectedRepairBoundary": [
+          "workExperience"
+        ],
+        "exportSignal": "warn",
+        "id": "review-2-external-wording-action-outcome-bullet-strength-is-low"
+      },
+      {
+        "category": "Profile Completeness",
+        "severity": "High",
+        "title": "Trusted profile contact data is incomplete",
+        "description": "Missing trusted profile field(s): email.",
+        "visibleLocation": {
+          "section": "header"
+        },
+        "evidence": {
+          "evidenceIds": [],
+          "reason": "Profile/contact data must come from trusted user/profile input and must not be invented by Reviewer or Writer."
+        },
+        "repairability": "human-input",
+        "suggestedRepairIntent": "Collect trusted contact data from the user or profile source.",
+        "expectedRepairBoundary": [
+          "header.contact"
+        ],
+        "exportSignal": "block",
+        "id": "review-3-profile-completeness-trusted-profile-contact-data-is-incom"
+      }
+    ]
+  },
+  "exportRecommendationInput": {
+    "reviewStatus": "WARNING",
+    "exportBlockingIssues": [
+      {
+        "issueId": "review-3-profile-completeness-trusted-profile-contact-data-is-incom",
+        "category": "Profile Completeness",
+        "severity": "High",
+        "reason": "Missing trusted profile field(s): email."
+      }
+    ],
+    "exportWarnings": [
+      {
+        "issueId": "review-1-capability-gap-truthful-capability-gap",
+        "category": "Capability Gap",
+        "severity": "Medium",
+        "reason": "12 capability gap(s) are tracked as fit/readiness risk, not unsupported visible claims."
+      },
+      {
+        "issueId": "review-2-external-wording-action-outcome-bullet-strength-is-low",
+        "category": "External Wording",
+        "severity": "Medium",
+        "reason": "5/8 visible bullet(s) are action-oriented."
+      }
+    ],
+    "truthfulness": {
+      "unsupportedClaimCount": 0,
+      "policyViolationCount": 0,
+      "capabilityGapCount": 1
+    },
+    "documentReadiness": {
+      "formattingIssueCount": 0,
+      "profileCompletenessIssueCount": 1,
+      "externalWordingIssueCount": 1
+    }
+  }
+}

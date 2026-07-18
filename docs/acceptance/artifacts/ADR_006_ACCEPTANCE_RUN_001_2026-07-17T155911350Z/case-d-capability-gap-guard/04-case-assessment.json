@@ -1,0 +1,18 @@
+{
+  "caseKey": "case-d-capability-gap-guard",
+  "label": "Case D — Capability Gap Guard",
+  "structuredIssueCount": 1,
+  "totalClassifications": 1,
+  "allStructured": true,
+  "capabilityGapMutated": false,
+  "capabilityGapUnsupported": true,
+  "preservesReviewerClassification": true,
+  "routeCounts": {
+    "safeAuto": 0,
+    "approvalRequired": 0,
+    "targetedRegeneration": 0,
+    "humanInput": 0,
+    "humanDecision": 0,
+    "unsupported": 1
+  }
+}

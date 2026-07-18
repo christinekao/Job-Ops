@@ -1,0 +1,298 @@
+{
+  "cvVersionId": "cv-case-b-risky-fit-20260717000000",
+  "cvContentHash": "hrslq8e",
+  "totalBlockers": 8,
+  "safeAuto": [],
+  "approvalRequired": [
+    {
+      "blockerId": "blocker-1-place-these-evidence-supported-missing-keywords-into",
+      "route": "approval-required",
+      "reason": "This may preserve evidence but materially changes visible wording, so the user must review it first.",
+      "target": {
+        "blockerId": "blocker-1-place-these-evidence-supported-missing-keywords-into",
+        "section": "summary",
+        "fieldId": "summary",
+        "focusKey": "guided-summary-summary",
+        "highlightKey": "guided-summary-summary"
+      },
+      "evidenceIds": [],
+      "cvVersionId": "cv-case-b-risky-fit-20260717000000",
+      "cvContentHash": "hrslq8e",
+      "risk": "medium",
+      "confidence": "medium",
+      "allowedMutationZones": [
+        "summary"
+      ],
+      "prohibitedMutationZones": [
+        "header.contact",
+        "header.targetRole",
+        "workExperience",
+        "sidebar.skills",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": true,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": true,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": false
+    },
+    {
+      "blockerId": "blocker-2-rewrite-2-work-log-bullet-s-into-external-resume-bul",
+      "route": "approval-required",
+      "reason": "This may preserve evidence but materially changes visible wording, so the user must review it first.",
+      "target": {
+        "blockerId": "blocker-2-rewrite-2-work-log-bullet-s-into-external-resume-bul",
+        "section": "workExperience",
+        "fieldId": "bullet",
+        "roleId": "trend-micro",
+        "bulletId": "0-0-1",
+        "focusKey": "guided-workExperience-bullet-trend-micro-0-0-1",
+        "highlightKey": "guided-workExperience-bullet-trend-micro-0-0-1"
+      },
+      "evidenceIds": [
+        "evi-trender-buddy-gpt-eval-pipeline"
+      ],
+      "cvVersionId": "cv-case-b-risky-fit-20260717000000",
+      "cvContentHash": "hrslq8e",
+      "risk": "medium",
+      "confidence": "medium",
+      "allowedMutationZones": [
+        "workExperience"
+      ],
+      "prohibitedMutationZones": [
+        "header.contact",
+        "header.targetRole",
+        "summary",
+        "sidebar.skills",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": true,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": true,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": false
+    },
+    {
+      "blockerId": "blocker-3-reviewer-hr-scan-6-covered-keyword-s-6-supported-key",
+      "route": "approval-required",
+      "reason": "Keyword placement changes visible wording and should be reviewed before application.",
+      "target": {
+        "blockerId": "blocker-3-reviewer-hr-scan-6-covered-keyword-s-6-supported-key",
+        "section": "skills",
+        "fieldId": "skill-groups",
+        "focusKey": "guided-skills-skill-groups",
+        "highlightKey": "guided-skills-skill-groups"
+      },
+      "evidenceIds": [],
+      "cvVersionId": "cv-case-b-risky-fit-20260717000000",
+      "cvContentHash": "hrslq8e",
+      "risk": "medium",
+      "confidence": "medium",
+      "allowedMutationZones": [
+        "sidebar.skills"
+      ],
+      "prohibitedMutationZones": [
+        "header.contact",
+        "header.targetRole",
+        "summary",
+        "workExperience",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": true,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": true,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": false
+    },
+    {
+      "blockerId": "blocker-4-reviewer-weak-claims-controlled-4-weak-mapping-s",
+      "route": "approval-required",
+      "reason": "This may preserve evidence but materially changes visible wording, so the user must review it first.",
+      "target": {
+        "blockerId": "blocker-4-reviewer-weak-claims-controlled-4-weak-mapping-s",
+        "section": "workExperience",
+        "fieldId": "bullet",
+        "roleId": "trend-micro",
+        "bulletId": "0-0-0",
+        "focusKey": "guided-workExperience-bullet-trend-micro-0-0-0",
+        "highlightKey": "guided-workExperience-bullet-trend-micro-0-0-0"
+      },
+      "evidenceIds": [
+        "evi-tomo-eval-framework"
+      ],
+      "cvVersionId": "cv-case-b-risky-fit-20260717000000",
+      "cvContentHash": "hrslq8e",
+      "risk": "medium",
+      "confidence": "medium",
+      "allowedMutationZones": [
+        "workExperience"
+      ],
+      "prohibitedMutationZones": [
+        "header.contact",
+        "header.targetRole",
+        "summary",
+        "sidebar.skills",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": true,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": true,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": false
+    },
+    {
+      "blockerId": "blocker-5-reviewer-external-wording-2-work-log-bullet-s",
+      "route": "approval-required",
+      "reason": "This may preserve evidence but materially changes visible wording, so the user must review it first.",
+      "target": {
+        "blockerId": "blocker-5-reviewer-external-wording-2-work-log-bullet-s",
+        "section": "workExperience",
+        "fieldId": "bullet",
+        "roleId": "trend-micro",
+        "bulletId": "0-0-1",
+        "focusKey": "guided-workExperience-bullet-trend-micro-0-0-1",
+        "highlightKey": "guided-workExperience-bullet-trend-micro-0-0-1"
+      },
+      "evidenceIds": [
+        "evi-trender-buddy-gpt-eval-pipeline"
+      ],
+      "cvVersionId": "cv-case-b-risky-fit-20260717000000",
+      "cvContentHash": "hrslq8e",
+      "risk": "medium",
+      "confidence": "medium",
+      "allowedMutationZones": [
+        "workExperience"
+      ],
+      "prohibitedMutationZones": [
+        "header.contact",
+        "header.targetRole",
+        "summary",
+        "sidebar.skills",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": true,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": true,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": false
+    },
+    {
+      "blockerId": "blocker-8-ats-keyword-support-6-covered-6-supported-gap-s",
+      "route": "approval-required",
+      "reason": "Keyword placement changes visible wording and should be reviewed before application.",
+      "target": {
+        "blockerId": "blocker-8-ats-keyword-support-6-covered-6-supported-gap-s",
+        "section": "skills",
+        "fieldId": "skill-groups",
+        "focusKey": "guided-skills-skill-groups",
+        "highlightKey": "guided-skills-skill-groups"
+      },
+      "evidenceIds": [],
+      "cvVersionId": "cv-case-b-risky-fit-20260717000000",
+      "cvContentHash": "hrslq8e",
+      "risk": "medium",
+      "confidence": "medium",
+      "allowedMutationZones": [
+        "sidebar.skills"
+      ],
+      "prohibitedMutationZones": [
+        "header.contact",
+        "header.targetRole",
+        "summary",
+        "workExperience",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": true,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": true,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": false
+    }
+  ],
+  "targetedRegeneration": [],
+  "humanInput": [
+    {
+      "blockerId": "blocker-6-contact-extraction-missing-name-email-or-location",
+      "route": "human-input",
+      "reason": "Missing contact data must be entered by the user because no trusted value is available.",
+      "target": {
+        "blockerId": "blocker-6-contact-extraction-missing-name-email-or-location",
+        "section": "contact",
+        "fieldId": "email",
+        "focusKey": "guided-contact-email",
+        "highlightKey": "guided-contact-email"
+      },
+      "evidenceIds": [],
+      "cvVersionId": "cv-case-b-risky-fit-20260717000000",
+      "cvContentHash": "hrslq8e",
+      "risk": "medium",
+      "confidence": "high",
+      "allowedMutationZones": [
+        "header.contact"
+      ],
+      "prohibitedMutationZones": [
+        "header.targetRole",
+        "summary",
+        "workExperience",
+        "sidebar.skills",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": false,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": false,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": true
+    },
+    {
+      "blockerId": "blocker-7-contact-email-missing-email",
+      "route": "human-input",
+      "reason": "Missing contact data must be entered by the user because no trusted value is available.",
+      "target": {
+        "blockerId": "blocker-7-contact-email-missing-email",
+        "section": "contact",
+        "fieldId": "email",
+        "focusKey": "guided-contact-email",
+        "highlightKey": "guided-contact-email"
+      },
+      "evidenceIds": [],
+      "cvVersionId": "cv-case-b-risky-fit-20260717000000",
+      "cvContentHash": "hrslq8e",
+      "risk": "medium",
+      "confidence": "high",
+      "allowedMutationZones": [
+        "header.contact"
+      ],
+      "prohibitedMutationZones": [
+        "header.targetRole",
+        "summary",
+        "workExperience",
+        "sidebar.skills",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": false,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": false,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": true
+    }
+  ],
+  "humanDecision": [],
+  "unsupported": [],
+  "recommendedNextRoute": "review-ai-proposals"
+}

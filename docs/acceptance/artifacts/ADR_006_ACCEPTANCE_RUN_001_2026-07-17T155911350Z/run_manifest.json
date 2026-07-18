@@ -1,0 +1,113 @@
+{
+  "runId": "ADR_006_ACCEPTANCE_RUN_001_2026-07-17T155911350Z",
+  "timestamp": "2026-07-17T15:59:11.352Z",
+  "sourceFixtureRoot": "docs/acceptance/artifacts/ADR_005_W2_ACCEPTANCE_RUN_001_2026-07-17T131835637Z",
+  "cases": [
+    {
+      "caseKey": "case-a-good-fit",
+      "label": "Case A — Good Fit",
+      "structuredIssueCount": 2,
+      "totalClassifications": 2,
+      "allStructured": true,
+      "capabilityGapMutated": false,
+      "profileRoutesHumanInput": true,
+      "preservesReviewerClassification": true,
+      "recommendedNextRoute": "review-ai-proposals",
+      "routeCounts": {
+        "safeAuto": 0,
+        "approvalRequired": 1,
+        "targetedRegeneration": 0,
+        "humanInput": 1,
+        "humanDecision": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "caseKey": "case-b-risky-fit",
+      "label": "Case B — Risky Fit",
+      "structuredIssueCount": 3,
+      "totalClassifications": 3,
+      "allStructured": true,
+      "capabilityGapMutated": false,
+      "profileRoutesHumanInput": true,
+      "preservesReviewerClassification": true,
+      "recommendedNextRoute": "review-ai-proposals",
+      "routeCounts": {
+        "safeAuto": 0,
+        "approvalRequired": 2,
+        "targetedRegeneration": 0,
+        "humanInput": 1,
+        "humanDecision": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "caseKey": "case-c-weak-fit-azure",
+      "label": "Case C — Azure Weak Fit",
+      "structuredIssueCount": 2,
+      "totalClassifications": 2,
+      "allStructured": true,
+      "capabilityGapMutated": false,
+      "profileRoutesHumanInput": true,
+      "preservesReviewerClassification": true,
+      "recommendedNextRoute": "review-ai-proposals",
+      "routeCounts": {
+        "safeAuto": 0,
+        "approvalRequired": 1,
+        "targetedRegeneration": 0,
+        "humanInput": 1,
+        "humanDecision": 0,
+        "unsupported": 0
+      }
+    },
+    {
+      "caseKey": "case-d-capability-gap-guard",
+      "label": "Case D — Capability Gap Guard",
+      "structuredIssueCount": 1,
+      "totalClassifications": 1,
+      "allStructured": true,
+      "capabilityGapMutated": false,
+      "capabilityGapUnsupported": true,
+      "preservesReviewerClassification": true,
+      "routeCounts": {
+        "safeAuto": 0,
+        "approvalRequired": 0,
+        "targetedRegeneration": 0,
+        "humanInput": 0,
+        "humanDecision": 0,
+        "unsupported": 1
+      }
+    }
+  ],
+  "validationResults": [
+    {
+      "command": "npm run smoke:repair-policy",
+      "result": "PASS"
+    },
+    {
+      "command": "npm run smoke:repair-orchestrator",
+      "result": "PASS"
+    },
+    {
+      "command": "npm run smoke:reviewer-policy",
+      "result": "PASS"
+    },
+    {
+      "command": "npm run smoke:repair-loop",
+      "result": "PASS"
+    },
+    {
+      "command": "npm run smoke:safe-repair-executor",
+      "result": "PASS"
+    },
+    {
+      "command": "npm run smoke:review-freshness",
+      "result": "PASS"
+    },
+    {
+      "command": "npm run build",
+      "result": "PASS"
+    }
+  ],
+  "edgeCaseNote": "Case D validates ADR-006 defensive behavior for a full structured Capability Gap issue. Normal ADR-005 repairContract excludes not-repairable issues."
+}

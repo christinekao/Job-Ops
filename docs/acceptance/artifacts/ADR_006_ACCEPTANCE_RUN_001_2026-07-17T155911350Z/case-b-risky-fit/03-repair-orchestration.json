@@ -1,0 +1,116 @@
+{
+  "cvVersionId": "cv-case-b-risky-fit-20260717000000",
+  "cvContentHash": "hrslq8e",
+  "totalBlockers": 3,
+  "safeAuto": [],
+  "approvalRequired": [
+    {
+      "blockerId": "structured-review-1-keyword-coverage-evidence-supported-keywords-are-under-pla",
+      "reviewerIssueId": "review-1-keyword-coverage-evidence-supported-keywords-are-under-pla",
+      "source": "structured-reviewer-contract",
+      "route": "approval-required",
+      "reason": "Add only evidence-supported keywords to summary, skills, or relevant bullets.",
+      "rawBlocker": "Keyword Coverage: Evidence-supported keywords are under-placed: Supported keyword gap(s): AI quality evaluation, benchmark questions, quality metrics, AI governance, prompt regression testing, Python validation.: Add only evidence-supported keywords to summary, skills, or relevant bullets.: These keywords are evidence-supported and may be placed without exceeding ADR-004 boundaries.",
+      "reviewerCategory": "Keyword Coverage",
+      "reviewerSeverity": "Medium",
+      "reviewerRepairability": "targeted-repair",
+      "suggestedRepairIntent": "Add only evidence-supported keywords to summary, skills, or relevant bullets.",
+      "evidenceIds": [],
+      "cvVersionId": "cv-case-b-risky-fit-20260717000000",
+      "cvContentHash": "hrslq8e",
+      "risk": "medium",
+      "confidence": "high",
+      "allowedMutationZones": [
+        "summary",
+        "sidebar.skills",
+        "workExperience"
+      ],
+      "prohibitedMutationZones": [
+        "header.contact",
+        "header.targetRole",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": true,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": true,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": false
+    },
+    {
+      "blockerId": "structured-review-3-external-wording-internal-or-work-log-wording-remains",
+      "reviewerIssueId": "review-3-external-wording-internal-or-work-log-wording-remains",
+      "source": "structured-reviewer-contract",
+      "route": "approval-required",
+      "reason": "Translate internal/work-log wording into external resume language without changing meaning.",
+      "rawBlocker": "External Wording: Internal or work-log wording remains: 2 work-log bullet(s) detected.: Translate internal/work-log wording into external resume language without changing meaning.: Visible wording should be external recruiter language.",
+      "reviewerCategory": "External Wording",
+      "reviewerSeverity": "Medium",
+      "reviewerRepairability": "targeted-repair",
+      "suggestedRepairIntent": "Translate internal/work-log wording into external resume language without changing meaning.",
+      "evidenceIds": [],
+      "cvVersionId": "cv-case-b-risky-fit-20260717000000",
+      "cvContentHash": "hrslq8e",
+      "risk": "medium",
+      "confidence": "high",
+      "allowedMutationZones": [
+        "summary",
+        "workExperience"
+      ],
+      "prohibitedMutationZones": [
+        "header.contact",
+        "header.targetRole",
+        "sidebar.skills",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": true,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": true,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": false
+    }
+  ],
+  "targetedRegeneration": [],
+  "humanInput": [
+    {
+      "blockerId": "structured-review-4-profile-completeness-trusted-profile-contact-data-is-incom",
+      "reviewerIssueId": "review-4-profile-completeness-trusted-profile-contact-data-is-incom",
+      "source": "structured-reviewer-contract",
+      "route": "human-input",
+      "reason": "Collect trusted contact data from the user or profile source.",
+      "rawBlocker": "Profile Completeness: Trusted profile contact data is incomplete: Missing trusted profile field(s): email.: Collect trusted contact data from the user or profile source.: Profile/contact data must come from trusted user/profile input and must not be invented by Reviewer or Writer.",
+      "reviewerCategory": "Profile Completeness",
+      "reviewerSeverity": "High",
+      "reviewerRepairability": "human-input",
+      "suggestedRepairIntent": "Collect trusted contact data from the user or profile source.",
+      "evidenceIds": [],
+      "cvVersionId": "cv-case-b-risky-fit-20260717000000",
+      "cvContentHash": "hrslq8e",
+      "risk": "medium",
+      "confidence": "high",
+      "allowedMutationZones": [
+        "header.contact"
+      ],
+      "prohibitedMutationZones": [
+        "header.targetRole",
+        "summary",
+        "workExperience",
+        "sidebar.skills",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": false,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": false,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": true
+    }
+  ],
+  "humanDecision": [],
+  "unsupported": [],
+  "recommendedNextRoute": "review-ai-proposals"
+}

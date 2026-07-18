@@ -1,0 +1,2112 @@
+{
+  "selectionPatch": {
+    "selectedSkillIds": [
+      "skill-tb-gpt-qa-loop",
+      "skill-tomo-live-ab-routing",
+      "skill-fin-ai-production-ops",
+      "skill-genai-dify-nl-sql-risk-eval",
+      "skill-se-adx-learning-pipeline",
+      "skill-dpia-compliance-app-build",
+      "skill-dpia-role-audit-access",
+      "skill-powerplatform-governance-doc",
+      "skill-azuread-secret-env-maintenance",
+      "skill-workday-hcm-ba",
+      "skill-workday-eib-wql-migration",
+      "skill-production-flow-takeover"
+    ],
+    "selectedDomainKnowledgeIds": [
+      "domain-genai-tool-risk-evaluation",
+      "domain-trendiq-appsiq-hr-agentic-enablement",
+      "domain-power-platform-enablement",
+      "domain-life-science-data-workflows",
+      "domain-genai-capability-building",
+      "domain-workday-hcm-implementation"
+    ],
+    "selectedEvidenceIds": [
+      "evi-tomo-eval-framework",
+      "evi-trender-buddy-gpt-eval-pipeline",
+      "evi-tomo-ab-attribution-logic",
+      "evi-fin-ai-prod-ops-global-jp",
+      "evi-legal-dpia-risk-classification",
+      "evi-existing-python-sql-pipeline-debugging",
+      "evi-genai-hub-milestone-tracking",
+      "evi-genai-dify-eval",
+      "evi-technical-capability-summary",
+      "evi-business-workflow-structuring-non-engineering",
+      "evi-workday-hcm-migration",
+      "evi-power-platform-governance-docs",
+      "evi-sunshine-payroll-redesign",
+      "evi-legal-dpia-app-build",
+      "evi-tb-hr-dashboard-ai-upgrade",
+      "evi-ta-dashboard-lifecycle",
+      "evi-workday-calc-field-audit",
+      "evi-workday-ph-kt-workshop"
+    ],
+    "selectedStoryIds": [
+      "star-tomo-platform-evaluation",
+      "star-trender-buddy-gpt-eval",
+      "star-tomo-ab-attribution-pipeline",
+      "star-genai-dify-evaluation",
+      "star-fin-ai-kb-sync-automation",
+      "star-fin-ai-prod-ops-change-issue"
+    ],
+    "recommendationsAppliedAt": "2026-07-17T11:55:56.919Z"
+  },
+  "diagnostics": {
+    "selectedSkillIds": [
+      "skill-tb-gpt-qa-loop",
+      "skill-tomo-live-ab-routing",
+      "skill-fin-ai-production-ops",
+      "skill-genai-dify-nl-sql-risk-eval",
+      "skill-se-adx-learning-pipeline",
+      "skill-dpia-compliance-app-build",
+      "skill-dpia-role-audit-access",
+      "skill-powerplatform-governance-doc",
+      "skill-azuread-secret-env-maintenance",
+      "skill-workday-hcm-ba",
+      "skill-workday-eib-wql-migration",
+      "skill-production-flow-takeover"
+    ],
+    "selectedDomainKnowledgeIds": [
+      "domain-genai-tool-risk-evaluation",
+      "domain-trendiq-appsiq-hr-agentic-enablement",
+      "domain-power-platform-enablement",
+      "domain-life-science-data-workflows",
+      "domain-genai-capability-building",
+      "domain-workday-hcm-implementation"
+    ],
+    "selectedEvidenceIds": [
+      "evi-tomo-eval-framework",
+      "evi-trender-buddy-gpt-eval-pipeline",
+      "evi-tomo-ab-attribution-logic",
+      "evi-fin-ai-prod-ops-global-jp",
+      "evi-legal-dpia-risk-classification",
+      "evi-existing-python-sql-pipeline-debugging",
+      "evi-genai-hub-milestone-tracking",
+      "evi-genai-dify-eval",
+      "evi-technical-capability-summary",
+      "evi-business-workflow-structuring-non-engineering",
+      "evi-workday-hcm-migration",
+      "evi-power-platform-governance-docs",
+      "evi-sunshine-payroll-redesign",
+      "evi-legal-dpia-app-build",
+      "evi-tb-hr-dashboard-ai-upgrade",
+      "evi-ta-dashboard-lifecycle",
+      "evi-workday-calc-field-audit",
+      "evi-workday-ph-kt-workshop"
+    ],
+    "selectedStoryIds": [
+      "star-tomo-platform-evaluation",
+      "star-trender-buddy-gpt-eval",
+      "star-tomo-ab-attribution-pipeline",
+      "star-genai-dify-evaluation",
+      "star-fin-ai-kb-sync-automation",
+      "star-fin-ai-prod-ops-change-issue"
+    ],
+    "selectedSkills": [
+      {
+        "id": "skill-tb-gpt-qa-loop",
+        "group": "AI & Automation",
+        "skill": "GPT evaluation and human-review QA loop",
+        "strength": "Strong",
+        "usageContext": "built",
+        "evidenceSummary": "Built GPT auto-evaluation pipeline and Power App review form for Trender Buddy, creating a closed QA loop from GPT review to human review to prompt revision.",
+        "cvWording": "Build closed-loop AI quality workflows combining automated GPT scoring, human review, and prompt iteration.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-trender-buddy",
+        "sourceIds": [
+          "source-original-cv-pdfs",
+          "source-20260614-enterprise-automation-people-analytics"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-tomo-live-ab-routing",
+        "group": "AI & Automation",
+        "skill": "Live chatbot A/B test routing design",
+        "strength": "Strong",
+        "usageContext": "built",
+        "evidenceSummary": "Designed cookie-based routing where odd suffix showed FIN and even suffix showed TOMO, specified UTM attribution and D365 Omnichannel routing, and defined five reporting metrics for live chatbot comparison.",
+        "cvWording": "Design live A/B routing, attribution, and reporting logic for AI platform evaluation.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-tomo-ab-testing",
+        "sourceIds": [
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-fin-ai-production-ops",
+        "group": "AI Operations",
+        "skill": "Customer-service AI chatbot production operations",
+        "strength": "Strong",
+        "usageContext": "owned",
+        "evidenceSummary": "Owned customer-service AI chatbot operations for Global and Japan consumer support markets, including workspace administration, license tracking, CSM coordination, and 193 change requests or bug fixes from 2024/12 to 2025/12.",
+        "cvWording": "Own production operations for customer-service AI chatbot platforms across global support markets.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-fin-ai",
+        "sourceIds": [
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-genai-dify-nl-sql-risk-eval",
+        "group": "AI & Automation",
+        "skill": "NL-to-SQL GenAI tool evaluation",
+        "strength": "Moderate",
+        "usageContext": "tested",
+        "evidenceSummary": "Evaluated Dify as a self-hosted LLM app builder for natural-language-to-SQL scenarios and documented pros, cons, infrastructure needs, Non-RD operability, and production database execution risk.",
+        "cvWording": "Evaluate GenAI tools for NL-to-SQL feasibility, business usability, infrastructure dependency, and production-risk boundaries.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-genai-hub",
+        "sourceIds": [
+          "source-20260614-ai-governance",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-se-adx-learning-pipeline",
+        "group": "BI & Analytics",
+        "skill": "ADX learning data pipeline coordination",
+        "strength": "Strong",
+        "usageContext": "integrated",
+        "evidenceSummary": "Coordinated Docebo SE and Seller checklist learning data synchronization into ADX, added _tbl_Seller_Learning_Plan, validated calculated fields, monitored Jenkins SE_ADX_Data_Sync, and reconciled approximately 70 SE worker records.",
+        "cvWording": "Coordinate learning data pipelines across Docebo, Jenkins, Python, Azure Blob Storage, ADX, and Workday reference data.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-se-adx-learning-data-pipeline",
+        "sourceIds": [
+          "source-20260614-2026-new-projects",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-dpia-compliance-app-build",
+        "group": "Power Platform",
+        "skill": "Compliance workflow application development",
+        "strength": "Strong",
+        "usageContext": "built",
+        "evidenceSummary": "Built Legal DPIA / AI Impact Assessment workflow using Power Apps, SharePoint List storage, and Power Automate notifications, replacing fragmented Excel-based assessment work with a structured digital process.",
+        "cvWording": "Build Power Platform compliance workflow applications that replace spreadsheet-based processes with structured forms, storage, routing, and review controls.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-legal-dpia-app",
+        "sourceIds": [
+          "source-20260614-ai-governance",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-dpia-role-audit-access",
+        "group": "Governance",
+        "skill": "Role-based compliance workflow controls",
+        "strength": "Strong",
+        "usageContext": "governed",
+        "evidenceSummary": "Implemented reviewer-only action buttons, submitter risk-light visibility restrictions, editable reviewer fields, comments, attachments, access management, and field-change logging for the DPIA workflow.",
+        "cvWording": "Design role-based visibility, reviewer controls, access permissions, and audit logs for sensitive compliance workflows.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-legal-dpia-app",
+        "sourceIds": [
+          "source-20260614-ai-governance"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-powerplatform-governance-doc",
+        "group": "Governance",
+        "skill": "Power Platform governance documentation",
+        "strength": "Moderate",
+        "usageContext": "built",
+        "evidenceSummary": "Created Power Automate and Power Apps business scenario evaluation documentation and established guidance around SharePoint site environments, Connection References, ownership transfer, premium connectors, and license needs.",
+        "cvWording": "Document Power Platform governance practices covering environment ownership, connection references, licensing, and production transferability.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-power-platform-enablement",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-azuread-secret-env-maintenance",
+        "group": "Governance",
+        "skill": "Azure AD secret and environment variable maintenance",
+        "strength": "Moderate",
+        "usageContext": "maintained",
+        "evidenceSummary": "Documented and maintained operational path for Azure AD client secret renewal, Power Automate Environment Variable updates, and mandatory solution publishing for changes to take effect.",
+        "cvWording": "Maintain production automation credentials and environment variables with documented renewal and publish procedures.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-power-automate-operations-takeover",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-workday-hcm-ba",
+        "group": "Domain",
+        "skill": "Workday HCM business analysis",
+        "strength": "Strong",
+        "usageContext": "owned",
+        "evidenceSummary": "Served as IS BA for Workday HCM implementation across Taiwan and Philippines operations, translating HR requirements into configurations, data specifications, reporting needs, and ongoing operations routines.",
+        "cvWording": "Translate HR operations requirements into Workday configuration, data migration, reporting, and operating specifications.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-workday-hcm",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-workday-eib-wql-migration",
+        "group": "API Integration",
+        "skill": "Workday migration using EIB and WQL",
+        "strength": "Strong",
+        "usageContext": "built",
+        "evidenceSummary": "Led HERO-to-Workday migration activities using EIB batch import, WQL for large-scale operations, sandbox validation, and load result reporting during a five-day migration sprint.",
+        "cvWording": "Execute Workday data migration and validation using EIB, WQL, sandbox testing, and structured result reporting.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-workday-hcm",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "skill-production-flow-takeover",
+        "group": "Power Platform",
+        "skill": "Production Power Automate operations takeover",
+        "strength": "Strong",
+        "usageContext": "maintained",
+        "evidenceSummary": "Took over production HR automation flows after TOI completion on 2026-06-18, covering AI Screening, COE PDF generation, Japan synchronization, Taiwan attendance import, monitoring, troubleshooting, and credential update responsibilities.",
+        "cvWording": "Take over and operate production Power Automate flows across HR automation, scheduled syncs, monitoring, and troubleshooting.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-power-automate-operations-takeover",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      }
+    ],
+    "selectedDomainKnowledge": [
+      {
+        "id": "domain-genai-tool-risk-evaluation",
+        "domain": "AI Operations",
+        "businessProcess": "GenAI tool evaluation for natural-language-to-SQL use cases, including quick POC feasibility, prompt adjustability, infrastructure dependency, Non-RD operability, SQL accuracy risk, and production database safety.",
+        "stakeholders": [
+          "Non-RD employees",
+          "IS department teams",
+          "Business users",
+          "AI enablement stakeholders"
+        ],
+        "systemsOrData": [
+          "Dify",
+          "Self-hosted LLM App Builder",
+          "NL-to-SQL evaluation",
+          "Structured PROS/CONS report"
+        ],
+        "riskOrCompliance": "Self-hosted Dify required infrastructure support; LLM-generated SQL could be incorrect; source states generated SQL was not suitable for direct execution against production databases.",
+        "metricsOrKpis": [],
+        "proof": "Evaluated Dify for NL-to-SQL use cases and documented strengths, constraints, infrastructure needs, operability, and security risk.",
+        "cvWording": "Evaluated GenAI tools for business usability, infrastructure feasibility, and production risk in natural-language-to-SQL scenarios.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-genai-hub",
+        "sourceIds": [
+          "source-20260614-ai-governance",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "domain-trendiq-appsiq-hr-agentic-enablement",
+        "domain": "AI Operations",
+        "businessProcess": "HR scenario enablement on internal AI agentic platforms, including TrendIQ HR syncs, Corp project status updates, AppsIQ kickoff, Agentic Business Day demo/showcase, ideation, and hands-on platform practice.",
+        "stakeholders": [
+          "HR stakeholders",
+          "TrendIQ stakeholders",
+          "AppsIQ participants",
+          "Corp project stakeholders"
+        ],
+        "systemsOrData": [
+          "TrendIQ HR AI functions",
+          "AppsIQ concepts and hands-on practice",
+          "Agentic Business Day demo and showcase",
+          "HR AI feature status updates"
+        ],
+        "riskOrCompliance": "Role is grounded as HR-side IS BA interface and scenario enablement; source does not specify production features delivered or adoption metrics for TrendIQ / AppsIQ.",
+        "metricsOrKpis": [
+          "TrendIQ HR Internal Bi-Weekly Sync x 6",
+          "TrendIQ HR Corp Project Weekly Status Update Meeting x 2"
+        ],
+        "proof": "Acted as HR-side IS BA interface for TrendIQ, hosted recurring syncs, tracked HR AI feature implementation, and participated in AppsIQ and Agentic Business Day activities.",
+        "cvWording": "Enabled HR adoption of internal AI agentic platforms by translating HR scenarios into platform discussions, syncs, and implementation follow-up.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-trendiq-appsiq-enablement",
+        "sourceIds": [
+          "source-20260614-operations-api-supplement",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "domain-power-platform-enablement",
+        "domain": "Business Process Automation",
+        "businessProcess": "Low-code business-use-case evaluation, internal API engagement documentation, communication-center field requirements, job requisition freeze-rule configuration, first-line troubleshooting, and Power Platform operating governance.",
+        "stakeholders": [
+          "Business stakeholders",
+          "IS engineers",
+          "Microsoft Support",
+          "HR Power Platform users",
+          "Project teams using chatbot knowledge base Sync",
+          "TB Review Form users",
+          "NTR Reminder users",
+          "Zero Base Alert users"
+        ],
+        "systemsOrData": [
+          "Connect One API Platform",
+          "Power Automate flows",
+          "Power Apps",
+          "SharePoint site environments",
+          "Connection References",
+          "HR Power Platform licenses"
+        ],
+        "riskOrCompliance": "Flows and apps should be created in clear SharePoint site environments rather than personal accounts; important flows should use Connection Reference for ownership transfer; HTTP premium connectors required license assessment; license needs required personnel-change tracking.",
+        "metricsOrKpis": [
+          "Connect One API Platform documentation authored in 2021",
+          "Zero Base freeze period configured for 2023-02-22 to 2023-03-10"
+        ],
+        "proof": "Authored Power Automate and Power Apps business scenario evaluation documentation, defined Connect One Provider/Consumer roles, and supported production-like low-code practices across environment ownership, connection references, licensing, and UAT.",
+        "cvWording": "Enabled low-code automation adoption by documenting business-use-case evaluation, API engagement models, and governance controls.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-power-platform-enablement",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "domain-life-science-data-workflows",
+        "domain": "Business Process Automation",
+        "businessProcess": "Life-science data workflow development for scientific data processing, cross-platform data retrieval, customized reporting, and predictive modeling in molecular preventive medicine reagent development.",
+        "stakeholders": [
+          "Life-science researchers",
+          "Product users",
+          "Laboratory stakeholders",
+          "Drug development course participants"
+        ],
+        "systemsOrData": [
+          "BIOVIA Pipeline Pilot workflows",
+          "PilotScript logic",
+          "Scientific datasets",
+          "Machine learning module outputs",
+          "Customized reports",
+          "RPForest",
+          "XGBoost"
+        ],
+        "riskOrCompliance": "Predictive modeling use is grounded as machine-learning module use within Pipeline Pilot workflows, not standalone ML research ownership.",
+        "metricsOrKpis": [],
+        "proof": "Developed and optimized Pipeline Pilot workflows for life-science data processing, cross-platform data retrieval, customized reporting, and predictive modeling.",
+        "cvWording": "Built life-science data workflows for scientific data integration, reporting, and predictive modeling support.",
+        "experienceId": "exp-vtr",
+        "projectId": "proj-biovia-pipeline-pilot",
+        "sourceIds": [
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "domain-genai-capability-building",
+        "domain": "AI Operations",
+        "businessProcess": "Non-RD GenAI capability building through milestone tracking, training coordination, hackathon participation, tool evaluation, and enterprise AI learning-program visibility.",
+        "stakeholders": [
+          "Non-RD employees",
+          "Microsoft trainers",
+          "GCP trainers",
+          "IS department teams",
+          "IQ-AS",
+          "IS-AS",
+          "Related department members"
+        ],
+        "systemsOrData": [
+          "GenAI Hub Key Milestone tracking page",
+          "Dify-SQL Creator evaluation",
+          "Structured PROS/CONS report",
+          "TrendAI University lecture materials",
+          "Milestone statuses including Initiated, In Progress, and Done"
+        ],
+        "riskOrCompliance": "Training participation and milestone status support enablement visibility but do not prove production AI deployment; Dify evaluation identified infrastructure, operability, and security risks.",
+        "metricsOrKpis": [
+          "GCP Training 2025-07-14 to 2025-07-15",
+          "GCP Training maximum 130 Non-RD employees",
+          "GenAI Training cohort 1 2025-07-21 to 2025-07-25",
+          "GenAI Training cohort 2 2025-08-04 to 2025-08-08",
+          "GenAI small-class training maximum 5 people",
+          "MS-4019 Agents training Dec 23, 2025",
+          "30+ participants invited or coordinated"
+        ],
+        "proof": "Maintained milestone tracking for multiple AI capability-building initiatives and organized Microsoft MS-4019 Agents training while participating in GCP, GenAI, and hackathon learning activities.",
+        "cvWording": "Supported enterprise AI capability building by coordinating GenAI learning activities, milestone visibility, and Non-RD AI enablement programs.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-genai-hub",
+        "sourceIds": [
+          "source-20260614-ai-governance",
+          "source-20260614-operations-api-supplement",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      },
+      {
+        "id": "domain-workday-hcm-implementation",
+        "domain": "HR Operations",
+        "businessProcess": "Workday HCM implementation and HRIS business analysis across Taiwan and Philippines, including HR requirement translation, configuration/data specifications, migration, calculated fields, reporting-platform selection, knowledge transfer, and ongoing BA operations.",
+        "stakeholders": [
+          "Corp HR Taiwan",
+          "Corp HR Philippines",
+          "Workday system administrators",
+          "Ramco engineers",
+          "PECI engineers",
+          "Philippines BA Team",
+          "IS BA internal team",
+          "Corp project status stakeholders"
+        ],
+        "systemsOrData": [
+          "HERO legacy HR data",
+          "Workday HCM",
+          "EIB templates",
+          "WQL reports",
+          "Workday API to SharePoint to Power BI pipeline",
+          "Ramco payroll integration",
+          "PECI payroll integration",
+          "SharePoint payroll files",
+          "TrendIQ test input and output files"
+        ],
+        "riskOrCompliance": "Large-scale migration required sandbox validation and load result reporting; Live Parallel Run compared old and new outputs before cutover; field-level permissions and RBAC required Workday Admin handling; payroll files needed Ramco-readable structure.",
+        "metricsOrKpis": [
+          "HERO-to-Workday migration sprint 2023-11-13 to 2023-11-17",
+          "EIB HERO to TM3 result report completed 2024-01-05",
+          "Philippines on-site KT Workshop 2025-07-15 to 2025-07-17",
+          "Talent Acquisition source effectiveness references 51,865 applications",
+          "Weekly Workday dashboard enhancement cadence"
+        ],
+        "proof": "Served as IS BA for Workday HCM implementation, led migration activities using EIB and WQL, designed calculated fields, supported reporting decisions, and facilitated Philippines HR BA knowledge transfer.",
+        "cvWording": "Supported Workday HCM implementation by translating HR requirements into configuration, data, migration, reporting, and knowledge-transfer deliverables.",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-workday-hcm",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded"
+      }
+    ],
+    "selectedEvidence": [
+      {
+        "id": "evi-tomo-eval-framework",
+        "title": "Created multi-method chatbot platform evaluation framework",
+        "category": "AI platform evaluation",
+        "sectionTitle": "TOMO Chatbot Evaluation & A/B Testing",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-tomo-ab-testing",
+        "tools": [
+          "Microsoft Copilot Studio",
+          "enterprise customer-service AI platform",
+          "GPT Accuracy Scoring",
+          "Power BI",
+          "Azure Data Explorer"
+        ],
+        "proof": "Source says Christine combined Golden Question Test, real transcript GPT scoring, human review validation, and live A/B testing to compare TOMO and FIN for Global and Japan markets.",
+        "cvBullet": "Created a structured chatbot platform evaluation framework combining benchmark questions, transcript scoring, human review, and live A/B metrics to support data-driven platform selection.",
+        "cvSafeBullet": "Created a structured chatbot evaluation framework combining benchmark questions, transcript scoring, human review, and live A/B metrics to support data-driven platform quality decisions.",
+        "interviewTalkingPoint": "Discuss the methodology and decision value. Keep raw platform names and exact benchmark scores out of the submitted CV unless the interviewer asks for implementation detail.",
+        "riskIfUsedWrongly": "Raw TOMO/FIN score comparisons and internal product names read like internal work logs and should not appear in visible CV bullets.",
+        "visibilityUse": "CV Visible",
+        "bestRoleTypes": [
+          "AI Product Ops / Evaluation Ops",
+          "Business Automation / AI Ops",
+          "Deployment Engineer / FDE stretch"
+        ],
+        "avoidRoleTypes": [
+          "Power Platform / M365 Automation",
+          "Pure AI Engineer / ML Engineer"
+        ],
+        "blockedVisibleTerms": [
+          "customer-service chatbot platform",
+          "FIN",
+          "Global benchmark",
+          "Japan benchmark",
+          "Golden Question Test"
+        ],
+        "metrics": "Global Golden Question Test: TOMO 87.6%, FIN 83.74%; Japan Golden Question Test: TOMO 58.48%, FIN 62.65%.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-ai-chatbot",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "TOMO Consumer Chatbot Evaluation & A/B Testing",
+        "datePeriod": "2024 Aug - 2025 Oct",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Created a structured chatbot evaluation framework combining benchmark questions, transcript scoring, human review, and live A/B metrics to support data-driven platform quality decisions.",
+        "audience": "External customers / consumer support operations",
+        "businessFunction": "External Chatbot Evaluation / Microsoft Copilot Studio / A/B Testing",
+        "problemContext": "Source says Christine combined Golden Question Test, real transcript GPT scoring, human review validation, and live A/B testing to compare customer-service chatbot platform and FIN for Global and Japan markets.",
+        "actionTaken": "Created a structured chatbot evaluation framework combining benchmark questions, transcript scoring, human review, and live A/B metrics to support data-driven platform quality decisions.",
+        "stakeholders": [],
+        "quantifiedEvidence": "Global Golden Question Test: TOMO 87.6%, FIN 83.74%; Japan Golden Question Test: TOMO 58.48%, FIN 62.65%.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Microsoft Copilot Studio",
+          "enterprise customer-service AI platform",
+          "GPT Accuracy Scoring",
+          "Power BI",
+          "Azure Data Explorer",
+          "Microsoft 365",
+          "Dashboard reporting",
+          "Production support",
+          "UAT / testing",
+          "AI chatbot operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Medium: replace internal product, workflow, or system names with external business language before visible CV use.",
+        "cvAngle": "TOMO Chatbot Evaluation & A/B Testing",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Created a structured chatbot evaluation framework combining benchmark questions, transcript scoring, human review, and live A/B metrics to support data-driven platform quality decisions."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned model training or formal machine-learning research"
+        ],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-trender-buddy-gpt-eval-pipeline",
+        "title": "Built automated GPT evaluation pipeline for internal AI assistant quality",
+        "category": "AI quality assurance",
+        "sectionTitle": "Trender Buddy",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-trender-buddy",
+        "tools": [
+          "Azure AI Studio",
+          "GPT-4-turbo",
+          "GPT-4.1",
+          "FastAPI",
+          "Power Automate",
+          "Prompt Engineering"
+        ],
+        "proof": "Source states Christine built automated GPT-based prompt evaluation pipeline from scratch using Azure AI Studio and FastAPI with daily scheduled scoring and prompt versions from v2.6 through v3.19.",
+        "cvBullet": "Built an automated GPT evaluation pipeline for an internal employee AI assistant, replacing manual conversation review with scheduled scoring and versioned prompt quality rules.",
+        "cvSafeBullet": "Built an automated GPT-based quality evaluation workflow for an internal AI assistant, combining scheduled scoring, review categories, and human review follow-up to improve answer quality operations.",
+        "interviewTalkingPoint": "Position as AI quality operations and evaluation workflow ownership. Explain prompt versions and schedules only if asked; keep those details out of the visible resume.",
+        "riskIfUsedWrongly": "Do not present this as formal ML evaluation research, model training, reward modeling, or full MLOps ownership.",
+        "visibilityUse": "CV Visible",
+        "bestRoleTypes": [
+          "AI Product Ops / Evaluation Ops",
+          "AI-assisted Technical Ops",
+          "Deployment Engineer / FDE stretch"
+        ],
+        "avoidRoleTypes": [
+          "Power Platform / M365 Automation",
+          "Pure AI Engineer / ML Engineer"
+        ],
+        "blockedVisibleTerms": [
+          "internal employee AI assistant",
+          "prompt versions",
+          "v2.6",
+          "v3.19",
+          "daily scheduled",
+          "8:30"
+        ],
+        "metrics": "Daily scheduled GPT scoring run at 8:30 AM UTC+8; prompt versions v2.6 through v3.19; 8 primary problem categories.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-ai-chatbot",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Trender Buddy",
+        "datePeriod": "2024 - 2026",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Built an automated GPT-based quality evaluation workflow for an internal AI assistant, combining scheduled scoring, review categories, and human review follow-up to improve answer quality operations.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "Regional HR document request analytics and AI assistant quality reporting across SharePoint-based regional request lists, historical data, prompt classification, and review-result tracking.",
+        "problemContext": "Regional HR document request analytics and AI assistant quality reporting across SharePoint-based regional request lists, historical data, prompt classification, and review-result tracking.",
+        "actionTaken": "Built an automated GPT-based quality evaluation workflow for an internal AI assistant, combining scheduled scoring, review categories, and human review follow-up to improve answer quality operations.",
+        "stakeholders": [
+          "TW HR",
+          "PH HR",
+          "AMEA HR",
+          "AI development team",
+          "Human reviewers",
+          "Regional SharePoint list owners"
+        ],
+        "quantifiedEvidence": "Daily scheduled GPT scoring run at 8:30 AM UTC+8; prompt versions v2.6 through v3.19; 8 primary problem categories.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Azure AI Studio",
+          "GPT-4-turbo",
+          "GPT-4.1",
+          "FastAPI",
+          "Power Automate",
+          "Power Apps",
+          "Power BI",
+          "SharePoint",
+          "Microsoft 365",
+          "Dashboard reporting",
+          "Workflow automation",
+          "Production support"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Medium: replace internal product, workflow, or system names with external business language before visible CV use.",
+        "cvAngle": "Trender Buddy",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Built an automated GPT-based quality evaluation workflow for an internal AI assistant, combining scheduled scoring, review categories, and human review follow-up to improve answer quality operations."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned model training or formal machine-learning research",
+          "Built production backend systems from scratch"
+        ],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-tomo-ab-attribution-logic",
+        "title": "Defined live A/B routing, identifier, and reporting logic",
+        "category": "A/B testing and data specification",
+        "sectionTitle": "TOMO Chatbot Evaluation & A/B Testing",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-tomo-ab-testing",
+        "tools": [
+          "Cookie-based routing",
+          "UTM parameter",
+          "D365 Omnichannel",
+          "Azure Data Explorer",
+          "Power BI"
+        ],
+        "proof": "Source states Christine implemented odd/even cookie routing, defined TOMO and FIN identifier logic using caid and D365 Case Is Tomo, specified queues, and defined five reporting metric areas.",
+        "cvBullet": "Defined live A/B attribution logic for chatbot comparison, including cookie routing, UTM tracking, Omnichannel queue mapping, platform identifiers, and Power BI metric definitions.",
+        "metrics": "Internal test 10/13-10/17; UAT 10/20-10/24; go-live 10/27; five metric areas: handover, abandon, thumbs up/down, CSAT, DSAT.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-ai-chatbot",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "TOMO Consumer Chatbot Evaluation & A/B Testing",
+        "datePeriod": "2024 Aug - 2025 Oct",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Defined live A/B attribution logic for chatbot comparison, including cookie routing, UTM tracking, Omnichannel queue mapping, platform identifiers, and Power BI metric definitions.",
+        "audience": "External customers / consumer support operations",
+        "businessFunction": "External Chatbot Evaluation / Microsoft Copilot Studio / A/B Testing",
+        "problemContext": "Source states Christine implemented odd/even cookie routing, defined customer-service chatbot platform and FIN identifier logic using caid and D365 Case Is customer-service chatbot platform, specified queues, and defined five...",
+        "actionTaken": "Defined live A/B attribution logic for chatbot comparison, including cookie routing, UTM tracking, Omnichannel queue mapping, platform identifiers, and Power BI metric definitions.",
+        "stakeholders": [],
+        "quantifiedEvidence": "Internal test 10/13-10/17; UAT 10/20-10/24; go-live 10/27; five metric areas: handover, abandon, thumbs up/down, CSAT, DSAT.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Cookie-based routing",
+          "UTM parameter",
+          "D365 Omnichannel",
+          "Azure Data Explorer",
+          "Power BI",
+          "Microsoft 365",
+          "Dashboard reporting",
+          "Workflow automation",
+          "UAT / testing",
+          "AI chatbot operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Medium: replace internal product, workflow, or system names with external business language before visible CV use.",
+        "cvAngle": "TOMO Chatbot Evaluation & A/B Testing",
+        "cvSafeBullet": "Defined live A/B attribution logic for chatbot comparison, including cookie routing, UTM tracking, Omnichannel queue mapping, platform identifiers, and Power BI metric definitions.",
+        "interviewTalkingPoint": "Source states Christine implemented odd/even cookie routing, defined customer-service chatbot platform and FIN identifier logic using caid and D365 Case Is customer-service chatbot platform, specified queues, and defined five reporting metric areas.",
+        "riskIfUsedWrongly": "Do not copy internal product, workflow, or system names into the CV; use the external-friendly description instead.",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Defined live A/B attribution logic for chatbot comparison, including cookie routing, UTM tracking, Omnichannel queue mapping, platform identifiers, and Power BI metric definitions."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned model training or formal machine-learning research"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [
+          "customer-service chatbot platform"
+        ],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-fin-ai-prod-ops-global-jp",
+        "title": "Owned external customer-service AI chatbot operations across Global and Japan markets",
+        "category": "AI chatbot operations",
+        "sectionTitle": "Customer-Service AI Chatbot",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-fin-ai",
+        "tools": [
+          "enterprise customer-service AI platform",
+          "Intercom",
+          "knowledge-base API",
+          "Power Automate",
+          "Google Analytics",
+          "D365 Omnichannel",
+          "UTM Tagging"
+        ],
+        "proof": "Source states Christine owned workspace configuration and operations across Global and Japan workspaces, including workspace administration, billing contact support, user guidance, entry point routing, KB sync automation, change requests, issue tracking, vendor coordination, and Google Analytics workspace tracking.",
+        "cvBullet": "Owned configuration and operations for a customer-service AI chatbot across Global and Japan consumer support markets, covering workspace administration, routing, content guidance, KB automation, production issue tracking, and vendor coordination.",
+        "visibilityUse": "CV Visible",
+        "bestRoleTypes": [
+          "Business Automation / AI Ops",
+          "AI Product Ops / Evaluation Ops",
+          "GenAI Application Specialist"
+        ],
+        "avoidRoleTypes": [
+          "Pure AI Engineer / ML Engineer"
+        ],
+        "blockedVisibleTerms": [],
+        "metrics": "193 post-launch change request and bug-fix versions from Dec 2024 to Dec 2025; 88 operation log versions from 2024/10 to 2025/11; monthly resolution tracking target of 24,000; latest PO amount $48,728.56.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-ai-chatbot",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "customer-service AI chatbot",
+        "datePeriod": "2024 - 2026",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Owned configuration and operations for a customer-service AI chatbot across Global and Japan consumer support markets, covering workspace administration, routing, content guidance, KB automation, production issue tracking, and vendor coordination.",
+        "audience": "External customers / consumer support operations",
+        "businessFunction": "External Customer Service Chatbot / Intercom Platform",
+        "problemContext": "Source states Christine owned workspace configuration and operations across Global and Japan workspaces, including workspace administration, billing contact support, user guidance, entry point routing, KB sync automation, change requests,...",
+        "actionTaken": "Owned configuration and operations for a customer-service AI chatbot across Global and Japan consumer support markets, covering workspace administration, routing, content guidance, KB automation, production issue tracking, and vendor coordination.",
+        "stakeholders": [],
+        "quantifiedEvidence": "193 post-launch change request and bug-fix versions from Dec 2024 to Dec 2025; 88 operation log versions from 2024/10 to 2025/11; monthly resolution tracking target of 24,000; latest PO amount $48,728.56.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "enterprise customer-service AI platform",
+          "Intercom",
+          "knowledge-base API",
+          "Power Automate",
+          "Google Analytics",
+          "API integration",
+          "Dashboard reporting",
+          "Workflow automation",
+          "Production support",
+          "Stakeholder coordination",
+          "AI chatbot operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Low: safe for external CV use when written with the existing evidence scope.",
+        "cvAngle": "Customer-Service AI Chatbot",
+        "cvSafeBullet": "Owned configuration and operations for a customer-service AI chatbot across Global and Japan consumer support markets, covering workspace administration, routing, content guidance, KB automation, production issue tracking, and vendor coordination.",
+        "interviewTalkingPoint": "Source states Christine owned workspace configuration and operations across Global and Japan workspaces, including workspace administration, billing contact support, user guidance, entry point routing, KB sync automation, change requests, issue tracking, vendor coordination, and Google Analytics workspace tracking.",
+        "riskIfUsedWrongly": "Do not copy internal product, workflow, or system names into the CV; use the external-friendly description instead.",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Owned configuration and operations for a customer-service AI chatbot across Global and Japan consumer support markets, covering workspace administration, routing, content guidance, KB automation, production issue tracking, and vendor coordination."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned model training or formal machine-learning research",
+          "Built production backend systems from scratch"
+        ],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-legal-dpia-risk-classification",
+        "title": "Implemented privacy and AI risk classification with automated routing",
+        "category": "Governance logic",
+        "sectionTitle": "Legal DPIA App / AI Impact Assessment",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-legal-dpia-app",
+        "tools": [
+          "Power Apps",
+          "SharePoint List",
+          "Risk Classification Logic",
+          "GDPR",
+          "PLVRS Compliance"
+        ],
+        "proof": "Source states Christine implemented General, DPIA, and AI question layers, High/Medium/Low risk classification, High threshold >=14, auto-approved route for Low risk, full assessment route for High/Medium risk, and submitter/reviewer visibility rules.",
+        "cvBullet": "Translated privacy and AI governance requirements into executable questionnaire layers, risk scoring, automatic routing, and role-based reviewer controls.",
+        "metrics": "Three questionnaire layers; GEN-01 to GEN-05; DPIA-01 to DPIA-07+; AI-01 to AI-06+; High risk threshold >=14 points.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-ai-governance",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Legal DPIA App / AI Impact Assessment",
+        "datePeriod": "2025 - 2026; detailed source references Feb 2026 - Mar 2026 activities",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Translated privacy and AI governance requirements into executable questionnaire layers, risk scoring, automatic routing, and role-based reviewer controls.",
+        "audience": "Legal, privacy, governance, and internal project teams",
+        "businessFunction": "DPIA and AI Impact Assessment workflow automation for privacy/legal review, questionnaire intake, reviewer routing, risk classification, approval notifications, comments, attachments, logging, and access management.",
+        "problemContext": "DPIA and AI Impact Assessment workflow automation for privacy/legal review, questionnaire intake, reviewer routing, risk classification, approval notifications, comments, attachments, logging, and access management.",
+        "actionTaken": "Translated privacy and AI governance requirements into executable questionnaire layers, risk scoring, automatic routing, and role-based reviewer controls.",
+        "stakeholders": [
+          "Legal team",
+          "Privacy team",
+          "IS project teams as submitters",
+          "IS Admin reviewers",
+          "Internal DPIA Assessment Team account",
+          "DPIA wiki owners or content sources",
+          "TrendIQ users",
+          "DPIA wiki content owners",
+          "IS project teams"
+        ],
+        "quantifiedEvidence": "Three questionnaire layers; GEN-01 to GEN-05; DPIA-01 to DPIA-07+; AI-01 to AI-06+; High risk threshold >=14 points.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Power Apps",
+          "SharePoint List",
+          "Risk Classification Logic",
+          "GDPR",
+          "PLVRS Compliance",
+          "Power Automate",
+          "SharePoint",
+          "Workflow automation",
+          "Production support",
+          "UAT / testing",
+          "AI chatbot operations",
+          "AI governance"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Medium: verify whether diagnostic numbers show business impact before using them as resume metrics.",
+        "cvAngle": "Legal DPIA App / AI Impact Assessment",
+        "cvSafeBullet": "Translated privacy and AI governance requirements into executable questionnaire layers, risk scoring, automatic routing, and role-based reviewer controls.",
+        "interviewTalkingPoint": "Source states Christine implemented General, DPIA, and AI question layers, High/Medium/Low risk classification, High threshold >=14, auto-approved route for Low risk, full assessment route for High/Medium risk, and submitter/reviewer visibility rules.",
+        "riskIfUsedWrongly": "Do not expand this beyond the documented action, tools, stakeholders, and outcome.",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Translated privacy and AI governance requirements into executable questionnaire layers, risk scoring, automatic routing, and role-based reviewer controls."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned model training or formal machine-learning research"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-existing-python-sql-pipeline-debugging",
+        "title": "Reviewed and troubleshot existing automation pipeline logic instead of claiming from-scratch engineering",
+        "category": "AI-assisted technical operations",
+        "sectionTitle": "Pipeline Debugging & Technical Operations",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-se-adx-learning-data-pipeline",
+        "tools": [
+          "Python",
+          "SQL",
+          "Jenkins",
+          "Azure Data Explorer",
+          "Docebo API",
+          "Validation checklist"
+        ],
+        "proof": "Source evidence states Christine coordinated Docebo-to-ADX synchronization, integrated an existing report into an existing ADX refresh code path, validated calculated fields, checked Jenkins runs, API responses, report structure changes, row counts, and reran the sync job for a seller checklist update anomaly.",
+        "cvBullet": "Reviewed and troubleshot existing Python, API, and ADX data-pipeline logic by checking Jenkins runs, API responses, report changes, row counts, and refresh behavior before operational handoff.",
+        "cvSafeBullet": "Inspected and troubleshot existing Python/SQL-style automation logic, validating pipeline outputs and coordinating fixes without overstating from-scratch software engineering ownership.",
+        "interviewTalkingPoint": "Position this as technical operations and pipeline maintenance: able to read existing scripts, understand data flow, validate outputs, and coordinate/rerun fixes; do not claim backend or full application development from scratch.",
+        "riskIfUsedWrongly": "Do not present this as full Python application engineering, production backend ownership, or MLOps infrastructure ownership.",
+        "visibilityUse": "CV Visible",
+        "bestRoleTypes": [
+          "AI-assisted Technical Ops",
+          "Business Automation / AI Ops",
+          "Deployment Engineer / FDE stretch",
+          "GenAI Application Specialist"
+        ],
+        "avoidRoleTypes": [
+          "Pure AI Engineer / ML Engineer"
+        ],
+        "blockedVisibleTerms": [
+          "_tbl_Seller_Learning_Plan",
+          "SE_ADX_Data_Sync",
+          "May 27"
+        ],
+        "metrics": "Seller checklist table update anomaly identified and rerun; approximately 70 SE worker records checked in related ADX data work.",
+        "evidenceTier": "Supporting",
+        "sourceIds": [
+          "source-20260614-2026-new-projects",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "SE Onboarding Learning Data Pipeline (ADX)",
+        "datePeriod": "2026 Apr -",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Inspected and troubleshot existing Python/SQL-style automation logic, validating pipeline outputs and coordinating fixes without overstating from-scratch software engineering ownership.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "SE learning-plan data pipeline connecting Docebo learning records and Workday worker data into Azure Data Explorer as the queryable data layer for HR agentic systems and reporting.",
+        "problemContext": "SE learning-plan data pipeline connecting Docebo learning records and Workday worker data into Azure Data Explorer as the queryable data layer for HR agentic systems and reporting.",
+        "actionTaken": "Inspected and troubleshot existing Python/SQL-style automation logic, validating pipeline outputs and coordinating fixes without overstating from-scratch software engineering ownership.",
+        "stakeholders": [
+          "Alex Wu",
+          "Ivy Cheng",
+          "Jenkins Admin",
+          "SE workers",
+          "TrendIQ HR Agentic system stakeholders"
+        ],
+        "quantifiedEvidence": "Seller checklist table update anomaly identified and rerun; approximately 70 SE worker records checked in related ADX data work.",
+        "evidenceStrength": "Medium",
+        "relatedJdKeywords": [
+          "Python",
+          "SQL",
+          "Jenkins",
+          "Azure Data Explorer",
+          "Docebo API",
+          "Workday",
+          "API integration",
+          "Python validation",
+          "SQL / data validation",
+          "Dashboard reporting",
+          "Workflow automation",
+          "Production support"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Medium: replace internal product, workflow, or system names with external business language before visible CV use.",
+        "cvAngle": "Pipeline Debugging & Technical Operations",
+        "claimLevel": "Conservative Claim",
+        "allowedVisibleClaims": [
+          "Inspected and troubleshot existing Python/SQL-style automation logic, validating pipeline outputs and coordinating fixes without overstating from-scratch software engineering ownership."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned the entire function end to end",
+          "Owned model training or formal machine-learning research",
+          "Built production backend systems from scratch"
+        ],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-genai-hub-milestone-tracking",
+        "title": "Maintained GenAI Hub milestone visibility for AI capability-building initiatives",
+        "category": "AI enablement operations",
+        "sectionTitle": "GenAI Hub",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-genai-hub",
+        "tools": [
+          "Confluence or tracking page",
+          "Milestone Tracking",
+          "GCP",
+          "Azure",
+          "GitHub Actions"
+        ],
+        "proof": "Source says Christine built and maintained the GenAI Hub Key Milestone tracking page for company-wide visibility into AI capability-building initiatives, with statuses such as Initiated, In Progress, and Done.",
+        "cvBullet": "Built and maintained a GenAI milestone tracking hub to give stakeholders shared visibility into concurrent AI capability-building initiatives.",
+        "metrics": "Tracked multiple initiatives including GCP training, GenAI cohorts, MS-4019 Agents training, Dify evaluation, hackathon participation, and TrendAI University topics.",
+        "evidenceTier": "Supporting",
+        "sourceIds": [
+          "source-20260614-ai-governance",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "GenAI Hub",
+        "datePeriod": "2024 - 2026",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Built and maintained a GenAI milestone tracking hub to give stakeholders shared visibility into concurrent AI capability-building initiatives.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "Non-RD GenAI capability building through milestone tracking, training coordination, hackathon participation, tool evaluation, and enterprise AI learning-program visibility.",
+        "problemContext": "Non-RD GenAI capability building through milestone tracking, training coordination, hackathon participation, tool evaluation, and enterprise AI learning-program visibility.",
+        "actionTaken": "Built and maintained a GenAI milestone tracking hub to give stakeholders shared visibility into concurrent AI capability-building initiatives.",
+        "stakeholders": [
+          "Non-RD employees",
+          "Microsoft trainers",
+          "GCP trainers",
+          "IS department teams",
+          "IQ-AS",
+          "IS-AS",
+          "Related department members",
+          "Business users",
+          "AI enablement stakeholders"
+        ],
+        "quantifiedEvidence": "Tracked multiple initiatives including GCP training, GenAI cohorts, MS-4019 Agents training, Dify evaluation, hackathon participation, and TrendAI University topics.",
+        "evidenceStrength": "Medium",
+        "relatedJdKeywords": [
+          "Confluence or tracking page",
+          "Milestone Tracking",
+          "GCP",
+          "Azure",
+          "GitHub Actions",
+          "SQL / data validation",
+          "Production support",
+          "UAT / testing",
+          "Stakeholder coordination",
+          "AI chatbot operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Medium: replace internal product, workflow, or system names with external business language before visible CV use.",
+        "cvAngle": "GenAI Hub",
+        "cvSafeBullet": "Built and maintained a GenAI milestone tracking hub to give stakeholders shared visibility into concurrent AI capability-building initiatives.",
+        "interviewTalkingPoint": "Source says Christine built and maintained the enterprise GenAI enablement program Key Milestone tracking page for company-wide visibility into AI capability-building initiatives, with statuses such as Initiated, In Progress, and Done.",
+        "riskIfUsedWrongly": "Do not copy internal product, workflow, or system names into the CV; use the external-friendly description instead.",
+        "claimLevel": "Conservative Claim",
+        "allowedVisibleClaims": [
+          "Built and maintained a GenAI milestone tracking hub to give stakeholders shared visibility into concurrent AI capability-building initiatives."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned the entire function end to end",
+          "Owned model training or formal machine-learning research"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [
+          "enterprise GenAI enablement program"
+        ],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-genai-dify-eval",
+        "title": "Evaluated Dify for natural-language-to-SQL feasibility and risk",
+        "category": "AI tool evaluation",
+        "sectionTitle": "GenAI Hub",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-genai-hub",
+        "tools": [
+          "Dify",
+          "Self-hosted LLM App Builder",
+          "NL-to-SQL"
+        ],
+        "proof": "Source states Christine evaluated Dify as an NL-to-SQL generation platform and documented pros and cons across quick POC value, prompt adjustability, infrastructure dependency, SQL error risk, Non-RD operability, and security risk.",
+        "cvBullet": "Evaluated a self-hosted GenAI NL-to-SQL platform, documenting feasibility, infrastructure dependency, user operability, and production database risk boundaries.",
+        "metrics": "No quantified business outcome provided; evaluation documented structured PROS/CONS.",
+        "evidenceTier": "Supporting",
+        "sourceIds": [
+          "source-20260614-ai-governance",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "GenAI Hub",
+        "datePeriod": "2024 - 2026",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Evaluated a self-hosted GenAI NL-to-SQL platform, documenting feasibility, infrastructure dependency, user operability, and production database risk boundaries.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "Non-RD GenAI capability building through milestone tracking, training coordination, hackathon participation, tool evaluation, and enterprise AI learning-program visibility.",
+        "problemContext": "Non-RD GenAI capability building through milestone tracking, training coordination, hackathon participation, tool evaluation, and enterprise AI learning-program visibility.",
+        "actionTaken": "Evaluated a self-hosted GenAI NL-to-SQL platform, documenting feasibility, infrastructure dependency, user operability, and production database risk boundaries.",
+        "stakeholders": [
+          "Non-RD employees",
+          "Microsoft trainers",
+          "GCP trainers",
+          "IS department teams",
+          "IQ-AS",
+          "IS-AS",
+          "Related department members",
+          "Business users",
+          "AI enablement stakeholders"
+        ],
+        "quantifiedEvidence": "No quantified business outcome provided; evaluation documented structured PROS/CONS.",
+        "evidenceStrength": "Medium",
+        "relatedJdKeywords": [
+          "Dify",
+          "Self-hosted LLM App Builder",
+          "NL-to-SQL",
+          "SQL / data validation",
+          "Production support",
+          "UAT / testing",
+          "Stakeholder coordination",
+          "AI chatbot operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Medium: replace internal product, workflow, or system names with external business language before visible CV use.",
+        "cvAngle": "GenAI Hub",
+        "cvSafeBullet": "Evaluated a self-hosted GenAI NL-to-SQL platform, documenting feasibility, infrastructure dependency, user operability, and production database risk boundaries.",
+        "interviewTalkingPoint": "Source states Christine evaluated Dify as an NL-to-SQL generation platform and documented pros and cons across quick POC value, prompt adjustability, infrastructure dependency, SQL error risk, Non-RD operability, and security risk.",
+        "riskIfUsedWrongly": "Do not copy internal product, workflow, or system names into the CV; use the external-friendly description instead.",
+        "claimLevel": "Conservative Claim",
+        "allowedVisibleClaims": [
+          "Evaluated a self-hosted GenAI NL-to-SQL platform, documenting feasibility, infrastructure dependency, user operability, and production database risk boundaries."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned the entire function end to end",
+          "Owned model training or formal machine-learning research",
+          "Built production backend systems from scratch"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [
+          "enterprise GenAI enablement program"
+        ],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-technical-capability-summary",
+        "title": "Aggregated enterprise technical capability across AI, BI, Power Platform, Workday, and integration milestones",
+        "category": "Capability Summary / Technical Stack / Milestones",
+        "sectionTitle": "Enterprise Automation, BI & AI Delivery Portfolio",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-technical-capability-summary",
+        "tools": [
+          "Power BI",
+          "Power Automate",
+          "Power Apps",
+          "Azure AI Studio",
+          "GPT evaluation",
+          "Workday",
+          "enterprise customer-service AI platform",
+          "Azure Data Explorer",
+          "MCP"
+        ],
+        "proof": "Aggregated capability summary across BI dashboards, chatbot operations, prompt evaluation, HR analytics, onboarding automation, ADX learning data, Workday MCP security testing, AI governance, Power Platform, and integration work.",
+        "cvBullet": "Delivered enterprise technology work across Power BI, Power Platform, Workday, chatbot operations, GPT evaluation, ADX learning data, and MCP testing, spanning automation, analytics, AI governance, and HR systems.",
+        "metrics": "14 Power BI dashboards; 193 customer-service AI chatbot change request and bug-fix versions; Trender Buddy prompt versions v2.6 to v3.19; 11-week AI-enhanced HR dashboard upgrade; 6 SE onboarding automation triggers; 7 Workday MCP tools tested.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-2026-new-projects",
+          "source-20260614-overview"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Technical Capability and Milestone Summary",
+        "datePeriod": "2021 - 2026",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Delivered enterprise technology work across Power BI, Power Platform, Workday, chatbot operations, GPT evaluation, Azure Data Explorer learning data, and MCP testing, spanning automation, analytics, AI governance, and HR systems.",
+        "audience": "External customers / consumer support operations",
+        "businessFunction": "Capability Summary / Technical Stack / Milestones",
+        "problemContext": "Aggregated capability summary across BI dashboards, chatbot operations, prompt evaluation, HR analytics, onboarding automation, Azure Data Explorer learning data, Workday MCP security testing, AI governance, Power Platform, and...",
+        "actionTaken": "Delivered enterprise technology work across Power BI, Power Platform, Workday, chatbot operations, GPT evaluation, Azure Data Explorer learning data, and MCP testing, spanning automation, analytics, AI governance, and HR systems.",
+        "stakeholders": [],
+        "quantifiedEvidence": "14 Power BI dashboards; 193 customer-service AI chatbot change request and bug-fix versions; Trender Buddy prompt versions v2.6 to v3.19; 11-week AI-enhanced HR dashboard upgrade; 6 SE onboarding automation triggers; 7 Workday MCP tools tested.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Power BI",
+          "Power Automate",
+          "Power Apps",
+          "Azure AI Studio",
+          "GPT evaluation",
+          "Workday",
+          "API integration",
+          "Dashboard reporting",
+          "Workflow automation",
+          "Production support",
+          "UAT / testing",
+          "AI chatbot operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Low: safe for external CV use when written with the existing evidence scope.",
+        "cvAngle": "Enterprise Automation, BI & AI Delivery Portfolio",
+        "cvSafeBullet": "Delivered enterprise technology work across Power BI, Power Platform, Workday, chatbot operations, GPT evaluation, Azure Data Explorer learning data, and MCP testing, spanning automation, analytics, AI governance, and HR systems.",
+        "interviewTalkingPoint": "Aggregated capability summary across BI dashboards, chatbot operations, prompt evaluation, HR analytics, onboarding automation, Azure Data Explorer learning data, Workday MCP security testing, AI governance, Power Platform, and integration work.",
+        "riskIfUsedWrongly": "Do not copy internal product, workflow, or system names into the CV; use the external-friendly description instead.",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Delivered enterprise technology work across Power BI, Power Platform, Workday, chatbot operations, GPT evaluation, Azure Data Explorer learning data, and MCP testing, spanning automation, analytics, AI governance, and HR systems."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned model training or formal machine-learning research"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-business-workflow-structuring-non-engineering",
+        "title": "Structured business workflows with non-engineering stakeholders into automation-ready logic",
+        "category": "Business automation and AI operations",
+        "sectionTitle": "Business Workflow Structuring",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-power-platform-governance",
+        "tools": [
+          "Power Automate",
+          "Power Apps",
+          "SharePoint Lists",
+          "Power BI",
+          "Workflow documentation",
+          "Stakeholder interviews"
+        ],
+        "proof": "Multiple source-backed projects show Christine translating business, HR, Legal, Privacy, support, recruiting, and learning operations into Power Platform workflows, review forms, dashboards, notifications, routing logic, handoff documentation, and governance guidance.",
+        "cvBullet": "Structured operational workflows with non-engineering stakeholders and converted them into maintainable Power Platform automations, review processes, dashboards, and handoff documentation.",
+        "cvSafeBullet": "Converted frontline business process needs into automation-ready logic, acceptance rules, dashboards, and stakeholder handoff across HR, Legal, support, and learning operations.",
+        "interviewTalkingPoint": "Use this for business automation, AI operations, and deployment enablement roles where the real need is workflow discovery, process logic, tool adoption, and cross-functional rollout.",
+        "riskIfUsedWrongly": "Do not turn this into infrastructure architecture or full-stack system design unless the JD is explicitly low-code/SaaS workflow oriented.",
+        "visibilityUse": "CV Visible",
+        "bestRoleTypes": [
+          "Business Automation / AI Ops",
+          "Power Platform / M365 Automation",
+          "AI-assisted Technical Ops",
+          "Deployment Engineer / FDE stretch"
+        ],
+        "avoidRoleTypes": [
+          "Pure AI Engineer / ML Engineer"
+        ],
+        "blockedVisibleTerms": [],
+        "metrics": "Supported multiple source-backed workflows across chatbot operations, DPIA review, recruiting alerts, onboarding automation, Power Automate governance, and learning-data operations.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-2026-new-projects",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Structured business workflows with non-engineering stakeholders into automation-ready logic",
+        "datePeriod": "",
+        "candidateRole": "",
+        "externalFriendlyDescription": "Converted frontline business process needs into automation-ready logic, acceptance rules, dashboards, and stakeholder handoff across HR, Legal, support, and learning operations.",
+        "audience": "Legal, privacy, governance, and internal project teams",
+        "businessFunction": "Business automation and AI operations",
+        "problemContext": "Multiple source-backed projects show Christine translating business, HR, Legal, Privacy, support, recruiting, and learning operations into Power Platform workflows, review forms, dashboards, notifications, routing logic, handoff...",
+        "actionTaken": "Converted frontline business process needs into automation-ready logic, acceptance rules, dashboards, and stakeholder handoff across HR, Legal, support, and learning operations.",
+        "stakeholders": [],
+        "quantifiedEvidence": "Supported multiple source-backed workflows across chatbot operations, DPIA review, recruiting alerts, onboarding automation, Power Automate governance, and learning-data operations.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Power Automate",
+          "Power Apps",
+          "SharePoint Lists",
+          "Power BI",
+          "Workflow documentation",
+          "SharePoint",
+          "Dashboard reporting",
+          "Workflow automation",
+          "Production support",
+          "Stakeholder coordination",
+          "AI chatbot operations",
+          "AI governance"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Low: safe for external CV use when written with the existing evidence scope.",
+        "cvAngle": "Business Workflow Structuring",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Converted frontline business process needs into automation-ready logic, acceptance rules, dashboards, and stakeholder handoff across HR, Legal, support, and learning operations."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned model training or formal machine-learning research"
+        ],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-workday-hcm-migration",
+        "title": "Led HERO-to-Workday migration sprint using EIB and WQL",
+        "category": "HRIS implementation",
+        "sectionTitle": "Workday HCM Implementation & Operations",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-workday-hcm",
+        "tools": [
+          "Workday HCM",
+          "EIB",
+          "WQL",
+          "Excel"
+        ],
+        "proof": "Source names Christine responsible owner for HERO-to-Workday data migration and describes sandbox validation before production EIB execution plus EIB HERO to TM3 result report.",
+        "cvBullet": "Led HERO-to-Workday data migration activities using EIB, WQL, sandbox validation, and structured result reporting to support HRIS transition.",
+        "metrics": "Five-day migration sprint from 2023-11-13 to 2023-11-17; EIB HERO to TM3 result report completed on 2024-01-05.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Workday HCM Implementation & Operations",
+        "datePeriod": "2022 - 2026",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Led HERO-to-Workday data migration activities using EIB, WQL, sandbox validation, and structured result reporting to support HRIS transition.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "Workday HCM implementation and HRIS business analysis across Taiwan and Philippines, including HR requirement translation, configuration/data specifications, migration, calculated fields, reporting-platform selection, knowledge transfer, and ongoing BA operations.",
+        "problemContext": "Workday HCM implementation and HRIS business analysis across Taiwan and Philippines, including HR requirement translation, configuration/data specifications, migration, calculated fields, reporting-platform selection, knowledge transfer,...",
+        "actionTaken": "Led HERO-to-Workday data migration activities using EIB, WQL, sandbox validation, and structured result reporting to support HRIS transition.",
+        "stakeholders": [
+          "Corp HR Taiwan",
+          "Corp HR Philippines",
+          "Workday system administrators",
+          "Ramco engineers",
+          "PECI engineers",
+          "Philippines BA Team",
+          "IS BA internal team",
+          "Corp project status stakeholders"
+        ],
+        "quantifiedEvidence": "Five-day migration sprint from 2023-11-13 to 2023-11-17; EIB HERO to TM3 result report completed on 2024-01-05.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Workday HCM",
+          "EIB",
+          "WQL",
+          "Excel",
+          "Power BI",
+          "SharePoint",
+          "Workday",
+          "API integration",
+          "Dashboard reporting",
+          "Production support",
+          "UAT / testing",
+          "AI chatbot operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Low: safe for external CV use when written with the existing evidence scope.",
+        "cvAngle": "Workday HCM Implementation & Operations",
+        "cvSafeBullet": "Led HERO-to-Workday data migration activities using EIB, WQL, sandbox validation, and structured result reporting to support HRIS transition.",
+        "interviewTalkingPoint": "Source names Christine responsible owner for HERO-to-Workday data migration and describes sandbox validation before production EIB execution plus EIB HERO to TM3 result report.",
+        "riskIfUsedWrongly": "Do not expand this beyond the documented action, tools, stakeholders, and outcome.",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Led HERO-to-Workday data migration activities using EIB, WQL, sandbox validation, and structured result reporting to support HRIS transition."
+        ],
+        "forbiddenVisibleClaims": [],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-power-platform-governance-docs",
+        "title": "Authored low-code automation and API engagement documentation",
+        "category": "Governance documentation",
+        "sectionTitle": "Power Platform Low-code Automation & API Documentation",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-power-platform-enablement",
+        "tools": [
+          "Power Automate",
+          "Power Apps",
+          "Connect One API Platform",
+          "SharePoint"
+        ],
+        "proof": "Source states Christine authored How to Engage with Connect One defining Provider and Consumer roles, created Power Automate business application scenario evaluation report, and documented low-code development process and governance considerations.",
+        "cvBullet": "Authored low-code automation and API engagement documentation covering Power Platform use-case evaluation, API provider/consumer roles, ownership transfer, connection references, and licensing considerations.",
+        "metrics": "Connect One documentation authored in 2021; Zero Base JR freeze period configured for 2023-02-22 to 2023-03-10.",
+        "evidenceTier": "Supporting",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Power Platform Low-code Automation & API Documentation",
+        "datePeriod": "2021 - 2026",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Authored low-code automation and API engagement documentation covering Power Platform use-case evaluation, API provider/consumer roles, ownership transfer, connection references, and licensing considerations.",
+        "audience": "External customers / consumer support operations",
+        "businessFunction": "Low-code business-use-case evaluation, internal API engagement documentation, communication-center field requirements, job requisition freeze-rule configuration, first-line troubleshooting, and Power Platform operating governance.",
+        "problemContext": "Low-code business-use-case evaluation, internal API engagement documentation, communication-center field requirements, job requisition freeze-rule configuration, first-line troubleshooting, and Power Platform operating governance.",
+        "actionTaken": "Authored low-code automation and API engagement documentation covering Power Platform use-case evaluation, API provider/consumer roles, ownership transfer, connection references, and licensing considerations.",
+        "stakeholders": [
+          "Business stakeholders",
+          "IS engineers",
+          "Microsoft Support",
+          "HR Power Platform users",
+          "Project teams using chatbot knowledge base Sync",
+          "TB Review Form users",
+          "NTR Reminder users",
+          "Zero Base Alert users"
+        ],
+        "quantifiedEvidence": "Connect One documentation authored in 2021; Zero Base JR freeze period configured for 2023-02-22 to 2023-03-10.",
+        "evidenceStrength": "Medium",
+        "relatedJdKeywords": [
+          "Power Automate",
+          "Power Apps",
+          "Connect One API Platform",
+          "SharePoint",
+          "API integration",
+          "Workflow automation",
+          "Production support",
+          "UAT / testing",
+          "AI governance"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Low: safe for external CV use when written with the existing evidence scope.",
+        "cvAngle": "Power Platform Low-code Automation & API Documentation",
+        "cvSafeBullet": "Authored low-code automation and API engagement documentation covering Power Platform use-case evaluation, API provider/consumer roles, ownership transfer, connection references, and licensing considerations.",
+        "interviewTalkingPoint": "Source states Christine authored How to Engage with Connect One defining Provider and Consumer roles, created Power Automate business application scenario evaluation report, and documented low-code development process and governance considerations.",
+        "riskIfUsedWrongly": "Do not expand this beyond the documented action, tools, stakeholders, and outcome.",
+        "claimLevel": "Conservative Claim",
+        "allowedVisibleClaims": [
+          "Authored low-code automation and API engagement documentation covering Power Platform use-case evaluation, API provider/consumer roles, ownership transfer, connection references, and licensing considerations."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned the entire function end to end",
+          "Built production backend systems from scratch"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-sunshine-payroll-redesign",
+        "title": "Supported Philippines attendance and payroll process reengineering",
+        "category": "Payroll process redesign",
+        "sectionTitle": "Sunshine Project",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-sunshine-project",
+        "tools": [
+          "Workday",
+          "Ramco",
+          "PECI",
+          "Excel"
+        ],
+        "proof": "Source says Christine contributed to attendance and payroll workflow redesign, supported Live Parallel Run comparing Ramco output with old system, maintained tax validation formulas and tables, and tracked PECI issues.",
+        "cvBullet": "Supported Philippines attendance and payroll process redesign by coordinating Workday/Ramco integration workstreams, live parallel run validation, tax validation, and PECI issue tracking.",
+        "metrics": "No quantified before/after improvement provided.",
+        "evidenceTier": "Supporting",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Sunshine Project: Philippines Attendance & Payroll Process Reengineering",
+        "datePeriod": "2021 - 2026; original CV states Jul 2022 - Present",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Supported Philippines attendance and payroll process redesign by coordinating Workday/Ramco integration workstreams, live parallel run validation, tax validation, and PECI issue tracking.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "Philippines attendance tracking and payroll calculation process reengineering across Workday and Ramco workstreams, including pain-point analysis, validation discipline, and alignment between HR and IS system teams.",
+        "problemContext": "Philippines attendance tracking and payroll calculation process reengineering across Workday and Ramco workstreams, including pain-point analysis, validation discipline, and alignment between HR and IS system teams.",
+        "actionTaken": "Supported Philippines attendance and payroll process redesign by coordinating Workday/Ramco integration workstreams, live parallel run validation, tax validation, and PECI issue tracking.",
+        "stakeholders": [
+          "PH HR Payroll Team",
+          "Ramco vendor",
+          "Corp IS",
+          "PH BA",
+          "Workday integration stakeholders"
+        ],
+        "quantifiedEvidence": "No quantified before/after improvement provided.",
+        "evidenceStrength": "Medium",
+        "relatedJdKeywords": [
+          "Workday",
+          "Ramco",
+          "PECI",
+          "Excel",
+          "API integration",
+          "Workflow automation",
+          "Production support",
+          "UAT / testing",
+          "AI chatbot operations",
+          "HR operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Medium: replace internal product, workflow, or system names with external business language before visible CV use.",
+        "cvAngle": "Sunshine Project",
+        "cvSafeBullet": "Supported Philippines attendance and payroll process redesign by coordinating Workday/Ramco integration workstreams, live parallel run validation, tax validation, and PECI issue tracking.",
+        "interviewTalkingPoint": "Source says Christine contributed to attendance and payroll workflow redesign, supported Live Parallel Run comparing Ramco output with old system, maintained tax validation formulas and tables, and tracked PECI issues.",
+        "riskIfUsedWrongly": "Do not copy internal product, workflow, or system names into the CV; use the external-friendly description instead.",
+        "claimLevel": "Conservative Claim",
+        "allowedVisibleClaims": [
+          "Supported Philippines attendance and payroll process redesign by coordinating Workday/Ramco integration workstreams, live parallel run validation, tax validation, and PECI issue tracking."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned the entire function end to end",
+          "Owned model training or formal machine-learning research"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [
+          "Philippines attendance and payroll process reengineering"
+        ],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-legal-dpia-app-build",
+        "title": "Digitized DPIA and AI Impact Assessment workflow with Power Platform",
+        "category": "Compliance automation",
+        "sectionTitle": "Legal DPIA App / AI Impact Assessment",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-legal-dpia-app",
+        "tools": [
+          "Power Apps",
+          "SharePoint List",
+          "Power Automate",
+          "GDPR",
+          "PLVRS Compliance",
+          "AI Governance"
+        ],
+        "proof": "Source states Christine partnered with Legal and Privacy teams to replace fragmented Excel-based DPIA with Power App, SharePoint List storage, Power Automate approval notifications, reviewer workflow, comments, attachments, logging, and access management.",
+        "cvBullet": "Digitized a Legal DPIA and AI Impact Assessment process with Power Apps, SharePoint storage, approval notifications, reviewer workflow, role controls, comments, attachments, and audit logging.",
+        "metrics": "12 UI requirements confirmed Feb 11, 2026; 14 reviewers granted staging access on Mar 4.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-ai-governance",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Legal DPIA App / AI Impact Assessment",
+        "datePeriod": "2025 - 2026; detailed source references Feb 2026 - Mar 2026 activities",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Digitized a Legal DPIA and AI Impact Assessment process with Power Apps, SharePoint storage, approval notifications, reviewer workflow, role controls, comments, attachments, and audit logging.",
+        "audience": "Legal, privacy, governance, and internal project teams",
+        "businessFunction": "DPIA and AI Impact Assessment workflow automation for privacy/legal review, questionnaire intake, reviewer routing, risk classification, approval notifications, comments, attachments, logging, and access management.",
+        "problemContext": "DPIA and AI Impact Assessment workflow automation for privacy/legal review, questionnaire intake, reviewer routing, risk classification, approval notifications, comments, attachments, logging, and access management.",
+        "actionTaken": "Digitized a Legal DPIA and AI Impact Assessment process with Power Apps, SharePoint storage, approval notifications, reviewer workflow, role controls, comments, attachments, and audit logging.",
+        "stakeholders": [
+          "Legal team",
+          "Privacy team",
+          "IS project teams as submitters",
+          "IS Admin reviewers",
+          "Internal DPIA Assessment Team account",
+          "DPIA wiki owners or content sources",
+          "TrendIQ users",
+          "DPIA wiki content owners",
+          "IS project teams"
+        ],
+        "quantifiedEvidence": "12 UI requirements confirmed Feb 11, 2026; 14 reviewers granted staging access on Mar 4.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Power Apps",
+          "SharePoint List",
+          "Power Automate",
+          "GDPR",
+          "PLVRS Compliance",
+          "SharePoint",
+          "Workflow automation",
+          "Production support",
+          "UAT / testing",
+          "AI chatbot operations",
+          "AI governance"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Medium: verify whether diagnostic numbers show business impact before using them as resume metrics.",
+        "cvAngle": "Legal DPIA App / AI Impact Assessment",
+        "cvSafeBullet": "Digitized a Legal DPIA and AI Impact Assessment process with Power Apps, SharePoint storage, approval notifications, reviewer workflow, role controls, comments, attachments, and audit logging.",
+        "interviewTalkingPoint": "Source states Christine partnered with Legal and Privacy teams to replace fragmented Excel-based DPIA with Power App, SharePoint List storage, Power Automate approval notifications, reviewer workflow, comments, attachments, logging, and access management.",
+        "riskIfUsedWrongly": "Do not expand this beyond the documented action, tools, stakeholders, and outcome.",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Digitized a Legal DPIA and AI Impact Assessment process with Power Apps, SharePoint storage, approval notifications, reviewer workflow, role controls, comments, attachments, and audit logging."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned model training or formal machine-learning research"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-tb-hr-dashboard-ai-upgrade",
+        "title": "Upgraded Trender Buddy HR dashboard with AI classification and accuracy views",
+        "category": "AI-enhanced analytics",
+        "sectionTitle": "Trender Buddy HR Dashboard AI Enhanced Version",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-trender-buddy",
+        "tools": [
+          "Power BI",
+          "Prompt Engineering",
+          "SharePoint Lists",
+          "GPT classification"
+        ],
+        "proof": "Source states Christine owned the 2025 AI-enhanced upgrade adding problem category classification, accuracy review, scrubbing categories, action categories, and region-by-category accuracy matrices.",
+        "cvBullet": "Transformed HR chatbot reporting into AI quality governance by adding problem-category classification, accuracy review, root-cause views, action categories, and regional accuracy matrices.",
+        "metrics": "Initiated 2024-12-25; go-live 2025-03-14; delivered in 11 weeks; accuracy median improved from 2.7/5 to 4.0/5; covers 6 regions and 10+ problem categories.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Trender Buddy",
+        "datePeriod": "2024 - 2026",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Transformed HR chatbot reporting into AI quality governance by adding problem-category classification, accuracy review, root-cause views, action categories, and regional accuracy matrices.",
+        "audience": "External customers / consumer support operations",
+        "businessFunction": "Regional HR document request analytics and AI assistant quality reporting across SharePoint-based regional request lists, historical data, prompt classification, and review-result tracking.",
+        "problemContext": "Regional HR document request analytics and AI assistant quality reporting across SharePoint-based regional request lists, historical data, prompt classification, and review-result tracking.",
+        "actionTaken": "Transformed HR chatbot reporting into AI quality governance by adding problem-category classification, accuracy review, root-cause views, action categories, and regional accuracy matrices.",
+        "stakeholders": [
+          "TW HR",
+          "PH HR",
+          "AMEA HR",
+          "AI development team",
+          "Human reviewers",
+          "Regional SharePoint list owners"
+        ],
+        "quantifiedEvidence": "Initiated 2024-12-25; go-live 2025-03-14; delivered in 11 weeks; accuracy median improved from 2.7/5 to 4.0/5; covers 6 regions and 10+ problem categories.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Power BI",
+          "Prompt Engineering",
+          "SharePoint Lists",
+          "GPT classification",
+          "Power Apps",
+          "SharePoint",
+          "Microsoft 365",
+          "Dashboard reporting",
+          "UAT / testing",
+          "AI chatbot operations",
+          "AI governance",
+          "HR operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Medium: replace internal product, workflow, or system names with external business language before visible CV use.",
+        "cvAngle": "Trender Buddy HR Dashboard AI Enhanced Version",
+        "cvSafeBullet": "Transformed HR chatbot reporting into AI quality governance by adding problem-category classification, accuracy review, root-cause views, action categories, and regional accuracy matrices.",
+        "interviewTalkingPoint": "Source states Christine owned the 2025 AI-enhanced upgrade adding problem category classification, accuracy review, scrubbing categories, action categories, and region-by-category accuracy matrices.",
+        "riskIfUsedWrongly": "Do not copy internal product, workflow, or system names into the CV; use the external-friendly description instead.",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Transformed HR chatbot reporting into AI quality governance by adding problem-category classification, accuracy review, root-cause views, action categories, and regional accuracy matrices."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned model training or formal machine-learning research"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [
+          "internal employee AI assistant"
+        ],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-ta-dashboard-lifecycle",
+        "title": "Delivered Talent Acquisition dashboard lifecycle from prototype to UAT resolution",
+        "category": "Recruiting analytics",
+        "sectionTitle": "Talent Acquisition Dashboard",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-recruiting-dashboard-ta",
+        "tools": [
+          "Power BI",
+          "DAX",
+          "Workday API",
+          "Workday data reports"
+        ],
+        "proof": "Source says Christine led prototype design and report development for all five Talent Acquisition sub-reports from Jul to Oct 2022 and resolved 47 UAT issues including Evergreen JR exclusion, offer acceptance formula, and DateTimezone bug.",
+        "cvBullet": "Delivered recruiting analytics dashboards from requirements and prototype through development, UAT fixes, and go-live for hiring progress, funnel, source, quality, and pay analysis.",
+        "metrics": "Five sub-reports; 47 UAT issues; daily refresh at 1:09 AM TW; source effectiveness referenced 51,865 applications.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Recruiting Dashboard / Talent Acquisition",
+        "datePeriod": "2022 - Present",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Delivered recruiting analytics dashboards from requirements and prototype through development, UAT fixes, and go-live for hiring progress, funnel, source, quality, and pay analysis.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "Talent acquisition analytics for hiring overview, performance, source effectiveness, new-hire quality, new-hire pay, job fulfillment, time to fill, offer acceptance, source hit rate, and recruiting bottleneck visibility.",
+        "problemContext": "Talent acquisition analytics for hiring overview, performance, source effectiveness, new-hire quality, new-hire pay, job fulfillment, time to fill, offer acceptance, source hit rate, and recruiting bottleneck visibility.",
+        "actionTaken": "Delivered recruiting analytics dashboards from requirements and prototype through development, UAT fixes, and go-live for hiring progress, funnel, source, quality, and pay analysis.",
+        "stakeholders": [
+          "HR management",
+          "Recruiters",
+          "Talent Acquisition teams",
+          "Hiring managers"
+        ],
+        "quantifiedEvidence": "Five sub-reports; 47 UAT issues; daily refresh at 1:09 AM TW; source effectiveness referenced 51,865 applications.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Power BI",
+          "DAX",
+          "Workday API",
+          "Workday data reports",
+          "Workday",
+          "API integration",
+          "Dashboard reporting",
+          "UAT / testing",
+          "HR operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Low: safe for external CV use when written with the existing evidence scope.",
+        "cvAngle": "Talent Acquisition Dashboard",
+        "cvSafeBullet": "Delivered recruiting analytics dashboards from requirements and prototype through development, UAT fixes, and go-live for hiring progress, funnel, source, quality, and pay analysis.",
+        "interviewTalkingPoint": "Source says Christine led prototype design and report development for all five Talent Acquisition sub-reports from Jul to Oct 2022 and resolved 47 UAT issues including Evergreen JR exclusion, offer acceptance formula, and DateTimezone bug.",
+        "riskIfUsedWrongly": "Do not expand this beyond the documented action, tools, stakeholders, and outcome.",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Delivered recruiting analytics dashboards from requirements and prototype through development, UAT fixes, and go-live for hiring progress, funnel, source, quality, and pay analysis."
+        ],
+        "forbiddenVisibleClaims": [
+          "Built production backend systems from scratch"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-workday-calc-field-audit",
+        "title": "Designed Workday calculated field for process-history traceability",
+        "category": "HRIS configuration",
+        "sectionTitle": "Workday HCM Implementation & Operations",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-workday-hcm",
+        "tools": [
+          "Workday HCM",
+          "WQL",
+          "Calculated Fields"
+        ],
+        "proof": "Source states Christine built WD CF: process history with step type, status, process, task, and create-on dimensions to improve audit visibility.",
+        "cvBullet": "Designed Workday calculated field logic to expose process-history dimensions and improve workflow audit visibility for HR operations.",
+        "metrics": "Five traceability dimensions stated: step type, status, process, task, and create-on.",
+        "evidenceTier": "Supporting",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Workday HCM Implementation & Operations",
+        "datePeriod": "2022 - 2026",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Designed Workday calculated field logic to expose process-history dimensions and improve workflow audit visibility for HR operations.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "Workday HCM implementation and HRIS business analysis across Taiwan and Philippines, including HR requirement translation, configuration/data specifications, migration, calculated fields, reporting-platform selection, knowledge transfer, and ongoing BA operations.",
+        "problemContext": "Workday HCM implementation and HRIS business analysis across Taiwan and Philippines, including HR requirement translation, configuration/data specifications, migration, calculated fields, reporting-platform selection, knowledge transfer,...",
+        "actionTaken": "Designed Workday calculated field logic to expose process-history dimensions and improve workflow audit visibility for HR operations.",
+        "stakeholders": [
+          "Corp HR Taiwan",
+          "Corp HR Philippines",
+          "Workday system administrators",
+          "Ramco engineers",
+          "PECI engineers",
+          "Philippines BA Team",
+          "IS BA internal team",
+          "Corp project status stakeholders"
+        ],
+        "quantifiedEvidence": "Five traceability dimensions stated: step type, status, process, task, and create-on.",
+        "evidenceStrength": "Medium",
+        "relatedJdKeywords": [
+          "Workday HCM",
+          "WQL",
+          "Calculated Fields",
+          "Power BI",
+          "SharePoint",
+          "Workday",
+          "API integration",
+          "Dashboard reporting",
+          "Workflow automation",
+          "Production support",
+          "AI chatbot operations",
+          "HR operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Low: safe for external CV use when written with the existing evidence scope.",
+        "cvAngle": "Workday HCM Implementation & Operations",
+        "cvSafeBullet": "Designed Workday calculated field logic to expose process-history dimensions and improve workflow audit visibility for HR operations.",
+        "interviewTalkingPoint": "Source states Christine built WD CF: process history with step type, status, process, task, and create-on dimensions to improve audit visibility.",
+        "riskIfUsedWrongly": "Do not expand this beyond the documented action, tools, stakeholders, and outcome.",
+        "claimLevel": "Conservative Claim",
+        "allowedVisibleClaims": [
+          "Designed Workday calculated field logic to expose process-history dimensions and improve workflow audit visibility for HR operations."
+        ],
+        "forbiddenVisibleClaims": [
+          "Owned the entire function end to end"
+        ],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      },
+      {
+        "id": "evi-workday-ph-kt-workshop",
+        "title": "Facilitated Philippines Workday knowledge transfer workshop",
+        "category": "Knowledge transfer",
+        "sectionTitle": "Workday HCM Implementation & Operations",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-workday-hcm",
+        "tools": [
+          "Workday HCM",
+          "SharePoint",
+          "Excel"
+        ],
+        "proof": "Source states Christine planned and facilitated a Philippines 3-day Workday KT workshop and provided follow-up support so PH BA team could operate Workday more independently.",
+        "cvBullet": "Facilitated a structured Workday knowledge transfer workshop for the Philippines BA team, supporting regional HRIS operating independence after implementation.",
+        "metrics": "Workshop held 2025-07-15 to 2025-07-17, 9:30 AM to 12:00 PM.",
+        "evidenceTier": "Core",
+        "sourceIds": [
+          "source-20260614-enterprise-automation-people-analytics",
+          "source-original-cv-pdfs"
+        ],
+        "confidence": "Grounded",
+        "internalName": "Workday HCM Implementation & Operations",
+        "datePeriod": "2022 - 2026",
+        "candidateRole": "Business Process Engineer / Senior Power Platform & Business Process Engineer / IS BA",
+        "externalFriendlyDescription": "Facilitated a structured Workday knowledge transfer workshop for the Philippines BA team, supporting regional HRIS operating independence after implementation.",
+        "audience": "HR, employees, managers, and people operations stakeholders",
+        "businessFunction": "Workday HCM implementation and HRIS business analysis across Taiwan and Philippines, including HR requirement translation, configuration/data specifications, migration, calculated fields, reporting-platform selection, knowledge transfer, and ongoing BA operations.",
+        "problemContext": "Workday HCM implementation and HRIS business analysis across Taiwan and Philippines, including HR requirement translation, configuration/data specifications, migration, calculated fields, reporting-platform selection, knowledge transfer,...",
+        "actionTaken": "Facilitated a structured Workday knowledge transfer workshop for the Philippines BA team, supporting regional HRIS operating independence after implementation.",
+        "stakeholders": [
+          "Corp HR Taiwan",
+          "Corp HR Philippines",
+          "Workday system administrators",
+          "Ramco engineers",
+          "PECI engineers",
+          "Philippines BA Team",
+          "IS BA internal team",
+          "Corp project status stakeholders"
+        ],
+        "quantifiedEvidence": "Workshop held 2025-07-15 to 2025-07-17, 9:30 AM to 12:00 PM.",
+        "evidenceStrength": "Strong",
+        "relatedJdKeywords": [
+          "Workday HCM",
+          "SharePoint",
+          "Excel",
+          "Power BI",
+          "Workday",
+          "API integration",
+          "Dashboard reporting",
+          "Production support",
+          "AI chatbot operations"
+        ],
+        "canBeUsedInCv": "Yes",
+        "canBeUsedInInterview": "Yes",
+        "confidentialityRisk": "Low: safe for external CV use when written with the existing evidence scope.",
+        "cvAngle": "Workday HCM Implementation & Operations",
+        "cvSafeBullet": "Facilitated a structured Workday knowledge transfer workshop for the Philippines BA team, supporting regional HRIS operating independence after implementation.",
+        "interviewTalkingPoint": "Source states Christine planned and facilitated a Philippines 3-day Workday KT workshop and provided follow-up support so PH BA team could operate Workday more independently.",
+        "riskIfUsedWrongly": "Do not expand this beyond the documented action, tools, stakeholders, and outcome.",
+        "claimLevel": "Direct Claim",
+        "allowedVisibleClaims": [
+          "Facilitated a structured Workday knowledge transfer workshop for the Philippines BA team, supporting regional HRIS operating independence after implementation."
+        ],
+        "forbiddenVisibleClaims": [],
+        "visibilityUse": "CV Visible",
+        "blockedVisibleTerms": [],
+        "notes": "Auto-filled from existing Career OS evidence. Verify metrics and confidentiality before external submission."
+      }
+    ],
+    "selectedStarStories": [
+      {
+        "id": "star-tomo-platform-evaluation",
+        "title": "Replaced subjective chatbot platform comparison with data-driven evaluation",
+        "tags": [
+          "A/B testing",
+          "AI platform evaluation",
+          "Metric definition",
+          "Power BI",
+          "D365 Omnichannel"
+        ],
+        "sectionTitle": "Chatbot Platform Evaluation",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-tomo-ab-testing",
+        "situation": "Decision makers needed to compare TOMO and the enterprise customer-service AI platform for Global and Japan consumer chatbot scenarios without relying on subjective impressions.",
+        "task": "Create a defensible evaluation framework with benchmark results, real transcript evidence, human review, and live traffic metrics.",
+        "action": "Combined Golden Question Test datasets, real transcript GPT scoring, human review validation, and live A/B test planning; defined scoring standards and five reporting metric areas.",
+        "result": "Produced quantitative comparison evidence including Global and Japan benchmark results, giving stakeholders a structured basis for platform selection.",
+        "storyConfidence": "Strong",
+        "cvBullets": [
+          "Created a structured chatbot platform evaluation framework combining benchmark questions, transcript scoring, human review, and live A/B metrics to support data-driven platform selection."
+        ],
+        "evidenceIds": [
+          "evi-tomo-eval-framework"
+        ]
+      },
+      {
+        "id": "star-trender-buddy-gpt-eval",
+        "title": "Built scheduled GPT evaluation for internal employee AI assistant quality",
+        "tags": [
+          "Azure AI Studio",
+          "FastAPI",
+          "Prompt evaluation",
+          "AI QA",
+          "Copilot Studio"
+        ],
+        "sectionTitle": "Trender Buddy",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-trender-buddy",
+        "situation": "Internal employee AI assistant quality review depended on manual conversation checking and lacked scalable versioned scoring rules.",
+        "task": "Create an automated evaluation mechanism to score AI conversations and support prompt and KB improvement decisions.",
+        "action": "Built a daily GPT-based evaluation pipeline using Azure AI Studio and FastAPI, maintained prompt versions across eight categories, and defined High/Medium/Low scoring rules for answer quality.",
+        "result": "Replaced manual conversation review with daily scheduled GPT scoring at 8:30 AM and created a repeatable quality signal for AI assistant improvement.",
+        "storyConfidence": "Strong",
+        "cvBullets": [
+          "Built an automated GPT evaluation pipeline for an internal employee AI assistant, replacing manual conversation review with scheduled scoring and versioned prompt quality rules."
+        ],
+        "evidenceIds": [
+          "evi-trender-buddy-gpt-eval-pipeline"
+        ]
+      },
+      {
+        "id": "star-tomo-ab-attribution-pipeline",
+        "title": "Defined attribution logic for live dual-chatbot A/B reporting",
+        "tags": [
+          "A/B testing",
+          "Data specification",
+          "ADX",
+          "D365 Omnichannel",
+          "Reporting pipeline"
+        ],
+        "sectionTitle": "Chatbot Platform Evaluation",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-tomo-ab-testing",
+        "situation": "Live A/B testing risked mixing TOMO and FIN traffic, which would make platform performance reporting unreliable.",
+        "task": "Specify routing, identifiers, queues, and metrics so engineering teams could separate platform performance in reporting.",
+        "action": "Defined odd/even cookie routing, UTM attribution, D365 Omnichannel queue mapping, TOMO/FIN identifier logic using caid and case flags, and Power BI metrics for handover, abandon, feedback, CSAT, and DSAT.",
+        "result": "Enabled engineering reporting logic that separated TOMO and FIN performance during live testing and supported weekly metric tracking.",
+        "storyConfidence": "Strong",
+        "cvBullets": [
+          "Defined live A/B attribution logic for chatbot comparison, including cookie routing, UTM tracking, Omnichannel queue mapping, platform identifiers, and Power BI metric definitions."
+        ],
+        "evidenceIds": [
+          "evi-tomo-ab-attribution-logic",
+          "evi-tomo-eval-framework"
+        ]
+      },
+      {
+        "id": "star-genai-dify-evaluation",
+        "title": "Clarified NL-to-SQL tool feasibility and production risk",
+        "tags": [
+          "GenAI tool evaluation",
+          "NL-to-SQL",
+          "Risk assessment",
+          "Dify",
+          "Non-RD enablement"
+        ],
+        "sectionTitle": "GenAI Hub",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-genai-hub",
+        "situation": "Non-RD teams needed to understand whether Dify could support natural-language-to-SQL use cases without creating production database risk.",
+        "task": "Evaluate Dify feasibility, operability, infrastructure needs, and security boundaries.",
+        "action": "Performed a POC and documented structured pros and cons, including quick demo value, prompt adjustability, infrastructure dependency, SQL generation error risk, Non-RD operability, and production execution concerns.",
+        "result": "Clarified that Dify was useful for quick POCs but risky for direct production database execution without controls.",
+        "storyConfidence": "Usable",
+        "cvBullets": [
+          "Evaluated a self-hosted GenAI NL-to-SQL platform, documenting feasibility, infrastructure dependency, user operability, and production database risk boundaries."
+        ],
+        "evidenceIds": [
+          "evi-genai-dify-eval"
+        ]
+      },
+      {
+        "id": "star-fin-ai-kb-sync-automation",
+        "title": "Automated customer-service chatbot knowledge-base synchronization",
+        "tags": [
+          "AI chatbot operations",
+          "Power Automate",
+          "API integration",
+          "Knowledge base management",
+          "Customer support"
+        ],
+        "sectionTitle": "Customer-Service AI Chatbot",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-fin-ai",
+        "situation": "The customer-service AI chatbot depended on knowledge-base content, and manual article upload was slow and error-prone for Global and Japan consumer support operations.",
+        "task": "Create a more reliable daily synchronization process between the source knowledge base and the chatbot workspace.",
+        "action": "Built a three-stage Power Automate synchronization flow using Eureka API, Excel tracking, and chatbot workspace update logic, with separate flows for retrieving Eureka data, updating chatbot content, and mapping chatbot IDs.",
+        "result": "Daily KB synchronization replaced manual article upload risk and supported ongoing chatbot content operations across Global and Japan markets.",
+        "storyConfidence": "Strong",
+        "cvBullets": [
+          "Built daily chatbot knowledge-base synchronization using Power Automate and Eureka API, reducing manual article upload risk and keeping chatbot content aligned with source KB updates."
+        ],
+        "evidenceIds": [
+          "evi-fin-ai-kb-sync-automation",
+          "evi-fin-ai-prod-ops-global-jp"
+        ]
+      },
+      {
+        "id": "star-fin-ai-prod-ops-change-issue",
+        "title": "Stabilized post-launch customer-service AI chatbot operations",
+        "tags": [
+          "Production operations",
+          "Vendor coordination",
+          "Issue escalation",
+          "AI chatbot",
+          "Customer support"
+        ],
+        "sectionTitle": "Customer-Service AI Chatbot",
+        "experienceId": "exp-trendmicro",
+        "projectId": "proj-fin-ai",
+        "situation": "After launch, the customer-service AI chatbot required continuous change handling, issue tracking, vendor coordination, and validation across Global and Japan workspaces.",
+        "task": "Keep chatbot operations stable while handling post-launch change requests, bugs, reporting issues, and production content risks.",
+        "action": "Managed workspace operations, tracked change requests and operation logs, coordinated vendor/business escalation, validated fixes in staging before production, and handled issues including telephone-number exposure, JP chat reporting, and JP CSAT decline.",
+        "result": "Supported sustained chatbot operations through 193 post-launch change request and bug-fix versions and 88 operation log versions while keeping business and vendor issue handling traceable.",
+        "storyConfidence": "Strong",
+        "cvBullets": [
+          "Owned configuration and operations for a customer-service AI chatbot across Global and Japan consumer support markets, covering workspace administration, routing, content guidance, KB automation, production issue tracking, and vendor coordination."
+        ],
+        "evidenceIds": [
+          "evi-fin-ai-prod-ops-global-jp",
+          "evi-fin-ai-prod-issue-response"
+        ]
+      }
+    ],
+    "invalidSkillIds": [],
+    "invalidDomainKnowledgeIds": [],
+    "invalidEvidenceIds": [],
+    "invalidStoryIds": []
+  },
+  "qualityDiagnostics": {
+    "topRequirementMappings": [
+      {
+        "requirement": "3+ years practical experience as ML Engineer, Data Scientist, Research Engineer, or ML/AI evaluation-related role",
+        "supportLevel": "Partial",
+        "selectedMatchingEvidenceIds": [
+          "evi-tomo-eval-framework",
+          "evi-trender-buddy-gpt-eval-pipeline",
+          "evi-tomo-ab-attribution-logic"
+        ],
+        "covered": true
+      },
+      {
+        "requirement": "Research or implementation experience in ML model evaluation or LLM evaluation",
+        "supportLevel": "Partial",
+        "selectedMatchingEvidenceIds": [
+          "evi-tomo-eval-framework",
+          "evi-trender-buddy-gpt-eval-pipeline"
+        ],
+        "covered": true
+      },
+      {
+        "requirement": "Deep knowledge of benchmark design, LLM-as-Judge, quantitative quality measurement, and hallucination detection",
+        "supportLevel": "Weak",
+        "selectedMatchingEvidenceIds": [
+          "evi-tomo-eval-framework",
+          "evi-trender-buddy-gpt-eval-pipeline"
+        ],
+        "covered": true
+      }
+    ],
+    "topRequirementCoverageCount": 3,
+    "evidenceWithBusinessImpact": [
+      "evi-tomo-eval-framework",
+      "evi-trender-buddy-gpt-eval-pipeline",
+      "evi-tomo-ab-attribution-logic",
+      "evi-fin-ai-prod-ops-global-jp",
+      "evi-legal-dpia-risk-classification",
+      "evi-existing-python-sql-pipeline-debugging",
+      "evi-genai-hub-milestone-tracking",
+      "evi-genai-dify-eval",
+      "evi-technical-capability-summary",
+      "evi-business-workflow-structuring-non-engineering",
+      "evi-workday-hcm-migration",
+      "evi-power-platform-governance-docs",
+      "evi-sunshine-payroll-redesign",
+      "evi-legal-dpia-app-build",
+      "evi-tb-hr-dashboard-ai-upgrade",
+      "evi-ta-dashboard-lifecycle",
+      "evi-workday-calc-field-audit",
+      "evi-workday-ph-kt-workshop"
+    ],
+    "evidenceWithTechnicalDepth": [
+      "evi-tomo-eval-framework",
+      "evi-trender-buddy-gpt-eval-pipeline",
+      "evi-tomo-ab-attribution-logic",
+      "evi-fin-ai-prod-ops-global-jp",
+      "evi-legal-dpia-risk-classification",
+      "evi-existing-python-sql-pipeline-debugging",
+      "evi-genai-hub-milestone-tracking",
+      "evi-genai-dify-eval",
+      "evi-technical-capability-summary",
+      "evi-business-workflow-structuring-non-engineering",
+      "evi-workday-hcm-migration",
+      "evi-power-platform-governance-docs",
+      "evi-sunshine-payroll-redesign",
+      "evi-legal-dpia-app-build",
+      "evi-tb-hr-dashboard-ai-upgrade",
+      "evi-ta-dashboard-lifecycle",
+      "evi-workday-calc-field-audit",
+      "evi-workday-ph-kt-workshop"
+    ],
+    "currentRoleEvidenceIds": [
+      "evi-tomo-eval-framework",
+      "evi-trender-buddy-gpt-eval-pipeline",
+      "evi-tomo-ab-attribution-logic",
+      "evi-fin-ai-prod-ops-global-jp",
+      "evi-legal-dpia-risk-classification",
+      "evi-existing-python-sql-pipeline-debugging",
+      "evi-genai-hub-milestone-tracking",
+      "evi-genai-dify-eval",
+      "evi-technical-capability-summary",
+      "evi-business-workflow-structuring-non-engineering",
+      "evi-workday-hcm-migration",
+      "evi-power-platform-governance-docs",
+      "evi-sunshine-payroll-redesign",
+      "evi-legal-dpia-app-build",
+      "evi-tb-hr-dashboard-ai-upgrade",
+      "evi-ta-dashboard-lifecycle",
+      "evi-workday-calc-field-audit",
+      "evi-workday-ph-kt-workshop"
+    ],
+    "priorRoleEvidenceIds": []
+  }
+}

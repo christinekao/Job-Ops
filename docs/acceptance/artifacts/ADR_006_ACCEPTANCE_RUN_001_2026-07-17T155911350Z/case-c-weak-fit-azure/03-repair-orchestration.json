@@ -1,0 +1,82 @@
+{
+  "cvVersionId": "cv-case-c-weak-fit-azure-20260717000000",
+  "cvContentHash": "huuwxfd",
+  "totalBlockers": 2,
+  "safeAuto": [],
+  "approvalRequired": [
+    {
+      "blockerId": "structured-review-2-external-wording-action-outcome-bullet-strength-is-low",
+      "reviewerIssueId": "review-2-external-wording-action-outcome-bullet-strength-is-low",
+      "source": "structured-reviewer-contract",
+      "route": "approval-required",
+      "reason": "Rewrite bullets into action + scope + business outcome while preserving evidence IDs.",
+      "rawBlocker": "External Wording: Action/outcome bullet strength is low: 5/8 visible bullet(s) are action-oriented.: Rewrite bullets into action + scope + business outcome while preserving evidence IDs.: Bullets can be made more recruiter-readable without changing claim strength.",
+      "reviewerCategory": "External Wording",
+      "reviewerSeverity": "Medium",
+      "reviewerRepairability": "targeted-repair",
+      "suggestedRepairIntent": "Rewrite bullets into action + scope + business outcome while preserving evidence IDs.",
+      "evidenceIds": [],
+      "cvVersionId": "cv-case-c-weak-fit-azure-20260717000000",
+      "cvContentHash": "huuwxfd",
+      "risk": "medium",
+      "confidence": "high",
+      "allowedMutationZones": [
+        "workExperience"
+      ],
+      "prohibitedMutationZones": [
+        "header.contact",
+        "header.targetRole",
+        "summary",
+        "sidebar.skills",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": true,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": true,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": false
+    }
+  ],
+  "targetedRegeneration": [],
+  "humanInput": [
+    {
+      "blockerId": "structured-review-3-profile-completeness-trusted-profile-contact-data-is-incom",
+      "reviewerIssueId": "review-3-profile-completeness-trusted-profile-contact-data-is-incom",
+      "source": "structured-reviewer-contract",
+      "route": "human-input",
+      "reason": "Collect trusted contact data from the user or profile source.",
+      "rawBlocker": "Profile Completeness: Trusted profile contact data is incomplete: Missing trusted profile field(s): email.: Collect trusted contact data from the user or profile source.: Profile/contact data must come from trusted user/profile input and must not be invented by Reviewer or Writer.",
+      "reviewerCategory": "Profile Completeness",
+      "reviewerSeverity": "High",
+      "reviewerRepairability": "human-input",
+      "suggestedRepairIntent": "Collect trusted contact data from the user or profile source.",
+      "evidenceIds": [],
+      "cvVersionId": "cv-case-c-weak-fit-azure-20260717000000",
+      "cvContentHash": "huuwxfd",
+      "risk": "medium",
+      "confidence": "high",
+      "allowedMutationZones": [
+        "header.contact"
+      ],
+      "prohibitedMutationZones": [
+        "header.targetRole",
+        "summary",
+        "workExperience",
+        "sidebar.skills",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": false,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": false,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": true
+    }
+  ],
+  "humanDecision": [],
+  "unsupported": [],
+  "recommendedNextRoute": "review-ai-proposals"
+}

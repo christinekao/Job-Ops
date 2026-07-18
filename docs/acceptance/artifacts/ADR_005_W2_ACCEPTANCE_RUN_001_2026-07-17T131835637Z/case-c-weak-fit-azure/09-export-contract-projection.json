@@ -1,0 +1,35 @@
+{
+  "reviewStatus": "WARNING",
+  "exportBlockingIssues": [
+    {
+      "issueId": "review-3-profile-completeness-trusted-profile-contact-data-is-incom",
+      "category": "Profile Completeness",
+      "severity": "High",
+      "reason": "Missing trusted profile field(s): email."
+    }
+  ],
+  "exportWarnings": [
+    {
+      "issueId": "review-1-capability-gap-truthful-capability-gap",
+      "category": "Capability Gap",
+      "severity": "Medium",
+      "reason": "12 capability gap(s) are tracked as fit/readiness risk, not unsupported visible claims."
+    },
+    {
+      "issueId": "review-2-external-wording-action-outcome-bullet-strength-is-low",
+      "category": "External Wording",
+      "severity": "Medium",
+      "reason": "5/8 visible bullet(s) are action-oriented."
+    }
+  ],
+  "truthfulness": {
+    "unsupportedClaimCount": 0,
+    "policyViolationCount": 0,
+    "capabilityGapCount": 1
+  },
+  "documentReadiness": {
+    "formattingIssueCount": 0,
+    "profileCompletenessIssueCount": 1,
+    "externalWordingIssueCount": 1
+  }
+}

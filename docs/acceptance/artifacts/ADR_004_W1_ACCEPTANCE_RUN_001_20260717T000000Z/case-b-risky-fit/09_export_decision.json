@@ -1,0 +1,28 @@
+{
+  "status": "blocked",
+  "ready": false,
+  "decisionContextReady": true,
+  "contentHash": "hrslq8e",
+  "blockers": [
+    "Reviewer: HR scan: 6 covered keyword(s), 6 supported keyword gap(s)",
+    "Reviewer: weak claims controlled: 4 weak mapping(s)",
+    "Reviewer: external wording: 2 work-log bullet(s)",
+    "Contact extraction: Missing name, email, or location",
+    "Contact email: Missing email",
+    "ATS keyword support: 6 covered; 6 supported gap(s)"
+  ],
+  "warnings": [
+    "Reviewer: application fit risk: 1 unsupported mapping(s), 3 high-risk gap(s) tracked as fit risk"
+  ],
+  "reviewFreshness": {
+    "currentCvVersionId": "cv-case-b-risky-fit-20260717000000",
+    "currentCvContentHash": "hrslq8e",
+    "currentSummaryHash": "h4yp49d",
+    "reviewedCvVersionId": "cv-case-b-risky-fit-20260717000000",
+    "reviewedCvContentHash": "hrslq8e",
+    "reviewedSummaryHash": "h4yp49d",
+    "reviewRunId": "review-h1v6qkhz",
+    "reviewedAt": "2026-07-17T11:55:56.937Z",
+    "status": "fresh"
+  }
+}

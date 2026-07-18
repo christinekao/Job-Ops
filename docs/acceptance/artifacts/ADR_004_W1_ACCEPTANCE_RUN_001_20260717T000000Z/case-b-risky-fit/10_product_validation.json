@@ -1,0 +1,9 @@
+{
+  "writerFollowsAnalysisPositioning": true,
+  "unsupportedClaimsPresent": false,
+  "unsupportedClaims": [],
+  "truthfulCapabilityGapsClearlyCommunicated": true,
+  "positioningReportMatchesGeneratedCv": true,
+  "defensibleInRealInterview": true,
+  "explanation": "Visible claims are tied to selected grounded evidence and unsupported direct-fit claims are omitted or softened."
+}

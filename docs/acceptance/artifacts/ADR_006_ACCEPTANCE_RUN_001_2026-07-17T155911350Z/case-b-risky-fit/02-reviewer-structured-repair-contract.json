@@ -1,0 +1,66 @@
+{
+  "issues": [
+    {
+      "category": "Keyword Coverage",
+      "severity": "Medium",
+      "title": "Evidence-supported keywords are under-placed",
+      "description": "Supported keyword gap(s): AI quality evaluation, benchmark questions, quality metrics, AI governance, prompt regression testing, Python validation.",
+      "evidence": {
+        "evidenceIds": [],
+        "screeningAnalysisPath": "screeningAnalysis.mustHaveKeywords",
+        "cvBriefPath": "cvBrief.skillsToForeground|bulletPlan",
+        "reason": "These keywords are evidence-supported and may be placed without exceeding ADR-004 boundaries."
+      },
+      "repairability": "targeted-repair",
+      "suggestedRepairIntent": "Add only evidence-supported keywords to summary, skills, or relevant bullets.",
+      "expectedRepairBoundary": [
+        "summary",
+        "sidebar.skills",
+        "workExperience"
+      ],
+      "exportSignal": "warn",
+      "id": "review-1-keyword-coverage-evidence-supported-keywords-are-under-pla"
+    },
+    {
+      "category": "External Wording",
+      "severity": "Medium",
+      "title": "Internal or work-log wording remains",
+      "description": "2 work-log bullet(s) detected.",
+      "visibleLocation": {
+        "section": "workExperience"
+      },
+      "evidence": {
+        "evidenceIds": [],
+        "reason": "Visible wording should be external recruiter language."
+      },
+      "repairability": "targeted-repair",
+      "suggestedRepairIntent": "Translate internal/work-log wording into external resume language without changing meaning.",
+      "expectedRepairBoundary": [
+        "summary",
+        "workExperience"
+      ],
+      "exportSignal": "warn",
+      "id": "review-3-external-wording-internal-or-work-log-wording-remains"
+    },
+    {
+      "category": "Profile Completeness",
+      "severity": "High",
+      "title": "Trusted profile contact data is incomplete",
+      "description": "Missing trusted profile field(s): email.",
+      "visibleLocation": {
+        "section": "header"
+      },
+      "evidence": {
+        "evidenceIds": [],
+        "reason": "Profile/contact data must come from trusted user/profile input and must not be invented by Reviewer or Writer."
+      },
+      "repairability": "human-input",
+      "suggestedRepairIntent": "Collect trusted contact data from the user or profile source.",
+      "expectedRepairBoundary": [
+        "header.contact"
+      ],
+      "exportSignal": "block",
+      "id": "review-4-profile-completeness-trusted-profile-contact-data-is-incom"
+    }
+  ]
+}

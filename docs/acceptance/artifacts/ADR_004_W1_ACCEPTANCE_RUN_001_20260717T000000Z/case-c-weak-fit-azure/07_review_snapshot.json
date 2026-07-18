@@ -1,0 +1,1785 @@
+{
+  "snapshot": {
+    "snapshotId": "review-houibbn",
+    "reviewRunId": "review-houibbn",
+    "updatedAt": "2026-07-17T11:55:57.016Z",
+    "contentHash": "huuwxfd",
+    "reviewedCvVersionId": "cv-case-c-weak-fit-azure-20260717000000",
+    "reviewedCvContentHash": "huuwxfd",
+    "reviewedSummaryHash": "hh77uty",
+    "freshnessStatus": "fresh",
+    "cvUpdatedAt": "2026-07-17T00:00:00.000Z",
+    "completedAt": "2026-07-17T11:55:57.016Z",
+    "gateIssueCount": 0,
+    "reviewerIssueCount": 4,
+    "ready": false,
+    "summaryQualityContract": {
+      "targetRole": "Azure Solution Specialist",
+      "positioningMode": "not-recommended",
+      "requiredCriteria": [
+        {
+          "id": "summary-role-identity",
+          "label": "Role identity",
+          "description": "States a credible role identity for this JD without pretending unsupported direct-fit experience.",
+          "category": "role-identity",
+          "importance": "required",
+          "supportStatus": "unsupported",
+          "supportingEvidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-power-platform-governance-docs",
+            "evi-hr-powerbi-portfolio",
+            "evi-ta-dashboard-lifecycle",
+            "evi-ph-time-block",
+            "evi-technical-capability-summary",
+            "evi-project-execution-hw-sw-integration",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "omit"
+        },
+        {
+          "id": "summary-relevant-capability",
+          "label": "Relevant capability",
+          "description": "Surfaces the strongest supported capabilities that overlap with the JD.",
+          "category": "relevant-capability",
+          "importance": "required",
+          "supportStatus": "supported",
+          "supportingEvidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-power-platform-governance-docs",
+            "evi-hr-powerbi-portfolio",
+            "evi-ta-dashboard-lifecycle",
+            "evi-ph-time-block",
+            "evi-technical-capability-summary",
+            "evi-project-execution-hw-sw-integration",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "state-directly"
+        },
+        {
+          "id": "summary-business-value",
+          "label": "Business value",
+          "description": "Explains the business or stakeholder value of the candidate's supported work.",
+          "category": "business-value",
+          "importance": "important",
+          "supportStatus": "supported",
+          "supportingEvidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-power-platform-governance-docs",
+            "evi-hr-powerbi-portfolio",
+            "evi-ta-dashboard-lifecycle",
+            "evi-ph-time-block",
+            "evi-technical-capability-summary",
+            "evi-project-execution-hw-sw-integration",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "state-directly"
+        },
+        {
+          "id": "summary-evidence-grounding",
+          "label": "Evidence grounding",
+          "description": "Avoids unsupported ownership, metrics, seniority, sales, architecture, or cloud-delivery claims.",
+          "category": "evidence-grounding",
+          "importance": "required",
+          "supportStatus": "partial",
+          "supportingEvidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-power-platform-governance-docs",
+            "evi-hr-powerbi-portfolio",
+            "evi-ta-dashboard-lifecycle",
+            "evi-ph-time-block",
+            "evi-technical-capability-summary",
+            "evi-project-execution-hw-sw-integration",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "soften"
+        },
+        {
+          "id": "summary-customer-context",
+          "label": "Customer context",
+          "description": "Connects the Summary to customer, stakeholder, adoption, enablement, or operating context when supported.",
+          "category": "customer-context",
+          "importance": "important",
+          "supportStatus": "supported",
+          "supportingEvidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-power-platform-governance-docs",
+            "evi-hr-powerbi-portfolio",
+            "evi-ta-dashboard-lifecycle",
+            "evi-ph-time-block",
+            "evi-technical-capability-summary",
+            "evi-project-execution-hw-sw-integration",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "state-directly"
+        },
+        {
+          "id": "summary-career-positioning",
+          "label": "Career positioning",
+          "description": "Separates supported transferable fit from unsupported core requirements.",
+          "category": "career-positioning",
+          "importance": "required",
+          "supportStatus": "partial",
+          "supportingEvidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-power-platform-governance-docs",
+            "evi-hr-powerbi-portfolio",
+            "evi-ta-dashboard-lifecycle",
+            "evi-ph-time-block",
+            "evi-technical-capability-summary",
+            "evi-project-execution-hw-sw-integration",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "position-as-transferable"
+        },
+        {
+          "id": "summary-clarity",
+          "label": "Clarity",
+          "description": "Uses concise external recruiter language without generic filler or tool stuffing.",
+          "category": "clarity",
+          "importance": "required",
+          "supportStatus": "supported",
+          "supportingEvidenceIds": [],
+          "allowedTreatment": "state-directly"
+        }
+      ],
+      "supportedStrengths": [
+        {
+          "evidenceId": "evi-fin-ai-prod-ops-global-jp",
+          "label": "Customer-Service AI Chatbot",
+          "keywords": [
+            "enterprise customer-service AI platform",
+            "Intercom",
+            "knowledge-base API",
+            "Power Automate",
+            "Google Analytics",
+            "API integration",
+            "Dashboard reporting",
+            "Workflow automation"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-tomo-eval-framework",
+          "label": "TOMO Chatbot Evaluation & A/B Testing",
+          "keywords": [
+            "Microsoft Copilot Studio",
+            "enterprise customer-service AI platform",
+            "GPT Accuracy Scoring",
+            "Power BI",
+            "Azure Data Explorer",
+            "Microsoft 365",
+            "Dashboard reporting",
+            "Production support"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-trender-buddy-gpt-eval-pipeline",
+          "label": "Trender Buddy",
+          "keywords": [
+            "Azure AI Studio",
+            "GPT-4-turbo",
+            "GPT-4.1",
+            "FastAPI",
+            "Power Automate",
+            "Power Apps",
+            "Power BI",
+            "SharePoint"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-m365-copilot-dashboard",
+          "label": "M365 Copilot Trial Program & Usage Analytics",
+          "keywords": [
+            "Microsoft 365 Copilot",
+            "Power BI",
+            "M365 Audit Log",
+            "CopilotAuditLog",
+            "SharePoint",
+            "Microsoft 365",
+            "Dashboard reporting",
+            "Production support"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-m365-trial-license-conversion",
+          "label": "M365 Copilot Trial Program & Usage Analytics",
+          "keywords": [
+            "Microsoft 365 Copilot",
+            "License Management",
+            "Vendor Management",
+            "Usage Reporting",
+            "Power BI",
+            "SharePoint",
+            "Microsoft 365",
+            "Dashboard reporting"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-genai-hub-milestone-tracking",
+          "label": "GenAI Hub",
+          "keywords": [
+            "Confluence or tracking page",
+            "Milestone Tracking",
+            "GCP",
+            "Azure",
+            "GitHub Actions",
+            "SQL / data validation",
+            "Production support",
+            "UAT / testing"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-genai-dify-eval",
+          "label": "GenAI Hub",
+          "keywords": [
+            "Dify",
+            "Self-hosted LLM App Builder",
+            "NL-to-SQL",
+            "SQL / data validation",
+            "Production support",
+            "UAT / testing",
+            "Stakeholder coordination",
+            "AI chatbot operations"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-workday-hcm-migration",
+          "label": "Workday HCM Implementation & Operations",
+          "keywords": [
+            "Workday HCM",
+            "EIB",
+            "WQL",
+            "Excel",
+            "Power BI",
+            "SharePoint",
+            "Workday",
+            "API integration"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-workday-calc-field-audit",
+          "label": "Workday HCM Implementation & Operations",
+          "keywords": [
+            "Workday HCM",
+            "WQL",
+            "Calculated Fields",
+            "Power BI",
+            "SharePoint",
+            "Workday",
+            "API integration",
+            "Dashboard reporting"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-workday-ph-kt-workshop",
+          "label": "Workday HCM Implementation & Operations",
+          "keywords": [
+            "Workday HCM",
+            "SharePoint",
+            "Excel",
+            "Power BI",
+            "Workday",
+            "API integration",
+            "Dashboard reporting",
+            "Production support"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-power-platform-governance-docs",
+          "label": "Power Platform Low-code Automation & API Documentation",
+          "keywords": [
+            "Power Automate",
+            "Power Apps",
+            "Connect One API Platform",
+            "SharePoint",
+            "API integration",
+            "Workflow automation",
+            "Production support",
+            "UAT / testing"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-hr-powerbi-portfolio",
+          "label": "HR Power BI Dashboards Portfolio",
+          "keywords": [
+            "Power BI",
+            "Workday API",
+            "SharePoint List",
+            "Teams",
+            "Audit Log",
+            "Power Automate",
+            "Power Apps",
+            "SharePoint"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-ta-dashboard-lifecycle",
+          "label": "Talent Acquisition Dashboard",
+          "keywords": [
+            "Power BI",
+            "DAX",
+            "Workday API",
+            "Workday data reports",
+            "Workday",
+            "API integration",
+            "Dashboard reporting",
+            "UAT / testing"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-ph-time-block",
+          "label": "PH Time Block for Ramco",
+          "keywords": [
+            "Power BI",
+            "Ramco",
+            "Workday time data",
+            "Power Apps",
+            "SharePoint",
+            "Microsoft 365",
+            "Workday",
+            "API integration"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-technical-capability-summary",
+          "label": "Enterprise Automation, BI & AI Delivery Portfolio",
+          "keywords": [
+            "Power BI",
+            "Power Automate",
+            "Power Apps",
+            "Azure AI Studio",
+            "GPT evaluation",
+            "Workday",
+            "API integration",
+            "Dashboard reporting"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-project-execution-hw-sw-integration",
+          "label": "Technical Project Coordination & Solution Delivery",
+          "keywords": [
+            "Hardware specification comparison",
+            "Vendor liaison",
+            "Product presentations",
+            "Project documentation",
+            "API integration",
+            "Production support",
+            "Stakeholder coordination",
+            "AI chatbot operations"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-existing-python-sql-pipeline-debugging",
+          "label": "Pipeline Debugging & Technical Operations",
+          "keywords": [
+            "Python",
+            "SQL",
+            "Jenkins",
+            "Azure Data Explorer",
+            "Docebo API",
+            "Workday",
+            "API integration",
+            "Python validation"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-business-workflow-structuring-non-engineering",
+          "label": "Business Workflow Structuring",
+          "keywords": [
+            "Power Automate",
+            "Power Apps",
+            "SharePoint Lists",
+            "Power BI",
+            "Workflow documentation",
+            "SharePoint",
+            "Dashboard reporting",
+            "Workflow automation"
+          ],
+          "evidenceStrength": "Strong"
+        }
+      ],
+      "unsupportedCoreRequirements": [
+        {
+          "id": "gap-7-years-technology-sales-or-account-management-e",
+          "requirement": "7+ years technology sales or account management experience",
+          "reason": "Evidence shows project execution and a sales specialist title but not 7+ years of quota-carrying sales or account management."
+        },
+        {
+          "id": "gap-leading-large-cloud-engagements-for-enterprise-c",
+          "requirement": "Leading large cloud engagements for enterprise customers",
+          "reason": "No evidence of leading Azure, infrastructure migration, application modernization, or large global cloud engagements."
+        },
+        {
+          "id": "gap-executive-relationship-building-and-customer-buy",
+          "requirement": "Executive relationship building and customer buy-in",
+          "reason": "Stakeholder coordination is supported, but executive relationship ownership and commercial buy-in are not."
+        },
+        {
+          "id": "gap-partner-and-isv-co-selling",
+          "requirement": "Partner and ISV co-selling",
+          "reason": "Vendor coordination is not equivalent to partner co-selling or ISV opportunity ownership."
+        },
+        {
+          "id": "gap-business-cases-proposals-negotiation-and-deal-cl",
+          "requirement": "Business cases, proposals, negotiation, and deal closure",
+          "reason": "Source supports coordination around bidding and negotiation but not proposal ownership, revenue, contract closure, or competitive displacement."
+        },
+        {
+          "id": "gap-pipeline-management-forecasting-and-quota-attain",
+          "requirement": "Pipeline management, forecasting, and quota attainment",
+          "reason": "No evidence of sales pipeline, forecast, quota, or cloud-consumption ownership."
+        },
+        {
+          "id": "gap-azure-iaas-paas-migration-and-modernization-know",
+          "requirement": "Azure, IaaS, PaaS, migration, and modernization knowledge",
+          "reason": "Evidence does not establish Azure platform, IaaS/PaaS, cloud economics, migration, or modernization depth."
+        }
+      ],
+      "prohibitedClaims": [
+        "Azure Solution Specialist",
+        "Azure enterprise solution sales",
+        "multi-million-dollar deal leadership",
+        "cloud migration leadership",
+        "application modernization leadership",
+        "quota attainment",
+        "Azure consumption growth",
+        "executive selling",
+        "partner co-selling",
+        "IaaS/PaaS solution architecture",
+        "cloud economics ownership",
+        "Quota-carrying enterprise technology sales and Azure consumption ownership",
+        "Large Azure cloud migration and application modernization engagements",
+        "Executive selling, negotiation, proposal ownership, and deal closure",
+        "Pipeline management, forecasting, and quota performance",
+        "7+ years technology sales or account management experience",
+        "Client-facing technical project coordination and vendor alignment",
+        "Evidence shows project execution and a sales specialist title but not 7+ years of quota-carrying sales or account management.",
+        "Leading large cloud engagements for enterprise customers",
+        "Technical implementation coordination and deployment participation",
+        "No evidence of leading Azure, infrastructure migration, application modernization, or large global cloud engagements.",
+        "Executive relationship building and customer buy-in",
+        "Produced adoption and licensing evidence for managers, leaders, Finance, Microsoft, and regional stakeholders",
+        "Stakeholder coordination is supported, but executive relationship ownership and commercial buy-in are not.",
+        "Partner and ISV co-selling",
+        "Vendor coordination and Microsoft-related program collaboration",
+        "Vendor coordination is not equivalent to partner co-selling or ISV opportunity ownership.",
+        "Business cases, proposals, negotiation, and deal closure",
+        "Supported client requirements, bidding, negotiation coordination, and delivery documentation",
+        "Source supports coordination around bidding and negotiation but not proposal ownership, revenue, contract closure, or competitive displacement.",
+        "Pipeline management, forecasting, and quota attainment",
+        "No evidence of sales pipeline, forecast, quota, or cloud-consumption ownership.",
+        "Azure, IaaS, PaaS, migration, and modernization knowledge",
+        "Azure Data Explorer, Microsoft ecosystem, API integration, and deployment-support exposure",
+        "Evidence does not establish Azure platform, IaaS/PaaS, cloud economics, migration, or modernization depth.",
+        "Owned model training or formal machine-learning research",
+        "Built production backend systems from scratch",
+        "Owned the entire function end to end"
+      ],
+      "wordingConstraints": [
+        "Use external recruiter language.",
+        "Do not claim unsupported direct Azure sales, presales, architecture, quota, migration, or deal ownership.",
+        "If the role is adjacent or transferable, position the candidate as adjacent or transferable instead of direct-fit.",
+        "Keep genuine fit gaps out of visible strengths."
+      ],
+      "maxLengthWords": 65
+    },
+    "summaryReviewResult": {
+      "reviewRunId": "review-hu777dy",
+      "reviewedCvHash": "huuwxfd",
+      "positioningMode": "not-recommended",
+      "overallStatus": "pass",
+      "criteria": [
+        {
+          "criterionId": "summary-role-identity",
+          "status": "partial",
+          "reason": "This JD is not recommended with current evidence; Summary rewriting cannot prove missing fit.",
+          "evidenceIds": [],
+          "fixability": "fit-risk-only"
+        },
+        {
+          "criterionId": "summary-relevant-capability",
+          "status": "pass",
+          "reason": "Supported capability terms are visible: enterprise, platform, power, analytics.",
+          "evidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-power-platform-governance-docs",
+            "evi-hr-powerbi-portfolio",
+            "evi-ta-dashboard-lifecycle",
+            "evi-ph-time-block",
+            "evi-technical-capability-summary",
+            "evi-project-execution-hw-sw-integration",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "summary-rewrite"
+        },
+        {
+          "criterionId": "summary-business-value",
+          "status": "pass",
+          "reason": "Business/stakeholder value is visible.",
+          "evidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-power-platform-governance-docs",
+            "evi-hr-powerbi-portfolio",
+            "evi-ta-dashboard-lifecycle",
+            "evi-ph-time-block",
+            "evi-technical-capability-summary",
+            "evi-project-execution-hw-sw-integration",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "summary-rewrite"
+        },
+        {
+          "criterionId": "summary-evidence-grounding",
+          "status": "pass",
+          "reason": "No prohibited Summary claim detected.",
+          "evidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-power-platform-governance-docs",
+            "evi-hr-powerbi-portfolio",
+            "evi-ta-dashboard-lifecycle",
+            "evi-ph-time-block",
+            "evi-technical-capability-summary",
+            "evi-project-execution-hw-sw-integration",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "summary-rewrite"
+        },
+        {
+          "criterionId": "summary-customer-context",
+          "status": "pass",
+          "reason": "Customer, stakeholder, or operating context is visible.",
+          "evidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-power-platform-governance-docs",
+            "evi-hr-powerbi-portfolio",
+            "evi-ta-dashboard-lifecycle",
+            "evi-ph-time-block",
+            "evi-technical-capability-summary",
+            "evi-project-execution-hw-sw-integration",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "summary-rewrite"
+        },
+        {
+          "criterionId": "summary-career-positioning",
+          "status": "partial",
+          "reason": "Remaining unsupported core requirement(s): 7+ years technology sales or account management experience; Leading large cloud engagements for enterprise customers; Executive relationship building and customer buy-in.",
+          "evidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-m365-copilot-dashboard",
+            "evi-m365-trial-license-conversion",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-power-platform-governance-docs",
+            "evi-hr-powerbi-portfolio",
+            "evi-ta-dashboard-lifecycle",
+            "evi-ph-time-block",
+            "evi-technical-capability-summary",
+            "evi-project-execution-hw-sw-integration",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "fit-risk-only"
+        },
+        {
+          "criterionId": "summary-clarity",
+          "status": "pass",
+          "reason": "Summary length and wording are concise.",
+          "evidenceIds": [],
+          "fixability": "summary-rewrite"
+        }
+      ],
+      "unsupportedCoreRequirements": [
+        "7+ years technology sales or account management experience",
+        "Leading large cloud engagements for enterprise customers",
+        "Executive relationship building and customer buy-in",
+        "Partner and ISV co-selling",
+        "Business cases, proposals, negotiation, and deal closure",
+        "Pipeline management, forecasting, and quota attainment",
+        "Azure, IaaS, PaaS, migration, and modernization knowledge"
+      ],
+      "summaryRewriteNeeded": false,
+      "fitRiskOnly": true
+    }
+  },
+  "evaluation": {
+    "gate": {
+      "coveredKeywords": [
+        "Azure",
+        "quota"
+      ],
+      "missingKeywords": [
+        "enterprise sales",
+        "solution sales",
+        "cloud consumption",
+        "pipeline management",
+        "forecasting",
+        "executive relationships",
+        "partner co-selling",
+        "cloud migration",
+        "application modernization"
+      ],
+      "supportedMissingKeywords": [],
+      "unsupportedMissingKeywords": [
+        "enterprise sales",
+        "solution sales",
+        "cloud consumption",
+        "pipeline management",
+        "forecasting",
+        "executive relationships",
+        "partner co-selling",
+        "cloud migration",
+        "application modernization"
+      ],
+      "keywordPlacements": [
+        {
+          "keyword": "Azure",
+          "placements": [
+            "Summary"
+          ],
+          "covered": true,
+          "supportLevel": "Weak",
+          "evidenceBacked": true
+        },
+        {
+          "keyword": "enterprise sales",
+          "placements": [],
+          "covered": false,
+          "supportLevel": "Unknown",
+          "evidenceBacked": false
+        },
+        {
+          "keyword": "solution sales",
+          "placements": [],
+          "covered": false,
+          "supportLevel": "Unknown",
+          "evidenceBacked": false
+        },
+        {
+          "keyword": "cloud consumption",
+          "placements": [],
+          "covered": false,
+          "supportLevel": "Unknown",
+          "evidenceBacked": false
+        },
+        {
+          "keyword": "pipeline management",
+          "placements": [],
+          "covered": false,
+          "supportLevel": "Unsupported",
+          "evidenceBacked": false
+        },
+        {
+          "keyword": "forecasting",
+          "placements": [],
+          "covered": false,
+          "supportLevel": "Unsupported",
+          "evidenceBacked": false
+        },
+        {
+          "keyword": "executive relationships",
+          "placements": [],
+          "covered": false,
+          "supportLevel": "Unknown",
+          "evidenceBacked": false
+        },
+        {
+          "keyword": "partner co-selling",
+          "placements": [],
+          "covered": false,
+          "supportLevel": "Weak",
+          "evidenceBacked": false
+        },
+        {
+          "keyword": "cloud migration",
+          "placements": [],
+          "covered": false,
+          "supportLevel": "Unsupported",
+          "evidenceBacked": false
+        },
+        {
+          "keyword": "application modernization",
+          "placements": [],
+          "covered": false,
+          "supportLevel": "Unsupported",
+          "evidenceBacked": false
+        },
+        {
+          "keyword": "quota",
+          "placements": [
+            "Summary"
+          ],
+          "covered": true,
+          "supportLevel": "Unsupported",
+          "evidenceBacked": false
+        }
+      ],
+      "unresolvedRiskyClaims": [],
+      "evidenceCoverageCount": 4,
+      "evidencePriorityIds": [
+        "evi-m365-copilot-dashboard",
+        "evi-m365-trial-license-conversion",
+        "evi-technical-capability-summary",
+        "evi-fin-ai-prod-ops-global-jp",
+        "evi-existing-python-sql-pipeline-debugging",
+        "evi-project-execution-hw-sw-integration",
+        "evi-power-platform-governance-docs",
+        "evi-business-workflow-structuring-non-engineering",
+        "evi-trender-buddy-gpt-eval-pipeline",
+        "evi-genai-dify-eval",
+        "evi-ta-dashboard-lifecycle",
+        "evi-workday-calc-field-audit",
+        "evi-workday-hcm-migration",
+        "evi-workday-ph-kt-workshop",
+        "evi-genai-hub-milestone-tracking",
+        "evi-tomo-eval-framework",
+        "evi-hr-powerbi-portfolio",
+        "evi-ph-time-block"
+      ],
+      "fixNext": [
+        "Change the visible target title to match \"Azure Solution Specialist\"."
+      ],
+      "checks": [
+        {
+          "label": "Title alignment",
+          "ok": false,
+          "value": "Azure Solution Specialist"
+        },
+        {
+          "label": "Must-have keywords",
+          "ok": true,
+          "value": "2/11 covered · 9 unsupported keyword(s) intentionally not forced"
+        },
+        {
+          "label": "Evidence coverage",
+          "ok": true,
+          "value": "4/18 priority evidence IDs show up in visible bullets"
+        },
+        {
+          "label": "ATS readability",
+          "ok": true,
+          "value": "Summary + work sections present"
+        },
+        {
+          "label": "JD positioning",
+          "ok": true,
+          "value": "CV emphasis matches JD positioning"
+        },
+        {
+          "label": "Manager scan",
+          "ok": true,
+          "value": "2 subsection(s), 6 current-role bullet(s)"
+        },
+        {
+          "label": "Resume readability",
+          "ok": true,
+          "value": "No work-log bullets detected"
+        },
+        {
+          "label": "Internal terminology cleanup",
+          "ok": true,
+          "value": "Internal terms translated or absent"
+        },
+        {
+          "label": "Evidence mapping claims",
+          "ok": true,
+          "value": "Visible claims match evidence support"
+        },
+        {
+          "label": "Overclaim risk",
+          "ok": true,
+          "value": "No flagged risky claims remain visible"
+        }
+      ]
+    },
+    "managerReview": {
+      "wouldInterview": "No",
+      "interviewConfidence": "Low",
+      "positives": [
+        "Visible target title is \"Microsoft Ecosystem Solution Enablement Specialist\".",
+        "Power Platform / M365 signals are visible: power automate, power apps, sharepoint, m365, support, workflow.",
+        "Addresses manager pain points: Insufficient qualified Azure pipeline; Deals stalled by technical, licensing, legal, or deployment blockers; Failure to convert technical interest into consumption and revenue.",
+        "Shows success signals: Quota attainment; Azure consumption growth; Closed enterprise deals.",
+        "8 work bullets give enough screening substance."
+      ],
+      "risks": [
+        "Screening Analysis marks this JD as Avoid; do not submit without changing target strategy.",
+        "4 JD requirement(s) are only weakly supported; avoid making them headline claims.",
+        "Summary quality is acceptable, but remaining direct-fit concerns are application-fit risk.",
+        "Too many bullets describe activity without clear manager-facing action or outcome."
+      ],
+      "rewriteRequired": [
+        "Do not export this CV for the current JD unless the target role strategy changes.",
+        "Remove unsupported JD requirements from visible claims; keep them as gaps, not resume promises.",
+        "Rewrite weakly supported requirements as conservative operational support, not expert ownership."
+      ],
+      "checks": [
+        {
+          "label": "Gate readiness",
+          "ok": true,
+          "value": "Gate passed with 1 manual title fix"
+        },
+        {
+          "label": "Evidence support",
+          "ok": false,
+          "value": "3 unsupported, 4 weak mapping(s)"
+        },
+        {
+          "label": "Manager intent",
+          "ok": true,
+          "value": "Acquire and close large enterprise Azure opportunities while coordinating Microsoft and partner resources to increase cloud consumption."
+        },
+        {
+          "label": "Summary quality contract",
+          "ok": true,
+          "value": "Summary quality passed; remaining concern is fit risk"
+        },
+        {
+          "label": "Role emphasis",
+          "ok": true,
+          "value": "8/9 Power Platform / M365 signals visible"
+        },
+        {
+          "label": "30-second scan",
+          "ok": true,
+          "value": "2 subsection(s), 6 current-role bullet(s); first subsection: Microsoft Ecosystem Adoption and Enablement"
+        },
+        {
+          "label": "External language",
+          "ok": true,
+          "value": "Reads externally"
+        },
+        {
+          "label": "Interview substance",
+          "ok": true,
+          "value": "5 positive signal(s), 8 work bullet(s)"
+        }
+      ],
+      "summaryQualityContract": {
+        "targetRole": "Azure Solution Specialist",
+        "positioningMode": "not-recommended",
+        "requiredCriteria": [
+          {
+            "id": "summary-role-identity",
+            "label": "Role identity",
+            "description": "States a credible role identity for this JD without pretending unsupported direct-fit experience.",
+            "category": "role-identity",
+            "importance": "required",
+            "supportStatus": "unsupported",
+            "supportingEvidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-m365-copilot-dashboard",
+              "evi-m365-trial-license-conversion",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-power-platform-governance-docs",
+              "evi-hr-powerbi-portfolio",
+              "evi-ta-dashboard-lifecycle",
+              "evi-ph-time-block",
+              "evi-technical-capability-summary",
+              "evi-project-execution-hw-sw-integration",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "allowedTreatment": "omit"
+          },
+          {
+            "id": "summary-relevant-capability",
+            "label": "Relevant capability",
+            "description": "Surfaces the strongest supported capabilities that overlap with the JD.",
+            "category": "relevant-capability",
+            "importance": "required",
+            "supportStatus": "supported",
+            "supportingEvidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-m365-copilot-dashboard",
+              "evi-m365-trial-license-conversion",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-power-platform-governance-docs",
+              "evi-hr-powerbi-portfolio",
+              "evi-ta-dashboard-lifecycle",
+              "evi-ph-time-block",
+              "evi-technical-capability-summary",
+              "evi-project-execution-hw-sw-integration",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "allowedTreatment": "state-directly"
+          },
+          {
+            "id": "summary-business-value",
+            "label": "Business value",
+            "description": "Explains the business or stakeholder value of the candidate's supported work.",
+            "category": "business-value",
+            "importance": "important",
+            "supportStatus": "supported",
+            "supportingEvidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-m365-copilot-dashboard",
+              "evi-m365-trial-license-conversion",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-power-platform-governance-docs",
+              "evi-hr-powerbi-portfolio",
+              "evi-ta-dashboard-lifecycle",
+              "evi-ph-time-block",
+              "evi-technical-capability-summary",
+              "evi-project-execution-hw-sw-integration",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "allowedTreatment": "state-directly"
+          },
+          {
+            "id": "summary-evidence-grounding",
+            "label": "Evidence grounding",
+            "description": "Avoids unsupported ownership, metrics, seniority, sales, architecture, or cloud-delivery claims.",
+            "category": "evidence-grounding",
+            "importance": "required",
+            "supportStatus": "partial",
+            "supportingEvidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-m365-copilot-dashboard",
+              "evi-m365-trial-license-conversion",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-power-platform-governance-docs",
+              "evi-hr-powerbi-portfolio",
+              "evi-ta-dashboard-lifecycle",
+              "evi-ph-time-block",
+              "evi-technical-capability-summary",
+              "evi-project-execution-hw-sw-integration",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "allowedTreatment": "soften"
+          },
+          {
+            "id": "summary-customer-context",
+            "label": "Customer context",
+            "description": "Connects the Summary to customer, stakeholder, adoption, enablement, or operating context when supported.",
+            "category": "customer-context",
+            "importance": "important",
+            "supportStatus": "supported",
+            "supportingEvidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-m365-copilot-dashboard",
+              "evi-m365-trial-license-conversion",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-power-platform-governance-docs",
+              "evi-hr-powerbi-portfolio",
+              "evi-ta-dashboard-lifecycle",
+              "evi-ph-time-block",
+              "evi-technical-capability-summary",
+              "evi-project-execution-hw-sw-integration",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "allowedTreatment": "state-directly"
+          },
+          {
+            "id": "summary-career-positioning",
+            "label": "Career positioning",
+            "description": "Separates supported transferable fit from unsupported core requirements.",
+            "category": "career-positioning",
+            "importance": "required",
+            "supportStatus": "partial",
+            "supportingEvidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-m365-copilot-dashboard",
+              "evi-m365-trial-license-conversion",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-power-platform-governance-docs",
+              "evi-hr-powerbi-portfolio",
+              "evi-ta-dashboard-lifecycle",
+              "evi-ph-time-block",
+              "evi-technical-capability-summary",
+              "evi-project-execution-hw-sw-integration",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "allowedTreatment": "position-as-transferable"
+          },
+          {
+            "id": "summary-clarity",
+            "label": "Clarity",
+            "description": "Uses concise external recruiter language without generic filler or tool stuffing.",
+            "category": "clarity",
+            "importance": "required",
+            "supportStatus": "supported",
+            "supportingEvidenceIds": [],
+            "allowedTreatment": "state-directly"
+          }
+        ],
+        "supportedStrengths": [
+          {
+            "evidenceId": "evi-fin-ai-prod-ops-global-jp",
+            "label": "Customer-Service AI Chatbot",
+            "keywords": [
+              "enterprise customer-service AI platform",
+              "Intercom",
+              "knowledge-base API",
+              "Power Automate",
+              "Google Analytics",
+              "API integration",
+              "Dashboard reporting",
+              "Workflow automation"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-tomo-eval-framework",
+            "label": "TOMO Chatbot Evaluation & A/B Testing",
+            "keywords": [
+              "Microsoft Copilot Studio",
+              "enterprise customer-service AI platform",
+              "GPT Accuracy Scoring",
+              "Power BI",
+              "Azure Data Explorer",
+              "Microsoft 365",
+              "Dashboard reporting",
+              "Production support"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-trender-buddy-gpt-eval-pipeline",
+            "label": "Trender Buddy",
+            "keywords": [
+              "Azure AI Studio",
+              "GPT-4-turbo",
+              "GPT-4.1",
+              "FastAPI",
+              "Power Automate",
+              "Power Apps",
+              "Power BI",
+              "SharePoint"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-m365-copilot-dashboard",
+            "label": "M365 Copilot Trial Program & Usage Analytics",
+            "keywords": [
+              "Microsoft 365 Copilot",
+              "Power BI",
+              "M365 Audit Log",
+              "CopilotAuditLog",
+              "SharePoint",
+              "Microsoft 365",
+              "Dashboard reporting",
+              "Production support"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-m365-trial-license-conversion",
+            "label": "M365 Copilot Trial Program & Usage Analytics",
+            "keywords": [
+              "Microsoft 365 Copilot",
+              "License Management",
+              "Vendor Management",
+              "Usage Reporting",
+              "Power BI",
+              "SharePoint",
+              "Microsoft 365",
+              "Dashboard reporting"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-genai-hub-milestone-tracking",
+            "label": "GenAI Hub",
+            "keywords": [
+              "Confluence or tracking page",
+              "Milestone Tracking",
+              "GCP",
+              "Azure",
+              "GitHub Actions",
+              "SQL / data validation",
+              "Production support",
+              "UAT / testing"
+            ],
+            "evidenceStrength": "Medium"
+          },
+          {
+            "evidenceId": "evi-genai-dify-eval",
+            "label": "GenAI Hub",
+            "keywords": [
+              "Dify",
+              "Self-hosted LLM App Builder",
+              "NL-to-SQL",
+              "SQL / data validation",
+              "Production support",
+              "UAT / testing",
+              "Stakeholder coordination",
+              "AI chatbot operations"
+            ],
+            "evidenceStrength": "Medium"
+          },
+          {
+            "evidenceId": "evi-workday-hcm-migration",
+            "label": "Workday HCM Implementation & Operations",
+            "keywords": [
+              "Workday HCM",
+              "EIB",
+              "WQL",
+              "Excel",
+              "Power BI",
+              "SharePoint",
+              "Workday",
+              "API integration"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-workday-calc-field-audit",
+            "label": "Workday HCM Implementation & Operations",
+            "keywords": [
+              "Workday HCM",
+              "WQL",
+              "Calculated Fields",
+              "Power BI",
+              "SharePoint",
+              "Workday",
+              "API integration",
+              "Dashboard reporting"
+            ],
+            "evidenceStrength": "Medium"
+          },
+          {
+            "evidenceId": "evi-workday-ph-kt-workshop",
+            "label": "Workday HCM Implementation & Operations",
+            "keywords": [
+              "Workday HCM",
+              "SharePoint",
+              "Excel",
+              "Power BI",
+              "Workday",
+              "API integration",
+              "Dashboard reporting",
+              "Production support"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-power-platform-governance-docs",
+            "label": "Power Platform Low-code Automation & API Documentation",
+            "keywords": [
+              "Power Automate",
+              "Power Apps",
+              "Connect One API Platform",
+              "SharePoint",
+              "API integration",
+              "Workflow automation",
+              "Production support",
+              "UAT / testing"
+            ],
+            "evidenceStrength": "Medium"
+          },
+          {
+            "evidenceId": "evi-hr-powerbi-portfolio",
+            "label": "HR Power BI Dashboards Portfolio",
+            "keywords": [
+              "Power BI",
+              "Workday API",
+              "SharePoint List",
+              "Teams",
+              "Audit Log",
+              "Power Automate",
+              "Power Apps",
+              "SharePoint"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-ta-dashboard-lifecycle",
+            "label": "Talent Acquisition Dashboard",
+            "keywords": [
+              "Power BI",
+              "DAX",
+              "Workday API",
+              "Workday data reports",
+              "Workday",
+              "API integration",
+              "Dashboard reporting",
+              "UAT / testing"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-ph-time-block",
+            "label": "PH Time Block for Ramco",
+            "keywords": [
+              "Power BI",
+              "Ramco",
+              "Workday time data",
+              "Power Apps",
+              "SharePoint",
+              "Microsoft 365",
+              "Workday",
+              "API integration"
+            ],
+            "evidenceStrength": "Medium"
+          },
+          {
+            "evidenceId": "evi-technical-capability-summary",
+            "label": "Enterprise Automation, BI & AI Delivery Portfolio",
+            "keywords": [
+              "Power BI",
+              "Power Automate",
+              "Power Apps",
+              "Azure AI Studio",
+              "GPT evaluation",
+              "Workday",
+              "API integration",
+              "Dashboard reporting"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-project-execution-hw-sw-integration",
+            "label": "Technical Project Coordination & Solution Delivery",
+            "keywords": [
+              "Hardware specification comparison",
+              "Vendor liaison",
+              "Product presentations",
+              "Project documentation",
+              "API integration",
+              "Production support",
+              "Stakeholder coordination",
+              "AI chatbot operations"
+            ],
+            "evidenceStrength": "Medium"
+          },
+          {
+            "evidenceId": "evi-existing-python-sql-pipeline-debugging",
+            "label": "Pipeline Debugging & Technical Operations",
+            "keywords": [
+              "Python",
+              "SQL",
+              "Jenkins",
+              "Azure Data Explorer",
+              "Docebo API",
+              "Workday",
+              "API integration",
+              "Python validation"
+            ],
+            "evidenceStrength": "Medium"
+          },
+          {
+            "evidenceId": "evi-business-workflow-structuring-non-engineering",
+            "label": "Business Workflow Structuring",
+            "keywords": [
+              "Power Automate",
+              "Power Apps",
+              "SharePoint Lists",
+              "Power BI",
+              "Workflow documentation",
+              "SharePoint",
+              "Dashboard reporting",
+              "Workflow automation"
+            ],
+            "evidenceStrength": "Strong"
+          }
+        ],
+        "unsupportedCoreRequirements": [
+          {
+            "id": "gap-7-years-technology-sales-or-account-management-e",
+            "requirement": "7+ years technology sales or account management experience",
+            "reason": "Evidence shows project execution and a sales specialist title but not 7+ years of quota-carrying sales or account management."
+          },
+          {
+            "id": "gap-leading-large-cloud-engagements-for-enterprise-c",
+            "requirement": "Leading large cloud engagements for enterprise customers",
+            "reason": "No evidence of leading Azure, infrastructure migration, application modernization, or large global cloud engagements."
+          },
+          {
+            "id": "gap-executive-relationship-building-and-customer-buy",
+            "requirement": "Executive relationship building and customer buy-in",
+            "reason": "Stakeholder coordination is supported, but executive relationship ownership and commercial buy-in are not."
+          },
+          {
+            "id": "gap-partner-and-isv-co-selling",
+            "requirement": "Partner and ISV co-selling",
+            "reason": "Vendor coordination is not equivalent to partner co-selling or ISV opportunity ownership."
+          },
+          {
+            "id": "gap-business-cases-proposals-negotiation-and-deal-cl",
+            "requirement": "Business cases, proposals, negotiation, and deal closure",
+            "reason": "Source supports coordination around bidding and negotiation but not proposal ownership, revenue, contract closure, or competitive displacement."
+          },
+          {
+            "id": "gap-pipeline-management-forecasting-and-quota-attain",
+            "requirement": "Pipeline management, forecasting, and quota attainment",
+            "reason": "No evidence of sales pipeline, forecast, quota, or cloud-consumption ownership."
+          },
+          {
+            "id": "gap-azure-iaas-paas-migration-and-modernization-know",
+            "requirement": "Azure, IaaS, PaaS, migration, and modernization knowledge",
+            "reason": "Evidence does not establish Azure platform, IaaS/PaaS, cloud economics, migration, or modernization depth."
+          }
+        ],
+        "prohibitedClaims": [
+          "Azure Solution Specialist",
+          "Azure enterprise solution sales",
+          "multi-million-dollar deal leadership",
+          "cloud migration leadership",
+          "application modernization leadership",
+          "quota attainment",
+          "Azure consumption growth",
+          "executive selling",
+          "partner co-selling",
+          "IaaS/PaaS solution architecture",
+          "cloud economics ownership",
+          "Quota-carrying enterprise technology sales and Azure consumption ownership",
+          "Large Azure cloud migration and application modernization engagements",
+          "Executive selling, negotiation, proposal ownership, and deal closure",
+          "Pipeline management, forecasting, and quota performance",
+          "7+ years technology sales or account management experience",
+          "Client-facing technical project coordination and vendor alignment",
+          "Evidence shows project execution and a sales specialist title but not 7+ years of quota-carrying sales or account management.",
+          "Leading large cloud engagements for enterprise customers",
+          "Technical implementation coordination and deployment participation",
+          "No evidence of leading Azure, infrastructure migration, application modernization, or large global cloud engagements.",
+          "Executive relationship building and customer buy-in",
+          "Produced adoption and licensing evidence for managers, leaders, Finance, Microsoft, and regional stakeholders",
+          "Stakeholder coordination is supported, but executive relationship ownership and commercial buy-in are not.",
+          "Partner and ISV co-selling",
+          "Vendor coordination and Microsoft-related program collaboration",
+          "Vendor coordination is not equivalent to partner co-selling or ISV opportunity ownership.",
+          "Business cases, proposals, negotiation, and deal closure",
+          "Supported client requirements, bidding, negotiation coordination, and delivery documentation",
+          "Source supports coordination around bidding and negotiation but not proposal ownership, revenue, contract closure, or competitive displacement.",
+          "Pipeline management, forecasting, and quota attainment",
+          "No evidence of sales pipeline, forecast, quota, or cloud-consumption ownership.",
+          "Azure, IaaS, PaaS, migration, and modernization knowledge",
+          "Azure Data Explorer, Microsoft ecosystem, API integration, and deployment-support exposure",
+          "Evidence does not establish Azure platform, IaaS/PaaS, cloud economics, migration, or modernization depth.",
+          "Owned model training or formal machine-learning research",
+          "Built production backend systems from scratch",
+          "Owned the entire function end to end"
+        ],
+        "wordingConstraints": [
+          "Use external recruiter language.",
+          "Do not claim unsupported direct Azure sales, presales, architecture, quota, migration, or deal ownership.",
+          "If the role is adjacent or transferable, position the candidate as adjacent or transferable instead of direct-fit.",
+          "Keep genuine fit gaps out of visible strengths."
+        ],
+        "maxLengthWords": 65
+      },
+      "summaryReview": {
+        "reviewRunId": "review-houibbn",
+        "reviewedCvHash": "huuwxfd",
+        "positioningMode": "not-recommended",
+        "overallStatus": "pass",
+        "criteria": [
+          {
+            "criterionId": "summary-role-identity",
+            "status": "partial",
+            "reason": "This JD is not recommended with current evidence; Summary rewriting cannot prove missing fit.",
+            "evidenceIds": [],
+            "fixability": "fit-risk-only"
+          },
+          {
+            "criterionId": "summary-relevant-capability",
+            "status": "pass",
+            "reason": "Supported capability terms are visible: enterprise, platform, power, analytics.",
+            "evidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-m365-copilot-dashboard",
+              "evi-m365-trial-license-conversion",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-power-platform-governance-docs",
+              "evi-hr-powerbi-portfolio",
+              "evi-ta-dashboard-lifecycle",
+              "evi-ph-time-block",
+              "evi-technical-capability-summary",
+              "evi-project-execution-hw-sw-integration",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "fixability": "summary-rewrite"
+          },
+          {
+            "criterionId": "summary-business-value",
+            "status": "pass",
+            "reason": "Business/stakeholder value is visible.",
+            "evidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-m365-copilot-dashboard",
+              "evi-m365-trial-license-conversion",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-power-platform-governance-docs",
+              "evi-hr-powerbi-portfolio",
+              "evi-ta-dashboard-lifecycle",
+              "evi-ph-time-block",
+              "evi-technical-capability-summary",
+              "evi-project-execution-hw-sw-integration",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "fixability": "summary-rewrite"
+          },
+          {
+            "criterionId": "summary-evidence-grounding",
+            "status": "pass",
+            "reason": "No prohibited Summary claim detected.",
+            "evidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-m365-copilot-dashboard",
+              "evi-m365-trial-license-conversion",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-power-platform-governance-docs",
+              "evi-hr-powerbi-portfolio",
+              "evi-ta-dashboard-lifecycle",
+              "evi-ph-time-block",
+              "evi-technical-capability-summary",
+              "evi-project-execution-hw-sw-integration",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "fixability": "summary-rewrite"
+          },
+          {
+            "criterionId": "summary-customer-context",
+            "status": "pass",
+            "reason": "Customer, stakeholder, or operating context is visible.",
+            "evidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-m365-copilot-dashboard",
+              "evi-m365-trial-license-conversion",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-power-platform-governance-docs",
+              "evi-hr-powerbi-portfolio",
+              "evi-ta-dashboard-lifecycle",
+              "evi-ph-time-block",
+              "evi-technical-capability-summary",
+              "evi-project-execution-hw-sw-integration",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "fixability": "summary-rewrite"
+          },
+          {
+            "criterionId": "summary-career-positioning",
+            "status": "partial",
+            "reason": "Remaining unsupported core requirement(s): 7+ years technology sales or account management experience; Leading large cloud engagements for enterprise customers; Executive relationship building and customer buy-in.",
+            "evidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-m365-copilot-dashboard",
+              "evi-m365-trial-license-conversion",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-power-platform-governance-docs",
+              "evi-hr-powerbi-portfolio",
+              "evi-ta-dashboard-lifecycle",
+              "evi-ph-time-block",
+              "evi-technical-capability-summary",
+              "evi-project-execution-hw-sw-integration",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "fixability": "fit-risk-only"
+          },
+          {
+            "criterionId": "summary-clarity",
+            "status": "pass",
+            "reason": "Summary length and wording are concise.",
+            "evidenceIds": [],
+            "fixability": "summary-rewrite"
+          }
+        ],
+        "unsupportedCoreRequirements": [
+          "7+ years technology sales or account management experience",
+          "Leading large cloud engagements for enterprise customers",
+          "Executive relationship building and customer buy-in",
+          "Partner and ISV co-selling",
+          "Business cases, proposals, negotiation, and deal closure",
+          "Pipeline management, forecasting, and quota attainment",
+          "Azure, IaaS, PaaS, migration, and modernization knowledge"
+        ],
+        "summaryRewriteNeeded": false,
+        "fitRiskOnly": true
+      }
+    },
+    "reviewerReview": {
+      "ready": false,
+      "blockers": [
+        "Reviewer: weak claims controlled: 4 weak mapping(s)",
+        "Reviewer: action/outcome bullets: 5/8 action-oriented bullet(s)"
+      ],
+      "checks": [
+        {
+          "label": "Reviewer: HR scan",
+          "ok": true,
+          "value": "2 covered keyword(s), 0 supported keyword gap(s)"
+        },
+        {
+          "label": "Reviewer: hiring manager relevance",
+          "ok": true,
+          "value": "Summary quality passed; remaining concern is application-fit risk"
+        },
+        {
+          "label": "Reviewer: evidence traceability",
+          "ok": true,
+          "value": "8/8 visible bullet(s) cite valid evidence card IDs"
+        },
+        {
+          "label": "Reviewer: unsupported claims",
+          "ok": true,
+          "value": "No unsupported JD gaps claimed visibly"
+        },
+        {
+          "label": "Reviewer: application fit risk",
+          "ok": true,
+          "value": "3 unsupported mapping(s), 4 high-risk gap(s) tracked as fit risk"
+        },
+        {
+          "label": "Reviewer: weak claims controlled",
+          "ok": false,
+          "value": "4 weak mapping(s)"
+        },
+        {
+          "label": "Reviewer: action/outcome bullets",
+          "ok": false,
+          "value": "5/8 action-oriented bullet(s)"
+        },
+        {
+          "label": "Reviewer: external wording",
+          "ok": true,
+          "value": "No raw evidence language detected"
+        }
+      ],
+      "recommendation": "Patch the current CV before export. Do not create another broad draft unless the positioning is wrong."
+    },
+    "exportCheck": {
+      "ready": false,
+      "blockers": [
+        "Contact extraction: Missing name, email, or location",
+        "Contact email: Missing email"
+      ],
+      "checks": [
+        {
+          "label": "ATS text layer",
+          "ok": true,
+          "value": "2,549 extracted character(s)"
+        },
+        {
+          "label": "Contact extraction",
+          "ok": false,
+          "value": "Missing name, email, or location"
+        },
+        {
+          "label": "Contact email",
+          "ok": false,
+          "value": "Missing email"
+        },
+        {
+          "label": "Section order",
+          "ok": true,
+          "value": "Header, summary, skills, and work history are in readable order"
+        },
+        {
+          "label": "ATS keyword support",
+          "ok": true,
+          "value": "2 covered; 0 supported gap(s)"
+        },
+        {
+          "label": "Visible work depth",
+          "ok": true,
+          "value": "2 role block(s), 8 work bullet(s)"
+        },
+        {
+          "label": "PDF export readiness",
+          "ok": true,
+          "value": "CV version has composed export content"
+        }
+      ],
+      "recommendation": "Fix text extraction or missing content before exporting. ATS verification is not clean yet."
+    }
+  }
+}

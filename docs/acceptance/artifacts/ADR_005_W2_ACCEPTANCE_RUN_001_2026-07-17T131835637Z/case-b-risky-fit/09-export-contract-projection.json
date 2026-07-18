@@ -1,0 +1,41 @@
+{
+  "reviewStatus": "WARNING",
+  "exportBlockingIssues": [
+    {
+      "issueId": "review-4-profile-completeness-trusted-profile-contact-data-is-incom",
+      "category": "Profile Completeness",
+      "severity": "High",
+      "reason": "Missing trusted profile field(s): email."
+    }
+  ],
+  "exportWarnings": [
+    {
+      "issueId": "review-1-keyword-coverage-evidence-supported-keywords-are-under-pla",
+      "category": "Keyword Coverage",
+      "severity": "Medium",
+      "reason": "Supported keyword gap(s): AI quality evaluation, benchmark questions, quality metrics, AI governance, prompt regression testing, Python validation."
+    },
+    {
+      "issueId": "review-2-capability-gap-truthful-capability-gap",
+      "category": "Capability Gap",
+      "severity": "Medium",
+      "reason": "11 capability gap(s) are tracked as fit/readiness risk, not unsupported visible claims."
+    },
+    {
+      "issueId": "review-3-external-wording-internal-or-work-log-wording-remains",
+      "category": "External Wording",
+      "severity": "Medium",
+      "reason": "2 work-log bullet(s) detected."
+    }
+  ],
+  "truthfulness": {
+    "unsupportedClaimCount": 0,
+    "policyViolationCount": 0,
+    "capabilityGapCount": 1
+  },
+  "documentReadiness": {
+    "formattingIssueCount": 0,
+    "profileCompletenessIssueCount": 1,
+    "externalWordingIssueCount": 1
+  }
+}

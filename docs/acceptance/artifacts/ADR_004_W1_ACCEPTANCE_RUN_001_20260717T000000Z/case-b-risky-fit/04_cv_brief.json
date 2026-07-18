@@ -1,0 +1,216 @@
+{
+  "targetPositioning": "Enterprise AI quality operations specialist with chatbot evaluation, GPT scoring workflow, A/B testing design, human-review QA loop, and governance automation experience.",
+  "managerHiringProblem": "Build a scientific and production-ready evaluation function that prevents low-quality or unsafe AI-agent behavior from reaching enterprise customers.",
+  "top3SellingPoints": [
+    {
+      "title": "3+ years practical experience as ML Engineer, Data Scientist, Research Engineer, or ML/AI evaluation-related role",
+      "managerValue": "AI quality evaluation operations for enterprise chatbot and internal AI assistant workflows.",
+      "evidenceIds": [
+        "evi-tomo-eval-framework",
+        "evi-trender-buddy-gpt-eval-pipeline",
+        "evi-tomo-ab-attribution-logic"
+      ],
+      "skillIds": [
+        "skill-tb-gpt-qa-loop",
+        "skill-tomo-live-ab-routing"
+      ],
+      "storyIds": [
+        "star-tomo-platform-evaluation",
+        "star-trender-buddy-gpt-eval",
+        "star-tomo-ab-attribution-pipeline"
+      ],
+      "supportLevel": "Partial"
+    },
+    {
+      "title": "Evaluation metrics beyond precision/recall",
+      "managerValue": "Defined chatbot quality metrics, GPT scoring categories, human review loop, and A/B reporting measures.",
+      "evidenceIds": [
+        "evi-tomo-eval-framework",
+        "evi-tomo-ab-attribution-logic",
+        "evi-trender-buddy-gpt-eval-pipeline"
+      ],
+      "skillIds": [
+        "skill-tb-gpt-qa-loop",
+        "skill-tomo-live-ab-routing"
+      ],
+      "storyIds": [
+        "star-tomo-platform-evaluation",
+        "star-tomo-ab-attribution-pipeline",
+        "star-trender-buddy-gpt-eval"
+      ],
+      "supportLevel": "Partial"
+    },
+    {
+      "title": "Research or implementation experience in ML model evaluation or LLM evaluation",
+      "managerValue": "Built practical GPT/chatbot evaluation workflows combining scoring, human review, and metric tracking.",
+      "evidenceIds": [
+        "evi-tomo-eval-framework",
+        "evi-trender-buddy-gpt-eval-pipeline"
+      ],
+      "skillIds": [
+        "skill-tb-gpt-qa-loop"
+      ],
+      "storyIds": [
+        "star-tomo-platform-evaluation",
+        "star-trender-buddy-gpt-eval"
+      ],
+      "supportLevel": "Partial"
+    }
+  ],
+  "mustShowEvidenceIds": [
+    "evi-tomo-eval-framework",
+    "evi-trender-buddy-gpt-eval-pipeline",
+    "evi-tomo-ab-attribution-logic",
+    "evi-fin-ai-prod-ops-global-jp",
+    "evi-legal-dpia-risk-classification",
+    "evi-existing-python-sql-pipeline-debugging",
+    "evi-genai-hub-milestone-tracking",
+    "evi-genai-dify-eval",
+    "evi-technical-capability-summary",
+    "evi-business-workflow-structuring-non-engineering"
+  ],
+  "supportingEvidenceIds": [
+    "evi-workday-hcm-migration",
+    "evi-power-platform-governance-docs",
+    "evi-sunshine-payroll-redesign",
+    "evi-legal-dpia-app-build",
+    "evi-tb-hr-dashboard-ai-upgrade",
+    "evi-ta-dashboard-lifecycle",
+    "evi-workday-calc-field-audit",
+    "evi-workday-ph-kt-workshop"
+  ],
+  "skillsToForeground": [
+    "Build closed-loop AI quality workflows combining automated GPT scoring, human review, and prompt iteration.",
+    "Design live A/B routing, attribution, and reporting logic for AI platform evaluation.",
+    "Prompt evaluation pipeline design",
+    "GPT scoring prompt design",
+    "Conversation transcript analysis",
+    "A/B testing architecture",
+    "AI QA review workflow design",
+    "Python/SQL-style pipeline inspection and validation as maintenance, not from-scratch engineering",
+    "AI coding tool assisted debugging as interview context only",
+    "Own production operations for customer-service AI chatbot platforms across global support markets.",
+    "Evaluate GenAI tools for NL-to-SQL feasibility, business usability, infrastructure dependency, and production-risk boundaries.",
+    "Coordinate learning data pipelines across Docebo, Jenkins, Python, Azure Blob Storage, ADX, and Workday reference data."
+  ],
+  "skillsToSuppress": [
+    "evi-ai-coding-tool-assisted-debugging: interview only, not strong visible CV proof",
+    "evi-research-lab-management: too weak for this JD's scientist requirement",
+    "Raw TOMO, FIN, Trender Buddy, and internal benchmark score names should be replaced with external-friendly wording"
+  ],
+  "claimsToAvoid": [
+    "ML Engineer",
+    "Research Engineer",
+    "AI Evaluation Scientist with production ML ownership",
+    "Reward modeling",
+    "RLHF or DPO implementation",
+    "PyTorch, JAX, or TensorFlow practical ownership",
+    "CI/CD evaluation gate ownership",
+    "Production MLOps infrastructure owner",
+    "From-scratch Python evaluation pipeline engineer",
+    "Formal hallucination detection research",
+    "Top-conference publication background",
+    "AI Evaluation Scientist",
+    "LLM-as-Judge calibration expert",
+    "reward modeling experience",
+    "Python ML pipeline builder",
+    "CI/CD evaluation infrastructure owner",
+    "PyTorch/JAX/TensorFlow practitioner",
+    "automated red teaming owner"
+  ],
+  "cvHeadline": "AI Quality Operations / Conversational AI Evaluation Specialist with enterprise chatbot evaluation, GPT scoring, A/B testing, and governance automation experience.",
+  "summaryAngle": "Stretch application. The CV should not try to look like a pure AI Evaluation Scientist. The strongest safe angle is enterprise AI quality operations: chatbot evaluation framework, GPT scoring workflow, A/B attribution metrics, production AI chatbot operations, and AI governance controls. Major ML/statistics/framework gaps must remain visible internally so the CV generator does not overclaim.",
+  "firstSectionTheme": "AI quality evaluation operations for enterprise chatbot and internal AI assistant workflows.",
+  "bulletPlan": [
+    {
+      "sectionTitle": "AI quality evaluation operations for enterprise chatbot and internal AI assistant workflows.",
+      "requirement": "3+ years practical experience as ML Engineer, Data Scientist, Research Engineer, or ML/AI evaluation-related role",
+      "evidenceIds": [
+        "evi-tomo-eval-framework",
+        "evi-trender-buddy-gpt-eval-pipeline",
+        "evi-tomo-ab-attribution-logic"
+      ],
+      "angle": "AI quality evaluation operations for enterprise chatbot and internal AI assistant workflows.",
+      "avoid": [
+        "ML Engineer",
+        "Research Engineer",
+        "AI Evaluation Scientist with production ML ownership",
+        "Reward modeling",
+        "RLHF or DPO implementation",
+        "PyTorch, JAX, or TensorFlow practical ownership",
+        "CI/CD evaluation gate ownership",
+        "Production MLOps infrastructure owner",
+        "From-scratch Python evaluation pipeline engineer",
+        "Formal hallucination detection research",
+        "Top-conference publication background",
+        "AI Evaluation Scientist",
+        "LLM-as-Judge calibration expert",
+        "reward modeling experience",
+        "Python ML pipeline builder",
+        "CI/CD evaluation infrastructure owner",
+        "PyTorch/JAX/TensorFlow practitioner",
+        "automated red teaming owner"
+      ]
+    },
+    {
+      "sectionTitle": "Defined chatbot quality metrics, GPT scoring categories, human review loop, and A/B reporting measures.",
+      "requirement": "Evaluation metrics beyond precision/recall",
+      "evidenceIds": [
+        "evi-tomo-eval-framework",
+        "evi-tomo-ab-attribution-logic",
+        "evi-trender-buddy-gpt-eval-pipeline"
+      ],
+      "angle": "Defined chatbot quality metrics, GPT scoring categories, human review loop, and A/B reporting measures.",
+      "avoid": [
+        "ML Engineer",
+        "Research Engineer",
+        "AI Evaluation Scientist with production ML ownership",
+        "Reward modeling",
+        "RLHF or DPO implementation",
+        "PyTorch, JAX, or TensorFlow practical ownership",
+        "CI/CD evaluation gate ownership",
+        "Production MLOps infrastructure owner",
+        "From-scratch Python evaluation pipeline engineer",
+        "Formal hallucination detection research",
+        "Top-conference publication background",
+        "AI Evaluation Scientist",
+        "LLM-as-Judge calibration expert",
+        "reward modeling experience",
+        "Python ML pipeline builder",
+        "CI/CD evaluation infrastructure owner",
+        "PyTorch/JAX/TensorFlow practitioner",
+        "automated red teaming owner"
+      ]
+    },
+    {
+      "sectionTitle": "Built practical GPT/chatbot evaluation workflows combining scoring, human review, and metric tracking.",
+      "requirement": "Research or implementation experience in ML model evaluation or LLM evaluation",
+      "evidenceIds": [
+        "evi-tomo-eval-framework",
+        "evi-trender-buddy-gpt-eval-pipeline"
+      ],
+      "angle": "Built practical GPT/chatbot evaluation workflows combining scoring, human review, and metric tracking.",
+      "avoid": [
+        "ML Engineer",
+        "Research Engineer",
+        "AI Evaluation Scientist with production ML ownership",
+        "Reward modeling",
+        "RLHF or DPO implementation",
+        "PyTorch, JAX, or TensorFlow practical ownership",
+        "CI/CD evaluation gate ownership",
+        "Production MLOps infrastructure owner",
+        "From-scratch Python evaluation pipeline engineer",
+        "Formal hallucination detection research",
+        "Top-conference publication background",
+        "AI Evaluation Scientist",
+        "LLM-as-Judge calibration expert",
+        "reward modeling experience",
+        "Python ML pipeline builder",
+        "CI/CD evaluation infrastructure owner",
+        "PyTorch/JAX/TensorFlow practitioner",
+        "automated red teaming owner"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-17T11:55:56.922Z"
+}

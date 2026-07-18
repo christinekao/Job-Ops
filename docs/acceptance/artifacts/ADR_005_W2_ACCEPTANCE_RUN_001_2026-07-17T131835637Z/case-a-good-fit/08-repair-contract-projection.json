@@ -1,0 +1,45 @@
+{
+  "issues": [
+    {
+      "category": "External Wording",
+      "severity": "Medium",
+      "title": "Internal or work-log wording remains",
+      "description": "3 work-log bullet(s) detected.",
+      "visibleLocation": {
+        "section": "workExperience"
+      },
+      "evidence": {
+        "evidenceIds": [],
+        "reason": "Visible wording should be external recruiter language."
+      },
+      "repairability": "targeted-repair",
+      "suggestedRepairIntent": "Translate internal/work-log wording into external resume language without changing meaning.",
+      "expectedRepairBoundary": [
+        "summary",
+        "workExperience"
+      ],
+      "exportSignal": "warn",
+      "id": "review-2-external-wording-internal-or-work-log-wording-remains"
+    },
+    {
+      "category": "Profile Completeness",
+      "severity": "High",
+      "title": "Trusted profile contact data is incomplete",
+      "description": "Missing trusted profile field(s): email.",
+      "visibleLocation": {
+        "section": "header"
+      },
+      "evidence": {
+        "evidenceIds": [],
+        "reason": "Profile/contact data must come from trusted user/profile input and must not be invented by Reviewer or Writer."
+      },
+      "repairability": "human-input",
+      "suggestedRepairIntent": "Collect trusted contact data from the user or profile source.",
+      "expectedRepairBoundary": [
+        "header.contact"
+      ],
+      "exportSignal": "block",
+      "id": "review-3-profile-completeness-trusted-profile-contact-data-is-incom"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "jd-mriv6lu5-9t2l0",
+  "company": "Microsoft",
+  "role": "Azure Solution Specialist",
+  "location": "Taiwan, Taipei City, Taipei",
+  "rawJD": "",
+  "parsed": {
+    "company": "Microsoft",
+    "role": "Azure Solution Specialist",
+    "location": "Taiwan, Taipei City, Taipei",
+    "employmentType": "Full-Time",
+    "seniority": "",
+    "responsibilities": [
+      "Create buy-in vision with key decision makers by building executive relationships around Microsoft solution value.",
+      "Engage and jointly sell with partners and priority ISVs to maximize business outcomes.",
+      "Build business cases and customer proposals to substantiate solution value",
+      "negotiate",
+      "close deals",
+      "and displace competition.",
+      "Lead multi-million-dollar deals requiring orchestration of virtual teams across industry",
+      "solution",
+      "technical",
+      "licensing",
+      "and legal members.",
+      "Drive pipeline management",
+      "accurate forecasting",
+      "and exceed sales or cloud consumption quota.",
+      "Share customer feedback and best practices to influence Microsoft go-to-market and product strategies."
+    ],
+    "requirements": [
+      "Bachelor's degree in Computer Science",
+      "Information Technology",
+      "Business Administration",
+      "or related field.",
+      "7+ years of technology-related sales or account management experience.",
+      "7+ years leading sales of large cloud engagements",
+      "especially infrastructure migration and application modernization projects for large or global enterprise customers.",
+      "Deep business expertise and technical knowledge within enterprise sales.",
+      "Ability to lead virtual teams of sales",
+      "technical",
+      "and services resources.",
+      "Ability to support customers through AI and digital transformation journeys.",
+      "Ability to remove roadblocks to deployment and drive customer satisfaction."
+    ],
+    "preferredQualifications": [
+      "Understanding of Microsoft Azure Cloud platform or other public cloud platforms.",
+      "Understanding of IaaS and PaaS technologies and how they translate into business impact.",
+      "Experience with cloud migration and modernization.",
+      "Knowledge of enterprise software solutions and cloud/datacenter infrastructure competitor landscape.",
+      "Understanding of partner ecosystems and ability to leverage partner solutions to solve customer needs."
+    ],
+    "keywords": [
+      "Azure",
+      "cloud consumption",
+      "enterprise sales",
+      "solution sales",
+      "datacenter migration",
+      "application modernization",
+      "security",
+      "Gen AI",
+      "analytics",
+      "cloud economics",
+      "IaaS",
+      "PaaS",
+      "pipeline management",
+      "forecasting",
+      "partners",
+      "ISVs",
+      "multi-million-dollar deals"
+    ],
+    "employerSignal": "Microsoft enterprise solution sales role focused on Azure consumption growth, executive relationship building, partner co-selling, cloud migration, modernization, AI, analytics, and large enterprise deal orchestration.",
+    "risks": [
+      "Role is sales quota and cloud consumption driven.",
+      "Requires 7+ years technology sales or account management experience.",
+      "Requires experience leading large cloud engagements for large or global enterprise customers.",
+      "Travel requirement is 25-50%.",
+      "Work site requires 3 days per week in office."
+    ],
+    "fitNotes": "Strong fit requires enterprise technology sales, Azure or public cloud platform fluency, executive stakeholder management, partner co-selling, pipeline ownership, and large-deal orchestration. Technical cloud knowledge alone is not enough without quota-carrying sales evidence.",
+    "sourceUrl": ""
+  }
+}

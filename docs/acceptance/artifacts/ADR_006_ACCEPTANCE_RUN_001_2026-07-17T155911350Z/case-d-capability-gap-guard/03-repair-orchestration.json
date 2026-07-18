@@ -1,0 +1,47 @@
+{
+  "cvVersionId": "cv-case-c-weak-fit-azure-20260717000000",
+  "cvContentHash": "huuwxfd",
+  "totalBlockers": 1,
+  "safeAuto": [],
+  "approvalRequired": [],
+  "targetedRegeneration": [],
+  "humanInput": [],
+  "humanDecision": [],
+  "unsupported": [
+    {
+      "blockerId": "structured-review-1-capability-gap-truthful-capability-gap",
+      "reviewerIssueId": "review-1-capability-gap-truthful-capability-gap",
+      "source": "structured-reviewer-contract",
+      "route": "unsupported",
+      "reason": "Reviewer marked this issue as not repairable by CV mutation.",
+      "rawBlocker": "Capability Gap: Truthful capability gap: 12 capability gap(s) are tracked as fit/readiness risk, not unsupported visible claims.: Do not rewrite as a solved strength. Add new evidence or change target positioning upstream if needed.: Capability gaps come from upstream Analysis / Positioning Report and are not recomputed by Reviewer.",
+      "reviewerCategory": "Capability Gap",
+      "reviewerSeverity": "Medium",
+      "reviewerRepairability": "not-repairable",
+      "suggestedRepairIntent": "Do not rewrite as a solved strength. Add new evidence or change target positioning upstream if needed.",
+      "evidenceIds": [],
+      "cvVersionId": "cv-case-c-weak-fit-azure-20260717000000",
+      "cvContentHash": "huuwxfd",
+      "risk": "high",
+      "confidence": "not-available",
+      "allowedMutationZones": [],
+      "prohibitedMutationZones": [
+        "header.contact",
+        "header.targetRole",
+        "summary",
+        "workExperience",
+        "sidebar.skills",
+        "sidebar.education",
+        "sidebar.certifications",
+        "export"
+      ],
+      "requiresUserApproval": false,
+      "canUseExistingLocalRepair": false,
+      "canRequestAiProposal": false,
+      "canRunTargetedRegeneration": false,
+      "requiresHumanInput": false,
+      "unsupportedReason": "Do not rewrite as a solved strength. Add new evidence or change target positioning upstream if needed."
+    }
+  ],
+  "recommendedNextRoute": "no-available-repair"
+}

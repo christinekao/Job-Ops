@@ -1,0 +1,167 @@
+{
+  "targetPositioning": "Power Platform / M365 automation practitioner focused on workflow delivery, governance documentation, and production support.",
+  "managerHiringProblem": "Deliver and support Power Platform workflows for business users with readable documentation and reliable handoff.",
+  "top3SellingPoints": [
+    {
+      "title": "Power Apps / Power Automate workflow delivery",
+      "managerValue": "Built and supported Power Platform workflows for legal, HR, and operations processes.",
+      "evidenceIds": [
+        "evi-legal-dpia-app-build",
+        "evi-mentor-booking-system",
+        "evi-pa-ops-takeover"
+      ],
+      "skillIds": [],
+      "storyIds": [],
+      "supportLevel": "Strong"
+    },
+    {
+      "title": "SharePoint-backed data and approval processes",
+      "managerValue": "Used SharePoint-backed lists and workflow logic for approvals, booking, and recruiting sync.",
+      "evidenceIds": [
+        "evi-legal-dpia-app-build",
+        "evi-mentor-booking-system",
+        "evi-tw-cv-auto-match-flow-fixes"
+      ],
+      "skillIds": [],
+      "storyIds": [],
+      "supportLevel": "Strong"
+    },
+    {
+      "title": "Documentation and support readiness",
+      "managerValue": "Documented API/automation engagement patterns and supported knowledge transfer.",
+      "evidenceIds": [
+        "evi-power-platform-governance-docs",
+        "evi-workday-ph-kt-workshop",
+        "evi-pa-ops-takeover"
+      ],
+      "skillIds": [],
+      "storyIds": [],
+      "supportLevel": "Strong"
+    }
+  ],
+  "mustShowEvidenceIds": [
+    "evi-legal-dpia-app-build",
+    "evi-mentor-booking-system",
+    "evi-pa-ops-takeover",
+    "evi-tw-cv-auto-match-flow-fixes",
+    "evi-power-platform-governance-docs",
+    "evi-workday-ph-kt-workshop",
+    "evi-se-onboarding-email-automation",
+    "evi-m365-copilot-dashboard",
+    "evi-m365-trial-license-conversion",
+    "evi-legal-dpia-risk-classification"
+  ],
+  "supportingEvidenceIds": [
+    "evi-business-workflow-structuring-non-engineering",
+    "evi-trender-buddy-gpt-eval-pipeline",
+    "evi-ta-dashboard-lifecycle",
+    "evi-trender-buddy-toi-secure-ops",
+    "evi-onboarding-automation-summary",
+    "evi-technical-capability-summary",
+    "evi-tb-hr-dashboard-ai-upgrade",
+    "evi-existing-python-sql-pipeline-debugging"
+  ],
+  "skillsToForeground": [
+    "Power Apps",
+    "Power Automate",
+    "SharePoint workflow design",
+    "production troubleshooting",
+    "support documentation",
+    "Take over and operate production Power Automate flows across HR automation, scheduled syncs, monitoring, and troubleshooting.",
+    "Build Power Platform compliance workflow applications that replace spreadsheet-based processes with structured forms, storage, routing, and review controls.",
+    "Automate recruiting dispatch by synchronizing Workday candidate and requisition data into SharePoint-backed Power Apps workflows.",
+    "Build lifecycle onboarding email automations using learning progress, HR data, fallback logic, and Microsoft Graph email delivery.",
+    "Build self-service HR booking workflows with mentor/session selection, SharePoint-backed records, availability controls, and maintainability documentation.",
+    "Document Power Platform governance practices covering environment ownership, connection references, licensing, and production transferability.",
+    "Maintain production automation credentials and environment variables with documented renewal and publish procedures."
+  ],
+  "skillsToSuppress": [],
+  "claimsToAvoid": [
+    "from-scratch enterprise software engineer",
+    "Azure cloud architect ownership",
+    "Azure cloud architecture ownership",
+    "Keep Azure references limited to tools touched inside supported automation contexts.",
+    "Evidence does not support independent Azure cloud architecture ownership.",
+    "Owned model training or formal machine-learning research",
+    "Built production backend systems from scratch",
+    "Owned the entire function end to end",
+    "from-scratch Python application engineering",
+    "production ML model training",
+    "reward modeling / RLHF / DPO ownership"
+  ],
+  "cvHeadline": "Power Platform Developer | Power Apps, Power Automate, SharePoint Workflow Automation",
+  "summaryAngle": "Power Platform developer with grounded Power Apps, Power Automate, SharePoint, governance documentation, production troubleshooting, and M365 adoption analytics evidence.",
+  "firstSectionTheme": "Built and supported Power Platform workflows for legal, HR, and operations processes.",
+  "bulletPlan": [
+    {
+      "sectionTitle": "Built and supported Power Platform workflows for legal, HR, and operations processes.",
+      "requirement": "Power Apps / Power Automate workflow delivery",
+      "evidenceIds": [
+        "evi-legal-dpia-app-build",
+        "evi-mentor-booking-system",
+        "evi-pa-ops-takeover"
+      ],
+      "angle": "Built and supported Power Platform workflows for legal, HR, and operations processes.",
+      "avoid": [
+        "from-scratch enterprise software engineer",
+        "Azure cloud architect ownership",
+        "Azure cloud architecture ownership",
+        "Keep Azure references limited to tools touched inside supported automation contexts.",
+        "Evidence does not support independent Azure cloud architecture ownership.",
+        "Owned model training or formal machine-learning research",
+        "Built production backend systems from scratch",
+        "Owned the entire function end to end",
+        "from-scratch Python application engineering",
+        "production ML model training",
+        "reward modeling / RLHF / DPO ownership"
+      ]
+    },
+    {
+      "sectionTitle": "Used SharePoint-backed lists and workflow logic for approvals, booking, and recruiting sync.",
+      "requirement": "SharePoint-backed data and approval processes",
+      "evidenceIds": [
+        "evi-legal-dpia-app-build",
+        "evi-mentor-booking-system",
+        "evi-tw-cv-auto-match-flow-fixes"
+      ],
+      "angle": "Used SharePoint-backed lists and workflow logic for approvals, booking, and recruiting sync.",
+      "avoid": [
+        "from-scratch enterprise software engineer",
+        "Azure cloud architect ownership",
+        "Azure cloud architecture ownership",
+        "Keep Azure references limited to tools touched inside supported automation contexts.",
+        "Evidence does not support independent Azure cloud architecture ownership.",
+        "Owned model training or formal machine-learning research",
+        "Built production backend systems from scratch",
+        "Owned the entire function end to end",
+        "from-scratch Python application engineering",
+        "production ML model training",
+        "reward modeling / RLHF / DPO ownership"
+      ]
+    },
+    {
+      "sectionTitle": "Documented API/automation engagement patterns and supported knowledge transfer.",
+      "requirement": "Documentation and support readiness",
+      "evidenceIds": [
+        "evi-power-platform-governance-docs",
+        "evi-workday-ph-kt-workshop",
+        "evi-pa-ops-takeover"
+      ],
+      "angle": "Documented API/automation engagement patterns and supported knowledge transfer.",
+      "avoid": [
+        "from-scratch enterprise software engineer",
+        "Azure cloud architect ownership",
+        "Azure cloud architecture ownership",
+        "Keep Azure references limited to tools touched inside supported automation contexts.",
+        "Evidence does not support independent Azure cloud architecture ownership.",
+        "Owned model training or formal machine-learning research",
+        "Built production backend systems from scratch",
+        "Owned the entire function end to end",
+        "from-scratch Python application engineering",
+        "production ML model training",
+        "reward modeling / RLHF / DPO ownership"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-17T11:55:56.782Z"
+}

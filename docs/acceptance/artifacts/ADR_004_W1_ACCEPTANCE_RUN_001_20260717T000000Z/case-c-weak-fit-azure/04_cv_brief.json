@@ -1,0 +1,212 @@
+{
+  "targetPositioning": "Do not position as a qualified Azure Solution Specialist. If applying, present as a business-to-technology translator with Microsoft ecosystem adoption and solution enablement experience seeking a customer-facing cloud adoption or solution specialist bridge role.",
+  "managerHiringProblem": "Acquire and close large enterprise Azure opportunities while coordinating Microsoft and partner resources to increase cloud consumption.",
+  "top3SellingPoints": [
+    {
+      "title": "AI and digital transformation customer advisory",
+      "managerValue": "Enterprise AI adoption, governance, automation, analytics, and license-value enablement",
+      "evidenceIds": [
+        "evi-m365-copilot-dashboard",
+        "evi-m365-trial-license-conversion",
+        "evi-technical-capability-summary"
+      ],
+      "skillIds": [
+        "skill-m365-copilot-adoption-dashboard",
+        "skill-m365-ai-productivity-kpi",
+        "skill-powerplatform-governance-doc"
+      ],
+      "storyIds": [
+        "star-m365-copilot-adoption-dashboard"
+      ],
+      "supportLevel": "Partial"
+    },
+    {
+      "title": "Remove deployment roadblocks and drive customer satisfaction",
+      "managerValue": "Production troubleshooting, operational handoff, issue resolution, and vendor coordination",
+      "evidenceIds": [
+        "evi-fin-ai-prod-ops-global-jp",
+        "evi-existing-python-sql-pipeline-debugging",
+        "evi-project-execution-hw-sw-integration"
+      ],
+      "skillIds": [
+        "skill-production-flow-takeover"
+      ],
+      "storyIds": [
+        "star-pa-ops-takeover"
+      ],
+      "supportLevel": "Partial"
+    },
+    {
+      "title": "Executive relationship building and customer buy-in",
+      "managerValue": "Produced adoption and licensing evidence for managers, leaders, Finance, Microsoft, and regional stakeholders",
+      "evidenceIds": [
+        "evi-m365-copilot-dashboard",
+        "evi-m365-trial-license-conversion"
+      ],
+      "skillIds": [
+        "skill-m365-copilot-adoption-dashboard"
+      ],
+      "storyIds": [
+        "star-m365-copilot-adoption-dashboard"
+      ],
+      "supportLevel": "Weak"
+    }
+  ],
+  "mustShowEvidenceIds": [
+    "evi-m365-copilot-dashboard",
+    "evi-m365-trial-license-conversion",
+    "evi-technical-capability-summary",
+    "evi-fin-ai-prod-ops-global-jp",
+    "evi-existing-python-sql-pipeline-debugging",
+    "evi-project-execution-hw-sw-integration",
+    "evi-power-platform-governance-docs",
+    "evi-business-workflow-structuring-non-engineering",
+    "evi-trender-buddy-gpt-eval-pipeline",
+    "evi-genai-dify-eval"
+  ],
+  "supportingEvidenceIds": [
+    "evi-ta-dashboard-lifecycle",
+    "evi-workday-calc-field-audit",
+    "evi-workday-hcm-migration",
+    "evi-workday-ph-kt-workshop",
+    "evi-genai-hub-milestone-tracking",
+    "evi-tomo-eval-framework",
+    "evi-hr-powerbi-portfolio",
+    "evi-ph-time-block"
+  ],
+  "skillsToForeground": [
+    "Build Power BI adoption dashboards for enterprise AI tools using audit logs, license data, user lists, and usage exports.",
+    "Design AI adoption KPI views that make enterprise productivity targets measurable by team, manager, and usage trend.",
+    "Document Power Platform governance practices covering environment ownership, connection references, licensing, and production transferability.",
+    "Take over and operate production Power Automate flows across HR automation, scheduled syncs, monitoring, and troubleshooting.",
+    "Microsoft 365 Copilot adoption analytics and license-conversion support",
+    "Power Platform solution evaluation and governance",
+    "Customer-facing technical project coordination",
+    "Business-case-adjacent value framing through usage, adoption, licensing, and operational visibility",
+    "Technical handoff, deployment support, troubleshooting, and validation checklists",
+    "Automate recruiting dispatch by synchronizing Workday candidate and requisition data into SharePoint-backed Power Apps workflows.",
+    "Define provider-consumer engagement standards for internal API platforms and cross-team integration work.",
+    "Maintain production automation credentials and environment variables with documented renewal and publish procedures."
+  ],
+  "skillsToSuppress": [
+    "evi-global-intune-rollout: Prompt Context Only and too weak for cloud-sales positioning.",
+    "evi-n8n-saas-workflow-automation-exposure: Interview Only and unsupported as professional production experience.",
+    "evi-existing-python-sql-pipeline-debugging: use only as technical-operations context, not cloud engineering depth.",
+    "evi-trender-buddy-gpt-eval-pipeline: avoid presenting as Azure infrastructure or enterprise cloud sales ownership."
+  ],
+  "claimsToAvoid": [
+    "Quota attainment",
+    "Azure consumption growth ownership",
+    "Multi-million-dollar deals",
+    "7+ years enterprise technology sales",
+    "Executive relationship ownership",
+    "Partner or ISV co-selling",
+    "Cloud migration leadership",
+    "Application modernization leadership",
+    "Competitive displacement",
+    "Forecast accuracy",
+    "Deal closure ownership",
+    "Azure architecture or production cloud infrastructure ownership",
+    "Azure Solution Specialist",
+    "Azure enterprise solution sales",
+    "multi-million-dollar deal leadership",
+    "cloud migration leadership",
+    "application modernization leadership",
+    "quota attainment"
+  ],
+  "cvHeadline": "Business-to-Technology Translator | Microsoft 365 Copilot Adoption, Power Platform Automation & Enterprise AI Enablement",
+  "summaryAngle": "This is an enterprise Azure sales role, and the candidate does not meet its core commercial screening thresholds. The safest truthful angle is Microsoft ecosystem adoption and solution enablement across Copilot, Power Platform, AI governance, analytics, and operational deployment support, but the application should be treated as Avoid unless additional verified enterprise sales evidence exists.",
+  "firstSectionTheme": "Enterprise AI adoption, governance, automation, analytics, and license-value enablement",
+  "bulletPlan": [
+    {
+      "sectionTitle": "Enterprise AI adoption, governance, automation, analytics, and license-value enablement",
+      "requirement": "AI and digital transformation customer advisory",
+      "evidenceIds": [
+        "evi-m365-copilot-dashboard",
+        "evi-m365-trial-license-conversion",
+        "evi-technical-capability-summary"
+      ],
+      "angle": "Enterprise AI adoption, governance, automation, analytics, and license-value enablement",
+      "avoid": [
+        "Quota attainment",
+        "Azure consumption growth ownership",
+        "Multi-million-dollar deals",
+        "7+ years enterprise technology sales",
+        "Executive relationship ownership",
+        "Partner or ISV co-selling",
+        "Cloud migration leadership",
+        "Application modernization leadership",
+        "Competitive displacement",
+        "Forecast accuracy",
+        "Deal closure ownership",
+        "Azure architecture or production cloud infrastructure ownership",
+        "Azure Solution Specialist",
+        "Azure enterprise solution sales",
+        "multi-million-dollar deal leadership",
+        "cloud migration leadership",
+        "application modernization leadership",
+        "quota attainment"
+      ]
+    },
+    {
+      "sectionTitle": "Production troubleshooting, operational handoff, issue resolution, and vendor coordination",
+      "requirement": "Remove deployment roadblocks and drive customer satisfaction",
+      "evidenceIds": [
+        "evi-fin-ai-prod-ops-global-jp",
+        "evi-existing-python-sql-pipeline-debugging",
+        "evi-project-execution-hw-sw-integration"
+      ],
+      "angle": "Production troubleshooting, operational handoff, issue resolution, and vendor coordination",
+      "avoid": [
+        "Quota attainment",
+        "Azure consumption growth ownership",
+        "Multi-million-dollar deals",
+        "7+ years enterprise technology sales",
+        "Executive relationship ownership",
+        "Partner or ISV co-selling",
+        "Cloud migration leadership",
+        "Application modernization leadership",
+        "Competitive displacement",
+        "Forecast accuracy",
+        "Deal closure ownership",
+        "Azure architecture or production cloud infrastructure ownership",
+        "Azure Solution Specialist",
+        "Azure enterprise solution sales",
+        "multi-million-dollar deal leadership",
+        "cloud migration leadership",
+        "application modernization leadership",
+        "quota attainment"
+      ]
+    },
+    {
+      "sectionTitle": "Produced adoption and licensing evidence for managers, leaders, Finance, Microsoft, and regional stakeholders",
+      "requirement": "Executive relationship building and customer buy-in",
+      "evidenceIds": [
+        "evi-m365-copilot-dashboard",
+        "evi-m365-trial-license-conversion"
+      ],
+      "angle": "Produced adoption and licensing evidence for managers, leaders, Finance, Microsoft, and regional stakeholders",
+      "avoid": [
+        "Quota attainment",
+        "Azure consumption growth ownership",
+        "Multi-million-dollar deals",
+        "7+ years enterprise technology sales",
+        "Executive relationship ownership",
+        "Partner or ISV co-selling",
+        "Cloud migration leadership",
+        "Application modernization leadership",
+        "Competitive displacement",
+        "Forecast accuracy",
+        "Deal closure ownership",
+        "Azure architecture or production cloud infrastructure ownership",
+        "Azure Solution Specialist",
+        "Azure enterprise solution sales",
+        "multi-million-dollar deal leadership",
+        "cloud migration leadership",
+        "application modernization leadership",
+        "quota attainment"
+      ]
+    }
+  ],
+  "generatedAt": "2026-07-17T11:55:56.999Z"
+}

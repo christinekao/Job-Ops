@@ -1,0 +1,75 @@
+# AGENTS.md.draft
+
+Status: Superseded by root `AGENTS.md` under ADR-004. Retained as Governance v1 design history.
+
+## Project Overview
+
+This project contains a legacy CV editor, historical CV Manager surfaces, career knowledge documents, and the active React CV Manager product in `CV_Manager_React/`.
+
+For current CV Manager work, treat `CV_Manager_React/` as the active product surface.
+
+## Source of Truth
+
+Use evidence in this order:
+
+1. Current explicit task instructions
+2. `CV_Manager_React/docs/SPEC.md`
+3. `CV_Manager_React/docs/FLOW.md`
+4. `CV_Manager_React/docs/ARCHITECTURE.md`
+5. Current code, prompts, modes, and tests
+6. Actual CV outputs and source artifacts
+7. General best practices
+
+## Required Reading
+
+For any React CV Manager task:
+
+1. Read the active task file under `docs/governance/tasks/`.
+2. Read only the governance/contracts files named by that task.
+3. Read the specific implementation files listed in the task.
+4. Do not scan legacy prototypes unless the task explicitly requires historical comparison.
+
+## Operating Rules
+
+- Execute one task only.
+- Do not start the next task automatically.
+- Do not expand task scope.
+- If a new issue appears, document it and create/propose a new task.
+- Respect allowed/prohibited files.
+- Keep AI/Codex automation explicit.
+- Never modify production data during audit tasks.
+- Never treat split JSON mirrors as canonical truth.
+- Never treat a CV artifact as canonical ideal without explicit user or repo evidence.
+
+## Testing Rules
+
+- Use the task's required tests.
+- For domain/code tasks, run the narrow smoke tests first.
+- Use `npm run test:system` only when the task touches broad workflow, persistence, automation, or review behavior.
+- For docs-only tasks, validate file paths, dependencies, task status consistency, and changed-file scope.
+
+## Completion Report
+
+Every task must end with:
+
+```text
+Task:
+Status:
+Files changed:
+Tests run:
+Acceptance criteria:
+Regression risks:
+Unresolved issues:
+Next task:
+```
+
+## Definition of Done
+
+A task is done only when:
+
+- acceptance criteria pass
+- required tests pass or skipped tests are justified
+- prohibited files were not changed
+- unresolved issues are documented
+- no unrelated refactor is included
+- the completion report is written

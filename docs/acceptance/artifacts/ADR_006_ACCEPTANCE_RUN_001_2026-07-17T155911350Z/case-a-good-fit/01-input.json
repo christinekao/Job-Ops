@@ -1,0 +1,375 @@
+{
+  "cvVersionId": "cv-case-a-good-fit-20260717000000",
+  "cvContentHash": "h1t6mnkv",
+  "blockers": [
+    "legacy fallback should not be used when structured issues exist"
+  ],
+  "structuredIssues": [
+    {
+      "category": "External Wording",
+      "severity": "Medium",
+      "title": "Internal or work-log wording remains",
+      "description": "3 work-log bullet(s) detected.",
+      "visibleLocation": {
+        "section": "workExperience"
+      },
+      "evidence": {
+        "evidenceIds": [],
+        "reason": "Visible wording should be external recruiter language."
+      },
+      "repairability": "targeted-repair",
+      "suggestedRepairIntent": "Translate internal/work-log wording into external resume language without changing meaning.",
+      "expectedRepairBoundary": [
+        "summary",
+        "workExperience"
+      ],
+      "exportSignal": "warn",
+      "id": "review-2-external-wording-internal-or-work-log-wording-remains"
+    },
+    {
+      "category": "Profile Completeness",
+      "severity": "High",
+      "title": "Trusted profile contact data is incomplete",
+      "description": "Missing trusted profile field(s): email.",
+      "visibleLocation": {
+        "section": "header"
+      },
+      "evidence": {
+        "evidenceIds": [],
+        "reason": "Profile/contact data must come from trusted user/profile input and must not be invented by Reviewer or Writer."
+      },
+      "repairability": "human-input",
+      "suggestedRepairIntent": "Collect trusted contact data from the user or profile source.",
+      "expectedRepairBoundary": [
+        "header.contact"
+      ],
+      "exportSignal": "block",
+      "id": "review-3-profile-completeness-trusted-profile-contact-data-is-incom"
+    }
+  ],
+  "cv": {
+    "jdAnalysis": {
+      "targetRole": "Power Platform Developer",
+      "coreRequirements": [
+        "Power Apps",
+        "Power Automate",
+        "SharePoint",
+        "workflow automation",
+        "support documentation"
+      ],
+      "topKeywords": [
+        {
+          "keyword": "Power Apps",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        },
+        {
+          "keyword": "Power Automate",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        },
+        {
+          "keyword": "SharePoint",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        },
+        {
+          "keyword": "workflow automation",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        },
+        {
+          "keyword": "support documentation",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        }
+      ],
+      "gaps": [
+        "Independent Azure cloud architecture ownership"
+      ]
+    },
+    "header": {
+      "name": "Li Ting Kao / Christine Kao",
+      "targetRole": "Power Platform Developer",
+      "email": "",
+      "location": "Taipei"
+    },
+    "sidebar": {
+      "languages": [
+        {
+          "name": "Chinese",
+          "level": "Native",
+          "note": ""
+        },
+        {
+          "name": "English",
+          "level": "Professional",
+          "note": ""
+        }
+      ],
+      "skillGroups": [
+        {
+          "title": "Power Platform / M365",
+          "highlightedSkills": [
+            "Power Apps",
+            "Power Automate",
+            "SharePoint Lists",
+            "Power BI",
+            "Microsoft 365 Copilot"
+          ],
+          "otherSkills": [
+            "Workflow automation",
+            "Governance documentation",
+            "Production troubleshooting",
+            "Stakeholder handoff"
+          ]
+        }
+      ],
+      "certifications": [],
+      "education": [
+        {
+          "school": "TibaMe",
+          "degree": "AI/Big Data Analysis",
+          "period": "2020/02 - 2020/08"
+        },
+        {
+          "school": "Chang Gung University",
+          "degree": "Master of Biomedical Sciences",
+          "period": "2009/07 - 2011/08"
+        }
+      ]
+    },
+    "summary": "Power Platform and M365 automation practitioner who turns HR, legal, and operational workflows into governed low-code solutions, adoption dashboards, and supportable handoffs. Grounded experience spans Power Apps, Power Automate, SharePoint-backed routing, Power BI visibility, documentation, and production troubleshooting for business users.",
+    "workExperience": [
+      {
+        "experienceId": "trend-micro",
+        "company": "Trend Micro",
+        "role": "Business Process Engineer / IS BA",
+        "period": "2021 - 2026",
+        "location": "Taipei",
+        "subsections": [
+          {
+            "title": "Power Platform Workflow Delivery",
+            "bullets": [
+              {
+                "text": "Built a Power Apps and SharePoint-backed DPIA / AI impact assessment workflow with automated routing, reviewer controls, and governance-ready process visibility.",
+                "evidenceIds": [
+                  "evi-legal-dpia-app-build",
+                  "evi-legal-dpia-risk-classification"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              },
+              {
+                "text": "Created a self-service mentor booking workflow using form intake and SharePoint lists so HR program users could manage requests without manual spreadsheet tracking.",
+                "evidenceIds": [
+                  "evi-mentor-booking-system"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              },
+              {
+                "text": "Supported production HR automation flows after handover, connecting Power Automate, Workday RaaS API, Dataverse, SharePoint, Jenkins, and Power BI operating signals.",
+                "evidenceIds": [
+                  "evi-pa-ops-takeover"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              }
+            ]
+          },
+          {
+            "title": "Support, Documentation, and Adoption Analytics",
+            "bullets": [
+              {
+                "text": "Authored low-code automation and API engagement documentation covering roles, connection ownership, environment handoff, and maintainability expectations.",
+                "evidenceIds": [
+                  "evi-power-platform-governance-docs"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              },
+              {
+                "text": "Stabilized recruiting sync flows by resolving data and flow defects across Power Automate, Workday RaaS API, and SharePoint handoff paths.",
+                "evidenceIds": [
+                  "evi-tw-cv-auto-match-flow-fixes"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              },
+              {
+                "text": "Built M365 Copilot usage and adoption dashboard views from audit, license, and distribution-list data to give stakeholders clearer adoption visibility.",
+                "evidenceIds": [
+                  "evi-m365-copilot-dashboard"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              },
+              {
+                "text": "Managed M365 Copilot trial conversion operations using usage reporting, vendor coordination, and license follow-up.",
+                "evidenceIds": [
+                  "evi-m365-trial-license-conversion"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "experienceId": "acts",
+        "company": "Advanced Communication Technology & Solutions Corporation",
+        "role": "Data Engineer & Tableau Dashboard Development Sales Specialist",
+        "period": "2016 - 2020",
+        "location": "Taipei",
+        "subsections": [
+          {
+            "title": "Data and Dashboard Foundation",
+            "bullets": [
+              {
+                "text": "Delivered dashboard and data-support work that built the analytics foundation later reused in HR and workflow visibility projects.",
+                "evidenceIds": [
+                  "evi-project-execution-hw-sw-integration"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Scope"
+              },
+              {
+                "text": "Coordinated technical solution support and project documentation for client delivery teams, strengthening business-to-technology handoff habits.",
+                "evidenceIds": [
+                  "evi-project-execution-hw-sw-integration"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Scope"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "positioningReport": {
+      "overallFit": "Good",
+      "transferableStrengths": [
+        {
+          "strength": "Built and supported Power Platform workflows for legal, HR, and operations processes.",
+          "evidenceIds": [
+            "evi-legal-dpia-app-build",
+            "evi-mentor-booking-system",
+            "evi-pa-ops-takeover"
+          ],
+          "supportLevel": "Strong",
+          "cvTreatment": "state-directly"
+        },
+        {
+          "strength": "Used SharePoint-backed lists and workflow logic for approvals, booking, and recruiting sync.",
+          "evidenceIds": [
+            "evi-legal-dpia-app-build",
+            "evi-mentor-booking-system",
+            "evi-tw-cv-auto-match-flow-fixes"
+          ],
+          "supportLevel": "Strong",
+          "cvTreatment": "state-directly"
+        },
+        {
+          "strength": "Documented API/automation engagement patterns and supported knowledge transfer.",
+          "evidenceIds": [
+            "evi-power-platform-governance-docs",
+            "evi-workday-ph-kt-workshop",
+            "evi-pa-ops-takeover"
+          ],
+          "supportLevel": "Strong",
+          "cvTreatment": "state-directly"
+        }
+      ],
+      "truthfulCapabilityGaps": [
+        {
+          "requirement": "Azure cloud architecture ownership",
+          "reason": "Evidence does not support independent Azure cloud architecture ownership.",
+          "riskLevel": "Medium",
+          "mitigation": "Keep Azure references limited to tools touched inside supported automation contexts."
+        },
+        {
+          "requirement": "Independent Azure cloud architecture ownership",
+          "reason": "Not required for the selected Power Platform positioning; do not claim it.",
+          "riskLevel": "Low",
+          "mitigation": "Not required for the selected Power Platform positioning; do not claim it."
+        }
+      ],
+      "unsupportedClaimsPrevented": [
+        {
+          "claim": "from-scratch enterprise software engineer",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "from-scratch enterprise software engineer"
+          ]
+        },
+        {
+          "claim": "Azure cloud architect ownership",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Azure cloud architect ownership"
+          ]
+        },
+        {
+          "claim": "Azure cloud architecture ownership",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Azure cloud architecture ownership"
+          ]
+        },
+        {
+          "claim": "Keep Azure references limited to tools touched inside supported automation contexts.",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Keep Azure references limited to tools touched inside supported automation contexts."
+          ]
+        },
+        {
+          "claim": "Evidence does not support independent Azure cloud architecture ownership.",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Evidence does not support independent Azure cloud architecture ownership."
+          ]
+        }
+      ],
+      "recommendedPositioning": {
+        "headline": "Power Platform Developer | Power Apps, Power Automate, SharePoint Workflow Automation",
+        "summaryAngle": "Power Platform developer with grounded Power Apps, Power Automate, SharePoint, governance documentation, production troubleshooting, and M365 adoption analytics evidence.",
+        "targetRoleTreatment": "direct-fit",
+        "wordingGuidance": [
+          "Power Platform / M365 automation practitioner focused on workflow delivery, governance documentation, and production support.",
+          "Strengthen wording only when supported by selected evidence.",
+          "Preserve unsupported requirements as gaps or risks, not visible strengths."
+        ]
+      },
+      "remainingHiringRisks": [
+        {
+          "risk": "Azure cloud architecture ownership",
+          "impactOnInterviewProbability": "May reduce interview probability unless the CV keeps wording conservative.",
+          "mitigation": "Evidence does not support independent Azure cloud architecture ownership."
+        },
+        {
+          "risk": "How much code versus configuration did you personally own?",
+          "impactOnInterviewProbability": "May reduce interview probability if the recruiter or hiring manager requires direct proof.",
+          "mitigation": "Prepare truthful interview evidence or choose a more adjacent target angle."
+        }
+      ]
+    },
+    "keywordPlacementNotes": [
+      "Power Apps, Power Automate, SharePoint, workflow automation, and support documentation are placed in visible CV sections because Screening Analysis marks them as supported."
+    ],
+    "interviewNotes": [
+      {
+        "topic": "Cloud architecture boundary",
+        "details": "Do not claim independent Azure cloud architecture ownership; discuss only tools touched inside automation contexts.",
+        "evidenceIds": []
+      }
+    ],
+    "reviewNotes": [
+      "Generated fresh for ADR-004-W1 acceptance run; no historical CV reused."
+    ]
+  },
+  "trustedProfileEmail": "",
+  "selectedEvidenceIds": []
+}

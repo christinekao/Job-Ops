@@ -1,0 +1,44 @@
+{
+  "issues": [
+    {
+      "category": "External Wording",
+      "severity": "Medium",
+      "title": "Action/outcome bullet strength is low",
+      "description": "5/8 visible bullet(s) are action-oriented.",
+      "visibleLocation": {
+        "section": "workExperience"
+      },
+      "evidence": {
+        "evidenceIds": [],
+        "reason": "Bullets can be made more recruiter-readable without changing claim strength."
+      },
+      "repairability": "targeted-repair",
+      "suggestedRepairIntent": "Rewrite bullets into action + scope + business outcome while preserving evidence IDs.",
+      "expectedRepairBoundary": [
+        "workExperience"
+      ],
+      "exportSignal": "warn",
+      "id": "review-2-external-wording-action-outcome-bullet-strength-is-low"
+    },
+    {
+      "category": "Profile Completeness",
+      "severity": "High",
+      "title": "Trusted profile contact data is incomplete",
+      "description": "Missing trusted profile field(s): email.",
+      "visibleLocation": {
+        "section": "header"
+      },
+      "evidence": {
+        "evidenceIds": [],
+        "reason": "Profile/contact data must come from trusted user/profile input and must not be invented by Reviewer or Writer."
+      },
+      "repairability": "human-input",
+      "suggestedRepairIntent": "Collect trusted contact data from the user or profile source.",
+      "expectedRepairBoundary": [
+        "header.contact"
+      ],
+      "exportSignal": "block",
+      "id": "review-3-profile-completeness-trusted-profile-contact-data-is-incom"
+    }
+  ]
+}

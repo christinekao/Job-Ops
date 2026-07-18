@@ -1,0 +1,26 @@
+{
+  "status": "blocked",
+  "ready": false,
+  "decisionContextReady": true,
+  "contentHash": "huuwxfd",
+  "blockers": [
+    "Reviewer: weak claims controlled: 4 weak mapping(s)",
+    "Reviewer: action/outcome bullets: 5/8 action-oriented bullet(s)",
+    "Contact extraction: Missing name, email, or location",
+    "Contact email: Missing email"
+  ],
+  "warnings": [
+    "Reviewer: application fit risk: 3 unsupported mapping(s), 4 high-risk gap(s) tracked as fit risk"
+  ],
+  "reviewFreshness": {
+    "currentCvVersionId": "cv-case-c-weak-fit-azure-20260717000000",
+    "currentCvContentHash": "huuwxfd",
+    "currentSummaryHash": "hh77uty",
+    "reviewedCvVersionId": "cv-case-c-weak-fit-azure-20260717000000",
+    "reviewedCvContentHash": "huuwxfd",
+    "reviewedSummaryHash": "hh77uty",
+    "reviewRunId": "review-houibbn",
+    "reviewedAt": "2026-07-17T11:55:57.016Z",
+    "status": "fresh"
+  }
+}

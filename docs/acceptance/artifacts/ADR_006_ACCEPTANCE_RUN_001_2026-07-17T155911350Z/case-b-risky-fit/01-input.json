@@ -1,0 +1,655 @@
+{
+  "cvVersionId": "cv-case-b-risky-fit-20260717000000",
+  "cvContentHash": "hrslq8e",
+  "blockers": [
+    "legacy fallback should not be used when structured issues exist"
+  ],
+  "structuredIssues": [
+    {
+      "category": "Keyword Coverage",
+      "severity": "Medium",
+      "title": "Evidence-supported keywords are under-placed",
+      "description": "Supported keyword gap(s): AI quality evaluation, benchmark questions, quality metrics, AI governance, prompt regression testing, Python validation.",
+      "evidence": {
+        "evidenceIds": [],
+        "screeningAnalysisPath": "screeningAnalysis.mustHaveKeywords",
+        "cvBriefPath": "cvBrief.skillsToForeground|bulletPlan",
+        "reason": "These keywords are evidence-supported and may be placed without exceeding ADR-004 boundaries."
+      },
+      "repairability": "targeted-repair",
+      "suggestedRepairIntent": "Add only evidence-supported keywords to summary, skills, or relevant bullets.",
+      "expectedRepairBoundary": [
+        "summary",
+        "sidebar.skills",
+        "workExperience"
+      ],
+      "exportSignal": "warn",
+      "id": "review-1-keyword-coverage-evidence-supported-keywords-are-under-pla"
+    },
+    {
+      "category": "External Wording",
+      "severity": "Medium",
+      "title": "Internal or work-log wording remains",
+      "description": "2 work-log bullet(s) detected.",
+      "visibleLocation": {
+        "section": "workExperience"
+      },
+      "evidence": {
+        "evidenceIds": [],
+        "reason": "Visible wording should be external recruiter language."
+      },
+      "repairability": "targeted-repair",
+      "suggestedRepairIntent": "Translate internal/work-log wording into external resume language without changing meaning.",
+      "expectedRepairBoundary": [
+        "summary",
+        "workExperience"
+      ],
+      "exportSignal": "warn",
+      "id": "review-3-external-wording-internal-or-work-log-wording-remains"
+    },
+    {
+      "category": "Profile Completeness",
+      "severity": "High",
+      "title": "Trusted profile contact data is incomplete",
+      "description": "Missing trusted profile field(s): email.",
+      "visibleLocation": {
+        "section": "header"
+      },
+      "evidence": {
+        "evidenceIds": [],
+        "reason": "Profile/contact data must come from trusted user/profile input and must not be invented by Reviewer or Writer."
+      },
+      "repairability": "human-input",
+      "suggestedRepairIntent": "Collect trusted contact data from the user or profile source.",
+      "expectedRepairBoundary": [
+        "header.contact"
+      ],
+      "exportSignal": "block",
+      "id": "review-4-profile-completeness-trusted-profile-contact-data-is-incom"
+    }
+  ],
+  "cv": {
+    "jdAnalysis": {
+      "targetRole": "AI Evaluation Operations Specialist",
+      "coreRequirements": [
+        "LLM evaluation",
+        "AI quality evaluation",
+        "chatbot evaluation framework",
+        "GPT scoring",
+        "human review loop",
+        "A/B testing",
+        "benchmark questions",
+        "evaluation workflow",
+        "quality metrics",
+        "AI governance",
+        "prompt regression testing",
+        "Python validation"
+      ],
+      "topKeywords": [
+        {
+          "keyword": "LLM evaluation",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        },
+        {
+          "keyword": "AI quality evaluation",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        },
+        {
+          "keyword": "chatbot evaluation framework",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        },
+        {
+          "keyword": "GPT scoring",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        },
+        {
+          "keyword": "human review loop",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        },
+        {
+          "keyword": "A/B testing",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        },
+        {
+          "keyword": "benchmark questions",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        },
+        {
+          "keyword": "evaluation workflow",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        },
+        {
+          "keyword": "quality metrics",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        },
+        {
+          "keyword": "AI governance",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        },
+        {
+          "keyword": "prompt regression testing",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        },
+        {
+          "keyword": "Python validation",
+          "priority": "Must-have",
+          "placement": "Work Experience"
+        }
+      ],
+      "gaps": [
+        "No supported PyTorch, JAX, or TensorFlow experience",
+        "Limited proof of advanced statistics: hypothesis testing, confidence intervals, effect sizes, significance testing",
+        "No direct reward modeling, RLHF, DPO, proper scoring rules, IRT, construct validity, or contamination detection evidence",
+        "Python evaluation pipeline ownership is only partially supported",
+        "No CI/CD evaluation quality gate ownership",
+        "Language requirement is not fully evidenced"
+      ]
+    },
+    "header": {
+      "name": "Li Ting Kao / Christine Kao",
+      "targetRole": "AI Evaluation Operations Specialist",
+      "email": "",
+      "location": "Taipei"
+    },
+    "sidebar": {
+      "languages": [
+        {
+          "name": "Chinese",
+          "level": "Native",
+          "note": ""
+        },
+        {
+          "name": "English",
+          "level": "Professional",
+          "note": ""
+        }
+      ],
+      "skillGroups": [
+        {
+          "title": "AI Quality Operations",
+          "highlightedSkills": [
+            "LLM evaluation workflow",
+            "GPT scoring workflow",
+            "chatbot quality review",
+            "A/B testing design",
+            "human review loop"
+          ],
+          "otherSkills": [
+            "Power BI",
+            "Azure Data Explorer",
+            "Power Automate",
+            "Python/SQL troubleshooting",
+            "governance routing"
+          ]
+        }
+      ],
+      "certifications": [],
+      "education": [
+        {
+          "school": "TibaMe",
+          "degree": "AI/Big Data Analysis",
+          "period": "2020/02 - 2020/08"
+        },
+        {
+          "school": "Chang Gung University",
+          "degree": "Master of Biomedical Sciences",
+          "period": "2009/07 - 2011/08"
+        }
+      ]
+    },
+    "summary": "AI quality operations specialist with grounded experience building chatbot evaluation workflows, GPT scoring review loops, A/B attribution logic, governance routing, and production AI chatbot operating controls. Positioned for evaluation-operations roles rather than unsupported ML research or framework-heavy scientist ownership.",
+    "workExperience": [
+      {
+        "experienceId": "trend-micro",
+        "company": "Trend Micro",
+        "role": "Business Process Engineer / IS BA",
+        "period": "2021 - 2026",
+        "location": "Taipei",
+        "subsections": [
+          {
+            "title": "Chatbot Evaluation and Quality Operations",
+            "bullets": [
+              {
+                "text": "Created a multi-method chatbot evaluation framework combining benchmark-style question sets, transcript review, GPT-assisted scoring, human follow-up, and live metric comparison.",
+                "evidenceIds": [
+                  "evi-tomo-eval-framework"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              },
+              {
+                "text": "Built an automated GPT evaluation workflow for an internal AI assistant quality process, using Azure AI Studio, GPT model prompts, FastAPI handoff, and Power Automate orchestration.",
+                "evidenceIds": [
+                  "evi-trender-buddy-gpt-eval-pipeline"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              },
+              {
+                "text": "Defined live A/B routing, identifier, and reporting logic so chatbot quality comparisons could be tied to measurable routing and attribution rules.",
+                "evidenceIds": [
+                  "evi-tomo-ab-attribution-logic"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              }
+            ]
+          },
+          {
+            "title": "Governance and Production AI Support",
+            "bullets": [
+              {
+                "text": "Owned customer-service AI chatbot operations across Global and Japan markets, coordinating knowledge-base sync, routing, analytics, and stakeholder follow-up.",
+                "evidenceIds": [
+                  "evi-fin-ai-prod-ops-global-jp"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              },
+              {
+                "text": "Implemented privacy and AI risk classification logic with automated routing so governance reviewers could triage requests through a structured process.",
+                "evidenceIds": [
+                  "evi-legal-dpia-risk-classification"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              },
+              {
+                "text": "Reviewed and troubleshot existing Python, SQL, Jenkins, and API automation logic as maintenance and validation work, without claiming from-scratch engineering ownership.",
+                "evidenceIds": [
+                  "evi-existing-python-sql-pipeline-debugging"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Impact"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "experienceId": "acts",
+        "company": "Advanced Communication Technology & Solutions Corporation",
+        "role": "Data Engineer & Tableau Dashboard Development Sales Specialist",
+        "period": "2016 - 2020",
+        "location": "Taipei",
+        "subsections": [
+          {
+            "title": "Analytics and Delivery Support",
+            "bullets": [
+              {
+                "text": "Supported dashboard and data-delivery work that strengthened later AI quality reporting and operational analytics practices.",
+                "evidenceIds": [
+                  "evi-project-execution-hw-sw-integration"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Scope"
+              },
+              {
+                "text": "Translated stakeholder needs into documentation and technical delivery handoffs for cross-functional project teams.",
+                "evidenceIds": [
+                  "evi-project-execution-hw-sw-integration"
+                ],
+                "confidence": "Grounded",
+                "metricType": "Scope"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "positioningReport": {
+      "overallFit": "Risky",
+      "transferableStrengths": [
+        {
+          "strength": "AI quality evaluation operations for enterprise chatbot and internal AI assistant workflows.",
+          "evidenceIds": [
+            "evi-tomo-eval-framework",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-tomo-ab-attribution-logic"
+          ],
+          "supportLevel": "Partial",
+          "cvTreatment": "position-as-transferable"
+        },
+        {
+          "strength": "Built practical GPT/chatbot evaluation workflows combining scoring, human review, and metric tracking.",
+          "evidenceIds": [
+            "evi-tomo-eval-framework",
+            "evi-trender-buddy-gpt-eval-pipeline"
+          ],
+          "supportLevel": "Partial",
+          "cvTreatment": "position-as-transferable"
+        },
+        {
+          "strength": "Built GPT-based evaluation workflow and inspected existing Python/SQL-style automation logic for validation and troubleshooting.",
+          "evidenceIds": [
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-existing-python-sql-pipeline-debugging"
+          ],
+          "supportLevel": "Partial",
+          "cvTreatment": "position-as-transferable"
+        },
+        {
+          "strength": "Defined chatbot quality metrics, GPT scoring categories, human review loop, and A/B reporting measures.",
+          "evidenceIds": [
+            "evi-tomo-eval-framework",
+            "evi-tomo-ab-attribution-logic",
+            "evi-trender-buddy-gpt-eval-pipeline"
+          ],
+          "supportLevel": "Partial",
+          "cvTreatment": "position-as-transferable"
+        },
+        {
+          "strength": "Translated AI/privacy governance requirements into executable risk scoring, routing, and reviewer controls.",
+          "evidenceIds": [
+            "evi-legal-dpia-risk-classification"
+          ],
+          "supportLevel": "Partial",
+          "cvTreatment": "position-as-transferable"
+        },
+        {
+          "strength": "Master of Biomedical Sciences plus AI/Big Data training and scientific research operations background.",
+          "evidenceIds": [],
+          "supportLevel": "Partial",
+          "cvTreatment": "position-as-transferable"
+        },
+        {
+          "strength": "Cross-region Global/Japan AI chatbot operations and Philippines Workday KT facilitation.",
+          "evidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-workday-ph-kt-workshop"
+          ],
+          "supportLevel": "Partial",
+          "cvTreatment": "position-as-transferable"
+        }
+      ],
+      "truthfulCapabilityGaps": [
+        {
+          "requirement": "Deep knowledge of benchmark design, LLM-as-Judge, quantitative quality measurement, and hallucination detection",
+          "reason": "No direct evidence of LLM-as-Judge calibration, hallucination detection methodology, construct validity, or contamination detection.",
+          "riskLevel": "Medium",
+          "mitigation": "Structured benchmark-style chatbot evaluation and GPT-based scoring workflow."
+        },
+        {
+          "requirement": "Statistics and experimental design including hypothesis testing, A/B testing, confidence intervals, and effect sizes",
+          "reason": "Evidence does not prove hypothesis testing, confidence intervals, effect sizes, or statistical significance analysis.",
+          "riskLevel": "Medium",
+          "mitigation": "Designed live A/B routing and reporting logic for chatbot comparison."
+        },
+        {
+          "requirement": "Practical experience with PyTorch, JAX, or TensorFlow",
+          "reason": "No supported evidence for PyTorch, JAX, or TensorFlow.",
+          "riskLevel": "High",
+          "mitigation": "Keep this as a gap or transferable angle; do not claim direct ownership."
+        },
+        {
+          "requirement": "Multi-turn, tool-use, long-context, or AI-agent evaluation harnesses",
+          "reason": "No direct evidence of multi-agent, long-context, or tool-use evaluation harness implementation.",
+          "riskLevel": "Medium",
+          "mitigation": "AI assistant and chatbot quality evaluation workflow experience."
+        },
+        {
+          "requirement": "CI/CD quality gates and scalable automated evaluation infrastructure",
+          "reason": "No direct evidence of CI/CD quality gate ownership or scalable ML evaluation infrastructure.",
+          "riskLevel": "Medium",
+          "mitigation": "Automated quality workflow and production data-pipeline validation support."
+        },
+        {
+          "requirement": "No supported PyTorch, JAX, or TensorFlow experience",
+          "reason": "Do not list these tools. If applying, complete and document a small LLM evaluation notebook using one framework or state no direct framework experience in interview.",
+          "riskLevel": "High",
+          "mitigation": "Do not list these tools. If applying, complete and document a small LLM evaluation notebook using one framework or state no direct framework experience in interview."
+        },
+        {
+          "requirement": "Limited proof of advanced statistics: hypothesis testing, confidence intervals, effect sizes, significance testing",
+          "reason": "CV should only claim A/B routing and metric definition. Prepare an interview explanation of what was measured and avoid claiming statistical inference unless documented.",
+          "riskLevel": "High",
+          "mitigation": "CV should only claim A/B routing and metric definition. Prepare an interview explanation of what was measured and avoid claiming statistical inference unless documented."
+        },
+        {
+          "requirement": "No direct reward modeling, RLHF, DPO, proper scoring rules, IRT, construct validity, or contamination detection evidence",
+          "reason": "Do not include these as skills. Treat them as learning gaps and ask whether the role can accept AI quality operations background.",
+          "riskLevel": "High",
+          "mitigation": "Do not include these as skills. Treat them as learning gaps and ask whether the role can accept AI quality operations background."
+        },
+        {
+          "requirement": "Python evaluation pipeline ownership is only partially supported",
+          "reason": "Frame Python as existing pipeline inspection, validation, and troubleshooting unless source confirms from-scratch pipeline code ownership.",
+          "riskLevel": "Medium",
+          "mitigation": "Frame Python as existing pipeline inspection, validation, and troubleshooting unless source confirms from-scratch pipeline code ownership."
+        },
+        {
+          "requirement": "No CI/CD evaluation quality gate ownership",
+          "reason": "Use production monitoring and automated GPT evaluation workflow language, not CI/CD gate ownership.",
+          "riskLevel": "Medium",
+          "mitigation": "Use production monitoring and automated GPT evaluation workflow language, not CI/CD gate ownership."
+        },
+        {
+          "requirement": "Language requirement is not fully evidenced",
+          "reason": "State only verified business communication languages and avoid claiming fluent Japanese.",
+          "riskLevel": "Medium",
+          "mitigation": "State only verified business communication languages and avoid claiming fluent Japanese."
+        }
+      ],
+      "unsupportedClaimsPrevented": [
+        {
+          "claim": "ML Engineer",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "ML Engineer"
+          ]
+        },
+        {
+          "claim": "Research Engineer",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Research Engineer"
+          ]
+        },
+        {
+          "claim": "AI Evaluation Scientist with production ML ownership",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "AI Evaluation Scientist with production ML ownership"
+          ]
+        },
+        {
+          "claim": "Reward modeling",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Reward modeling"
+          ]
+        },
+        {
+          "claim": "RLHF or DPO implementation",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "RLHF or DPO implementation"
+          ]
+        },
+        {
+          "claim": "PyTorch, JAX, or TensorFlow practical ownership",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "PyTorch, JAX, or TensorFlow practical ownership"
+          ]
+        },
+        {
+          "claim": "CI/CD evaluation gate ownership",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "CI/CD evaluation gate ownership"
+          ]
+        },
+        {
+          "claim": "Production MLOps infrastructure owner",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Production MLOps infrastructure owner"
+          ]
+        },
+        {
+          "claim": "From-scratch Python evaluation pipeline engineer",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "From-scratch Python evaluation pipeline engineer"
+          ]
+        },
+        {
+          "claim": "Formal hallucination detection research",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Formal hallucination detection research"
+          ]
+        },
+        {
+          "claim": "Top-conference publication background",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Top-conference publication background"
+          ]
+        },
+        {
+          "claim": "AI Evaluation Scientist",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "AI Evaluation Scientist"
+          ]
+        },
+        {
+          "claim": "LLM-as-Judge calibration expert",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "LLM-as-Judge calibration expert"
+          ]
+        },
+        {
+          "claim": "reward modeling experience",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "reward modeling experience"
+          ]
+        },
+        {
+          "claim": "Python ML pipeline builder",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "Python ML pipeline builder"
+          ]
+        },
+        {
+          "claim": "CI/CD evaluation infrastructure owner",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "CI/CD evaluation infrastructure owner"
+          ]
+        },
+        {
+          "claim": "PyTorch/JAX/TensorFlow practitioner",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "PyTorch/JAX/TensorFlow practitioner"
+          ]
+        },
+        {
+          "claim": "automated red teaming owner",
+          "reason": "This claim is not sufficiently supported for visible CV positioning.",
+          "mustNotClaim": [
+            "automated red teaming owner"
+          ]
+        }
+      ],
+      "recommendedPositioning": {
+        "headline": "AI Quality Operations / Conversational AI Evaluation Specialist with enterprise chatbot evaluation, GPT scoring, A/B testing, and governance automation experience.",
+        "summaryAngle": "Stretch application. The CV should not try to look like a pure AI Evaluation Scientist. The strongest safe angle is enterprise AI quality operations: chatbot evaluation framework, GPT scoring workflow, A/B attribution metrics, production AI chatbot operations, and AI governance controls. Major ML/statistics/framework gaps must remain visible internally so the CV generator does not overclaim.",
+        "targetRoleTreatment": "adjacent-fit",
+        "wordingGuidance": [
+          "Enterprise AI quality operations specialist with chatbot evaluation, GPT scoring workflow, A/B testing design, human-review QA loop, and governance automation experience.",
+          "Use adjacent-fit wording and explain weak evidence as risk.",
+          "Strengthen wording only when supported by selected evidence.",
+          "Preserve unsupported requirements as gaps or risks, not visible strengths."
+        ]
+      },
+      "remainingHiringRisks": [
+        {
+          "risk": "Deep knowledge of benchmark design, LLM-as-Judge, quantitative quality measurement, and hallucination detection",
+          "impactOnInterviewProbability": "May reduce interview probability unless the CV keeps wording conservative.",
+          "mitigation": "No direct evidence of LLM-as-Judge calibration, hallucination detection methodology, construct validity, or contamination detection."
+        },
+        {
+          "risk": "Statistics and experimental design including hypothesis testing, A/B testing, confidence intervals, and effect sizes",
+          "impactOnInterviewProbability": "May reduce interview probability unless the CV keeps wording conservative.",
+          "mitigation": "Evidence does not prove hypothesis testing, confidence intervals, effect sizes, or statistical significance analysis."
+        },
+        {
+          "risk": "Practical experience with PyTorch, JAX, or TensorFlow",
+          "impactOnInterviewProbability": "Materially reduces interview probability unless new evidence is added or the target angle changes.",
+          "mitigation": "No supported evidence for PyTorch, JAX, or TensorFlow."
+        },
+        {
+          "risk": "Multi-turn, tool-use, long-context, or AI-agent evaluation harnesses",
+          "impactOnInterviewProbability": "May reduce interview probability unless the CV keeps wording conservative.",
+          "mitigation": "No direct evidence of multi-agent, long-context, or tool-use evaluation harness implementation."
+        },
+        {
+          "risk": "CI/CD quality gates and scalable automated evaluation infrastructure",
+          "impactOnInterviewProbability": "May reduce interview probability unless the CV keeps wording conservative.",
+          "mitigation": "No direct evidence of CI/CD quality gate ownership or scalable ML evaluation infrastructure."
+        },
+        {
+          "risk": "Explain the statistical design behind your A/B testing work, including significance, confidence intervals, and effect sizes",
+          "impactOnInterviewProbability": "May reduce interview probability if the recruiter or hiring manager requires direct proof.",
+          "mitigation": "Prepare truthful interview evidence or choose a more adjacent target angle."
+        },
+        {
+          "risk": "How did you calibrate GPT scoring against human judgment?",
+          "impactOnInterviewProbability": "May reduce interview probability if the recruiter or hiring manager requires direct proof.",
+          "mitigation": "Prepare truthful interview evidence or choose a more adjacent target angle."
+        },
+        {
+          "risk": "What benchmark design principles did you use beyond a question set?",
+          "impactOnInterviewProbability": "May reduce interview probability if the recruiter or hiring manager requires direct proof.",
+          "mitigation": "Prepare truthful interview evidence or choose a more adjacent target angle."
+        },
+        {
+          "risk": "What Python code did you personally build versus inspect or coordinate?",
+          "impactOnInterviewProbability": "May reduce interview probability if the recruiter or hiring manager requires direct proof.",
+          "mitigation": "Prepare truthful interview evidence or choose a more adjacent target angle."
+        },
+        {
+          "risk": "Have you used PyTorch, JAX, or TensorFlow in practical evaluation work?",
+          "impactOnInterviewProbability": "May reduce interview probability if the recruiter or hiring manager requires direct proof.",
+          "mitigation": "Prepare truthful interview evidence or choose a more adjacent target angle."
+        }
+      ]
+    },
+    "keywordPlacementNotes": [
+      "Evaluation workflow, GPT scoring, A/B testing, human review, and governance are visible; ML research, reward modeling, RLHF/DPO, and framework ownership are intentionally omitted."
+    ],
+    "interviewNotes": [
+      {
+        "topic": "Scientist-depth boundary",
+        "details": "Evidence is strongest for evaluation operations and practical quality workflows, not PyTorch/JAX/TensorFlow research ownership.",
+        "evidenceIds": [
+          "evi-tomo-eval-framework",
+          "evi-trender-buddy-gpt-eval-pipeline"
+        ]
+      }
+    ],
+    "reviewNotes": [
+      "Generated fresh for ADR-004-W1 acceptance run; conservative adjacent-fit wording used."
+    ]
+  },
+  "trustedProfileEmail": "",
+  "selectedEvidenceIds": []
+}

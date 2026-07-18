@@ -1,0 +1,24 @@
+{
+  "cvVersionId": "cv-case-c-weak-fit-azure-20260717000000",
+  "cvContentHash": "huuwxfd",
+  "blockers": [],
+  "structuredIssues": [
+    {
+      "category": "Capability Gap",
+      "severity": "Medium",
+      "title": "Truthful capability gap",
+      "description": "12 capability gap(s) are tracked as fit/readiness risk, not unsupported visible claims.",
+      "evidence": {
+        "evidenceIds": [],
+        "screeningAnalysisPath": "screeningAnalysis.jdEvidenceMapping|remainingGaps",
+        "positioningReportPath": "positioningReport.truthfulCapabilityGaps",
+        "reason": "Capability gaps come from upstream Analysis / Positioning Report and are not recomputed by Reviewer."
+      },
+      "repairability": "not-repairable",
+      "suggestedRepairIntent": "Do not rewrite as a solved strength. Add new evidence or change target positioning upstream if needed.",
+      "expectedRepairBoundary": [],
+      "exportSignal": "warn",
+      "id": "review-1-capability-gap-truthful-capability-gap"
+    }
+  ]
+}

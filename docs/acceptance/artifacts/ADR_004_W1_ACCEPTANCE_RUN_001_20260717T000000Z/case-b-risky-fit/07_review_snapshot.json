@@ -1,0 +1,1804 @@
+{
+  "snapshot": {
+    "snapshotId": "review-h1v6qkhz",
+    "reviewRunId": "review-h1v6qkhz",
+    "updatedAt": "2026-07-17T11:55:56.937Z",
+    "contentHash": "hrslq8e",
+    "reviewedCvVersionId": "cv-case-b-risky-fit-20260717000000",
+    "reviewedCvContentHash": "hrslq8e",
+    "reviewedSummaryHash": "h4yp49d",
+    "freshnessStatus": "fresh",
+    "cvUpdatedAt": "2026-07-17T00:00:00.000Z",
+    "completedAt": "2026-07-17T11:55:56.937Z",
+    "gateIssueCount": 2,
+    "reviewerIssueCount": 6,
+    "ready": false,
+    "summaryQualityContract": {
+      "targetRole": "AI Evaluation Operations Specialist",
+      "positioningMode": "transferable-fit",
+      "requiredCriteria": [
+        {
+          "id": "summary-role-identity",
+          "label": "Role identity",
+          "description": "States a credible role identity for this JD without pretending unsupported direct-fit experience.",
+          "category": "role-identity",
+          "importance": "required",
+          "supportStatus": "partial",
+          "supportingEvidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-tomo-ab-attribution-logic",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-sunshine-payroll-redesign",
+            "evi-power-platform-governance-docs",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "position-as-transferable"
+        },
+        {
+          "id": "summary-relevant-capability",
+          "label": "Relevant capability",
+          "description": "Surfaces the strongest supported capabilities that overlap with the JD.",
+          "category": "relevant-capability",
+          "importance": "required",
+          "supportStatus": "supported",
+          "supportingEvidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-tomo-ab-attribution-logic",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-sunshine-payroll-redesign",
+            "evi-power-platform-governance-docs",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "state-directly"
+        },
+        {
+          "id": "summary-business-value",
+          "label": "Business value",
+          "description": "Explains the business or stakeholder value of the candidate's supported work.",
+          "category": "business-value",
+          "importance": "important",
+          "supportStatus": "supported",
+          "supportingEvidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-tomo-ab-attribution-logic",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-sunshine-payroll-redesign",
+            "evi-power-platform-governance-docs",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "state-directly"
+        },
+        {
+          "id": "summary-evidence-grounding",
+          "label": "Evidence grounding",
+          "description": "Avoids unsupported ownership, metrics, seniority, sales, architecture, or cloud-delivery claims.",
+          "category": "evidence-grounding",
+          "importance": "required",
+          "supportStatus": "partial",
+          "supportingEvidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-tomo-ab-attribution-logic",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-sunshine-payroll-redesign",
+            "evi-power-platform-governance-docs",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "soften"
+        },
+        {
+          "id": "summary-customer-context",
+          "label": "Customer context",
+          "description": "Connects the Summary to customer, stakeholder, adoption, enablement, or operating context when supported.",
+          "category": "customer-context",
+          "importance": "important",
+          "supportStatus": "supported",
+          "supportingEvidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-tomo-ab-attribution-logic",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-sunshine-payroll-redesign",
+            "evi-power-platform-governance-docs",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "state-directly"
+        },
+        {
+          "id": "summary-career-positioning",
+          "label": "Career positioning",
+          "description": "Separates supported transferable fit from unsupported core requirements.",
+          "category": "career-positioning",
+          "importance": "required",
+          "supportStatus": "partial",
+          "supportingEvidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-tomo-ab-attribution-logic",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-sunshine-payroll-redesign",
+            "evi-power-platform-governance-docs",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "allowedTreatment": "position-as-transferable"
+        },
+        {
+          "id": "summary-clarity",
+          "label": "Clarity",
+          "description": "Uses concise external recruiter language without generic filler or tool stuffing.",
+          "category": "clarity",
+          "importance": "required",
+          "supportStatus": "supported",
+          "supportingEvidenceIds": [],
+          "allowedTreatment": "state-directly"
+        }
+      ],
+      "supportedStrengths": [
+        {
+          "evidenceId": "evi-fin-ai-prod-ops-global-jp",
+          "label": "Customer-Service AI Chatbot",
+          "keywords": [
+            "enterprise customer-service AI platform",
+            "Intercom",
+            "knowledge-base API",
+            "Power Automate",
+            "Google Analytics",
+            "API integration",
+            "Dashboard reporting",
+            "Workflow automation"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-tomo-eval-framework",
+          "label": "TOMO Chatbot Evaluation & A/B Testing",
+          "keywords": [
+            "Microsoft Copilot Studio",
+            "enterprise customer-service AI platform",
+            "GPT Accuracy Scoring",
+            "Power BI",
+            "Azure Data Explorer",
+            "Microsoft 365",
+            "Dashboard reporting",
+            "Production support"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-tomo-ab-attribution-logic",
+          "label": "TOMO Chatbot Evaluation & A/B Testing",
+          "keywords": [
+            "Cookie-based routing",
+            "UTM parameter",
+            "D365 Omnichannel",
+            "Azure Data Explorer",
+            "Power BI",
+            "Microsoft 365",
+            "Dashboard reporting",
+            "Workflow automation"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-trender-buddy-gpt-eval-pipeline",
+          "label": "Trender Buddy",
+          "keywords": [
+            "Azure AI Studio",
+            "GPT-4-turbo",
+            "GPT-4.1",
+            "FastAPI",
+            "Power Automate",
+            "Power Apps",
+            "Power BI",
+            "SharePoint"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-genai-hub-milestone-tracking",
+          "label": "GenAI Hub",
+          "keywords": [
+            "Confluence or tracking page",
+            "Milestone Tracking",
+            "GCP",
+            "Azure",
+            "GitHub Actions",
+            "SQL / data validation",
+            "Production support",
+            "UAT / testing"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-genai-dify-eval",
+          "label": "GenAI Hub",
+          "keywords": [
+            "Dify",
+            "Self-hosted LLM App Builder",
+            "NL-to-SQL",
+            "SQL / data validation",
+            "Production support",
+            "UAT / testing",
+            "Stakeholder coordination",
+            "AI chatbot operations"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-legal-dpia-app-build",
+          "label": "Legal DPIA App / AI Impact Assessment",
+          "keywords": [
+            "Power Apps",
+            "SharePoint List",
+            "Power Automate",
+            "GDPR",
+            "PLVRS Compliance",
+            "SharePoint",
+            "Workflow automation",
+            "Production support"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-legal-dpia-risk-classification",
+          "label": "Legal DPIA App / AI Impact Assessment",
+          "keywords": [
+            "Power Apps",
+            "SharePoint List",
+            "Risk Classification Logic",
+            "GDPR",
+            "PLVRS Compliance",
+            "Power Automate",
+            "SharePoint",
+            "Workflow automation"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-workday-hcm-migration",
+          "label": "Workday HCM Implementation & Operations",
+          "keywords": [
+            "Workday HCM",
+            "EIB",
+            "WQL",
+            "Excel",
+            "Power BI",
+            "SharePoint",
+            "Workday",
+            "API integration"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-workday-calc-field-audit",
+          "label": "Workday HCM Implementation & Operations",
+          "keywords": [
+            "Workday HCM",
+            "WQL",
+            "Calculated Fields",
+            "Power BI",
+            "SharePoint",
+            "Workday",
+            "API integration",
+            "Dashboard reporting"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-workday-ph-kt-workshop",
+          "label": "Workday HCM Implementation & Operations",
+          "keywords": [
+            "Workday HCM",
+            "SharePoint",
+            "Excel",
+            "Power BI",
+            "Workday",
+            "API integration",
+            "Dashboard reporting",
+            "Production support"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-sunshine-payroll-redesign",
+          "label": "Sunshine Project",
+          "keywords": [
+            "Workday",
+            "Ramco",
+            "PECI",
+            "Excel",
+            "API integration",
+            "Workflow automation",
+            "Production support",
+            "UAT / testing"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-power-platform-governance-docs",
+          "label": "Power Platform Low-code Automation & API Documentation",
+          "keywords": [
+            "Power Automate",
+            "Power Apps",
+            "Connect One API Platform",
+            "SharePoint",
+            "API integration",
+            "Workflow automation",
+            "Production support",
+            "UAT / testing"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-ta-dashboard-lifecycle",
+          "label": "Talent Acquisition Dashboard",
+          "keywords": [
+            "Power BI",
+            "DAX",
+            "Workday API",
+            "Workday data reports",
+            "Workday",
+            "API integration",
+            "Dashboard reporting",
+            "UAT / testing"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-tb-hr-dashboard-ai-upgrade",
+          "label": "Trender Buddy HR Dashboard AI Enhanced Version",
+          "keywords": [
+            "Power BI",
+            "Prompt Engineering",
+            "SharePoint Lists",
+            "GPT classification",
+            "Power Apps",
+            "SharePoint",
+            "Microsoft 365",
+            "Dashboard reporting"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-technical-capability-summary",
+          "label": "Enterprise Automation, BI & AI Delivery Portfolio",
+          "keywords": [
+            "Power BI",
+            "Power Automate",
+            "Power Apps",
+            "Azure AI Studio",
+            "GPT evaluation",
+            "Workday",
+            "API integration",
+            "Dashboard reporting"
+          ],
+          "evidenceStrength": "Strong"
+        },
+        {
+          "evidenceId": "evi-existing-python-sql-pipeline-debugging",
+          "label": "Pipeline Debugging & Technical Operations",
+          "keywords": [
+            "Python",
+            "SQL",
+            "Jenkins",
+            "Azure Data Explorer",
+            "Docebo API",
+            "Workday",
+            "API integration",
+            "Python validation"
+          ],
+          "evidenceStrength": "Medium"
+        },
+        {
+          "evidenceId": "evi-business-workflow-structuring-non-engineering",
+          "label": "Business Workflow Structuring",
+          "keywords": [
+            "Power Automate",
+            "Power Apps",
+            "SharePoint Lists",
+            "Power BI",
+            "Workflow documentation",
+            "SharePoint",
+            "Dashboard reporting",
+            "Workflow automation"
+          ],
+          "evidenceStrength": "Strong"
+        }
+      ],
+      "unsupportedCoreRequirements": [
+        {
+          "id": "gap-deep-knowledge-of-benchmark-design-llm-as-judge-",
+          "requirement": "Deep knowledge of benchmark design, LLM-as-Judge, quantitative quality measurement, and hallucination detection",
+          "reason": "No direct evidence of LLM-as-Judge calibration, hallucination detection methodology, construct validity, or contamination detection."
+        },
+        {
+          "id": "gap-statistics-and-experimental-design-including-hyp",
+          "requirement": "Statistics and experimental design including hypothesis testing, A/B testing, confidence intervals, and effect sizes",
+          "reason": "Evidence does not prove hypothesis testing, confidence intervals, effect sizes, or statistical significance analysis."
+        },
+        {
+          "id": "gap-practical-experience-with-pytorch-jax-or-tensorf",
+          "requirement": "Practical experience with PyTorch, JAX, or TensorFlow",
+          "reason": "No supported evidence for PyTorch, JAX, or TensorFlow."
+        },
+        {
+          "id": "gap-multi-turn-tool-use-long-context-or-ai-agent-eva",
+          "requirement": "Multi-turn, tool-use, long-context, or AI-agent evaluation harnesses",
+          "reason": "No direct evidence of multi-agent, long-context, or tool-use evaluation harness implementation."
+        },
+        {
+          "id": "gap-ci-cd-quality-gates-and-scalable-automated-evalu",
+          "requirement": "CI/CD quality gates and scalable automated evaluation infrastructure",
+          "reason": "No direct evidence of CI/CD quality gate ownership or scalable ML evaluation infrastructure."
+        }
+      ],
+      "prohibitedClaims": [
+        "AI Evaluation Scientist",
+        "ML Engineer",
+        "Research Engineer",
+        "LLM-as-Judge calibration expert",
+        "reward modeling experience",
+        "Python ML pipeline builder",
+        "CI/CD evaluation infrastructure owner",
+        "PyTorch/JAX/TensorFlow practitioner",
+        "automated red teaming owner",
+        "hallucination detection researcher",
+        "No supported PyTorch, JAX, or TensorFlow experience",
+        "Limited proof of advanced statistics: hypothesis testing, confidence intervals, effect sizes, significance testing",
+        "No direct reward modeling, RLHF, DPO, proper scoring rules, IRT, construct validity, or contamination detection evidence",
+        "Deep knowledge of benchmark design, LLM-as-Judge, quantitative quality measurement, and hallucination detection",
+        "Structured benchmark-style chatbot evaluation and GPT-based scoring workflow.",
+        "No direct evidence of LLM-as-Judge calibration, hallucination detection methodology, construct validity, or contamination detection.",
+        "Statistics and experimental design including hypothesis testing, A/B testing, confidence intervals, and effect sizes",
+        "Designed live A/B routing and reporting logic for chatbot comparison.",
+        "Evidence does not prove hypothesis testing, confidence intervals, effect sizes, or statistical significance analysis.",
+        "Practical experience with PyTorch, JAX, or TensorFlow",
+        "No supported evidence for PyTorch, JAX, or TensorFlow.",
+        "Multi-turn, tool-use, long-context, or AI-agent evaluation harnesses",
+        "AI assistant and chatbot quality evaluation workflow experience.",
+        "No direct evidence of multi-agent, long-context, or tool-use evaluation harness implementation.",
+        "CI/CD quality gates and scalable automated evaluation infrastructure",
+        "Automated quality workflow and production data-pipeline validation support.",
+        "No direct evidence of CI/CD quality gate ownership or scalable ML evaluation infrastructure.",
+        "Owned model training or formal machine-learning research",
+        "Built production backend systems from scratch",
+        "Owned the entire function end to end"
+      ],
+      "wordingConstraints": [
+        "Use external recruiter language.",
+        "Do not claim unsupported direct Azure sales, presales, architecture, quota, migration, or deal ownership.",
+        "If the role is adjacent or transferable, position the candidate as adjacent or transferable instead of direct-fit.",
+        "Keep genuine fit gaps out of visible strengths."
+      ],
+      "maxLengthWords": 65
+    },
+    "summaryReviewResult": {
+      "reviewRunId": "review-hj9w66d",
+      "reviewedCvHash": "hrslq8e",
+      "positioningMode": "transferable-fit",
+      "overallStatus": "pass",
+      "criteria": [
+        {
+          "criterionId": "summary-role-identity",
+          "status": "pass",
+          "reason": "The Summary must state a credible role identity for this JD.",
+          "evidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-tomo-ab-attribution-logic",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-sunshine-payroll-redesign",
+            "evi-power-platform-governance-docs",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "summary-rewrite"
+        },
+        {
+          "criterionId": "summary-relevant-capability",
+          "status": "pass",
+          "reason": "Supported capability terms are visible: workflow, scoring, production, support.",
+          "evidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-tomo-ab-attribution-logic",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-sunshine-payroll-redesign",
+            "evi-power-platform-governance-docs",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "summary-rewrite"
+        },
+        {
+          "criterionId": "summary-business-value",
+          "status": "pass",
+          "reason": "Business/stakeholder value is visible.",
+          "evidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-tomo-ab-attribution-logic",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-sunshine-payroll-redesign",
+            "evi-power-platform-governance-docs",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "summary-rewrite"
+        },
+        {
+          "criterionId": "summary-evidence-grounding",
+          "status": "pass",
+          "reason": "No prohibited Summary claim detected.",
+          "evidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-tomo-ab-attribution-logic",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-sunshine-payroll-redesign",
+            "evi-power-platform-governance-docs",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "summary-rewrite"
+        },
+        {
+          "criterionId": "summary-customer-context",
+          "status": "pass",
+          "reason": "Customer, stakeholder, or operating context is visible.",
+          "evidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-tomo-ab-attribution-logic",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-sunshine-payroll-redesign",
+            "evi-power-platform-governance-docs",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "summary-rewrite"
+        },
+        {
+          "criterionId": "summary-career-positioning",
+          "status": "partial",
+          "reason": "Remaining unsupported core requirement(s): Deep knowledge of benchmark design, LLM-as-Judge, quantitative quality measurement, and hallucination detection; Statistics and experimental design including hypothesis testing, A/B testing, confidence intervals, and effect sizes; Practical experience with PyTorch, JAX, or TensorFlow.",
+          "evidenceIds": [
+            "evi-fin-ai-prod-ops-global-jp",
+            "evi-tomo-eval-framework",
+            "evi-tomo-ab-attribution-logic",
+            "evi-trender-buddy-gpt-eval-pipeline",
+            "evi-genai-hub-milestone-tracking",
+            "evi-genai-dify-eval",
+            "evi-legal-dpia-app-build",
+            "evi-legal-dpia-risk-classification",
+            "evi-workday-hcm-migration",
+            "evi-workday-calc-field-audit",
+            "evi-workday-ph-kt-workshop",
+            "evi-sunshine-payroll-redesign",
+            "evi-power-platform-governance-docs",
+            "evi-ta-dashboard-lifecycle",
+            "evi-tb-hr-dashboard-ai-upgrade",
+            "evi-technical-capability-summary",
+            "evi-existing-python-sql-pipeline-debugging",
+            "evi-business-workflow-structuring-non-engineering"
+          ],
+          "fixability": "fit-risk-only"
+        },
+        {
+          "criterionId": "summary-clarity",
+          "status": "pass",
+          "reason": "Summary length and wording are concise.",
+          "evidenceIds": [],
+          "fixability": "summary-rewrite"
+        }
+      ],
+      "unsupportedCoreRequirements": [
+        "Deep knowledge of benchmark design, LLM-as-Judge, quantitative quality measurement, and hallucination detection",
+        "Statistics and experimental design including hypothesis testing, A/B testing, confidence intervals, and effect sizes",
+        "Practical experience with PyTorch, JAX, or TensorFlow",
+        "Multi-turn, tool-use, long-context, or AI-agent evaluation harnesses",
+        "CI/CD quality gates and scalable automated evaluation infrastructure"
+      ],
+      "summaryRewriteNeeded": false,
+      "fitRiskOnly": true
+    }
+  },
+  "evaluation": {
+    "gate": {
+      "coveredKeywords": [
+        "LLM evaluation",
+        "chatbot evaluation framework",
+        "GPT scoring",
+        "human review loop",
+        "A/B testing",
+        "evaluation workflow"
+      ],
+      "missingKeywords": [
+        "AI quality evaluation",
+        "benchmark questions",
+        "quality metrics",
+        "AI governance",
+        "prompt regression testing",
+        "Python validation"
+      ],
+      "supportedMissingKeywords": [
+        "AI quality evaluation",
+        "benchmark questions",
+        "quality metrics",
+        "AI governance",
+        "prompt regression testing",
+        "Python validation"
+      ],
+      "unsupportedMissingKeywords": [],
+      "keywordPlacements": [
+        {
+          "keyword": "LLM evaluation",
+          "placements": [
+            "Skills"
+          ],
+          "covered": true,
+          "supportLevel": "Partial",
+          "evidenceBacked": false
+        },
+        {
+          "keyword": "AI quality evaluation",
+          "placements": [],
+          "covered": false,
+          "supportLevel": "Partial",
+          "evidenceBacked": false
+        },
+        {
+          "keyword": "chatbot evaluation framework",
+          "placements": [
+            "Work Experience"
+          ],
+          "covered": true,
+          "supportLevel": "Unknown",
+          "evidenceBacked": true
+        },
+        {
+          "keyword": "GPT scoring",
+          "placements": [
+            "Summary",
+            "Skills"
+          ],
+          "covered": true,
+          "supportLevel": "Partial",
+          "evidenceBacked": true
+        },
+        {
+          "keyword": "human review loop",
+          "placements": [
+            "Skills"
+          ],
+          "covered": true,
+          "supportLevel": "Partial",
+          "evidenceBacked": false
+        },
+        {
+          "keyword": "A/B testing",
+          "placements": [
+            "Skills"
+          ],
+          "covered": true,
+          "supportLevel": "Weak",
+          "evidenceBacked": true
+        },
+        {
+          "keyword": "benchmark questions",
+          "placements": [],
+          "covered": false,
+          "supportLevel": "Unknown",
+          "evidenceBacked": true
+        },
+        {
+          "keyword": "evaluation workflow",
+          "placements": [
+            "Summary",
+            "Skills",
+            "Work Experience"
+          ],
+          "covered": true,
+          "supportLevel": "Partial",
+          "evidenceBacked": true
+        },
+        {
+          "keyword": "quality metrics",
+          "placements": [],
+          "covered": false,
+          "supportLevel": "Partial",
+          "evidenceBacked": false
+        },
+        {
+          "keyword": "AI governance",
+          "placements": [],
+          "covered": false,
+          "supportLevel": "Unknown",
+          "evidenceBacked": true
+        },
+        {
+          "keyword": "prompt regression testing",
+          "placements": [],
+          "covered": false,
+          "supportLevel": "Unknown",
+          "evidenceBacked": true
+        },
+        {
+          "keyword": "Python validation",
+          "placements": [],
+          "covered": false,
+          "supportLevel": "Unknown",
+          "evidenceBacked": true
+        }
+      ],
+      "unresolvedRiskyClaims": [],
+      "evidenceCoverageCount": 6,
+      "evidencePriorityIds": [
+        "evi-tomo-eval-framework",
+        "evi-trender-buddy-gpt-eval-pipeline",
+        "evi-tomo-ab-attribution-logic",
+        "evi-fin-ai-prod-ops-global-jp",
+        "evi-legal-dpia-risk-classification",
+        "evi-existing-python-sql-pipeline-debugging",
+        "evi-genai-hub-milestone-tracking",
+        "evi-genai-dify-eval",
+        "evi-technical-capability-summary",
+        "evi-business-workflow-structuring-non-engineering",
+        "evi-workday-hcm-migration",
+        "evi-power-platform-governance-docs",
+        "evi-sunshine-payroll-redesign",
+        "evi-legal-dpia-app-build",
+        "evi-tb-hr-dashboard-ai-upgrade",
+        "evi-ta-dashboard-lifecycle",
+        "evi-workday-calc-field-audit",
+        "evi-workday-ph-kt-workshop"
+      ],
+      "fixNext": [
+        "Place these evidence-supported missing keywords into summary, skills, or bullets: AI quality evaluation, benchmark questions, quality metrics, AI governance, prompt regression testing.",
+        "Rewrite 2 work-log bullet(s) into external resume bullets. Remove long proof parentheses, score dumps, version numbers, and internal dates."
+      ],
+      "checks": [
+        {
+          "label": "Title alignment",
+          "ok": true,
+          "value": "AI Evaluation Operations Specialist"
+        },
+        {
+          "label": "Must-have keywords",
+          "ok": false,
+          "value": "6/12 covered · add: AI quality evaluation, benchmark questions, quality metrics, AI governance"
+        },
+        {
+          "label": "Evidence coverage",
+          "ok": true,
+          "value": "6/18 priority evidence IDs show up in visible bullets"
+        },
+        {
+          "label": "ATS readability",
+          "ok": true,
+          "value": "Summary + work sections present"
+        },
+        {
+          "label": "JD positioning",
+          "ok": true,
+          "value": "CV emphasis matches JD positioning"
+        },
+        {
+          "label": "Manager scan",
+          "ok": true,
+          "value": "2 subsection(s), 6 current-role bullet(s)"
+        },
+        {
+          "label": "Resume readability",
+          "ok": false,
+          "value": "2 work-log bullet(s) need rewrite"
+        },
+        {
+          "label": "Internal terminology cleanup",
+          "ok": true,
+          "value": "Internal terms translated or absent"
+        },
+        {
+          "label": "Evidence mapping claims",
+          "ok": true,
+          "value": "Visible claims match evidence support"
+        },
+        {
+          "label": "Overclaim risk",
+          "ok": true,
+          "value": "No flagged risky claims remain visible"
+        }
+      ]
+    },
+    "managerReview": {
+      "wouldInterview": "No",
+      "interviewConfidence": "Low",
+      "positives": [
+        "Visible target title is \"AI Evaluation Operations Specialist\".",
+        "Power Platform / M365 signals are visible: power automate, troubleshoot, support, workflow, documentation.",
+        "Addresses manager pain points: AI products are scaling quickly and need reliable quality gates; Existing product teams likely need more scientific evaluation methods than ad hoc testing; Enterprise customers require quality, safety, reproducibility, and accountability.",
+        "Shows success signals: Evaluation pipelines run reliably and reproducibly; Quality reports clearly drive product improvements.",
+        "8 work bullets give enough screening substance."
+      ],
+      "risks": [
+        "Screening Gate still has 2 blocking issue(s), so this CV is not manager-ready.",
+        "This is a stretch application with 1 unsupported JD requirement(s).",
+        "4 JD requirement(s) are only weakly supported; avoid making them headline claims.",
+        "Summary quality is acceptable, but remaining direct-fit concerns are application-fit risk.",
+        "2 bullet(s) still read like internal project logs or test notes."
+      ],
+      "rewriteRequired": [
+        "Fix blocking Screening Gate issues before treating Manager Review as complete.",
+        "Remove unsupported JD requirements from visible claims; keep them as gaps, not resume promises.",
+        "Rewrite weakly supported requirements as conservative operational support, not expert ownership.",
+        "Rewrite flagged bullets into external business language."
+      ],
+      "checks": [
+        {
+          "label": "Gate readiness",
+          "ok": false,
+          "value": "2 blocking Screening Gate issue(s) remain"
+        },
+        {
+          "label": "Evidence support",
+          "ok": false,
+          "value": "1 unsupported, 4 weak mapping(s)"
+        },
+        {
+          "label": "Manager intent",
+          "ok": true,
+          "value": "Build a scientific and production-ready evaluation function that prevents low-quality or unsafe AI-agent behavior from reaching enterprise customers."
+        },
+        {
+          "label": "Summary quality contract",
+          "ok": true,
+          "value": "Summary quality passed; remaining concern is fit risk"
+        },
+        {
+          "label": "Role emphasis",
+          "ok": true,
+          "value": "5/9 Power Platform / M365 signals visible"
+        },
+        {
+          "label": "30-second scan",
+          "ok": true,
+          "value": "2 subsection(s), 6 current-role bullet(s); first subsection: Chatbot Evaluation and Quality Operations"
+        },
+        {
+          "label": "External language",
+          "ok": false,
+          "value": "Internal wording remains"
+        },
+        {
+          "label": "Interview substance",
+          "ok": true,
+          "value": "5 positive signal(s), 8 work bullet(s)"
+        }
+      ],
+      "summaryQualityContract": {
+        "targetRole": "AI Evaluation Operations Specialist",
+        "positioningMode": "transferable-fit",
+        "requiredCriteria": [
+          {
+            "id": "summary-role-identity",
+            "label": "Role identity",
+            "description": "States a credible role identity for this JD without pretending unsupported direct-fit experience.",
+            "category": "role-identity",
+            "importance": "required",
+            "supportStatus": "partial",
+            "supportingEvidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-tomo-ab-attribution-logic",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-legal-dpia-app-build",
+              "evi-legal-dpia-risk-classification",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-sunshine-payroll-redesign",
+              "evi-power-platform-governance-docs",
+              "evi-ta-dashboard-lifecycle",
+              "evi-tb-hr-dashboard-ai-upgrade",
+              "evi-technical-capability-summary",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "allowedTreatment": "position-as-transferable"
+          },
+          {
+            "id": "summary-relevant-capability",
+            "label": "Relevant capability",
+            "description": "Surfaces the strongest supported capabilities that overlap with the JD.",
+            "category": "relevant-capability",
+            "importance": "required",
+            "supportStatus": "supported",
+            "supportingEvidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-tomo-ab-attribution-logic",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-legal-dpia-app-build",
+              "evi-legal-dpia-risk-classification",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-sunshine-payroll-redesign",
+              "evi-power-platform-governance-docs",
+              "evi-ta-dashboard-lifecycle",
+              "evi-tb-hr-dashboard-ai-upgrade",
+              "evi-technical-capability-summary",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "allowedTreatment": "state-directly"
+          },
+          {
+            "id": "summary-business-value",
+            "label": "Business value",
+            "description": "Explains the business or stakeholder value of the candidate's supported work.",
+            "category": "business-value",
+            "importance": "important",
+            "supportStatus": "supported",
+            "supportingEvidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-tomo-ab-attribution-logic",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-legal-dpia-app-build",
+              "evi-legal-dpia-risk-classification",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-sunshine-payroll-redesign",
+              "evi-power-platform-governance-docs",
+              "evi-ta-dashboard-lifecycle",
+              "evi-tb-hr-dashboard-ai-upgrade",
+              "evi-technical-capability-summary",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "allowedTreatment": "state-directly"
+          },
+          {
+            "id": "summary-evidence-grounding",
+            "label": "Evidence grounding",
+            "description": "Avoids unsupported ownership, metrics, seniority, sales, architecture, or cloud-delivery claims.",
+            "category": "evidence-grounding",
+            "importance": "required",
+            "supportStatus": "partial",
+            "supportingEvidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-tomo-ab-attribution-logic",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-legal-dpia-app-build",
+              "evi-legal-dpia-risk-classification",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-sunshine-payroll-redesign",
+              "evi-power-platform-governance-docs",
+              "evi-ta-dashboard-lifecycle",
+              "evi-tb-hr-dashboard-ai-upgrade",
+              "evi-technical-capability-summary",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "allowedTreatment": "soften"
+          },
+          {
+            "id": "summary-customer-context",
+            "label": "Customer context",
+            "description": "Connects the Summary to customer, stakeholder, adoption, enablement, or operating context when supported.",
+            "category": "customer-context",
+            "importance": "important",
+            "supportStatus": "supported",
+            "supportingEvidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-tomo-ab-attribution-logic",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-legal-dpia-app-build",
+              "evi-legal-dpia-risk-classification",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-sunshine-payroll-redesign",
+              "evi-power-platform-governance-docs",
+              "evi-ta-dashboard-lifecycle",
+              "evi-tb-hr-dashboard-ai-upgrade",
+              "evi-technical-capability-summary",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "allowedTreatment": "state-directly"
+          },
+          {
+            "id": "summary-career-positioning",
+            "label": "Career positioning",
+            "description": "Separates supported transferable fit from unsupported core requirements.",
+            "category": "career-positioning",
+            "importance": "required",
+            "supportStatus": "partial",
+            "supportingEvidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-tomo-ab-attribution-logic",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-legal-dpia-app-build",
+              "evi-legal-dpia-risk-classification",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-sunshine-payroll-redesign",
+              "evi-power-platform-governance-docs",
+              "evi-ta-dashboard-lifecycle",
+              "evi-tb-hr-dashboard-ai-upgrade",
+              "evi-technical-capability-summary",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "allowedTreatment": "position-as-transferable"
+          },
+          {
+            "id": "summary-clarity",
+            "label": "Clarity",
+            "description": "Uses concise external recruiter language without generic filler or tool stuffing.",
+            "category": "clarity",
+            "importance": "required",
+            "supportStatus": "supported",
+            "supportingEvidenceIds": [],
+            "allowedTreatment": "state-directly"
+          }
+        ],
+        "supportedStrengths": [
+          {
+            "evidenceId": "evi-fin-ai-prod-ops-global-jp",
+            "label": "Customer-Service AI Chatbot",
+            "keywords": [
+              "enterprise customer-service AI platform",
+              "Intercom",
+              "knowledge-base API",
+              "Power Automate",
+              "Google Analytics",
+              "API integration",
+              "Dashboard reporting",
+              "Workflow automation"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-tomo-eval-framework",
+            "label": "TOMO Chatbot Evaluation & A/B Testing",
+            "keywords": [
+              "Microsoft Copilot Studio",
+              "enterprise customer-service AI platform",
+              "GPT Accuracy Scoring",
+              "Power BI",
+              "Azure Data Explorer",
+              "Microsoft 365",
+              "Dashboard reporting",
+              "Production support"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-tomo-ab-attribution-logic",
+            "label": "TOMO Chatbot Evaluation & A/B Testing",
+            "keywords": [
+              "Cookie-based routing",
+              "UTM parameter",
+              "D365 Omnichannel",
+              "Azure Data Explorer",
+              "Power BI",
+              "Microsoft 365",
+              "Dashboard reporting",
+              "Workflow automation"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-trender-buddy-gpt-eval-pipeline",
+            "label": "Trender Buddy",
+            "keywords": [
+              "Azure AI Studio",
+              "GPT-4-turbo",
+              "GPT-4.1",
+              "FastAPI",
+              "Power Automate",
+              "Power Apps",
+              "Power BI",
+              "SharePoint"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-genai-hub-milestone-tracking",
+            "label": "GenAI Hub",
+            "keywords": [
+              "Confluence or tracking page",
+              "Milestone Tracking",
+              "GCP",
+              "Azure",
+              "GitHub Actions",
+              "SQL / data validation",
+              "Production support",
+              "UAT / testing"
+            ],
+            "evidenceStrength": "Medium"
+          },
+          {
+            "evidenceId": "evi-genai-dify-eval",
+            "label": "GenAI Hub",
+            "keywords": [
+              "Dify",
+              "Self-hosted LLM App Builder",
+              "NL-to-SQL",
+              "SQL / data validation",
+              "Production support",
+              "UAT / testing",
+              "Stakeholder coordination",
+              "AI chatbot operations"
+            ],
+            "evidenceStrength": "Medium"
+          },
+          {
+            "evidenceId": "evi-legal-dpia-app-build",
+            "label": "Legal DPIA App / AI Impact Assessment",
+            "keywords": [
+              "Power Apps",
+              "SharePoint List",
+              "Power Automate",
+              "GDPR",
+              "PLVRS Compliance",
+              "SharePoint",
+              "Workflow automation",
+              "Production support"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-legal-dpia-risk-classification",
+            "label": "Legal DPIA App / AI Impact Assessment",
+            "keywords": [
+              "Power Apps",
+              "SharePoint List",
+              "Risk Classification Logic",
+              "GDPR",
+              "PLVRS Compliance",
+              "Power Automate",
+              "SharePoint",
+              "Workflow automation"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-workday-hcm-migration",
+            "label": "Workday HCM Implementation & Operations",
+            "keywords": [
+              "Workday HCM",
+              "EIB",
+              "WQL",
+              "Excel",
+              "Power BI",
+              "SharePoint",
+              "Workday",
+              "API integration"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-workday-calc-field-audit",
+            "label": "Workday HCM Implementation & Operations",
+            "keywords": [
+              "Workday HCM",
+              "WQL",
+              "Calculated Fields",
+              "Power BI",
+              "SharePoint",
+              "Workday",
+              "API integration",
+              "Dashboard reporting"
+            ],
+            "evidenceStrength": "Medium"
+          },
+          {
+            "evidenceId": "evi-workday-ph-kt-workshop",
+            "label": "Workday HCM Implementation & Operations",
+            "keywords": [
+              "Workday HCM",
+              "SharePoint",
+              "Excel",
+              "Power BI",
+              "Workday",
+              "API integration",
+              "Dashboard reporting",
+              "Production support"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-sunshine-payroll-redesign",
+            "label": "Sunshine Project",
+            "keywords": [
+              "Workday",
+              "Ramco",
+              "PECI",
+              "Excel",
+              "API integration",
+              "Workflow automation",
+              "Production support",
+              "UAT / testing"
+            ],
+            "evidenceStrength": "Medium"
+          },
+          {
+            "evidenceId": "evi-power-platform-governance-docs",
+            "label": "Power Platform Low-code Automation & API Documentation",
+            "keywords": [
+              "Power Automate",
+              "Power Apps",
+              "Connect One API Platform",
+              "SharePoint",
+              "API integration",
+              "Workflow automation",
+              "Production support",
+              "UAT / testing"
+            ],
+            "evidenceStrength": "Medium"
+          },
+          {
+            "evidenceId": "evi-ta-dashboard-lifecycle",
+            "label": "Talent Acquisition Dashboard",
+            "keywords": [
+              "Power BI",
+              "DAX",
+              "Workday API",
+              "Workday data reports",
+              "Workday",
+              "API integration",
+              "Dashboard reporting",
+              "UAT / testing"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-tb-hr-dashboard-ai-upgrade",
+            "label": "Trender Buddy HR Dashboard AI Enhanced Version",
+            "keywords": [
+              "Power BI",
+              "Prompt Engineering",
+              "SharePoint Lists",
+              "GPT classification",
+              "Power Apps",
+              "SharePoint",
+              "Microsoft 365",
+              "Dashboard reporting"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-technical-capability-summary",
+            "label": "Enterprise Automation, BI & AI Delivery Portfolio",
+            "keywords": [
+              "Power BI",
+              "Power Automate",
+              "Power Apps",
+              "Azure AI Studio",
+              "GPT evaluation",
+              "Workday",
+              "API integration",
+              "Dashboard reporting"
+            ],
+            "evidenceStrength": "Strong"
+          },
+          {
+            "evidenceId": "evi-existing-python-sql-pipeline-debugging",
+            "label": "Pipeline Debugging & Technical Operations",
+            "keywords": [
+              "Python",
+              "SQL",
+              "Jenkins",
+              "Azure Data Explorer",
+              "Docebo API",
+              "Workday",
+              "API integration",
+              "Python validation"
+            ],
+            "evidenceStrength": "Medium"
+          },
+          {
+            "evidenceId": "evi-business-workflow-structuring-non-engineering",
+            "label": "Business Workflow Structuring",
+            "keywords": [
+              "Power Automate",
+              "Power Apps",
+              "SharePoint Lists",
+              "Power BI",
+              "Workflow documentation",
+              "SharePoint",
+              "Dashboard reporting",
+              "Workflow automation"
+            ],
+            "evidenceStrength": "Strong"
+          }
+        ],
+        "unsupportedCoreRequirements": [
+          {
+            "id": "gap-deep-knowledge-of-benchmark-design-llm-as-judge-",
+            "requirement": "Deep knowledge of benchmark design, LLM-as-Judge, quantitative quality measurement, and hallucination detection",
+            "reason": "No direct evidence of LLM-as-Judge calibration, hallucination detection methodology, construct validity, or contamination detection."
+          },
+          {
+            "id": "gap-statistics-and-experimental-design-including-hyp",
+            "requirement": "Statistics and experimental design including hypothesis testing, A/B testing, confidence intervals, and effect sizes",
+            "reason": "Evidence does not prove hypothesis testing, confidence intervals, effect sizes, or statistical significance analysis."
+          },
+          {
+            "id": "gap-practical-experience-with-pytorch-jax-or-tensorf",
+            "requirement": "Practical experience with PyTorch, JAX, or TensorFlow",
+            "reason": "No supported evidence for PyTorch, JAX, or TensorFlow."
+          },
+          {
+            "id": "gap-multi-turn-tool-use-long-context-or-ai-agent-eva",
+            "requirement": "Multi-turn, tool-use, long-context, or AI-agent evaluation harnesses",
+            "reason": "No direct evidence of multi-agent, long-context, or tool-use evaluation harness implementation."
+          },
+          {
+            "id": "gap-ci-cd-quality-gates-and-scalable-automated-evalu",
+            "requirement": "CI/CD quality gates and scalable automated evaluation infrastructure",
+            "reason": "No direct evidence of CI/CD quality gate ownership or scalable ML evaluation infrastructure."
+          }
+        ],
+        "prohibitedClaims": [
+          "AI Evaluation Scientist",
+          "ML Engineer",
+          "Research Engineer",
+          "LLM-as-Judge calibration expert",
+          "reward modeling experience",
+          "Python ML pipeline builder",
+          "CI/CD evaluation infrastructure owner",
+          "PyTorch/JAX/TensorFlow practitioner",
+          "automated red teaming owner",
+          "hallucination detection researcher",
+          "No supported PyTorch, JAX, or TensorFlow experience",
+          "Limited proof of advanced statistics: hypothesis testing, confidence intervals, effect sizes, significance testing",
+          "No direct reward modeling, RLHF, DPO, proper scoring rules, IRT, construct validity, or contamination detection evidence",
+          "Deep knowledge of benchmark design, LLM-as-Judge, quantitative quality measurement, and hallucination detection",
+          "Structured benchmark-style chatbot evaluation and GPT-based scoring workflow.",
+          "No direct evidence of LLM-as-Judge calibration, hallucination detection methodology, construct validity, or contamination detection.",
+          "Statistics and experimental design including hypothesis testing, A/B testing, confidence intervals, and effect sizes",
+          "Designed live A/B routing and reporting logic for chatbot comparison.",
+          "Evidence does not prove hypothesis testing, confidence intervals, effect sizes, or statistical significance analysis.",
+          "Practical experience with PyTorch, JAX, or TensorFlow",
+          "No supported evidence for PyTorch, JAX, or TensorFlow.",
+          "Multi-turn, tool-use, long-context, or AI-agent evaluation harnesses",
+          "AI assistant and chatbot quality evaluation workflow experience.",
+          "No direct evidence of multi-agent, long-context, or tool-use evaluation harness implementation.",
+          "CI/CD quality gates and scalable automated evaluation infrastructure",
+          "Automated quality workflow and production data-pipeline validation support.",
+          "No direct evidence of CI/CD quality gate ownership or scalable ML evaluation infrastructure.",
+          "Owned model training or formal machine-learning research",
+          "Built production backend systems from scratch",
+          "Owned the entire function end to end"
+        ],
+        "wordingConstraints": [
+          "Use external recruiter language.",
+          "Do not claim unsupported direct Azure sales, presales, architecture, quota, migration, or deal ownership.",
+          "If the role is adjacent or transferable, position the candidate as adjacent or transferable instead of direct-fit.",
+          "Keep genuine fit gaps out of visible strengths."
+        ],
+        "maxLengthWords": 65
+      },
+      "summaryReview": {
+        "reviewRunId": "review-h1v6qkhz",
+        "reviewedCvHash": "hrslq8e",
+        "positioningMode": "transferable-fit",
+        "overallStatus": "pass",
+        "criteria": [
+          {
+            "criterionId": "summary-role-identity",
+            "status": "pass",
+            "reason": "The Summary must state a credible role identity for this JD.",
+            "evidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-tomo-ab-attribution-logic",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-legal-dpia-app-build",
+              "evi-legal-dpia-risk-classification",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-sunshine-payroll-redesign",
+              "evi-power-platform-governance-docs",
+              "evi-ta-dashboard-lifecycle",
+              "evi-tb-hr-dashboard-ai-upgrade",
+              "evi-technical-capability-summary",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "fixability": "summary-rewrite"
+          },
+          {
+            "criterionId": "summary-relevant-capability",
+            "status": "pass",
+            "reason": "Supported capability terms are visible: workflow, scoring, production, support.",
+            "evidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-tomo-ab-attribution-logic",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-legal-dpia-app-build",
+              "evi-legal-dpia-risk-classification",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-sunshine-payroll-redesign",
+              "evi-power-platform-governance-docs",
+              "evi-ta-dashboard-lifecycle",
+              "evi-tb-hr-dashboard-ai-upgrade",
+              "evi-technical-capability-summary",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "fixability": "summary-rewrite"
+          },
+          {
+            "criterionId": "summary-business-value",
+            "status": "pass",
+            "reason": "Business/stakeholder value is visible.",
+            "evidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-tomo-ab-attribution-logic",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-legal-dpia-app-build",
+              "evi-legal-dpia-risk-classification",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-sunshine-payroll-redesign",
+              "evi-power-platform-governance-docs",
+              "evi-ta-dashboard-lifecycle",
+              "evi-tb-hr-dashboard-ai-upgrade",
+              "evi-technical-capability-summary",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "fixability": "summary-rewrite"
+          },
+          {
+            "criterionId": "summary-evidence-grounding",
+            "status": "pass",
+            "reason": "No prohibited Summary claim detected.",
+            "evidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-tomo-ab-attribution-logic",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-legal-dpia-app-build",
+              "evi-legal-dpia-risk-classification",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-sunshine-payroll-redesign",
+              "evi-power-platform-governance-docs",
+              "evi-ta-dashboard-lifecycle",
+              "evi-tb-hr-dashboard-ai-upgrade",
+              "evi-technical-capability-summary",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "fixability": "summary-rewrite"
+          },
+          {
+            "criterionId": "summary-customer-context",
+            "status": "pass",
+            "reason": "Customer, stakeholder, or operating context is visible.",
+            "evidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-tomo-ab-attribution-logic",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-legal-dpia-app-build",
+              "evi-legal-dpia-risk-classification",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-sunshine-payroll-redesign",
+              "evi-power-platform-governance-docs",
+              "evi-ta-dashboard-lifecycle",
+              "evi-tb-hr-dashboard-ai-upgrade",
+              "evi-technical-capability-summary",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "fixability": "summary-rewrite"
+          },
+          {
+            "criterionId": "summary-career-positioning",
+            "status": "partial",
+            "reason": "Remaining unsupported core requirement(s): Deep knowledge of benchmark design, LLM-as-Judge, quantitative quality measurement, and hallucination detection; Statistics and experimental design including hypothesis testing, A/B testing, confidence intervals, and effect sizes; Practical experience with PyTorch, JAX, or TensorFlow.",
+            "evidenceIds": [
+              "evi-fin-ai-prod-ops-global-jp",
+              "evi-tomo-eval-framework",
+              "evi-tomo-ab-attribution-logic",
+              "evi-trender-buddy-gpt-eval-pipeline",
+              "evi-genai-hub-milestone-tracking",
+              "evi-genai-dify-eval",
+              "evi-legal-dpia-app-build",
+              "evi-legal-dpia-risk-classification",
+              "evi-workday-hcm-migration",
+              "evi-workday-calc-field-audit",
+              "evi-workday-ph-kt-workshop",
+              "evi-sunshine-payroll-redesign",
+              "evi-power-platform-governance-docs",
+              "evi-ta-dashboard-lifecycle",
+              "evi-tb-hr-dashboard-ai-upgrade",
+              "evi-technical-capability-summary",
+              "evi-existing-python-sql-pipeline-debugging",
+              "evi-business-workflow-structuring-non-engineering"
+            ],
+            "fixability": "fit-risk-only"
+          },
+          {
+            "criterionId": "summary-clarity",
+            "status": "pass",
+            "reason": "Summary length and wording are concise.",
+            "evidenceIds": [],
+            "fixability": "summary-rewrite"
+          }
+        ],
+        "unsupportedCoreRequirements": [
+          "Deep knowledge of benchmark design, LLM-as-Judge, quantitative quality measurement, and hallucination detection",
+          "Statistics and experimental design including hypothesis testing, A/B testing, confidence intervals, and effect sizes",
+          "Practical experience with PyTorch, JAX, or TensorFlow",
+          "Multi-turn, tool-use, long-context, or AI-agent evaluation harnesses",
+          "CI/CD quality gates and scalable automated evaluation infrastructure"
+        ],
+        "summaryRewriteNeeded": false,
+        "fitRiskOnly": true
+      }
+    },
+    "reviewerReview": {
+      "ready": false,
+      "blockers": [
+        "Reviewer: HR scan: 6 covered keyword(s), 6 supported keyword gap(s)",
+        "Reviewer: weak claims controlled: 4 weak mapping(s)",
+        "Reviewer: external wording: 2 work-log bullet(s)"
+      ],
+      "checks": [
+        {
+          "label": "Reviewer: HR scan",
+          "ok": false,
+          "value": "6 covered keyword(s), 6 supported keyword gap(s)"
+        },
+        {
+          "label": "Reviewer: hiring manager relevance",
+          "ok": true,
+          "value": "Summary quality passed; remaining concern is application-fit risk"
+        },
+        {
+          "label": "Reviewer: evidence traceability",
+          "ok": true,
+          "value": "8/8 visible bullet(s) cite valid evidence card IDs"
+        },
+        {
+          "label": "Reviewer: unsupported claims",
+          "ok": true,
+          "value": "No unsupported JD gaps claimed visibly"
+        },
+        {
+          "label": "Reviewer: application fit risk",
+          "ok": true,
+          "value": "1 unsupported mapping(s), 3 high-risk gap(s) tracked as fit risk"
+        },
+        {
+          "label": "Reviewer: weak claims controlled",
+          "ok": false,
+          "value": "4 weak mapping(s)"
+        },
+        {
+          "label": "Reviewer: action/outcome bullets",
+          "ok": true,
+          "value": "6/8 action-oriented bullet(s)"
+        },
+        {
+          "label": "Reviewer: external wording",
+          "ok": false,
+          "value": "2 work-log bullet(s)"
+        }
+      ],
+      "recommendation": "Patch the current CV before export. Do not create another broad draft unless the positioning is wrong."
+    },
+    "exportCheck": {
+      "ready": false,
+      "blockers": [
+        "Contact extraction: Missing name, email, or location",
+        "Contact email: Missing email",
+        "ATS keyword support: 6 covered; 6 supported gap(s)"
+      ],
+      "checks": [
+        {
+          "label": "ATS text layer",
+          "ok": true,
+          "value": "2,386 extracted character(s)"
+        },
+        {
+          "label": "Contact extraction",
+          "ok": false,
+          "value": "Missing name, email, or location"
+        },
+        {
+          "label": "Contact email",
+          "ok": false,
+          "value": "Missing email"
+        },
+        {
+          "label": "Section order",
+          "ok": true,
+          "value": "Header, summary, skills, and work history are in readable order"
+        },
+        {
+          "label": "ATS keyword support",
+          "ok": false,
+          "value": "6 covered; 6 supported gap(s)"
+        },
+        {
+          "label": "Visible work depth",
+          "ok": true,
+          "value": "2 role block(s), 8 work bullet(s)"
+        },
+        {
+          "label": "PDF export readiness",
+          "ok": true,
+          "value": "CV version has composed export content"
+        }
+      ],
+      "recommendation": "Fix text extraction or missing content before exporting. ATS verification is not clean yet."
+    }
+  }
+}

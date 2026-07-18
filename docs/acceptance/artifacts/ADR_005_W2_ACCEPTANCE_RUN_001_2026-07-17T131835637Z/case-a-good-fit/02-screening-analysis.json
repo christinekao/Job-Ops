@@ -1,0 +1,281 @@
+{
+  "primaryTargetTitle": "Power Platform Developer",
+  "backupTargetTitles": [
+    "M365 Automation Developer",
+    "Power Platform / Business Process Automation Specialist",
+    "Power Automate Support Developer"
+  ],
+  "mustHaveKeywords": [
+    "Power Apps",
+    "Power Automate",
+    "SharePoint",
+    "workflow automation",
+    "support documentation"
+  ],
+  "supportingKeywords": [
+    "Power BI",
+    "Microsoft 365",
+    "governance",
+    "troubleshooting"
+  ],
+  "missingKeywords": [],
+  "riskyClaims": [
+    "from-scratch enterprise software engineer",
+    "Azure cloud architect ownership"
+  ],
+  "mustHaveSignals": [
+    "2+ years building and maintaining Power Platform solutions in enterprise M365 context.",
+    "Visible Power Apps + Power Automate + SharePoint List delivery examples.",
+    "Support-heavy fit: production flow takeover, monitoring, troubleshooting, credential renewal, and user support.",
+    "Governance fit: connection references, ownership transfer, environment variables, licensing considerations, role-based access, audit logging, documentation.",
+    "Business translation fit: requirements gathered from Legal, Privacy, HR, recruiting, and regional stakeholders and converted into working low-code systems.",
+    "End-user enablement fit: TOI documentation, knowledge transfer workshops, training coordination, and clear non-technical stakeholder updates.",
+    "KPI communication fit: Copilot adoption dashboard, license conversion tracking, HR dashboards, recruiting metrics, onboarding metrics."
+  ],
+  "summaryAngle": "Power Platform developer with grounded Power Apps, Power Automate, SharePoint, governance documentation, production troubleshooting, and M365 adoption analytics evidence.",
+  "recommendedSkillIds": [
+    "skill-production-flow-takeover",
+    "skill-dpia-compliance-app-build",
+    "skill-tw-cv-dispatch-automation",
+    "skill-se-onboarding-email-automation",
+    "skill-mentor-booking-powerapp",
+    "skill-powerplatform-governance-doc",
+    "skill-azuread-secret-env-maintenance",
+    "skill-dpia-role-audit-access",
+    "skill-m365-license-conversion-ops",
+    "skill-m365-copilot-adoption-dashboard"
+  ],
+  "recommendedDomainKnowledgeIds": [
+    "domain-production-hr-automation-ops",
+    "domain-power-platform-enablement",
+    "domain-dpia-privacy-ai-governance",
+    "domain-tw-recruiting-dispatch",
+    "domain-m365-copilot-adoption",
+    "domain-workday-hcm-implementation",
+    "domain-trender-buddy-hr-document-ops"
+  ],
+  "recommendedEvidenceIds": [
+    "evi-pa-ops-takeover",
+    "evi-legal-dpia-app-build",
+    "evi-tw-cv-auto-match-flow-fixes",
+    "evi-se-onboarding-email-automation",
+    "evi-mentor-booking-system",
+    "evi-power-platform-governance-docs",
+    "evi-m365-copilot-dashboard",
+    "evi-m365-trial-license-conversion",
+    "evi-legal-dpia-risk-classification",
+    "evi-workday-ph-kt-workshop"
+  ],
+  "recommendedStoryIds": [
+    "star-pa-ops-takeover",
+    "star-legal-dpia-digital-workflow",
+    "star-tw-cv-auto-match-stability",
+    "star-se-onboarding-email-automation",
+    "star-power-platform-governance",
+    "star-m365-copilot-adoption-dashboard"
+  ],
+  "recommendedNextAction": "Rewrite the CV headline and first summary line to target Power Platform Developer, then make the first Trend Micro bullets show production Power Automate support, Power Apps + SharePoint workflow builds, M365/Copilot adoption analytics, governance documentation, troubleshooting, TOI documentation, and end-user enablement before AI or BI-heavy achievements.",
+  "positioning": {
+    "roleType": "Power Platform / M365 Automation",
+    "aiMarketArchetype": "Power Platform AI Automation",
+    "applyTier": "Good",
+    "primaryHiringProblem": "Deliver and support Power Platform workflows for business users with readable documentation and reliable handoff.",
+    "managerHireReason": "Candidate has direct grounded evidence across Power Apps, Power Automate, SharePoint-backed workflows, governance documentation, and production support.",
+    "toolApplicationAngle": "Position directly as a Power Platform / M365 automation practitioner with business process translation strength.",
+    "positioningRationale": [
+      "Core JD requirements map to grounded Power Platform and M365 automation evidence.",
+      "Weak cloud-architecture claims are not needed for this role."
+    ],
+    "safestPositioning": "Power Platform / M365 automation practitioner focused on workflow delivery, governance documentation, and production support.",
+    "headlineRecommendation": "Power Platform Developer | Power Apps, Power Automate, SharePoint Workflow Automation",
+    "whyThisFits": [
+      "Built Power Platform compliance workflows.",
+      "Supported production Power Automate and SharePoint automations.",
+      "Created governance and handoff documentation."
+    ],
+    "hiddenSkillsToSurface": [
+      "Power Apps",
+      "Power Automate",
+      "SharePoint workflow design",
+      "production troubleshooting",
+      "support documentation"
+    ],
+    "evidenceToSuppress": [],
+    "claimsToAvoid": [
+      "from-scratch enterprise software engineer",
+      "Azure cloud architect ownership"
+    ],
+    "interviewRiskQuestions": [
+      "How much code versus configuration did you personally own?"
+    ]
+  },
+  "jdEvidenceMapping": [
+    {
+      "requirement": "Power Apps / Power Automate workflow delivery",
+      "marketExpectation": "Build low-code workflows for business users",
+      "matchingEvidenceIds": [
+        "evi-legal-dpia-app-build",
+        "evi-mentor-booking-system",
+        "evi-pa-ops-takeover"
+      ],
+      "matchingSkillIds": [],
+      "matchingStoryIds": [],
+      "supportLevel": "Strong",
+      "safeCvAngle": "Built and supported Power Platform workflows for legal, HR, and operations processes.",
+      "gapOrRisk": ""
+    },
+    {
+      "requirement": "SharePoint-backed data and approval processes",
+      "marketExpectation": "Use SharePoint Lists and routing logic safely",
+      "matchingEvidenceIds": [
+        "evi-legal-dpia-app-build",
+        "evi-mentor-booking-system",
+        "evi-tw-cv-auto-match-flow-fixes"
+      ],
+      "matchingSkillIds": [],
+      "matchingStoryIds": [],
+      "supportLevel": "Strong",
+      "safeCvAngle": "Used SharePoint-backed lists and workflow logic for approvals, booking, and recruiting sync.",
+      "gapOrRisk": ""
+    },
+    {
+      "requirement": "Documentation and support readiness",
+      "marketExpectation": "Maintainable handoff and user support",
+      "matchingEvidenceIds": [
+        "evi-power-platform-governance-docs",
+        "evi-workday-ph-kt-workshop",
+        "evi-pa-ops-takeover"
+      ],
+      "matchingSkillIds": [],
+      "matchingStoryIds": [],
+      "supportLevel": "Strong",
+      "safeCvAngle": "Documented API/automation engagement patterns and supported knowledge transfer.",
+      "gapOrRisk": ""
+    },
+    {
+      "requirement": "Azure cloud architecture ownership",
+      "marketExpectation": "Design cloud infrastructure independently",
+      "matchingEvidenceIds": [],
+      "matchingSkillIds": [],
+      "matchingStoryIds": [],
+      "supportLevel": "Weak",
+      "safeCvAngle": "Keep Azure references limited to tools touched inside supported automation contexts.",
+      "gapOrRisk": "Evidence does not support independent Azure cloud architecture ownership."
+    }
+  ],
+  "remainingGaps": [
+    {
+      "gap": "Independent Azure cloud architecture ownership",
+      "riskLevel": "Low",
+      "mitigation": "Not required for the selected Power Platform positioning; do not claim it."
+    }
+  ],
+  "positioningReport": {
+    "overallFit": "Good",
+    "transferableStrengths": [
+      {
+        "strength": "Built and supported Power Platform workflows for legal, HR, and operations processes.",
+        "evidenceIds": [
+          "evi-legal-dpia-app-build",
+          "evi-mentor-booking-system",
+          "evi-pa-ops-takeover"
+        ],
+        "supportLevel": "Strong",
+        "cvTreatment": "state-directly"
+      },
+      {
+        "strength": "Used SharePoint-backed lists and workflow logic for approvals, booking, and recruiting sync.",
+        "evidenceIds": [
+          "evi-legal-dpia-app-build",
+          "evi-mentor-booking-system",
+          "evi-tw-cv-auto-match-flow-fixes"
+        ],
+        "supportLevel": "Strong",
+        "cvTreatment": "state-directly"
+      },
+      {
+        "strength": "Documented API/automation engagement patterns and supported knowledge transfer.",
+        "evidenceIds": [
+          "evi-power-platform-governance-docs",
+          "evi-workday-ph-kt-workshop",
+          "evi-pa-ops-takeover"
+        ],
+        "supportLevel": "Strong",
+        "cvTreatment": "state-directly"
+      }
+    ],
+    "truthfulCapabilityGaps": [
+      {
+        "requirement": "Azure cloud architecture ownership",
+        "reason": "Evidence does not support independent Azure cloud architecture ownership.",
+        "riskLevel": "Medium",
+        "mitigation": "Keep Azure references limited to tools touched inside supported automation contexts."
+      },
+      {
+        "requirement": "Independent Azure cloud architecture ownership",
+        "reason": "Not required for the selected Power Platform positioning; do not claim it.",
+        "riskLevel": "Low",
+        "mitigation": "Not required for the selected Power Platform positioning; do not claim it."
+      }
+    ],
+    "unsupportedClaimsPrevented": [
+      {
+        "claim": "from-scratch enterprise software engineer",
+        "reason": "This claim is not sufficiently supported for visible CV positioning.",
+        "mustNotClaim": [
+          "from-scratch enterprise software engineer"
+        ]
+      },
+      {
+        "claim": "Azure cloud architect ownership",
+        "reason": "This claim is not sufficiently supported for visible CV positioning.",
+        "mustNotClaim": [
+          "Azure cloud architect ownership"
+        ]
+      },
+      {
+        "claim": "Azure cloud architecture ownership",
+        "reason": "This claim is not sufficiently supported for visible CV positioning.",
+        "mustNotClaim": [
+          "Azure cloud architecture ownership"
+        ]
+      },
+      {
+        "claim": "Keep Azure references limited to tools touched inside supported automation contexts.",
+        "reason": "This claim is not sufficiently supported for visible CV positioning.",
+        "mustNotClaim": [
+          "Keep Azure references limited to tools touched inside supported automation contexts."
+        ]
+      },
+      {
+        "claim": "Evidence does not support independent Azure cloud architecture ownership.",
+        "reason": "This claim is not sufficiently supported for visible CV positioning.",
+        "mustNotClaim": [
+          "Evidence does not support independent Azure cloud architecture ownership."
+        ]
+      }
+    ],
+    "recommendedPositioning": {
+      "headline": "Power Platform Developer | Power Apps, Power Automate, SharePoint Workflow Automation",
+      "summaryAngle": "Power Platform developer with grounded Power Apps, Power Automate, SharePoint, governance documentation, production troubleshooting, and M365 adoption analytics evidence.",
+      "targetRoleTreatment": "direct-fit",
+      "wordingGuidance": [
+        "Power Platform / M365 automation practitioner focused on workflow delivery, governance documentation, and production support.",
+        "Strengthen wording only when supported by selected evidence.",
+        "Preserve unsupported requirements as gaps or risks, not visible strengths."
+      ]
+    },
+    "remainingHiringRisks": [
+      {
+        "risk": "Azure cloud architecture ownership",
+        "impactOnInterviewProbability": "May reduce interview probability unless the CV keeps wording conservative.",
+        "mitigation": "Evidence does not support independent Azure cloud architecture ownership."
+      },
+      {
+        "risk": "How much code versus configuration did you personally own?",
+        "impactOnInterviewProbability": "May reduce interview probability if the recruiter or hiring manager requires direct proof.",
+        "mitigation": "Prepare truthful interview evidence or choose a more adjacent target angle."
+      }
+    ]
+  }
+}
