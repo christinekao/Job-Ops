@@ -4787,3 +4787,451 @@ documents:
     related_contracts: []
     replacement: ""
     codex_usage: "Historical or supporting reference; cannot independently authorize implementation."
+  - id: "DOC-286"
+    title: "P5-BACKBONE-001.md"
+    file: "docs/governance/tasks/P5-BACKBONE-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on:
+      - "docs/INDEX.md"
+      - "docs/architecture/CURRENT_ARCHITECTURE.md"
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs:
+      - "ADR-002"
+      - "ADR-003"
+      - "ADR-006"
+      - "ADR-007"
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Completed task evidence; cannot independently authorize future production implementation."
+  - id: "DOC-287"
+    title: "P6-PERSIST-001.md"
+    file: "docs/governance/tasks/P6-PERSIST-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on:
+      - "docs/INDEX.md"
+      - "docs/architecture/CURRENT_ARCHITECTURE.md"
+      - "docs/governance/PROJECT_RULES.md"
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs:
+      - "ADR-GOV-002"
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Completed task evidence; cannot independently authorize future production implementation."
+  - id: "DOC-288"
+    title: "DOC-GOV-002.md"
+    file: "docs/governance/tasks/DOC-GOV-002.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on:
+      - "docs/INDEX.md"
+      - "docs/architecture/CURRENT_ARCHITECTURE.md"
+      - "docs/governance/PROJECT_RULES.md"
+      - "docs/governance/tasks/P5-BACKBONE-001.md"
+      - "docs/governance/tasks/P6-PERSIST-001.md"
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Documentation consistency task; cannot authorize production implementation."
+  - id: "DOC-289"
+    title: "P7-INTEGRITY-001.md"
+    file: "docs/governance/tasks/P7-INTEGRITY-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on:
+      - "docs/INDEX.md"
+      - "docs/architecture/CURRENT_ARCHITECTURE.md"
+      - "docs/governance/PROJECT_RULES.md"
+      - "docs/governance/tasks/P5-BACKBONE-001.md"
+      - "docs/governance/tasks/P6-PERSIST-001.md"
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs:
+      - "ADR-GOV-002"
+      - "ADR-GOV-006"
+      - "ADR-GOV-007"
+      - "ADR-PROD-006"
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Completed implementation evidence after closure; cannot independently authorize future production changes."
+  - id: "DOC-290"
+    title: "P8-GOLDEN-001.md"
+    file: "docs/governance/tasks/P8-GOLDEN-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on:
+      - "docs/INDEX.md"
+      - "docs/architecture/CURRENT_ARCHITECTURE.md"
+      - "docs/governance/PROJECT_RULES.md"
+      - "docs/governance/tasks/P7-INTEGRITY-001.md"
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs:
+      - "ADR-GOV-002"
+      - "ADR-GOV-006"
+      - "ADR-PROD-006"
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Golden validation implementation evidence after closure; cannot independently authorize future production changes."
+  - id: "DOC-291"
+    title: "P9-JD-IMPORT-001.md"
+    file: "docs/governance/tasks/P9-JD-IMPORT-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on:
+      - "docs/INDEX.md"
+      - "docs/architecture/CURRENT_ARCHITECTURE.md"
+      - "docs/governance/PROJECT_RULES.md"
+      - "docs/governance/tasks/P8-GOLDEN-001.md"
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs:
+      - "ADR-GOV-002"
+      - "ADR-GOV-006"
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Completed P9 execution and structured-field remediation evidence; it does not independently amend architecture."
+  - id: "DOC-292"
+    title: "URL_IMPORT_POLICY.md"
+    file: "docs/governance/URL_IMPORT_POLICY.md"
+    document_type: "PRODUCT_SECURITY_POLICY"
+    lifecycle: "ACTIVE"
+    authority: "SECONDARY"
+    can_authorize_production_implementation: true
+    governs:
+      - "CV_Manager_React/jdImportService.cjs"
+      - "CV_Manager_React/server.cjs"
+      - "CV_Manager_React/src/components/tabs/JDIntake.tsx"
+      - "CV_Manager_React/src/data/jobs.ts"
+    depends_on:
+      - "docs/INDEX.md"
+      - "docs/architecture/CURRENT_ARCHITECTURE.md"
+      - "docs/governance/PROJECT_RULES.md"
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Active bounded product/security policy for public JD URL import under Current Architecture."
+  - id: "DOC-293"
+    title: "P10-JD-IMPORT-COMPAT-001.md"
+    file: "docs/governance/tasks/P10-JD-IMPORT-COMPAT-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on:
+      - "docs/INDEX.md"
+      - "docs/architecture/CURRENT_ARCHITECTURE.md"
+      - "docs/governance/URL_IMPORT_POLICY.md"
+      - "docs/governance/tasks/P9-JD-IMPORT-001.md"
+      - "docs/governance/tasks/P8-GOLDEN-001.md"
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs:
+      - "ADR-GOV-002"
+      - "ADR-GOV-006"
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Completed P10 Source URL, employer-insights, and cross-company URL import compatibility evidence; it does not independently amend architecture."
+  - id: "DOC-294"
+    title: "P11-JD-INTAKE-UX-001.md"
+    file: "docs/governance/tasks/P11-JD-INTAKE-UX-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on:
+      - "docs/INDEX.md"
+      - "docs/architecture/CURRENT_ARCHITECTURE.md"
+      - "docs/governance/tasks/P10-JD-IMPORT-COMPAT-001.md"
+      - "docs/governance/tasks/P9-JD-IMPORT-001.md"
+      - "docs/governance/tasks/P8-GOLDEN-001.md"
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Completed P11 presentation-only JD Intake remediation evidence; it does not amend data, identity, hash, staleness, Screening, or Golden contracts."
+  - id: "DOC-295"
+    title: "P12-JD-RAW-SANITIZE-001.md"
+    file: "docs/governance/tasks/P12-JD-RAW-SANITIZE-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on:
+      - "docs/INDEX.md"
+      - "docs/architecture/CURRENT_ARCHITECTURE.md"
+      - "docs/governance/URL_IMPORT_POLICY.md"
+      - "docs/governance/tasks/P11-JD-INTAKE-UX-001.md"
+      - "docs/governance/tasks/P10-JD-IMPORT-COMPAT-001.md"
+      - "docs/governance/tasks/P9-JD-IMPORT-001.md"
+      - "docs/governance/tasks/P8-GOLDEN-001.md"
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs:
+      - "ADR-GOV-003"
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Completed P12 canonical raw-JD and Prompt-input contamination remediation evidence under the existing URL Import Policy and identity boundaries."
+  - id: "DOC-296"
+    title: "P13-JD-ACTION-FEEDBACK-001.md"
+    file: "docs/governance/tasks/P13-JD-ACTION-FEEDBACK-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on:
+      - "docs/INDEX.md"
+      - "docs/architecture/CURRENT_ARCHITECTURE.md"
+      - "docs/governance/PROJECT_RULES.md"
+      - "docs/governance/tasks/P12-JD-RAW-SANITIZE-001.md"
+      - "docs/governance/tasks/P6-PERSIST-001.md"
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Completed P13 JD Apply and persistence-confirmed Save/Update feedback evidence; it does not amend persistence or identity contracts."
+  - id: "DOC-297"
+    title: "P14-SCREENING-SCHEMA-CONTRACT-001.md"
+    file: "docs/governance/tasks/P14-SCREENING-SCHEMA-CONTRACT-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on:
+      - "docs/INDEX.md"
+      - "docs/architecture/CURRENT_ARCHITECTURE.md"
+      - "docs/governance/PROJECT_RULES.md"
+      - "docs/governance/tasks/P13-JD-ACTION-FEEDBACK-001.md"
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs:
+      - "ADR-GOV-003"
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Completed P14 runtime-owned Screening AI schema, generated Prompt contract, strict Apply validation, and automatic identity/staleness evidence."
+  - id: "DOC-298"
+    title: "P15-SCREENING-SEMANTICS-001.md"
+    file: "docs/governance/tasks/P15-SCREENING-SEMANTICS-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on:
+      - "docs/INDEX.md"
+      - "docs/architecture/CURRENT_ARCHITECTURE.md"
+      - "docs/governance/tasks/P14-SCREENING-SCHEMA-CONTRACT-001.md"
+      - "docs/governance/tasks/P8-GOLDEN-001.md"
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs:
+      - "ADR-GOV-003"
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Completed P15 canonical Screening semantics, stable requirement inventory, JD normalization/classification, P8-derived Fit, and compact safe context evidence."
+  - id: "DOC-299"
+    title: "SCREENING_FIT_PRODUCT_CONTRACT.md"
+    file: "docs/governance/contracts/SCREENING_FIT_PRODUCT_CONTRACT.md"
+    document_type: "RUNTIME_CONTRACT_REFERENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on:
+      - "docs/architecture/CURRENT_ARCHITECTURE.md"
+      - "docs/governance/tasks/P15-SCREENING-SEMANTICS-001.md"
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs:
+      - "ADR-GOV-003"
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Code-grounded reference for canonical Screening matrix ownership and P8-derived Fit."
+  - id: "DOC-300"
+    title: "SCREENING_PROMPT_CONTEXT_CONTRACT.md"
+    file: "docs/governance/contracts/SCREENING_PROMPT_CONTEXT_CONTRACT.md"
+    document_type: "RUNTIME_CONTRACT_REFERENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on:
+      - "docs/architecture/CURRENT_ARCHITECTURE.md"
+      - "docs/governance/tasks/P15-SCREENING-SEMANTICS-001.md"
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs:
+      - "ADR-GOV-003"
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Code-grounded reference for runtime-generated Prompt schema, validation, identity, and safe bounded context."
+  - id: "DOC-301"
+    title: "JD_NORMALIZATION_CONTRACT.md"
+    file: "docs/governance/contracts/JD_NORMALIZATION_CONTRACT.md"
+    document_type: "RUNTIME_CONTRACT_REFERENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on:
+      - "docs/architecture/CURRENT_ARCHITECTURE.md"
+      - "docs/governance/tasks/P15-SCREENING-SEMANTICS-001.md"
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: []
+    related_contracts: []
+    replacement: ""
+    codex_usage: "Code-grounded reference for conservative JD fragment repair, stable requirement identity, and source URL integrity."
+  - id: "DOC-302"
+    title: "P15R-REQUIREMENT-INVENTORY-INTEGRITY-001.md"
+    file: "docs/governance/tasks/P15R-REQUIREMENT-INVENTORY-INTEGRITY-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on:
+      - "docs/INDEX.md"
+      - "docs/architecture/CURRENT_ARCHITECTURE.md"
+      - "docs/governance/tasks/P15-SCREENING-SEMANTICS-001.md"
+      - "docs/governance/tasks/P8-GOLDEN-001.md"
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs:
+      - "ADR-GOV-003"
+    related_contracts:
+      - "docs/governance/contracts/JD_NORMALIZATION_CONTRACT.md"
+      - "docs/governance/contracts/SCREENING_FIT_PRODUCT_CONTRACT.md"
+      - "docs/governance/contracts/SCREENING_PROMPT_CONTEXT_CONTRACT.md"
+    replacement: ""
+    codex_usage: "Completed P15R source-boundary, atomic inventory, lineage, deduplication, source URL, and safe-context integrity evidence."
+  - id: "DOC-303"
+    title: "REQUIREMENT_INVENTORY_CONTRACT.md"
+    file: "docs/governance/contracts/REQUIREMENT_INVENTORY_CONTRACT.md"
+    document_type: "RUNTIME_CONTRACT_REFERENCE"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on:
+      - "docs/architecture/CURRENT_ARCHITECTURE.md"
+      - "docs/governance/tasks/P15R-REQUIREMENT-INVENTORY-INTEGRITY-001.md"
+    extends:
+      - "docs/governance/contracts/JD_NORMALIZATION_CONTRACT.md"
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs:
+      - "ADR-GOV-003"
+    related_contracts:
+      - "docs/governance/contracts/SCREENING_FIT_PRODUCT_CONTRACT.md"
+      - "docs/governance/contracts/SCREENING_PROMPT_CONTEXT_CONTRACT.md"
+    replacement: ""
+    codex_usage: "Code-grounded P15R reference for canonical atomic requirement inventory and lineage."
+  - id: "DOC-304"
+    title: "P15R2-SCREENING-ATOMIC-SEMANTICS-001.md"
+    file: "docs/governance/tasks/P15R2-SCREENING-ATOMIC-SEMANTICS-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on:
+      - "docs/governance/tasks/P15R-REQUIREMENT-INVENTORY-INTEGRITY-001.md"
+      - "docs/governance/contracts/REQUIREMENT_INVENTORY_CONTRACT.md"
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: ["ADR-GOV-003"]
+    related_contracts:
+      - "docs/governance/contracts/SCREENING_FIT_PRODUCT_CONTRACT.md"
+      - "docs/governance/contracts/SCREENING_PROMPT_CONTEXT_CONTRACT.md"
+    replacement: ""
+    codex_usage: "P15R2 atomic semantics, formal screening, safe source URL projection, and historical-run clarity closure."
+  - id: "DOC-305"
+    title: "P16-WORKFLOW-CHECKLIST-STATE-001.md"
+    file: "docs/governance/tasks/P16-WORKFLOW-CHECKLIST-STATE-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on:
+      - "docs/governance/tasks/P15R2-SCREENING-ATOMIC-SEMANTICS-001.md"
+      - "docs/governance/contracts/SCREENING_FIT_PRODUCT_CONTRACT.md"
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: ["ADR-GOV-002", "ADR-GOV-006"]
+    related_contracts:
+      - "docs/governance/contracts/SCREENING_FIT_PRODUCT_CONTRACT.md"
+    replacement: ""
+    codex_usage: "P16 current-identity checklist, historical authorization separation, and explicit LOW_FIT continuation."

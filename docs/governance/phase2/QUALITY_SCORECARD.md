@@ -32,6 +32,20 @@ Total score: 100 points.
 | Repair Damage | 5 | 4 | 2 | Yes |
 | Export Readiness | 4 | 3 | 2 | Yes |
 
+## P8 Match and Opportunity Safety Gates
+
+These are required gates around the stable 100-point CV score; they do not add
+or reweight points.
+
+| Gate | Passing rule |
+|---|---|
+| Requirement coverage | Every normalized JD requirement has one importance and one match status |
+| Evidence safety | Direct/transferable support uses CV-eligible Evidence; transfer context is explicit |
+| Gap separation | Learnable, core-capability, and formal-screening gaps remain distinct |
+| Fit decision | Current capability, direct Evidence, transferability, ramp-up, screening risk, viability, priority, generation recommendation, and relative rank are present |
+| Opportunity positioning | Medium Fit has win/lose/ramp/CV/interview analysis; Low Fit has credible overlap and transition guidance |
+| Claim safety | Forbidden, unsupported, invalid-lineage, and CV-ineligible claims fail |
+
 ## Metric Definitions
 
 ### JD Alignment

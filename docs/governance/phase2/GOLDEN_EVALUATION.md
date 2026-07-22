@@ -4,6 +4,21 @@ Status: Permanent Phase 2 CV quality evaluation framework.
 
 Scope: This framework evaluates CV output quality after future implementation waves. It does not authorize production-code changes, prompt changes, governance-rule changes, architecture redesign, or task execution.
 
+## Production Golden JD Match Dataset
+
+`P8-GOLDEN-001` established deterministic dataset version `1.0.0` at
+`CV_Manager_React/scripts/golden/fixtures/golden-jd-dataset-v1.json`.
+
+- `GOLDEN-JD-001`: IT Technical Trainer — `VIABLE_MEDIUM_FIT`
+- `GOLDEN-JD-002`: Senior Software Engineer, CoreAI — `LOW_FIT`
+- `GOLDEN-JD-003`: Power Platform/Copilot Solution Engineer — `STRONG_FIT`
+- `GOLDEN-JD-004`: Experimentation Platform, CoreAI — `LOW_FIT`
+
+`npm run smoke:golden-validation` is deterministic and part of `test:system`.
+`npm run test:golden:ai` validates the recorded Screening output and production
+prompt contract only when explicitly requested. Neither command invokes AI or
+network retrieval, and AI validation is not part of build or app load.
+
 ## Purpose
 
 Answer one question after every future implementation wave:

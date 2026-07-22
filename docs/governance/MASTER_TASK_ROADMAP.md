@@ -4,13 +4,124 @@ Status: Governance v1 roadmap.
 
 Status: Governance v1 historical tasks are COMPLETE. `DOC-GOV-001` is DONE.
 
+## Phase 16 — Workflow Checklist Current-State Repair
+
+| Task | Objective | Status | Dependency |
+|---|---|---|---|
+| `docs/governance/tasks/P16-WORKFLOW-CHECKLIST-STATE-001.md` | Derive Action Checklist from current artifact identities and permit explicit truthful LOW_FIT continuation | DONE | P7/P8/P14/P15R2 owners; explicit user authorization |
+
+## Phase 15 Remediation 2 — Screening Atomic Semantics
+
+| Task | Objective | Status | Dependency |
+|---|---|---|---|
+| `docs/governance/tasks/P15R2-SCREENING-ATOMIC-SEMANTICS-001.md` | Repair formal constraints, pathway metadata, atomic responsibility semantics, URL Prompt safety, and stale status clarity | DONE | P15R DONE; existing P8/P14/P15 owners; explicit user authorization |
+
+## Phase 15 Remediation — Requirement Inventory Integrity
+
+| Task | Objective | Status | Dependency |
+|---|---|---|---|
+| `docs/governance/tasks/P15R-REQUIREMENT-INVENTORY-INTEGRITY-001.md` | Repair source boundaries, atomic inventory, lineage, deduplication, URL integrity, and safe context projection | DONE | P15 DONE; P8/P14/P15 owners; explicit user authorization |
+
+`P15R-REQUIREMENT-INVENTORY-INTEGRITY-001` is complete. No follow-on task is READY.
+
+## Phase 15 — Canonical Screening Semantics and Context Remediation
+
+| Task | Objective | Status | Dependency |
+|---|---|---|---|
+| `docs/governance/tasks/P15-SCREENING-SEMANTICS-001.md` | Canonicalize requirement semantics, JD classification/normalization, derived Fit, and safe compact Screening context | DONE | P14 DONE; P8 Fit owner; current JD/Screening contracts; explicit user authorization |
+
+`P15-SCREENING-SEMANTICS-001` is complete. No follow-on task is READY.
+
+## Phase 14 — Canonical Screening Schema Contract
+
+| Task | Objective | Status | Dependency |
+|---|---|---|---|
+| `docs/governance/tasks/P14-SCREENING-SCHEMA-CONTRACT-001.md` | Make one runtime schema own Screening AI Prompt, type, Apply validation, and identity/staleness | DONE | P13 DONE; Current Architecture; existing Screening/persistence contracts; explicit user authorization |
+
+`P14-SCREENING-SCHEMA-CONTRACT-001` is complete. No follow-on task is READY.
+
+## Phase 13 — JD Apply and Save Feedback
+
+| Task | Objective | Status | Dependency |
+|---|---|---|---|
+| `docs/governance/tasks/P13-JD-ACTION-FEEDBACK-001.md` | Add distinct accessible Apply and persistence-confirmed Save/Update feedback with duplicate-submit protection | DONE | P12 DONE; existing persistence/recovery contract; explicit user authorization |
+
+`P13-JD-ACTION-FEEDBACK-001` is complete. No follow-on task is READY.
+
+## Phase 12 — Canonical Raw JD Sanitization
+
+| Task | Objective | Status | Dependency |
+|---|---|---|---|
+| `docs/governance/tasks/P12-JD-RAW-SANITIZE-001.md` | Remove URL application-state contamination from canonical raw JD and JD Parse Prompt input | DONE | P11 DONE; Current Architecture; URL Import Policy; explicit user authorization |
+
+`P12-JD-RAW-SANITIZE-001` is complete. No follow-on task is READY.
+
+## Phase 11 — JD Intake UX Remediation
+
+| Task | Objective | Status | Dependency |
+|---|---|---|---|
+| `docs/governance/tasks/P11-JD-INTAKE-UX-001.md` | Align existing JD Intake sections, grids, empty states, date presentation, and Employer Insights disclosure | DONE | P10 DONE; explicit user authorization |
+
+`P11-JD-INTAKE-UX-001` is complete. No follow-on task is READY.
+
+## Phase 10 — Cross-company JD Import Compatibility
+
+| Task | Objective | Status | Dependency |
+|---|---|---|---|
+| `docs/governance/tasks/P10-JD-IMPORT-COMPAT-001.md` | Repair Source URL mapping and preserve Microsoft previous-hire insights without weakening shared JSON-LD/HTML/manual fallbacks | DONE | P9 DONE; Current Architecture; explicit user authorization |
+
+`P10-JD-IMPORT-COMPAT-001` is complete. No follow-on task is READY.
+
+## Phase 9 — Public JD URL Import
+
+| Task | Objective | Status | Dependency |
+|---|---|---|---|
+| `docs/governance/tasks/P9-JD-IMPORT-001.md` | Safely import public URL content into the existing explicit JD Parse/Preview/Confirm/initializer/Golden path | DONE | P8 DONE; Current Architecture; explicit user authorization |
+
+`P9-JD-IMPORT-001` is complete. Manual paste remains supported, URL Fetch does
+not invoke AI, and no follow-on task is READY.
+
+## Phase 8 — Golden JD Match and CV Opportunity Validation
+
+| Task | Objective | Status | Dependency |
+|---|---|---|---|
+| `docs/governance/tasks/P8-GOLDEN-001.md` | Add evidence-grounded requirement Fit, opportunity guidance, and deterministic four-scenario Golden validation to existing production owners | DONE | P7 DONE; permanent Golden framework |
+
+`P8-GOLDEN-001` is complete. Deterministic Golden validation runs in the system
+suite; recorded-AI fixture validation remains explicit. No follow-on task is READY.
+
+## Phase 7 — Generated-CV Input Integrity
+
+| Task | Objective | Status | Dependency |
+|---|---|---|---|
+| `docs/governance/tasks/P7-INTEGRITY-001.md` | Invalidate an existing generated CV when selected Evidence changes under the same ID | DONE | P5 DONE; P6 DONE; post-P6 end-to-end correctness review |
+
+`P7-INTEGRITY-001` is complete. Current CV Brief and source-data identity are always checked before Review/Export may treat a generated CV as current. No follow-on task is READY.
+
+## Phase 5 — Backbone Correctness and Architecture Alignment
+
+| Task | Objective | Status | Dependency |
+|---|---|---|---|
+| `docs/governance/tasks/P5-BACKBONE-001.md` | Repair existing Backbone lineage, reconciliation, Job/CV state, invalidation, and safe persistence flow | DONE | Reopened audit acceptance failures repaired and validated |
+
+`P5-BACKBONE-001` is complete. It did not authorize a parallel Backbone, hidden AI execution, canonical runtime-data rewrites, or a future-architecture redesign.
+
+## Phase 6 — Persistence Recovery
+
+| Task | Objective | Status | Dependency |
+|---|---|---|---|
+| `docs/governance/tasks/P6-PERSIST-001.md` | Preserve unsynced browser data after revision conflicts or failed server saves without automatic merge/overwrite | DONE | P5 DONE; post-P5 system review |
+
+`P6-PERSIST-001` is complete. It preserves browser recovery data only; canonical server ownership and revision-conflict semantics remain unchanged. No implementation task is READY.
+
 ## Documentation Governance Cleanup
 
 | Task | Objective | Status | Dependency |
 |---|---|---|---|
 | `docs/governance/tasks/DOC-GOV-001.md` | Inventory, classify, resolve, and index all `docs/` governance without production changes | DONE | Explicit user authorization |
+| `docs/governance/tasks/DOC-GOV-002.md` | Resolve `DOC-STATE-001` by distinguishing P5's initial sandbox failure from its final successful validation | DONE | P5 DONE; P6 DONE |
 
-`DOC-GOV-001` was documentation-only. It did not authorize production code, runtime, prompt, test, or runtime-data changes. No follow-on task is READY.
+`DOC-GOV-001` and `DOC-GOV-002` were documentation-only. They did not authorize production code, runtime, prompt, test, or runtime-data changes. P5 and P6 remain DONE. No follow-on task is READY.
 
 ## Task Order
 

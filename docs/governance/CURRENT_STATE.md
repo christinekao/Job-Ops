@@ -2,6 +2,159 @@
 
 Status: Project Governance v1 current-state record.
 
+## Phase 16 — Workflow Checklist Current-State Repair
+
+`P16-WORKFLOW-CHECKLIST-STATE-001` is DONE. The Action Checklist now derives
+current authorization from existing analysis, CV Brief, generated-CV, and
+review-snapshot identities. Historical results remain readable but cannot mark
+current workflow steps complete. LOW_FIT remains advisory when no hard block;
+the user must explicitly apply truthful supported recommendations before Writer
+generation. No task is READY.
+
+## Phase 15 Remediation 2 — Screening Atomic Semantics
+
+`P15R2-SCREENING-ATOMIC-SEMANTICS-001` is DONE. It preserved
+P14/P15/P15R/P8 ownership while repairing formal constraints, pathway metadata,
+atomic responsibility semantics, safe URL Prompt projection, and stale-result
+authorization presentation.
+
+## Phase 15 Remediation — Requirement Inventory Integrity
+
+`P15R-REQUIREMENT-INVENTORY-INTEGRITY-001` is DONE. Existing owners now produce
+reconstructed, atomic, deduplicated, source-backed requirements with stable
+semantic IDs and complete lineage. Invalid source URLs warn without mutation;
+new saves require plain listing URLs; safe Screening context has no hard
+character truncation. P14/P15/P8 ownership is unchanged. No task is READY.
+
+## Phase 15 — Canonical Screening Semantics and Context Remediation
+
+`P15-SCREENING-SEMANTICS-001` is DONE. The runtime now has deterministic
+stable-ID requirement inventory, exact-once matrix validation, separate JD
+classification/candidate positioning, Education/Domain mapping, conservative
+fragment normalization, P8-derived Fit/opportunity views, legacy staleness, and
+one safe compact context projection. Microsoft Prompt size decreased 48.0%.
+No follow-on task is READY.
+
+## Phase 14 — Canonical Screening Schema Contract
+
+`P14-SCREENING-SCHEMA-CONTRACT-001` is DONE.
+
+- One runtime schema now owns Screening AI fields, inferred type, generated
+  Prompt contract, strict Apply validation, descriptions, and schema hash.
+- Screening run identity stores schema version/hash, Prompt version/hash, and
+  input hash. Legacy or mismatched results remain readable but stale and cannot
+  authorize Writer execution.
+- Positioning Report, counts, persistence/UI metadata, and compatibility-only
+  fields remain outside the AI schema and are derived/adapted by code.
+- Drift guard, build, system constituents, server, Golden, Writer/Reviewer/
+  Repair/Export, browser no-AI, and Product Acceptance regressions passed.
+  No task is READY.
+
+## Phase 13 — JD Apply and Save Feedback
+
+`P13-JD-ACTION-FEEDBACK-001` is DONE.
+
+- Parsed-JD Apply has distinct pending/success/failure feedback and an explicit
+  unsaved indicator; Apply still does not persist or invoke AI.
+- Save and Update success is shown only after the existing persistence owner
+  confirms the server revision.
+- Save failure and revision conflict preserve form edits, unsaved state, and
+  existing recovery actions without false success.
+- Duplicate submissions are blocked while Applying/Saving; success and error
+  feedback use accessible live-status semantics.
+- Focused, persistence/recovery, staleness, Golden, Writer/Reviewer/Repair/
+  Export, build, system/server, JD Import, browser no-AI, and Product
+  Acceptance regressions passed. No task is READY.
+
+## Phase 12 — Canonical Raw JD Sanitization
+
+`P12-JD-RAW-SANITIZE-001` is DONE.
+
+- Microsoft canonical raw JD is deterministically rebuilt from extracted formal
+  fields rather than the remote `jobDescription` payload.
+- UI theme/configuration, hydration/application state, page identifiers,
+  navigation/tracking configuration, and response JSON do not enter raw JD or
+  the JD Parse Prompt.
+- Unsafe Prompt input is blocked with explicit re-fetch/Manual Paste recovery;
+  no automatic AI, Parse, Save, or Screening was introduced.
+- Employer Insights, provenance, additional attributes, and remote/debug
+  payload remain separate.
+- Manual/URL equivalence, P7 staleness, P8 Golden ranking, generic extraction,
+  persistence, system/server, and browser regressions passed. No task is READY.
+
+## Phase 11 — JD Intake UX Remediation
+
+`P11-JD-INTAKE-UX-001` is DONE.
+
+- JD Intake uses the required seven semantic sections with aligned 3/2/1
+  responsive short-field grids and paired textarea rows.
+- Employer Insights is a full-width, collapsed-by-default informational
+  disclosure with a compact two-column expanded view.
+- Empty-state guidance is display-only; Date posted is readable when blurred
+  while its canonical ISO value remains editable and unchanged.
+- Role, Location, Overview, and Compensation retain complete values.
+- P8/P9/P10 data, identity, hash, staleness, Screening, Golden, and no-AI
+  contracts remain unchanged. No task is READY.
+
+## Phase 10 — Cross-company JD Import Compatibility
+
+`P10-JD-IMPORT-COMPAT-001` is DONE.
+
+- Successful Fetch fills the original submitted Source URL immediately.
+- Microsoft details and insights remain enhancements inside the shared
+  SSRF-safe server pipeline.
+- Previous-hire skills/roles are informational `employerInsights`, separate
+  from formal Skills and qualifications and excluded from identity and Fit.
+- JSON-LD, generic HTML, adapter fallback, unknown fields, and manual fallback
+  remain supported. No task is READY.
+
+## Phase 9 — Public JD URL Import
+
+`P9-JD-IMPORT-001` is DONE.
+
+- JD Intake now supports explicit public URL Fetch/Extract while fully preserving manual paste and the existing explicit Parse, Preview/Edit, and Save/Update flow.
+- The existing server owns SSRF-safe fetch, DNS/IP and per-redirect validation, bounded responses/decompression, typed errors, JSON-LD extraction, Microsoft Careers handling, and generic HTML fallback.
+- URL provenance is stored outside canonical JD content identity. Metadata-only changes do not stale; content changes retain the P7 downstream stale/Review/Export chain.
+- P8 URL/manual GOLDEN-JD-003 equivalence and all four manual Golden scenarios pass with unchanged Fit/ranking.
+- Focused, build, full system/server, browser no-AI, Product Acceptance, and documentation governance validation passed.
+- Canonical runtime data was not modified. No task is READY.
+
+## Phase 8 — Golden JD Match and CV Opportunity Validation
+
+`P8-GOLDEN-001` is DONE.
+
+- The existing Screening Analysis and Positioning Report now own one evidence-grounded requirement matrix, multidimensional Fit, Medium opportunity analysis, Low transition guidance, and deterministic ranking.
+- Golden dataset `1.0.0` fixes four manual-paste scenarios spanning Strong, Viable Medium, and Low boundaries.
+- `GOLDEN-JD-003` ranks first, `GOLDEN-JD-001` second, `GOLDEN-JD-002` third, and `GOLDEN-JD-004` fourth.
+- Deterministic Golden validation is part of `test:system`; recorded-AI validation remains an explicit command and invokes no AI.
+- Focused regressions, production build, full system/server regression, and documentation validation passed.
+- Canonical runtime data was not modified. No task is READY.
+
+## Phase 7 — Generated-CV Input Integrity
+
+`P7-INTEGRITY-001` is DONE after repairing a P0 stale-input Export authorization path.
+
+- A completed/applied Writer run no longer bypasses current CV Brief and source-data identity checks.
+- Same-ID mutation of selected Evidence content or CV-use policy makes the existing generated CV stale.
+- Screening Lab and Export continue to use the single `cvStaleReasonForJob()` boundary; no parallel rule was introduced.
+- Existing CV content remains readable, but Export is blocked until explicit user-triggered regeneration and review.
+- Focused P7, P5/P6, Backbone, Brief, Writer, Review, Export, Workflow, Product Acceptance, build, and full system validation passed.
+- Canonical runtime data, persistence recovery, prompts, and AI execution behavior were not changed.
+- No task is READY.
+
+## Phase 5 — Backbone Correctness and Architecture Alignment
+
+`P5-BACKBONE-001` is DONE after repairing the audit-confirmed in-scope acceptance failures.
+
+- Scope: existing Experience Backbone lineage, Evidence safety, Job/CV selection, stale identity, review/export freshness, and supported persistence reliability.
+- Boundary: no parallel Backbone/Evidence system, no hidden AI, no canonical runtime-data rewrite, and no future-architecture implementation.
+- Retained completed work: stable acceptance fixture routing; explicit load/retry and sync/retry recovery; selected Job/CV preference reconciliation; immutable Applied/Archived JD policy; aggregate CV status; and canonical new-Job initialization.
+- Completed repair: Writer Evidence policy enforcement, atomic Evidence batch task-envelope validation, shared traceability/CV-usable coverage consumers, complete Project task identity, and current-input stale Review/Export blocking.
+- Validation: build, focused P5/regression smokes, and `test:system` all passed; `smoke:server` passed when run outside the sandbox because sandbox localhost bind returns `EPERM`.
+- `P6-PERSIST-001` is DONE. It preserves a separate browser recovery copy after a failed revisioned save without automatic merge/overwrite; P5 remains DONE.
+- Validation: focused recovery/storage and cross-flow smokes, build, and `test:system` including server persistence passed.
+- No implementation task is READY.
+
 ## Documentation Governance Cleanup
 
 `DOC-GOV-001` is DONE under explicit user authorization.
@@ -9,6 +162,7 @@ Status: Project Governance v1 current-state record.
 - Completed: 281 docs files inventoried and registered after excluding `.DS_Store`; `ARCH-CURRENT` is the only Primary architecture; Index, ADR index, relationship map, conflict log, and draft controls are in place.
 - Boundary preserved: production code, runtime behavior, prompts, tests, and canonical runtime data were not modified.
 - Unresolved owner decisions remain in `docs/draft/requires-review/` for Proposed ADR-004/005 and release-governance authority.
+- `DOC-GOV-002` is DONE. It preserves P5's initial sandbox localhost failure as historical context and records the later isolated server smoke and complete system test as the final PASS state. P5 and P6 remain DONE; no task is READY.
 
 ## Phase 4.5 Alignment - Summary Generation, Review, and Repair
 

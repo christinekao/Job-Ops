@@ -1,5 +1,77 @@
 # Completion Report
 
+## P9-JD-IMPORT-001 — Import Job Description from URL
+
+Status: DONE
+
+- Fail-first confirmed there was no production URL import service or safe server contract.
+- Added one server-side `/api/jd/import` owner with protocol, credential, hostname, DNS/IP, redirect, timeout, compressed/decompressed size, encoding, content-type, and safe-error controls.
+- Added JSON-LD JobPosting extraction, a bounded Microsoft Careers server-HTML adapter, generic HTML fallback, safe operational events, and manual-paste fallback.
+- JD Intake fetches only after an explicit click and places extracted text into the existing raw JD state. It does not Parse, Screen, invoke AI, create a Job, or persist data.
+- Manual paste, `buildJDParsePrompt()`, paste-back validation, Preview/Edit, confirmation, `initializeJob()`, content hash, P7 staleness, and all downstream owners remain shared.
+- Added optional `jdProvenance`; source URL/domain/time/method/warnings/redirect metadata is excluded from canonical JD identity.
+- Fixed GOLDEN-JD-003 URL response equals its manual fixture for raw/normalized content, hash, matrix, Fit, rank, recommendation, and forbidden-claim safety. All P8 manual results remain unchanged.
+- Passed focused security/intake/P5–P8/workflow regressions, build, full system/server suite, browser no-AI 1/1, Product Acceptance 13/13, and documentation governance checks.
+- Canonical runtime data was not modified; no hidden AI or network call occurs in deterministic Golden tests.
+- Post-closure live verification repaired Node's modern `lookup(..., {all:true})`
+  pinned-address callback shape and raised the still-bounded compressed response
+  limit from 512 KiB to 1 MiB. The exact 698,124-byte Microsoft Careers URL
+  then imported successfully through JSON-LD without AI.
+- A live source comparison found that Microsoft JSON-LD was partial. The
+  adapter now reads Microsoft’s anonymous same-origin `position_details` API
+  through the same network safety boundary, preserving full Overview,
+  Responsibilities, Required/Preferred Qualifications, compensation, job
+  metadata, and all published or qualification-embedded skills.
+
+## P8-GOLDEN-001 — Golden JD Match and CV Opportunity Validation
+
+Status: DONE
+
+- Reproduced the production defect fail-first: Positioning Report exposed no structured row per JD requirement.
+- Extended existing Screening Analysis and Positioning Report owners; no parallel Fit, Writer, Reviewer, Repair, Export, persistence, or Golden runtime was created.
+- Added requirement importance/status/use semantics, eligible-Evidence enforcement, multidimensional Fit, Medium opportunity analysis, Low transition guidance, and deterministic ranking.
+- Added Golden dataset `1.0.0`: JD-003 `STRONG_FIT` rank 1; JD-001 `VIABLE_MEDIUM_FIT` rank 2; JD-002 and JD-004 `LOW_FIT` ranks 3 and 4.
+- The runner validates requirement uniqueness, direct/transfer Evidence safety, partial aspects, distinct gaps, Writer schema, forbidden claims, repair preservation, fixed ranking, and metadata-insensitive future URL-import identity.
+- `smoke:golden-validation` makes no AI/network call and runs in `test:system`. `test:golden:ai` is explicit, validates recorded output, and also invokes no AI.
+- Passed focused Golden/P5/P6/P7/Brief/Writer/Review/Repair/Export/Product Acceptance regressions, production build, full system/server suite, and docs governance checks.
+- Canonical runtime data was not modified. No task remains READY.
+
+## P7-INTEGRITY-001 — Invalidate Generated CV After Selected Evidence Mutation
+
+Status: DONE
+
+- Confirmed P0: a completed/applied Writer run with unchanged selection IDs could return current before comparing current CV Brief and selected source-data identity.
+- Failing regression proved that changing selected Evidence under the same ID to `canBeUsedInCv: No`, `Interview Only`, and `Do Not Claim` returned no stale reason.
+- Removed the early completed-run bypass from the canonical `cvStaleReasonForJob()` boundary.
+- After repair, the same mutation returns `cv-brief-changed`; Screening Lab and Export both receive the existing stale blocker, and Export remains blocked even when the unchanged CV text still has an old content-fresh Review snapshot.
+- Unchanged completed/applied Writer inputs remain current. Existing CV content remains readable and requires explicit user-triggered regeneration; no AI is invoked automatically.
+- Passed: P7 focused regression, P5 Evidence contract, Backbone integrity, CV Brief, Writer input/output, Review freshness, Reviewer, Export readiness, Workflow, P6 persistence recovery, Product Acceptance, build, and full `npm run test:system` including server persistence assertions.
+- No canonical runtime data, prompt, persistence/recovery behavior, Review policy, Repair policy, or Export policy changed.
+
+## P6-PERSIST-001 — Preserve Unsynced Application Data After Persistence Conflicts
+
+Status: DONE
+
+- Confirmed and reproduced a P0 user-data-loss path: a rejected browser save lived only in the normal local cache, then a reload replaced it with the newer canonical server snapshot.
+- Added a separate, non-authoritative browser recovery record for revision conflicts, unavailable server, failed saves, and unknown revisions. Server loads never overwrite it.
+- Added explicit recovery download and discard controls. The recovery copy never automatically merges, retries, or replaces server data.
+- Preserved the existing revisioned canonical server write and `409` conflict behavior. No server schema, AI behavior, CV workflow, or canonical runtime data changed.
+- Regression first failed before the fix and then passed. Focused persistence/storage plus cross-flow smokes, build, and `npm run test:system` including `smoke:server` passed.
+
+## P5-BACKBONE-001 — Backbone Lineage, Job State, and CV Invalidation Repair
+
+Status: DONE (reopened audit repair completed 2026-07-18)
+
+- Replaced the conditional-hook acceptance branch with stable fixture/application routing, and added load and server-sync retry states without defaulting corrupted snapshots.
+- Repaired the Writer bypass: only canonical valid, explicitly CV-usable Evidence reaches Writer-visible claims; legacy/missing-safety records are conservative reference-only or excluded.
+- Added atomic Evidence batch task envelopes (`taskId`, input hash, prompt version, expected Experience/Projects), so stale, out-of-scope, duplicate, invalid-lineage, or incomplete batches cannot partially merge.
+- Unified `EvidenceBank` and `CareerSource` on traceability versus CV-usable coverage; added canonical Project task input/hash/prompt identity, including source manifest, fresh parsed contexts, matching-rules version, and normalization version.
+- Added canonical Job initialization; Applied/Archived JD snapshots reject material edits; Job CV state is derived across versions and never downgrades Applied/Archived lifecycle state.
+- Review and Export now block when current selected inputs make an existing CV stale; Backbone mutation recalculates identity only and never triggers AI.
+- Passed build, focused P5/regression smokes, and `test:system`, including `smoke:server` when run outside the sandbox. The sandbox-only localhost bind failure is documented but is not a runtime defect.
+- Source workspace Git limitation: the production source directory has no `.git`; the separate `.push-staging/` repository is docs-only. No source branch/commit or source rollback/diff traceability is claimed.
+- Canonical runtime data (`CV_Manager_React/data/app_data.json`) was not modified. No automatic AI execution was added.
+
 ## DOC-GOV-001 — Unified Documentation Governance
 
 Status: DONE
@@ -984,6 +1056,210 @@ Status: DONE
 
 - No task was created or promoted.
 - Phase 5 was not started.
+
+## P15R2 Screening Atomic Semantics
+
+### Outcome
+
+- Corrected formal eligibility semantics, alternative-pathway metadata, stable
+  compound-responsibility decomposition, safe source URL projection, and the
+  distinction between historical run state and current authorization.
+- Requirement inventory now has 40 deterministic matrix rows with zero
+  duplicates/orphans and full source lineage. No runtime data was rewritten.
+
+### Validation
+
+- P15R2 atomic semantics, P15/P15R, schema, P8 Golden, URL Import, Manual JD,
+  workflow, Writer/Reviewer/Repair/Export, and no-AI regressions - PASS.
+- `npm run build` - PASS.
+- `npm run test:system` - PASS except sandbox-localhost binding; isolated
+  `npm run smoke:server` rerun with approved local bind permission - PASS.
+- Product Acceptance, browser no-AI, and JD Import compatibility E2E - PASS.
+
+### Manual Real-AI Acceptance
+
+- Not run. This task made no live Screening AI request; a live run remains an
+  explicit operator-controlled acceptance step.
+
+## P16 Workflow Checklist Current-State Repair
+
+### Outcome
+
+- Added one presentation-only current-state selector for Action Checklist
+  Steps 1–7. Current completion now requires the existing analysis/brief/CV/
+  review identity chain; historical records are separately labeled.
+- LOW_FIT stays LOW_FIT and `DO_NOT_PRIORITIZE_GENERATION` stays advisory. A
+  truthful CV requires an explicit user action to apply recommendations and
+  bind the resulting CV Brief to the current Screening Analysis.
+- New Screening CVs no longer receive an automatic review snapshot. The user
+  explicitly runs Gate Review against the current CV before review authorization.
+
+### Validation
+
+- P16 deterministic state suite (`ai_invoked: false`), P15/P15R/P15R2,
+  P8 Golden, workflow/reviewer, JD Intake/Import, persistence, build, and all
+  non-localhost system checks - PASS.
+- Server persistence smoke rerun with approved localhost bind - PASS.
+- Product Acceptance, browser no-AI, and JD Import compatibility E2E - PASS.
+
+### Manual Real-AI Acceptance
+
+- Not run. This remediation did not invoke live Screening or Writer AI.
+
+## P9 Structured-Field Remediation
+
+Status: DONE
+
+- Rejected dynamic production columns in favor of a fixed canonical `ParsedJD`
+  field set plus preview-only `additionalAttributes`.
+- Structured URL results fill empty matching JD Intake fields, preserve
+  conflicting manual values, and still require explicit Save/Update.
+- Canonical hashing and Writer/selection/ranking contexts exclude provenance,
+  source URL, and unknown attributes while retaining approved JD content.
+- Legacy compatibility, structured persistence, Golden ranking, no-hidden-AI,
+  build, and system regressions are required completion evidence.
+
+## P10 Cross-company JD Import Compatibility
+
+Status: DONE
+
+- Fixed successful Fetch so the original submitted URL fills Source URL without
+  waiting for GPT Parse; redirect destination remains provenance-only.
+- Added Microsoft public `position_insights` extraction through the existing
+  server security boundary.
+- Previous-hire top skills and roles are persisted/displayed as informational
+  `employerInsights`, never as formal Skills or qualifications.
+- Informational insights are excluded from identity, Fit/ranking, Evidence
+  selection, and Writer; Golden tiers and ordering remain unchanged.
+- Standard JSON-LD, generic HTML, adapter fallback, unknown attributes, and
+  manual fallback remain the shared cross-company path.
+- Focused, persistence, staleness, Golden, Writer/Reviewer/Repair/Export,
+  no-AI, Product Acceptance, build, system/server, and browser E2E passed.
+
+## P11 JD Intake UX Remediation
+
+Status: DONE
+
+- Replaced the single uneven intake grid with seven aligned semantic sections.
+- Short fields use 3/2/1 desktop/tablet/mobile columns; paired textareas share
+  initial row height while remaining independently resizable.
+- Employer Insights is full-width, collapsed by default, and shows compact
+  two-column details without sharing an AI Analysis row.
+- Empty-state guidance is non-persisted, and Date posted renders a readable
+  date while preserving the exact ISO storage/edit value.
+- Role, Location, Overview, and Compensation remain complete; the issue was
+  presentation width, so no extractor change was made.
+- Focused layout/import tests, persistence, staleness, Golden,
+  Writer/Reviewer/Repair/Export, build, system, browser no-AI 1/1, JD Import
+  E2E 1/1, and Product Acceptance E2E 13/13 passed.
+- No data model, runtime data, identity, hash, staleness, Screening, Golden,
+  Writer, automatic action, or AI invocation behavior changed.
+
+## P12 Canonical Raw JD Sanitization
+
+Status: DONE
+
+- Root cause: Microsoft structured extraction was followed by raw concatenation
+  of the complete remote `jobDescription`, allowing its pre-Overview
+  application state into `rawJD` and the JD Parse Prompt.
+- Microsoft raw JD now comes from one deterministic structured-field builder;
+  formal sections remain complete and previous-hire insights remain separate.
+- Generic extraction remains structured-first, prefers readable job containers
+  for HTML fallback, and rejects application-state output instead of trimming
+  arbitrary characters or guessing content.
+- Empty, oversized, serialized, and contaminated raw input disables Copy Prompt
+  with explicit recovery guidance and no AI invocation.
+- Config-only changes do not change canonical raw JD; formal JD changes do.
+- Focused, URL/Manual, persistence, P7, P8 Golden, Writer/Reviewer/Repair/Export,
+  build, system/server, JD Import E2E 1/1, no-AI 1/1, and Product Acceptance
+  E2E 13/13 passed.
+
+## P13 JD Apply and Save Feedback
+
+Status: DONE
+
+- Root cause was missing result presentation across the local Apply owner and
+  the asynchronous persistence owner; Save also navigated away before an
+  outcome could remain visible.
+- Apply now reports Applying, success, failure, and unsaved state while keeping
+  persistence and AI untouched.
+- Save/Update success waits for the existing server-revision confirmation.
+  Failures retain edits and unsaved state; revision conflicts retain the
+  existing recovery contract.
+- Pending controls block duplicate submissions. Success uses accessible status
+  semantics and errors use alert semantics.
+- Focused, Manual/URL Intake, persistence/recovery, staleness, Golden,
+  Writer/Reviewer/Repair/Export, build, system/server, JD Import E2E 1/1,
+  browser no-AI 1/1, and Product Acceptance E2E 13/13 passed.
+- No data model, hash, staleness, Golden, recovery, revision, AI trigger, or
+  canonical runtime data changed.
+
+## P14 Canonical Screening Schema Contract
+
+Status: DONE
+
+- Replaced the hand-written Screening Prompt schema with deterministic
+  serialization from the runtime validator owner.
+- `ScreeningAnalysisAIOutput` is inferred from that owner; strict Apply reports
+  field path, expected contract, received problem, and safe correction guidance.
+- Schema and exact Prompt identity are persisted with input identity. Legacy or
+  mismatched analysis is readable but stale and cannot authorize Writer.
+- Positioning Report, counts, execution/persistence/UI metadata, and legacy
+  compatibility fields remain outside the AI contract and are produced by code.
+- The drift guard is in `test:system`; build, server, Golden,
+  Writer/Reviewer/Repair/Export, no-AI E2E 1/1, and Product Acceptance E2E
+  13/13 passed.
+- No runtime data rewrite, hidden AI invocation, revision/recovery redesign,
+  architecture redesign, or Proposed ADR approval occurred.
+
+## P15 Canonical Screening Semantics and Context Remediation
+
+Status: DONE
+
+- Production code now builds 41 stable-ID normalized requirements for the
+  Microsoft fixture before AI execution and requires exact-once classification.
+- Employment role type, market role family, AI archetype, candidate positioning,
+  and P8-derived Fit are separate owners.
+- Education and Domain Knowledge IDs are available to Screening and validated
+  against canonical data.
+- Microsoft continuation fragments are repaired without merging independent
+  bullets; URL and manual Golden input remain equivalent.
+- New AI output contains one `requirementMatrix`; compatibility fields are
+  code-derived and legacy schema identities remain stale.
+- Screening UI presents canonical matrix status/IDs, classification, P8 Fit
+  dimensions, and Medium/Low opportunity or transition analysis.
+- Safe Prompt context retains IDs and evidence boundaries while reducing the
+  Microsoft estimate from 215,938 to 112,318 characters (48.0%).
+- Build, focused JD/P7/P8/Writer/Reviewer/Repair/Export/no-AI tests, system
+  suite, approved localhost server rerun, Product Acceptance E2E 13/13, JD
+  Import E2E 1/1, and no-AI E2E 1/1 passed.
+- Canonical runtime data was not rewritten. No hidden AI invocation,
+  architecture redesign, Proposed ADR approval, Git commit, or push occurred.
+
+## P15R Requirement Inventory Integrity Remediation
+
+Status: DONE
+
+- Root cause was raw parsed arrays flowing directly to stable-ID assignment,
+  plus derived Risks feedback and character-sliced safe context.
+- The existing JD owner now reconstructs complete adjacent statements with
+  trace, decomposes independently classifiable dimensions, consolidates
+  semantics with source precedence, and assigns punctuation/order-stable IDs.
+- Microsoft: 77 fragments → 20 statements → 28 atomic requirements: 7 core,
+  6 required, 12 preferred, 3 formal, 0 supplemental. Fragment rows,
+  duplicate canonical IDs, unknown/missing IDs, and orphan rows are zero;
+  source-lineage coverage is 100%.
+- P14 schema generation and P15 matrix remain intact. Atomic dimension/aspects
+  are code-owned and validated; P8 remains the sole Fit/ranking owner.
+- JD Intake rejects invalid new saves while preserving and warning on legacy
+  Markdown/non-listing URLs. Redirect final URL remains provenance-only.
+- Screening context contains complete safety strings; total Microsoft Prompt is
+  118,286 characters versus the 112,318 P15 baseline (+5.3%, within guard).
+- Golden order remains 003, 001, 002, 004; recorded runner invoked no AI.
+- Build, focused/system/server validations, Product Acceptance 13/13, JD Import
+  1/1, and no-AI 1/1 passed.
+- No canonical runtime-data rewrite, hidden AI, RAG, architecture change,
+  Proposed ADR approval, Git commit, or push occurred.
 
 ## P4-PROMPT-001 Completion - Targeted Regeneration Output Contract
 

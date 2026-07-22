@@ -13,7 +13,9 @@ This is the sole canonical architecture for the active product in `CV_Manager_Re
 ## Canonical Runtime Flow
 
 ```text
-Career evidence + selected Job Description
+Manual JD paste or server-side safe public URL extraction
+-> existing explicit JD Parse, Preview/Edit, and confirmation
+-> canonical selected Job Description + career evidence
 -> Screening Analysis and terminology/gap controls
 -> evidence selection and effective CV Brief
 -> explicit Writer generation or manual fallback
@@ -26,7 +28,8 @@ Career evidence + selected Job Description
 
 | Owner | Produces | Must not own |
 |---|---|---|
-| Screening Analysis | JD requirements, fit/positioning inputs, terminology and gap signals | CV wording, repair execution, export decision |
+| JD Intake / URL Import | raw JD source text, bounded provenance, editable parsed preview, confirmed canonical Job | automatic AI parsing, Screening, Job creation before confirmation, persistence ownership |
+| Screening Analysis | JD requirements, evidence-grounded match matrix, multidimensional fit/positioning, terminology and distinct gap signals | CV wording, repair execution, export decision |
 | Evidence selection / CV Brief | selected evidence, readiness, Writer strategy/context | unsupported claim creation, final review or export decision |
 | Writer | evidence-grounded CV composition for the selected JD | Fit-tier invention, review classification, repair policy, export approval |
 | Gate and Reviewer | local validation, blocker classification, review snapshot | hidden AI execution or unrestricted content mutation |
@@ -37,11 +40,18 @@ Career evidence + selected Job Description
 ## Inputs, Outputs, and Invariants
 
 - A meaningful CV action is scoped to one selected JD and current CV version.
+- Manual paste and safe URL extraction converge on the same explicit Parse, Preview/Edit, confirmation, initializer, and identity path.
+- URL fetch runs only on the server; public-network validation is repeated for every redirect and provenance metadata is excluded from JD content identity.
+- Structured URL data maps into a fixed editable `ParsedJD` schema. Unknown source attributes are preview-only metadata and cannot enter identity, Screening, ranking, Evidence selection, or Writer context.
+- Company-specific adapters are optional enhancements inside the shared server pipeline. Microsoft previous-hire insights are informational metadata; standard JSON-LD, generic HTML, and manual fallback remain the cross-company path.
 - Major visible claims must remain evidence-grounded; unsupported gaps remain gaps.
+- Requirement matching distinguishes direct, transferable, partial, learnable, core-capability, and formal-screening outcomes; formal risk is not capability evidence.
+- Writer-visible claims may use only Evidence that passes canonical lineage and CV-use validation; reference-only Evidence cannot authorize a visible claim.
 - AI use is explicit and user-controlled. No hidden token-spending action is authorized.
-- Review, repair, and export operate on current content identity; stale results cannot authorize a save or export.
+- Review, repair, and export operate on current content and selected-input identity; stale results cannot authorize a save or export.
 - Repairs are bounded to allowed failed zones and preserve protected zones.
 - `data/app_data.json` is canonical persistence; split JSON files are mirrors.
+- A failed browser save may retain a separate, non-authoritative recovery copy. It can be downloaded or explicitly discarded, but must never auto-merge into or replace canonical server data.
 
 ## Approved Extensions and Runtime Contracts
 

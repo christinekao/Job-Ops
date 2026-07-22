@@ -32,6 +32,18 @@ These metrics are quality measures, not engineering test commands. They may be e
 | Partial | Some required artifacts are missing; score only confirmed evidence |
 | Blocked | Required artifacts are absent; mark score 0 and explain |
 
+## P8 Match and Opportunity Measures
+
+| Measure | Required output |
+|---|---|
+| Requirement coverage | Count and percentage classified exactly once |
+| Direct Evidence fit | Importance-weighted direct matches with eligible Evidence |
+| Transferability | Importance-weighted transferable matches with explicit transfer context |
+| Gap profile | Separate counts/weights for learnable, core-capability, and formal-screening gaps |
+| Application viability | Classification, priority, generation recommendation, manual-override state, and deterministic rank |
+| Medium opportunity | Why the candidate could win/lose, time-to-credibility, CV positioning, interview proof, and gap mitigation |
+| Low transition | Credible overlap, why core fit is low, no-generation reason, and future transition path |
+
 ## Current Known Baseline Risks
 
 These are not permanent scores; they are known baseline risks from Phase 2 evidence:
