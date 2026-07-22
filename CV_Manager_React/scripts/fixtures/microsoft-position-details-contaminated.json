@@ -1,0 +1,22 @@
+{
+  "data": {
+    "name": "Principal/Senior Software Engineer, Experimentation Platform - CoreAI",
+    "displayJobId": "200041631",
+    "locations": ["United States, Washington, Redmond"],
+    "postedTs": 1782761725,
+    "efcustomTextWorkSite": ["3 days / week in-office"],
+    "efcustomTextRequiredTravel": ["Less than 25%"],
+    "efcustomTextCurrentProfession": ["Software Engineering"],
+    "efcustomTextTaDisciplineName": ["Software Engineering"],
+    "efcustomTextRoletype": ["Individual Contributor"],
+    "efcustomTextEmploymentType": ["Full-Time"],
+    "skills": ["Distributed systems", "Observability", "A/B testing"],
+    "positionExtraDetails": {
+      "employerInsights": {
+        "topSkills": ["Architecture", "Automation"],
+        "previouslyWorkedAs": ["Technical Program Manager", "Principal Engineer"]
+      }
+    },
+    "jobDescription": "<div>f47ac10b-58cc-4372-a567-0e02b2c3d479 | Microsoft Careers</div><div>themeOptions customTheme buttonPrimaryColor checkboxCheckedColor navigationConfig featureFlags</div><div>{&quot;customTheme&quot;:{&quot;buttonColor&quot;:&quot;#0067b8&quot;},&quot;tracking&quot;:{&quot;pageId&quot;:&quot;f47ac10b-58cc-4372-a567-0e02b2c3d479&quot;}}</div><b>Overview</b><br><div>Build a trustworthy experimentation platform for AI product learning at very high scale.</div><b>Responsibilities</b><br><ul><li>Own reliable distributed services.</li><li>Build production observability and incident response.</li></ul><b>Qualifications</b><br><div><strong>Required</strong></div><ul><li>Production coding experience in C#, Java, JavaScript, or Python.</li><li>Experience operating large-scale cloud systems.</li></ul><div><strong>Other Requirements</strong></div><ul><li>Pass required security screening.</li></ul><div><strong>Preferred</strong></div><ul><li>Experimentation platforms and A/B testing.</li><li>Distributed tracing and reliability engineering.</li></ul><p>Software Engineering IC5 - The typical base pay range for this role is USD $117,200 - $229,200 per year.</p><p>This position will be open for a minimum of 5 days, with applications accepted on an ongoing basis.</p><p>Microsoft is an equal opportunity employer. Boilerplate.</p>"
+  }
+}

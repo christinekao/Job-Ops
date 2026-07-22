@@ -1,0 +1,19 @@
+{
+  "id": "generated-export-ready-cv-fixture",
+  "jdId": "jd-pa-001",
+  "status": "Ready to Export",
+  "header": {
+    "name": "Alex Chen",
+    "targetRole": "Customer Automation Specialist",
+    "email": "alex.chen@example.com",
+    "location": "Taipei, Taiwan"
+  },
+  "summary": "Customer Automation Specialist focused on workflow automation, stakeholder discovery, and customer enablement. Translates operational needs into practical workflow improvements backed by adoption reporting and evidence-based delivery.",
+  "evidenceIds": [
+    "ev-workflow-automation",
+    "ev-enablement",
+    "ev-reporting"
+  ],
+  "generatedBy": "deterministic-product-acceptance-fixture",
+  "aiInvocation": false
+}
