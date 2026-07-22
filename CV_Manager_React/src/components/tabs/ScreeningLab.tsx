@@ -2,7 +2,7 @@ import { Briefcase, FileText, Search, Target } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { buildScreeningAnalysisPrompt, buildScreeningCvPrompt, buildTargetedRegenerationPrompt, SCREENING_ANALYSIS_PROMPT_VERSION, SCREENING_CV_PROMPT_VERSION } from "../../promptBuilders";
 import { buildNormalizedRequirementInventory, computeJobContentHash, sourceUrlIntegrityIssue } from "../../data/jobs";
-import { buildCvBrief, buildCvGenerationSelectionPatch, buildGenerationContext, cvBriefIdentityHash, cvInputReadiness, isCvStaleForJob, latestCvForJob, resolveEffectiveCvBrief } from "../../data/selection";
+import { buildCvBrief, buildCvGenerationSelectionPatch, buildGenerationContext, cvBriefIdentityHash, cvInputReadiness, isCvBriefUsable, isCvStaleForJob, latestCvForJob, resolveEffectiveCvBrief } from "../../data/selection";
 import { cancelAutomationJob, getAutomationJob, startAutomation, waitForAutomationJob } from "../../storage";
 import type { AppData, AutomationJob, CvVersion, JobApplication, ParsePreview, ScreeningAnalysis, ScreeningAnalysisAIOutput, TailoredCv } from "../../types";
 import type { TabId } from "../../config/nav";
@@ -132,7 +132,7 @@ export function ScreeningLab({
   const generationReadiness = job ? cvInputReadiness(data, job) : null;
   const cvBrief = job ? resolveEffectiveCvBrief(data, job) : null;
   const effectiveCvBriefHash = contentHash(cvBrief || {});
-  const cvBriefReady = Boolean(cvBrief?.top3SellingPoints.length && cvBrief.mustShowEvidenceIds.length >= 4);
+  const cvBriefReady = Boolean(isCvBriefUsable(cvBrief) && (cvBrief?.mustShowEvidenceIds.length || 0) >= 4);
   const evidenceReview = evidenceIntegrityReview(data);
   const terminologyReview = job ? terminologyAndGapReview(job, data) : null;
   const careerEvidenceReady = data.evidenceCards.length >= 8 && data.skillInferences.length >= 8 && data.starStories.length >= 3;

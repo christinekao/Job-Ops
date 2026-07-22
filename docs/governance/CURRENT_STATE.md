@@ -2,6 +2,15 @@
 
 Status: Project Governance v1 current-state record.
 
+## Phase 17 — Canonical Screening-to-Brief Contract Remediation
+
+`P17-SCREENING-TO-BRIEF-CONTRACT-001` is DONE. `requirementMatrix` now owns
+new deterministic Screening-to-Brief mapping, and legacy mapping-only analysis
+is historical/read-only and cannot authorize Brief or Writer context. Brief
+identity includes current analysis, requirement inventory, selection, evidence
+safety, positioning, and JD inputs. No runtime-data migration, Git commit, or
+push occurred; no task is READY.
+
 ## Phase 16 — Workflow Checklist Current-State Repair
 
 `P16-WORKFLOW-CHECKLIST-STATE-001` is DONE. The Action Checklist now derives

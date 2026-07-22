@@ -5235,3 +5235,23 @@ documents:
       - "docs/governance/contracts/SCREENING_FIT_PRODUCT_CONTRACT.md"
     replacement: ""
     codex_usage: "P16 current-identity checklist, historical authorization separation, and explicit LOW_FIT continuation."
+  - id: "DOC-306"
+    title: "P17-SCREENING-TO-BRIEF-CONTRACT-001.md"
+    file: "docs/governance/tasks/P17-SCREENING-TO-BRIEF-CONTRACT-001.md"
+    document_type: "TASK_TRACKING"
+    lifecycle: "ACTIVE"
+    authority: "REFERENCE"
+    can_authorize_production_implementation: false
+    governs: []
+    depends_on:
+      - "docs/governance/tasks/P16-WORKFLOW-CHECKLIST-STATE-001.md"
+      - "docs/governance/contracts/SCREENING_FIT_PRODUCT_CONTRACT.md"
+    extends: []
+    supersedes: []
+    superseded_by: []
+    conflicts_with: []
+    related_adrs: ["ADR-GOV-003", "ADR-GOV-006"]
+    related_contracts:
+      - "docs/governance/contracts/SCREENING_FIT_PRODUCT_CONTRACT.md"
+    replacement: ""
+    codex_usage: "P17 canonical requirementMatrix-to-Brief mapping, Writer safety, legacy authorization, and Brief staleness closure."

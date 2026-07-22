@@ -1,7 +1,7 @@
 import type { AppData, CvBrief, CvVersion, EvidenceCard, JobApplication, GenerationContext } from "../types";
 import { contentHash } from "../utils/hash";
 import { sortCvVersions } from "../utils/ids";
-import { canonicalParsedJD, computeJobContentHash } from "./jobs";
+import { buildNormalizedRequirementInventory, canonicalParsedJD, computeJobContentHash } from "./jobs";
 import { buildPositioningReport } from "../domain/positioningPolicy";
 import { isEvidenceCvUsable, validateEvidenceCard } from "./evidence";
 import { backboneReadiness } from "./backbone";
@@ -16,6 +16,23 @@ const SUPPORTED_CV_PROMPT_VERSIONS = new Set([
   "screening-cv-v6-compact-hireable-cv",
   "screening-cv-v7-one-pass-reviewer-ready"
 ]);
+
+export const SCREENING_TO_BRIEF_CONTRACT_VERSION = "screening-to-brief-v1";
+
+function currentRequirementMatrix(job: JobApplication) {
+  return job.screeningAnalysis?.requirementMatrix || [];
+}
+
+function cvEligibleRequirementRows(job: JobApplication) {
+  return currentRequirementMatrix(job).filter((row) =>
+    ["DIRECT_MATCH", "TRANSFERABLE_MATCH", "PARTIAL_MATCH"].includes(row.matchStatus)
+    && ["PRIORITIZE", "SUPPORTING", "CONSERVATIVE_POSITIONING"].includes(row.cvUsage)
+  );
+}
+
+function supportLevelForMatrixStatus(status: "DIRECT_MATCH" | "TRANSFERABLE_MATCH" | "PARTIAL_MATCH" | "LEARNABLE_GAP" | "CORE_CAPABILITY_GAP" | "FORMAL_SCREENING_RISK") {
+  return status === "DIRECT_MATCH" ? "Strong" as const : status === "TRANSFERABLE_MATCH" || status === "PARTIAL_MATCH" ? "Partial" as const : "Weak" as const;
+}
 
 export function orderedItemsByIds<T extends { id: string }>(items: T[], ids: string[]) {
   const byId = new Map(items.map((item) => [item.id, item]));
@@ -34,6 +51,7 @@ export function cvBriefIdentityHash(brief: CvBrief | null | undefined) {
 export function isCvBriefUsable(brief: CvBrief | null | undefined) {
   return Boolean(
     brief
+    && brief.contractIdentity?.contractVersion === SCREENING_TO_BRIEF_CONTRACT_VERSION
     && brief.top3SellingPoints.length
     && brief.mustShowEvidenceIds.length
     && brief.bulletPlan.length
@@ -154,14 +172,13 @@ export function evidenceSelectionQualityDiagnostics(data: AppData, job: JobAppli
   const diagnostics = selectionDiagnostics(data, job);
   const selectedIds = new Set(diagnostics.selectedEvidenceIds);
   const primaryExperienceId = data.careerProfile.workExperiences?.[0]?.id;
-  const topRequirementMappings = (job.screeningAnalysis?.jdEvidenceMapping || [])
-    .filter((item) => item.supportLevel !== "Unsupported")
+  const topRequirementMappings = cvEligibleRequirementRows(job)
     .slice(0, 3)
     .map((item) => {
       const selectedMatchingEvidenceIds = item.matchingEvidenceIds.filter((id) => selectedIds.has(id));
       return {
         requirement: item.requirement,
-        supportLevel: item.supportLevel,
+        supportLevel: supportLevelForMatrixStatus(item.matchStatus),
         selectedMatchingEvidenceIds,
         covered: selectedMatchingEvidenceIds.length > 0
       };
@@ -243,7 +260,7 @@ function fallbackSellingPointsFromEvidence(evidence: EvidenceCard[], limit = 3) 
 
 export function buildCvBrief(data: AppData, job: JobApplication): CvBrief | null {
   const analysis = job.screeningAnalysis;
-  if (!analysis) return null;
+  if (!analysis || !analysis.requirementMatrix?.length) return null;
   const diagnostics = selectionDiagnostics(data, job);
   const positioningReport = buildPositioningReport({ job, data });
   const validVisibleEvidenceIds = new Set(
@@ -253,11 +270,14 @@ export function buildCvBrief(data: AppData, job: JobApplication): CvBrief | null
       )
       .map((item) => item.id)
   );
-  const mapping = (analysis.jdEvidenceMapping || [])
-    .filter((item) => item.supportLevel !== "Unsupported")
+  const mapping = cvEligibleRequirementRows(job)
     .map((item, index) => ({
       ...item,
       index,
+      supportLevel: supportLevelForMatrixStatus(item.matchStatus),
+      safeCvAngle: item.matchStatus === "TRANSFERABLE_MATCH"
+        ? item.transferContext
+        : item.supportedAspects.join(", ") || item.marketExpectation,
       visibleEvidenceIds: item.matchingEvidenceIds.filter((id) => validVisibleEvidenceIds.has(id)),
       selectedSkillIds: item.matchingSkillIds.filter((id) => diagnostics.selectedSkillIds.includes(id)),
       selectedStoryIds: item.matchingStoryIds.filter((id) => diagnostics.selectedStoryIds.includes(id))
@@ -266,15 +286,8 @@ export function buildCvBrief(data: AppData, job: JobApplication): CvBrief | null
     .sort((a, b) => supportScore(b.supportLevel) - supportScore(a.supportLevel) || b.visibleEvidenceIds.length - a.visibleEvidenceIds.length || a.index - b.index);
   const topMappings = mapping.slice(0, 3);
   const terms = selectionTerms(job);
-  const selectedEvidenceFallback = diagnostics.selectedEvidence
-    .filter((item) => validVisibleEvidenceIds.has(item.id))
-    .filter((item) => evidenceMatchesTerms(item, terms))
-    .map((item) => item.id);
-  const recommendedEvidence = (analysis.recommendedEvidenceIds || []).filter((id) => validVisibleEvidenceIds.has(id));
   const mustShowEvidenceIds = uniqueLimited([
-    ...topMappings.flatMap((item) => item.visibleEvidenceIds),
-    ...recommendedEvidence,
-    ...selectedEvidenceFallback
+    ...topMappings.flatMap((item) => item.visibleEvidenceIds)
   ], 10);
   const supportingEvidenceIds = uniqueLimited([
     ...diagnostics.selectedEvidenceIds.filter((id) => validVisibleEvidenceIds.has(id) && !mustShowEvidenceIds.includes(id))
@@ -291,34 +304,46 @@ export function buildCvBrief(data: AppData, job: JobApplication): CvBrief | null
     .map((item) => item.cvWording || item.skill);
   const skillsToForeground = uniqueLimited([
     ...topMappings.flatMap((item) => item.selectedSkillIds.map((id) => skillNameById.get(id) || id)),
-    ...(analysis.positioning?.hiddenSkillsToSurface || []),
+    ...(analysis.candidatePositioning?.hiddenSkillsToSurface || []),
     ...selectedSkillNames
   ], 12);
   const skillsToSuppress = uniqueLimited([
-    ...(analysis.positioning?.evidenceToSuppress || []),
+    ...(analysis.candidatePositioning?.evidenceToSuppress || []),
     ...diagnostics.selectedSkills
       .filter((item) => item.confidence !== "Grounded" || item.strength === "Mentioned" || item.usageContext === "mentioned")
       .map((item) => item.cvWording || item.skill)
   ], 10);
   const claimsToAvoid = uniqueLimited([
     ...positioningReport.unsupportedClaimsPrevented.flatMap((item) => item.mustNotClaim),
-    ...(analysis.positioning?.claimsToAvoid || []),
+    ...(analysis.candidatePositioning?.claimsToAvoid || []),
     ...(analysis.riskyClaims || []),
     ...diagnostics.selectedEvidence.flatMap((item) => item.forbiddenVisibleClaims || []),
     "from-scratch Python application engineering",
     "production ML model training",
     "reward modeling / RLHF / DPO ownership"
   ], 18);
-  const targetPositioning = analysis.positioning?.safestPositioning
+  const targetPositioning = analysis.candidatePositioning?.safestPositioning
     || positioningReport.recommendedPositioning.wordingGuidance[0]
-    || analysis.positioning?.headlineRecommendation
+    || analysis.candidatePositioning?.headlineRecommendation
     || analysis.primaryTargetTitle
     || job.role;
   const managerHiringProblem = analysis.managerIntent?.actualJobToBeDone
     || analysis.positioning?.primaryHiringProblem
     || analysis.positioning?.managerHireReason
     || analysis.summaryAngle;
-  const cvHeadline = positioningReport.recommendedPositioning.headline || analysis.positioning?.headlineRecommendation || analysis.primaryTargetTitle || job.role;
+  const cvHeadline = positioningReport.recommendedPositioning.headline || analysis.candidatePositioning?.headlineRecommendation || analysis.primaryTargetTitle || job.role;
+  const cvVisibleEvidence = diagnostics.selectedEvidence.filter((item) => validVisibleEvidenceIds.has(item.id));
+  const contractIdentity = {
+    contractVersion: SCREENING_TO_BRIEF_CONTRACT_VERSION,
+    jdContentHash: job.jdContentHash || computeJobContentHash(job),
+    screeningAnalysisHash: contentHash(analysis),
+    requirementInventoryHash: contentHash(buildNormalizedRequirementInventory(job.parsed)),
+    evidenceSelectionHash: contentHash({ skillIds: diagnostics.selectedSkillIds, domainIds: diagnostics.selectedDomainKnowledgeIds, evidenceIds: diagnostics.selectedEvidenceIds, storyIds: diagnostics.selectedStoryIds }),
+    evidenceSafetyHash: contentHash(cvVisibleEvidence.map((item) => ({ id: item.id, content: item, usable: isEvidenceCvUsable(data, item) }))),
+    candidatePositioningHash: contentHash(analysis.candidatePositioning || {}),
+    screeningSchemaVersion: job.screeningAnalysisRun?.schemaVersion,
+    screeningSchemaHash: job.screeningAnalysisRun?.schemaHash
+  };
   return {
     targetPositioning,
     managerHiringProblem,
@@ -328,7 +353,7 @@ export function buildCvBrief(data: AppData, job: JobApplication): CvBrief | null
       evidenceIds: item.visibleEvidenceIds,
       skillIds: item.selectedSkillIds,
       storyIds: item.selectedStoryIds,
-      supportLevel: item.supportLevel === "Unsupported" ? "Weak" : item.supportLevel
+      supportLevel: item.supportLevel
     })) : fallbackSellingPoints,
     mustShowEvidenceIds,
     supportingEvidenceIds,
@@ -343,7 +368,12 @@ export function buildCvBrief(data: AppData, job: JobApplication): CvBrief | null
       requirement: item.requirement,
       evidenceIds: item.visibleEvidenceIds,
       angle: item.safeCvAngle || item.marketExpectation,
-      avoid: claimsToAvoid
+      avoid: claimsToAvoid,
+      matchStatus: item.matchStatus,
+      cvUsage: item.cvUsage,
+      supportedAspects: item.supportedAspects,
+      unsupportedAspects: item.unsupportedAspects,
+      transferContext: item.transferContext
     })) : fallbackSellingPoints.map((item) => ({
       sectionTitle: item.title,
       requirement: item.title,
@@ -351,6 +381,7 @@ export function buildCvBrief(data: AppData, job: JobApplication): CvBrief | null
       angle: item.managerValue,
       avoid: claimsToAvoid
     })),
+    contractIdentity,
     generatedAt: new Date().toISOString()
   };
 }
@@ -413,10 +444,11 @@ export function fitRecommendationsApplied(data: AppData, job: JobApplication) {
   const validDomainIds = new Set(data.domainKnowledge.map((item) => item.id));
   const validEvidenceIds = new Set(data.evidenceCards.map((item) => item.id));
   const validStoryIds = new Set(data.starStories.map((item) => item.id));
-  const expectedSkills = (recommendationSource.recommendedSkillIds || []).filter((id) => validSkillIds.has(id)).slice(0, 15);
-  const expectedDomains = (recommendationSource.recommendedDomainKnowledgeIds || []).filter((id) => validDomainIds.has(id)).slice(0, 8);
-  const expectedEvidence = (recommendationSource.recommendedEvidenceIds || []).filter((id) => validEvidenceIds.has(id)).slice(0, 15);
-  const expectedStories = (recommendationSource.recommendedStoryIds || []).filter((id) => validStoryIds.has(id)).slice(0, 6);
+  const eligibleRows = cvEligibleRequirementRows(job);
+  const expectedSkills = [...new Set(eligibleRows.flatMap((row) => row.matchingSkillIds))].filter((id) => validSkillIds.has(id)).slice(0, 15);
+  const expectedDomains = [...new Set(eligibleRows.flatMap((row) => row.matchingDomainKnowledgeIds))].filter((id) => validDomainIds.has(id)).slice(0, 8);
+  const expectedEvidence = [...new Set(eligibleRows.flatMap((row) => row.matchingEvidenceIds))].filter((id) => validEvidenceIds.has(id)).slice(0, 15);
+  const expectedStories = [...new Set(eligibleRows.flatMap((row) => row.matchingStoryIds))].filter((id) => validStoryIds.has(id)).slice(0, 6);
   const selectedContains = (selected: string[], expected: string[]) => expected.every((id) => selected.includes(id));
   const recommendationsPresent = expectedEvidence.length > 0
     && selectedContains(job.selectedSkillIds || [], expectedSkills)
@@ -479,17 +511,17 @@ function mergeLimited(base: string[], additions: string[], limit: number) {
 }
 
 export function buildCvGenerationSelectionPatch(data: AppData, job: JobApplication): Partial<JobApplication> {
-  const recommendationSource = job.screeningAnalysis || job.fitReview;
   const terms = selectionTerms(job);
   const primaryExperienceId = data.careerProfile.workExperiences[0]?.id;
   const validSkillIds = new Set(data.skillInferences.map((item) => item.id));
   const validDomainIds = new Set(data.domainKnowledge.map((item) => item.id));
   const validEvidenceIds = new Set(data.evidenceCards.map((item) => item.id));
   const validStoryIds = new Set(data.starStories.map((story) => story.id));
-  const recommendationSkillIds = (recommendationSource?.recommendedSkillIds || []).filter((id) => validSkillIds.has(id));
-  const recommendationDomainIds = (recommendationSource?.recommendedDomainKnowledgeIds || []).filter((id) => validDomainIds.has(id));
-  const recommendationEvidenceIds = (recommendationSource?.recommendedEvidenceIds || []).filter((id) => validEvidenceIds.has(id));
-  const recommendationStoryIds = (recommendationSource?.recommendedStoryIds || []).filter((id) => validStoryIds.has(id));
+  const eligibleRows = cvEligibleRequirementRows(job);
+  const recommendationSkillIds = [...new Set(eligibleRows.flatMap((row) => row.matchingSkillIds))].filter((id) => validSkillIds.has(id));
+  const recommendationDomainIds = [...new Set(eligibleRows.flatMap((row) => row.matchingDomainKnowledgeIds))].filter((id) => validDomainIds.has(id));
+  const recommendationEvidenceIds = [...new Set(eligibleRows.flatMap((row) => row.matchingEvidenceIds))].filter((id) => validEvidenceIds.has(id));
+  const recommendationStoryIds = [...new Set(eligibleRows.flatMap((row) => row.matchingStoryIds))].filter((id) => validStoryIds.has(id));
 
   const skills = data.skillInferences.filter((item) => item.confidence === "Grounded" && item.strength !== "Mentioned" && item.usageContext !== "mentioned");
   const domains = data.domainKnowledge.filter((item) => item.confidence !== "Weak");

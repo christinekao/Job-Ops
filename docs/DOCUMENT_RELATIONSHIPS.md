@@ -40,6 +40,7 @@ flowchart TD
 | `governance/tasks/P15R-REQUIREMENT-INVENTORY-INTEGRITY-001.md` | remediates integrity defects in | existing P15 requirement inventory, JD normalization, URL validation, and safe context owners |
 | `governance/tasks/P15R2-SCREENING-ATOMIC-SEMANTICS-001.md` | remediates atomic formal semantics in | requirement inventory, safe URL prompt projection, Screening semantic validation, and historical-run presentation |
 | `governance/tasks/P16-WORKFLOW-CHECKLIST-STATE-001.md` | derives current workflow authorization for | checklist presentation, explicit LOW_FIT CV Brief continuation, current CV generation, Gate Review, and Manager + ATS Check |
+| `governance/tasks/P17-SCREENING-TO-BRIEF-CONTRACT-001.md` | constrains current Brief and Writer authorization to | canonical `requirementMatrix`, evidence safety, Brief identity/staleness, and P16 Step 5 currentness |
 | `governance/contracts/REQUIREMENT_INVENTORY_CONTRACT.md` | records code-grounded ownership for | reconstruction, atomic decomposition, lineage, deduplication, and stable requirement IDs |
 | `governance/CONTRACT_INDEX.md` | indexes code-grounded P15 references for | Screening/Fit, Prompt schema/context, and JD normalization runtime owners |
 | `governance/URL_IMPORT_POLICY.md` | classifies | previous-hire insights as informational supplemental metadata, separate from formal Skills and qualifications |

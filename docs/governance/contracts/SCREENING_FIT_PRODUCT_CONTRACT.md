@@ -55,3 +55,21 @@ Can authorize production implementation: No
 Education, Domain Knowledge, Evidence, Skill, and STAR IDs must exist in the
 current canonical data. Transfer claims require evidence and explicit transfer
 context. Core gaps cannot be converted into strengths by keywords.
+
+## P17 Screening-to-Brief Boundary
+
+- `src/data/selection.ts` is the deterministic Brief owner. New Briefs consume
+  `requirementMatrix` directly; legacy `jdEvidenceMapping`, `supportLevel`, and
+  recommendation lists are historical display compatibility only and cannot
+  authorize a Brief or Writer context.
+- Only DIRECT, TRANSFERABLE, and PARTIAL rows with permitted `cvUsage` may
+  produce visible Brief evidence. Transfer and partial rows retain their source
+  context and unsupported aspects. Learnable/core/formal rows remain a boundary,
+  never a visible capability claim.
+- Brief identity includes the existing content-hash inputs for current JD,
+  Screening analysis, requirement inventory, selection, evidence safety, and
+  candidate positioning. Any change makes the prior Brief non-current; users
+  must explicitly apply recommendations again.
+- Writer context receives the canonical matrix and Brief safety boundaries; it
+  cannot re-derive Fit or elevate `DO_NOT_CLAIM`, `FORBIDDEN`, Interview Only,
+  Prompt Context Only, or Do Not Use evidence into a visible claim.

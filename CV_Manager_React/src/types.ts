@@ -506,6 +506,23 @@ export type CvBriefBulletPlan = {
   evidenceIds: string[];
   angle: string;
   avoid: string[];
+  matchStatus?: RequirementMatchStatus;
+  cvUsage?: RequirementCvUsage;
+  supportedAspects?: string[];
+  unsupportedAspects?: string[];
+  transferContext?: string;
+};
+
+export type CvBriefContractIdentity = {
+  contractVersion: string;
+  jdContentHash: string;
+  screeningAnalysisHash: string;
+  requirementInventoryHash: string;
+  evidenceSelectionHash: string;
+  evidenceSafetyHash: string;
+  candidatePositioningHash: string;
+  screeningSchemaVersion?: string;
+  screeningSchemaHash?: string;
 };
 
 export type CvBrief = {
@@ -521,6 +538,7 @@ export type CvBrief = {
   summaryAngle: string;
   firstSectionTheme: string;
   bulletPlan: CvBriefBulletPlan[];
+  contractIdentity?: CvBriefContractIdentity;
   generatedAt: string;
 };
 

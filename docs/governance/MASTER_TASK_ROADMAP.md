@@ -4,6 +4,12 @@ Status: Governance v1 roadmap.
 
 Status: Governance v1 historical tasks are COMPLETE. `DOC-GOV-001` is DONE.
 
+## Phase 17 — Canonical Screening-to-Brief Contract Remediation
+
+| Task | Objective | Status | Dependency |
+|---|---|---|---|
+| `docs/governance/tasks/P17-SCREENING-TO-BRIEF-CONTRACT-001.md` | Make current `requirementMatrix` the sole Screening-to-Brief mapping and enforce Brief/Writer authorization and staleness | DONE | P8/P14/P15/P15R/P15R2/P16 owners; explicit user authorization |
+
 ## Phase 16 — Workflow Checklist Current-State Repair
 
 | Task | Objective | Status | Dependency |

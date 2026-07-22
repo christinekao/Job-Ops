@@ -1533,10 +1533,11 @@ function writerAnalysis(
   const priorityIds = new Set(evidencePriorityIds);
   const skillIds = new Set(selectedSkillIds);
   const storyIds = new Set(selectedStoryIds);
-  const relevantMappings = (analysis.jdEvidenceMapping || [])
+  const relevantMappings = (analysis.requirementMatrix || [])
     .filter((item) =>
-      item.supportLevel === "Weak"
-      || item.supportLevel === "Unsupported"
+      item.matchStatus === "LEARNABLE_GAP"
+      || item.matchStatus === "CORE_CAPABILITY_GAP"
+      || item.matchStatus === "FORMAL_SCREENING_RISK"
       || item.matchingEvidenceIds.some((id) => priorityIds.has(id))
       || item.matchingSkillIds.some((id) => skillIds.has(id))
       || item.matchingStoryIds.some((id) => storyIds.has(id))
@@ -1548,23 +1549,26 @@ function writerAnalysis(
       matchingEvidenceIds: item.matchingEvidenceIds.filter((id) => priorityIds.has(id)),
       matchingSkillIds: item.matchingSkillIds,
       matchingStoryIds: item.matchingStoryIds,
-      supportLevel: item.supportLevel,
-      safeCvAngle: item.safeCvAngle,
-      gapOrRisk: item.gapOrRisk
+      matchingEducationIds: item.matchingEducationIds,
+      matchingDomainKnowledgeIds: item.matchingDomainKnowledgeIds,
+      importance: item.importance,
+      matchStatus: item.matchStatus,
+      cvUsage: item.cvUsage,
+      interviewUsage: item.interviewUsage,
+      supportedAspects: item.supportedAspects,
+      unsupportedAspects: item.unsupportedAspects,
+      transferContext: item.transferContext,
+      explanation: item.explanation,
+      hardBlock: item.hardBlock
     }));
   return {
     primaryTargetTitle: analysis.primaryTargetTitle,
-    positioning: analysis.positioning ? {
-      roleType: analysis.positioning.roleType,
-      aiMarketArchetype: analysis.positioning.aiMarketArchetype,
-      applyTier: analysis.positioning.applyTier,
-      primaryHiringProblem: analysis.positioning.primaryHiringProblem,
-      managerHireReason: analysis.positioning.managerHireReason,
-      safestPositioning: analysis.positioning.safestPositioning,
-      headlineRecommendation: analysis.positioning.headlineRecommendation,
-      hiddenSkillsToSurface: analysis.positioning.hiddenSkillsToSurface,
-      evidenceToSuppress: analysis.positioning.evidenceToSuppress,
-      claimsToAvoid: analysis.positioning.claimsToAvoid
+    candidatePositioning: analysis.candidatePositioning ? {
+      safestPositioning: analysis.candidatePositioning.safestPositioning,
+      headlineRecommendation: analysis.candidatePositioning.headlineRecommendation,
+      hiddenSkillsToSurface: analysis.candidatePositioning.hiddenSkillsToSurface,
+      evidenceToSuppress: analysis.candidatePositioning.evidenceToSuppress,
+      claimsToAvoid: analysis.candidatePositioning.claimsToAvoid
     } : undefined,
     managerIntent: analysis.managerIntent ? {
       actualJobToBeDone: analysis.managerIntent.actualJobToBeDone,
@@ -1572,7 +1576,7 @@ function writerAnalysis(
       successSignals: analysis.managerIntent.successSignals,
       dealBreakers: analysis.managerIntent.dealBreakers
     } : undefined,
-    jdEvidenceMapping: relevantMappings,
+    requirementMatrix: relevantMappings,
     internalTerminology: analysis.internalTerminology || [],
     remainingGaps: analysis.remainingGaps || [],
     mustHaveKeywords: analysis.mustHaveKeywords,
@@ -1623,6 +1627,7 @@ export function buildScreeningCvWriterContext(data: AppData, jdId: string) {
   if (!job) return null;
   const diagnostics = selectionDiagnostics(data, job);
   const cvBrief = resolveEffectiveCvBrief(data, job);
+  if (!cvBrief?.contractIdentity) return null;
   const evidencePriorityIds = effectiveEvidencePriorityIds(job, cvBrief);
   const selectedEvidence = orderedItemsByIds(data.evidenceCards, evidencePriorityIds);
   const evidencePartition = partitionEvidenceForWriter(data, selectedEvidence);
@@ -1891,9 +1896,9 @@ Core contract:
 - Use only selected, source-grounded evidence. Do not invent tools, metrics, titles, systems, certifications, or ownership.
 - Write a targeted 1.5-2 page CV that can pass HR screening and still sound credible to a hiring manager.
 - Use the Career OS CV Brief as the plan: headline, top selling points, first section theme, foreground skills, suppressed skills, and claims to avoid.
-- Use Screening Analysis as constraints: jdEvidenceMapping, internalTerminology, remainingGaps, positioning, and evidenceToSuppress.
+- Use the canonical requirementMatrix as constraints. Never infer Fit, reclassify a requirement, or turn a gap, formal risk, DO_NOT_CLAIM, or FORBIDDEN row into a visible claim.
 - Use Positioning Report as the read-only presentation of Screening Analysis positioning policy: overallFit, transferableStrengths, truthfulCapabilityGaps, unsupportedClaimsPrevented, recommendedPositioning, and remainingHiringRisks. If it appears to conflict with Screening Analysis, Screening Analysis wins.
-- Strong evidence may be visible. Partial evidence must be conservative. Weak/Unsupported requirements must not appear as satisfied claims.
+- DIRECT_MATCH evidence may be visible. TRANSFERABLE_MATCH and PARTIAL_MATCH must preserve their source/target boundary and unsupported aspects. LEARNABLE_GAP, CORE_CAPABILITY_GAP, and FORMAL_SCREENING_RISK must not appear as satisfied claims.
 - Translate company-only terms into external business language. Never show blockedVisibleTerms or internal project names in visible CV text.
 - Do not force missing keywords. Add only keywords supported by selected evidence.
 - If fixContext.currentCv is provided, patch only the failed checks listed in fixContext. Do not regenerate from scratch unless the structure is fundamentally wrong. Preserve passed sections and already-good bullets.

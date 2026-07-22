@@ -1,5 +1,21 @@
 # Completion Report
 
+## P17-SCREENING-TO-BRIEF-CONTRACT-001 — Canonical Screening-to-Brief Contract Remediation
+
+Status: DONE
+
+- Fail-first proved that legacy `recommendedEvidenceIds` could reintroduce a
+  `CORE_CAPABILITY_GAP` / `FORBIDDEN` Evidence Card into a visible CV Brief.
+- `requirementMatrix` now directly controls Brief construction, selected
+  recommendations, Writer constraints, and Brief identity. Legacy mapping-only
+  analysis is readable history but cannot authorize current Brief or Writer use.
+- Brief identity binds current analysis, inventory, selection, evidence safety,
+  positioning, and JD inputs. Safety or identity changes require explicit
+  re-application; no Brief, CV, or AI action is automatic.
+- P17 focused 12/12, P7 staleness, P8 Golden, P16, build, system, JD Import
+  compatibility, and browser no-AI regressions passed. Runtime data and Git
+  history were not modified.
+
 ## P9-JD-IMPORT-001 — Import Job Description from URL
 
 Status: DONE
